@@ -1,0 +1,50 @@
+body {
+    background-image: url("../../assets/home/ChosenBackgrounds/LoveCity.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.centereddiv {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    max-width: 902px;
+    margin: 150px auto
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+}
+
+.homecrop {
+    width: 917px;
+    height: 976px;
+    overflow: hidden;
+}
+
+.homecrop img {
+    margin-top: -41px;
+    width: 100%;
+}
+
+.randomtext {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 917px
+}
+
+.randomtext a {
+    color: white;
+}

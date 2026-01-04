@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-image: url(./assets/spacebg.png);
+    background-repeat: repeat;
+    background-size: 25% auto;
+    background-position: top left;
+    padding-top: 2rem
+}
+
+.centereddiv {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    object-fit: cover;
+    mask-image: linear-gradient(to top, rgb(255, 255, 255) 50%, transparent 100%);
+}
+
+.menu {
+    max-width: 100%;
+    height: auto;
+    display: block
+}
+
+.menuwrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay{
+    position: absolute;
+    display: block;
+    /* uncomment what's below to activate the debugging borders */
+    /* background-color: rgba(255,0,0,0.25);
+    border: 1px solid red; */
+    pointer-events: auto;
+    text-decoration: none
+}
