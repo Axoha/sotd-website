@@ -12,8 +12,9 @@ body {
 }
 
 .content {
-    max-width: 902px;
-    margin: 150px auto
+    max-width: 917px;
+    padding: 2rem;
+    margin: 0 auto;
 }
 
 .hero {
@@ -27,14 +28,11 @@ body {
 }
 
 .homecrop {
+    position: relative;
     width: 917px;
     height: 976px;
     overflow: hidden;
-}
-
-.homecrop img {
-    margin-top: -41px;
-    width: 100%;
+    aspect-ratio: 902 / 976;
 }
 
 .randomtext {
@@ -42,9 +40,23 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    width: 917px
+    width: 917px;
+    margin: 0 auto;
 }
 
 .randomtext a {
     color: white;
+}
+
+.notifier {
+    position: absolute;
+    left: 6.65%;
+    top: 9.50%;
+    width: 57.98%;
+}
+
+.homeui {
+    margin-top: -41px;
+    width: 100%;
+    display: block;
 }
