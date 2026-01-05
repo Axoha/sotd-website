@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Verdana Bold";
+    src: url(./fonts/Verdana-Bold.ttf) format("truetype")
+}
+
+.titleText {
+    font-family: 'Verdana Bold';
+    color: white;
+    text-shadow: black 0px 1px 0px;
+}
