@@ -20,6 +20,8 @@ body {
 .hero {
     display: flex;
     justify-content: space-between;
+    padding: 0px 2rem;
+    margin: 0px 0px 0.5rem 0px
 }
 
 .navbar {
@@ -48,22 +50,38 @@ body {
     color: white;
 }
 
-.notifier1 {
-    position: absolute;
-    left: 6.65%;
-    top: 9.50%;
-    width: 57.98%;
-}
-
-.notifier2 {
-    position: absolute;
-    left: 6.65%;
-    top: 32.48%;
-    width: 57.98%;
-}
-
 .homeui {
     margin-top: -41px;
     width: 100%;
     display: block;
+}
+
+.highlightscontent {
+    position: absolute;
+    display: block;
+    /* uncomment what's below to activate the debugging borders */
+    /* background-color: rgba(255,0,0,0.25);
+    border: 1px solid red; */
+    overflow: scroll;
+}
+
+.notifier {
+    position: relative;
+    max-width: 79.1046%;
+}
+
+.notifierPicture {
+    position: absolute;
+    display: block;
+    /* background-color: rgba(115, 0, 255, 0.25);
+    border: 1px solid blue; */
+    top: 26.5%;
+    left: 2.581%;
+    height: 62.5%;
+    width: 20.5%;
+}
+
+.notifierPicture img {
+    max-width: 100%;
+    max-height: 100%;
 }
