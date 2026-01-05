@@ -48,10 +48,17 @@ body {
     color: white;
 }
 
-.notifier {
+.notifier1 {
     position: absolute;
     left: 6.65%;
     top: 9.50%;
+    width: 57.98%;
+}
+
+.notifier2 {
+    position: absolute;
+    left: 6.65%;
+    top: 32.48%;
     width: 57.98%;
 }
 
