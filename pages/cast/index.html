@@ -11,7 +11,23 @@
 
 <body>
     <div class="content">
-        <div class="hero"><img id="logo" src="/assets/home/Logo/LogoPink.png">
+        <div class="hero">
+            <img id="logo" src="/assets/home/Logo/LogoPink.png">
+            <select style="height: 1%;" id="themeSelect">
+                <option value="Pink">Pink</option>
+                <option value="Aqua">Aqua</option>
+                <option value="Blue">Blue</option>
+                <option value="Cyan">Cyan</option>
+                <option value="Pink">Pink</option>
+                <option value="DeepBlue">Deep Blue</option>
+                <option value="Golden">Golden</option>
+                <option value="Green">Green</option>
+                <option value="Monochrome">Monochrome</option>
+                <option value="Pink">Pink</option>
+                <option value="Orange">Orange</option>
+                <option value="Purple">Purple</option>
+                <option value="Red">Red</option>
+            </select>
         </div>
         <div class="navbar">
             <img id="homebtn" class="navbtn" data-name="Home" src="/assets/home/Buttons/Top/Pink/HomePink.png">
@@ -43,13 +59,80 @@
                         <p>HERE YOU HAVE SOME ROOM FOR STUFF THAT'S GOING TO SHOW UNDER THE TITLE AND TO THE LEFT OF THE
                             IMAGE</p>
                         <p>TRY TO KEEP IT KIND OF BRIEF THOUGH, THE MORE IT GOES PAST THE IMAGE THE FUCKIER THE IMAGE
-                            CAROUSSEL IS GOING TO LOOK</p>
+                            CAROUSEL IS GOING TO LOOK</p>
                         <p style="font-size:0.8rem;">If you need more space try making the font-size smaller (you can
                             use px, rem... others... idk google)</p>
                     </div>
-                    <div class="caroussel">
-                        <h2 class="titleText imageTitle">Ferd Ray</h2>
+                    <div class="carousel">
+                        <button class="carouselButton prev" id="prev">◀</button>
+                        <div class="carouselTrack" id="carouselTrack">
+                            <div class="slide">
+                                <img class="picture" src="/assets/FerdRayMonochromeEra.png">
+                                <h2 class="titleText imageTitle">Monochrome Era</h2>
+                            </div>
+                            <div class="slide">
+                                <img class="picture" src="/assets/FerdRay.png">
+                                <h2 class="titleText imageTitle">Ferd Ray</h2>
+                            </div>
+                            <div class="slide">
+                                <img class="picture" src="/assets/FerdRayHolyEarthEra.png">
+                                <h2 class="titleText imageTitle">Holy Earth Era</h2>
+                            </div>
+                        </div>
+                        <button class="carouselButton next" id="next">▶</button>
                     </div>
+                </div>
+                <div class="boxTwo">
+                    <h2>About</h2>
+                    <p>HHe is a stupid little cat makes out with Toby.... WHORER</p>
+                    <ul>
+                        <li>GAy</li>
+                        <li>Idiot</li>
+                        <li>Hate him hate him hate him</li>
+                    </ul>
+                    <p>
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae malesuada purus. Orci varius
+                        natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam erat
+                        volutpat. Fusce eget rutrum enim. Nam tincidunt, diam a lobortis efficitur, risus est vulputate
+                        nisi, eget congue dui dolor ac tortor. Fusce arcu lectus, porttitor in commodo id, dictum
+                        eleifend justo. Aliquam nec erat posuere, convallis ante a, commodo nunc.
+
+                        Integer et pharetra nisi, venenatis mattis magna. Maecenas fringilla, lacus nec blandit
+                        dignissim, ante lectus vehicula purus, sollicitudin pretium felis mi eget mi. Sed blandit
+                        accumsan lorem, id placerat justo lobortis et. Ut lacus metus, porta id purus feugiat,
+                        condimentum hendrerit justo. Pellentesque habitant morbi tristique senectus et netus et
+                        malesuada fames ac turpis egestas. Vivamus porta luctus dictum. Nullam a libero tempor, pharetra
+                        nibh nec, porta sapien. Vivamus ut condimentum augue, consequat mattis metus. Aliquam et erat
+                        non neque condimentum efficitur in vel nisi. Ut ut vestibulum risus. In laoreet condimentum
+                        enim, a vehicula purus pulvinar id. Integer faucibus dictum auctor. Morbi eu luctus ipsum.
+                        Aliquam felis lectus, ultrices vitae cursus eget, molestie ut nibh. Sed imperdiet sapien eget
+                        est dapibus pretium.
+
+                        Fusce sagittis lectus ut ante sagittis, in rutrum nunc rhoncus. In vitae risus in dui consequat
+                        consequat. Mauris tincidunt blandit libero at auctor. Etiam neque velit, egestas ac tortor et,
+                        maximus mattis est. Praesent fringilla odio lorem, eu faucibus nulla ornare malesuada. Sed
+                        porttitor mauris at nulla facilisis, a pharetra odio commodo. Donec fringilla ipsum congue
+                        sollicitudin mollis. Mauris vel dolor eget dui congue luctus. Curabitur ex quam, interdum a
+                        mauris laoreet, dictum sagittis risus. Cras et dignissim enim, id cursus nunc.
+
+                        Fusce sed mollis urna. Vivamus eget porta massa. Aenean venenatis interdum dapibus. Nulla
+                        facilisi. Nunc quis tellus quam. Nulla leo turpis, elementum eu tristique in, malesuada sit amet
+                        nibh. Phasellus aliquam fermentum mauris, et molestie lectus. Morbi ornare nibh nunc. Praesent
+                        sagittis metus in quam ultrices sollicitudin. Mauris mattis congue arcu at dictum. Proin et
+                        massa bibendum, porta urna a, sagittis risus. Duis non turpis dictum, volutpat massa ut,
+                        dignissim purus. Ut eget tempor tortor, ut laoreet nulla. Etiam iaculis diam nec ligula
+                        suscipit, sit amet placerat ipsum ultricies.
+
+                        Ut at ante lacus. Nulla facilisi. Nullam tincidunt fringilla nisi, gravida imperdiet lectus
+                        pretium ac. Phasellus sit amet rutrum nibh. Nullam non magna vehicula, aliquam ipsum ut,
+                        fringilla sapien. Mauris at lorem sit amet ante tincidunt efficitur condimentum at velit.
+                        Curabitur arcu magna, blandit at odio eu, mattis faucibus libero. Etiam luctus dolor tortor, et
+                        molestie diam ullamcorper ac. Nullam porttitor rutrum vulputate. Praesent turpis nisi, interdum
+                        sed elit volutpat, rutrum euismod velit. Morbi felis odio, pulvinar et elementum ut, accumsan
+                        eget nisi. Suspendisse faucibus enim vitae nulla convallis, sit amet efficitur lorem interdum.
+                        Praesent sed imperdiet nisl. Mauris at erat placerat, luctus ex quis, dictum eros. Integer ut
+                        maximus purus. Fusce efficitur egestas varius. </p>
                 </div>
 
             </div>
