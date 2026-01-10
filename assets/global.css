@@ -3,6 +3,11 @@
     src: url(./fonts/Verdana-Bold.ttf) format("truetype")
 }
 
+@font-face {
+    font-family: "Verdana";
+    src: url(./fonts/Verdana.ttf) format("truetype")
+}
+
 .titleText {
     font-family: 'Verdana Bold';
     color: white;
