@@ -87,7 +87,8 @@
         min-width: 622.38px;
         height: 91.3%;
         top: 5.3%;
-        overflow: scroll;
+        overflow-y: scroll;
+        overflow-x: hidden;
         padding-left: 3%;
         padding-top: 3%;
     }
