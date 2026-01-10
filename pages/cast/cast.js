@@ -1,39 +1,18 @@
 import THEMES from "/assets/themeMap.js"
 
-let currentTheme = "Green"
-
-const theme = THEMES[currentTheme]
-
-if (!theme) {
-    console.warn("Invalid theme, falling back to Pink")
-}
-
-const safeTheme = theme ?? THEMES.Pink
-const safeThemeName = theme ? currentTheme : "Pink"
-
-const resolvedBackground = safeTheme.defaultBg
-
 const logo = document.getElementById("logo")
 const homeUi = document.getElementById("ui")
 const buttons = document.querySelectorAll(".navbtn")
 const secretButtons = document.getElementById("secretButtons")
 
-secretButtons.src = `/assets/home/Buttons/BottomSecret/SecretButtonRow${safeThemeName}.png`
-logo.src = `/assets/home/Logo/Logo${safeThemeName}.png`
-homeUi.src = `/assets/home/PageEmpty/RightSidebar/PageSidebar${safeThemeName}.png`
-document.body.style.backgroundImage = `url(../../assets/home/ChosenBackgrounds/${resolvedBackground}.png)`
-
 function setButtonState(button, isActive) {
     const name = button.dataset.name
     const state = isActive ? "Select" : ""
 
-    button.src = `/assets/home/Buttons/Top/${safeThemeName}/${name}${safeThemeName}${state}.png`
+    button.src = `/assets/home/Buttons/Top/${currentTheme}/${name}${currentTheme}${state}.png`
 }
 
 buttons.forEach(btn => {
-    //initially sets each button to have the correct theme color
-    btn.src = `/assets/home/Buttons/Top/${safeThemeName}/${btn.dataset.name}${safeThemeName}.png`
-
     btn.addEventListener("mouseenter", () => {
         setButtonState(btn, true)
     })
@@ -43,9 +22,24 @@ buttons.forEach(btn => {
     })
 })
 
-const characterTitle = document.getElementById("characterTitle")
+function applyTheme(themeName){
+    const theme = THEMES[themeName] ?? THEMES.Pink
+    const safeName = THEMES[themeName] ? themeName : "Pink"
 
-characterTitle.style.color = safeTheme.accent
+    logo.src = `/assets/home/Logo/Logo${safeName}.png`
+    homeUi.src = `/assets/home/PageEmpty/RightSidebar/PageSidebar${safeName}.png`
+    secretButtons.src = `/assets/home/Buttons/BottomSecret/SecretButtonRow${safeName}.png`
+
+    buttons.forEach(btn => {
+        btn.src = `/assets/home/Buttons/Top/${safeName}/${btn.dataset.name}${safeName}.png`
+    })
+
+    document.body.style.backgroundImage = `url(/assets/home/ChosenBackgrounds/${theme.defaultBg}.png)`
+
+    characterTitle.style.color = theme.accent;
+
+    currentTheme.safeName
+}
 
 //carousel stuff below
 
@@ -68,4 +62,14 @@ nextBtn.addEventListener("click", () => {
 prevBtn.addEventListener("click", () => {
     index = (index - 1 + slides.length) % slides.length
     updateCarousel()
+})
+
+let currentTheme = "Pink";
+applyTheme(currentTheme)
+
+const themeSelect = document.getElementById("themeSelect");
+themeSelect.value = currentTheme;
+themeSelect.addEventListener("change", (e) => {
+    applyTheme(e.target.value)
+    currentTheme = e.target.value
 })
