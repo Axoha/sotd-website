@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/global.css">
-    <link rel="stylesheet" href="./cast.css">
+    <link rel="stylesheet" href="/pages/cast/cast.css">
+    <!--This is what shows up in the tab name, I'd recommend picking a pattern and following it for every character 
+    entry-->
     <title>Characters - SOTD</title>
 </head>
 
@@ -13,21 +15,22 @@
     <div class="content">
         <div class="hero">
             <img id="logo" src="/assets/home/Logo/LogoPink.png">
-            <select style="height: 1%;" id="themeSelect">
-                <option value="Pink">Pink</option>
-                <option value="Aqua">Aqua</option>
-                <option value="Blue">Blue</option>
-                <option value="Cyan">Cyan</option>
-                <option value="Pink">Pink</option>
-                <option value="DeepBlue">Deep Blue</option>
-                <option value="Golden">Golden</option>
-                <option value="Green">Green</option>
-                <option value="Monochrome">Monochrome</option>
-                <option value="Pink">Pink</option>
-                <option value="Orange">Orange</option>
-                <option value="Purple">Purple</option>
-                <option value="Red">Red</option>
-            </select>
+            <div class="themeSelector">
+                <p>Select your theme:</p>
+                <select style="font-size: 1rem; padding: 0.1rem 0.4rem; line-height: 1.2; height: auto;" id="themeSelect">
+                    <option value="Pink">Pink</option>
+                    <option value="Aqua">Aqua</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Cyan">Cyan</option>
+                    <option value="DeepBlue">Deep Blue</option>
+                    <option value="Golden">Golden</option>
+                    <option value="Green">Green</option>
+                    <option value="Monochrome">Monochrome</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Purple">Purple</option>
+                    <option value="Red">Red</option>
+                </select>
+            </div>
         </div>
         <div class="navbar">
             <img id="homebtn" class="navbtn" data-name="Home" src="/assets/home/Buttons/Top/Pink/HomePink.png">
@@ -51,11 +54,17 @@
         </div>
         <div class="ui">
             <img id="ui" style="min-width: 100%;" src="/assets/home/PageEmpty/RightSidebar/PageSidebarPink.png">
+            <!--Put inside this h1 what you want to be inside the colored part of the PageSidebar asset, likely
+            the name of the character-->
             <h1 class="titleText characterName">Ferd Ray</h1>
             <div class="scrollableContent">
                 <div class="topRow">
                     <div class="boxOne">
+                        <!--Put inside this h2 what you want the character's title/name to show as, it's the one with the
+                        colorful text-->
                         <h2 class="titleText characterTitle" id="characterTitle">SIR BOOGER</h2>
+
+                        <!--Just freestyle here, heed the warnings in the placeholder text though-->
                         <p>HERE YOU HAVE SOME ROOM FOR STUFF THAT'S GOING TO SHOW UNDER THE TITLE AND TO THE LEFT OF THE
                             IMAGE</p>
                         <p>TRY TO KEEP IT KIND OF BRIEF THOUGH, THE MORE IT GOES PAST THE IMAGE THE FUCKIER THE IMAGE
@@ -66,16 +75,19 @@
                     <div class="carousel">
                         <button class="carouselButton prev" id="prev">◀</button>
                         <div class="carouselTrack" id="carouselTrack">
+                            <!--for every new picture you want, add a new div inside of this carousselTrack div, give that div
+                            the class slide, and inside it put an img tag pointing towards the picture and an h2 with the classes 
+                            titleText and imageTitle containing the text you want to be above the picture-->
                             <div class="slide">
-                                <img class="picture" src="/assets/FerdRayMonochromeEra.png">
+                                <img src="/assets/FerdRayMonochromeEra.png">
                                 <h2 class="titleText imageTitle">Monochrome Era</h2>
                             </div>
                             <div class="slide">
-                                <img class="picture" src="/assets/FerdRay.png">
+                                <img src="/assets/FerdRay.png">
                                 <h2 class="titleText imageTitle">Ferd Ray</h2>
                             </div>
                             <div class="slide">
-                                <img class="picture" src="/assets/FerdRayHolyEarthEra.png">
+                                <img src="/assets/FerdRayHolyEarthEra.png">
                                 <h2 class="titleText imageTitle">Holy Earth Era</h2>
                             </div>
                         </div>
@@ -83,12 +95,14 @@
                     </div>
                 </div>
                 <div class="boxTwo">
+                    <!--just freestyle here, idk how much html knowledge you have but I'll give you the basic rundown if you want,
+                    don't worry about overflowing here, if there's too much text it will scroll nicely-->
                     <h2>About</h2>
                     <p>HHe is a stupid little cat makes out with Toby.... WHORER</p>
                     <ul>
                         <li>GAy</li>
                         <li>Idiot</li>
-                        <li>Hate him hate him hate him</li>
+                        <li>The [Tragic Hero] THAT [Died] AT THE [Now] OF THE [Story]</li>
                     </ul>
                     <p>
 
@@ -140,8 +154,8 @@
         <img style="display: block; width: 100%; margin-top: -1%" id="secretButtons"
             src="../../assets/home/Buttons/BottomSecret/SecretButtonRowPink.png">
 
-    </div> <!--closes content-->
-    <script type='module' src="./cast.js"></script>
+    </div>
+    <script type='module' src="/pages/cast/cast.js"></script>
 </body>
 
 </html>
