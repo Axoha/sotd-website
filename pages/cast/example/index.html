@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/global.css">
+    <link rel="stylesheet" href="/pages/cast/cast.css">
+    <!--This is what shows up in the tab name, I'd recommend picking a pattern and following it for every character 
+    entry-->
+    <title>Banana Man - SOTD</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="hero">
+            <img id="logo" src="/assets/home/Logo/LogoPink.png">
+            <div class="themeSelector">
+                <p>Select your theme:</p>
+                <select style="font-size: 1rem; padding: 0.1rem 0.4rem; line-height: 1.2; height: auto;"
+                    id="themeSelect">
+                    <option value="Pink">Pink</option>
+                    <option value="Aqua">Aqua</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Cyan">Cyan</option>
+                    <option value="DeepBlue">Deep Blue</option>
+                    <option value="Golden">Golden</option>
+                    <option value="Green">Green</option>
+                    <option value="Monochrome">Monochrome</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Purple">Purple</option>
+                    <option value="Red">Red</option>
+                </select>
+            </div>
+        </div>
+        <div class="navbar">
+            <img id="homebtn" class="navbtn" data-name="Home" src="/assets/home/Buttons/Top/Pink/HomePink.png">
+            <img id="newsbtn" class="navbtn" data-name="News" src="/assets/home/Buttons/Top/Pink/NewsPink.png">
+            <img id="storiesbtn" class="navbtn" data-name="Stories" src="/assets/home/Buttons/Top/Pink/StoriesPink.png">
+            <img id="castbtn" class="navbtn" data-name="Character"
+                src="/assets/home/Buttons/Top/Pink/CharacterPink.png">
+            <img id="machinesbtn" class="navbtn" data-name="Machines"
+                src="/assets/home/Buttons/Top/Pink/MachinesPink.png">
+            <img id="naturebtn" class="navbtn" data-name="Nature" src="/assets/home/Buttons/Top/Pink/NaturePink.png">
+            <img id="artbtn" class="navbtn" data-name="Art" src="/assets/home/Buttons/Top/Pink/ArtPink.png">
+            <img id="shopbtn" class="navbtn" data-name="Shop" src="/assets/home/Buttons/Top/Pink/ShopPink.png">
+            <img id="contactbtn" class="navbtn" data-name="Contact" src="/assets/home/Buttons/Top/Pink/ContactPink.png">
+        </div>
+        <div class="randomtext">
+            <p style="font-family: 'Arial'; padding-left: 20px">Here to read? Waste no time! Click <span
+                    style="font-weight: bold;">Stories</span> to get started!</p>
+            <p style="padding-right: 20px"><a href="/pages/pardonourdust/">FAQ</a> | <a
+                    href="/pages/pardonourdust/">Help</a>
+            </p>
+        </div>
+        <div class="ui">
+            <img id="ui" style="min-width: 100%;" src="/assets/home/PageEmpty/RightSidebar/PageSidebarPink.png">
+            <!--Put inside this h1 what you want to be inside the colored part of the PageSidebar asset, likely
+            the name of the character-->
+            <h1 class="titleText characterName">Banana Man</h1>
+            <div class="scrollableContent">
+                <div class="topRow">
+                    <div class="boxOne">
+                        <!--Put inside this h2 what you want the character's title/name to show as, it's the one with the
+                        colorful text-->
+                        <h2 class="titleText characterTitle" id="characterTitle">Lord of potassium</h2>
+
+                        <!--Just freestyle here, heed the warnings in the placeholder text though-->
+                        <p>HERE YOU HAVE SOME ROOM FOR STUFF THAT'S GOING TO SHOW UNDER THE TITLE AND TO THE LEFT OF THE
+                            IMAGE</p>
+                        <p>TRY TO KEEP IT KIND OF BRIEF THOUGH, THE MORE IT GOES PAST THE IMAGE THE FUCKIER THE IMAGE
+                            CAROUSEL IS GOING TO LOOK</p>
+                        <p style="font-size:0.8rem;">If you need more space try making the font-size smaller (you can
+                            use px, rem... others... idk google)</p>
+                    </div>
+                    <div class="carousel">
+                        <button class="carouselButton prev" id="prev">◀</button>
+                        <div class="carouselTrack" id="carouselTrack">
+                            <!--for every new picture you want, add a new div inside of this carousselTrack div, give that div
+                            the class slide, and inside it put an img tag pointing towards the picture and an h2 with the classes 
+                            titleText and imageTitle containing the text you want to be above the picture-->
+                            <div class="slide">
+                                <img src="./assets/FerdRayMonochromeEra.png">
+                                <h2 class="titleText imageTitle">Image One</h2>
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/FerdRay.png">
+                                <h2 class="titleText imageTitle">Image Two</h2>
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/Potassium.png">
+                                <h2 class="titleText imageTitle">Wait what</h2>
+                            </div>
+                        </div>
+                        <button class="carouselButton next" id="next">▶</button>
+                    </div>
+                </div>
+                <div class="boxTwo">
+                    <!--just freestyle here, idk how much html knowledge you have but I'll give you the basic rundown if you want,
+                    don't worry about overflowing here, if there's too much text it will scroll nicely-->
+                    <h2>About (this text too, you can just edit)</h2>
+                    <p>Here you can write whatever you find interesting about the character, like this hypothetical
+                        banana man</p>
+                    <p>You can even make it into some bullet points like this:</p>
+                    <ul>
+                        <li>He loves bananas</li>
+                        <li>He's rich in potassium</li>
+                        <li>He is a proud follower of scientology</li>
+                    </ul>
+                    <h2>Directory structure</h2>
+                    <p>It is my humble opinion, that for every character entry you should make a new folder inside of
+                        the cast folder (like I made this example folder), and inside it you create an index.html file
+                        (this one) and an assets folder, inside this assets folder you'll place all the pictures from
+                        the carousel, if you
+                        follow this structure you won't need to change a thing about the paths to the img tags in this
+                        template, just the name of the file itself (so where it says, for example &ltimg>
+                        src="./assets/FerdRayMonochromeEra.png"> &lt/img> you can just replace the
+                        FerdRayMonochromeEra.png by whatever the file you uploaded is called)</p>
+                    <h2>Here are some tags you might want to use</h1>
+                        <h3>I don't know what your html level is, you might not need these, if you need more help than
+                            this I recommend w3schools html and css guides or just hit me up</h3>
+                        <h3>h1 through h6</h3>
+                        <p>These make like... titles, they're big, h1 is the biggest h6 is the smallest, it's typically
+                            suggested that you don't use more than one h1 in a page, and we already use one on
+                            characterName, so maybe only use h2 onwards if you care about that stuff</p>
+                        <h3>p</h3>
+                        <p>Stands for paragraph, they're the bread and butter, it'll start in a new line, put anything
+                            between p and /p and it will show up as text on the screen with the regular font-size</p>
+                        <h3>img</h3>
+                        <p style="text-align: left">This is an image, you need to give this an src attribute, it will look like this: <br>
+                        &ltimg src="./assets/NameOfWhateverImageYouDroppedIntoTheAssetsFolder.png"> it's also worth noting that unlike the previous tags, this one doesn't come accompanied by a closing tag</p>
+                            <h3>ul and li</h3>
+                        <p>ul mean unordered list, that's how you make the little bullet points, inside the ul (so
+                            between
+                            ul and /ul) you put various li (list item), whatever is contained in one li will make up one
+                            bullet point (this sounds confusing just follow the example list I put above)</p>
+                        <h3>br</h3>
+                        <p>You can put a br in the middle of text just to cause a line break, like here:</p>
+                        <p>This text goes on and on and on and <br> until it doesn't</p>
+                        <p>This tag also doesn't have a closing tag, so you'll use &ltbr> without any &lt/br></p>
+                        <h2>Here are just a bunch of lines to fill out the page so you can see how it would look</h2>
+                        <p>
+
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae malesuada purus. Orci
+                            varius
+                            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam erat
+                            volutpat. Fusce eget rutrum enim. Nam tincidunt, diam a lobortis efficitur, risus est
+                            vulputate
+                            nisi, eget congue dui dolor ac tortor. Fusce arcu lectus, porttitor in commodo id, dictum
+                            eleifend justo. Aliquam nec erat posuere, convallis ante a, commodo nunc.
+
+                            Integer et pharetra nisi, venenatis mattis magna. Maecenas fringilla, lacus nec blandit
+                            dignissim, ante lectus vehicula purus, sollicitudin pretium felis mi eget mi. Sed blandit
+                            accumsan lorem, id placerat justo lobortis et. Ut lacus metus, porta id purus feugiat,
+                            condimentum hendrerit justo. Pellentesque habitant morbi tristique senectus et netus et
+                            malesuada fames ac turpis egestas. Vivamus porta luctus dictum. Nullam a libero tempor,
+                            pharetra
+                            nibh nec, porta sapien. Vivamus ut condimentum augue, consequat mattis metus. Aliquam et
+                            erat
+                            non neque condimentum efficitur in vel nisi. Ut ut vestibulum risus. In laoreet condimentum
+                            enim, a vehicula purus pulvinar id. Integer faucibus dictum auctor. Morbi eu luctus ipsum.
+                            Aliquam felis lectus, ultrices vitae cursus eget, molestie ut nibh. Sed imperdiet sapien
+                            eget
+                            est dapibus pretium.
+
+                            Fusce sagittis lectus ut ante sagittis, in rutrum nunc rhoncus. In vitae risus in dui
+                            consequat
+                            consequat. Mauris tincidunt blandit libero at auctor. Etiam neque velit, egestas ac tortor
+                            et,
+                            maximus mattis est. Praesent fringilla odio lorem, eu faucibus nulla ornare malesuada. Sed
+                            porttitor mauris at nulla facilisis, a pharetra odio commodo. Donec fringilla ipsum congue
+                            sollicitudin mollis. Mauris vel dolor eget dui congue luctus. Curabitur ex quam, interdum a
+                            mauris laoreet, dictum sagittis risus. Cras et dignissim enim, id cursus nunc.
+
+                            Fusce sed mollis urna. Vivamus eget porta massa. Aenean venenatis interdum dapibus. Nulla
+                            facilisi. Nunc quis tellus quam. Nulla leo turpis, elementum eu tristique in, malesuada sit
+                            amet
+                            nibh. Phasellus aliquam fermentum mauris, et molestie lectus. Morbi ornare nibh nunc.
+                            Praesent
+                            sagittis metus in quam ultrices sollicitudin. Mauris mattis congue arcu at dictum. Proin et
+                            massa bibendum, porta urna a, sagittis risus. Duis non turpis dictum, volutpat massa ut,
+                            dignissim purus. Ut eget tempor tortor, ut laoreet nulla. Etiam iaculis diam nec ligula
+                            suscipit, sit amet placerat ipsum ultricies.
+
+                            Ut at ante lacus. Nulla facilisi. Nullam tincidunt fringilla nisi, gravida imperdiet lectus
+                            pretium ac. Phasellus sit amet rutrum nibh. Nullam non magna vehicula, aliquam ipsum ut,
+                            fringilla sapien. Mauris at lorem sit amet ante tincidunt efficitur condimentum at velit.
+                            Curabitur arcu magna, blandit at odio eu, mattis faucibus libero. Etiam luctus dolor tortor,
+                            et
+                            molestie diam ullamcorper ac. Nullam porttitor rutrum vulputate. Praesent turpis nisi,
+                            interdum
+                            sed elit volutpat, rutrum euismod velit. Morbi felis odio, pulvinar et elementum ut,
+                            accumsan
+                            eget nisi. Suspendisse faucibus enim vitae nulla convallis, sit amet efficitur lorem
+                            interdum.
+                            Praesent sed imperdiet nisl. Mauris at erat placerat, luctus ex quis, dictum eros. Integer
+                            ut
+                            maximus purus. Fusce efficitur egestas varius. </p>
+                </div>
+
+            </div>
+        </div>
+        <img style="display: block; width: 100%; margin-top: -1%" id="secretButtons"
+            src="../../assets/home/Buttons/BottomSecret/SecretButtonRowPink.png">
+
+    </div>
+    <script type='module' src="/pages/cast/cast.js"></script>
+</body>
+
+</html>

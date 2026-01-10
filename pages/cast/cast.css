@@ -27,7 +27,7 @@
         align-items: center;
     }
 
-    .themeSelector{
+    .themeSelector {
         display: flex;
     }
 
@@ -94,14 +94,18 @@
 
     .topRow {
         display: flex;
+        /* background-color: rgba(93, 0, 255, 0.25);
+        border: 1px solid blue; */
     }
 
     .boxOne {
+        text-align: justify;
         display: flex;
         flex-direction: column;
         /* background-color: rgba(93, 0, 255, 0.25);
         border: 1px solid blue; */
-        Width: 60%;
+        Width: 58%;
+        padding-right: 2%;
     }
 
     .characterTitle {
@@ -175,4 +179,9 @@
 
     .carouselButton.next {
         right: 0.5rem;
+    }
+
+    .boxTwo {
+        text-align: justify;
+        padding-right: 1rem;
     }
