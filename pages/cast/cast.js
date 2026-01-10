@@ -1,6 +1,6 @@
 import THEMES from "/assets/themeMap.js"
 
-let currentTheme = "Monochrome"
+let currentTheme = ""
 
 const theme = THEMES[currentTheme]
 
@@ -14,12 +14,10 @@ const safeThemeName = theme ? currentTheme : "Pink"
 const resolvedBackground = safeTheme.defaultBg
 
 const logo = document.getElementById("logo")
-const homeUi = document.getElementById("homeui")
+const homeUi = document.getElementById("ui")
 const buttons = document.querySelectorAll(".navbtn")
 const secretButtons = document.getElementById("secretButtons") 
-const specialNotifier  = document.getElementById("specialNotifier")
 
-specialNotifier.src = `/assets/home/SpecialNotifier/Community/Community${safeThemeName}.png`
 secretButtons.src = `/assets/home/Buttons/BottomSecret/SecretButtonRow${safeThemeName}.png`
 logo.src = `/assets/home/Logo/Logo${safeThemeName}.png`
 homeUi.src = `/assets/home/PageEmpty/RightSidebar/PageSidebar${safeThemeName}.png`
@@ -44,3 +42,7 @@ buttons.forEach(btn => {
         setButtonState(btn, false)
     })
 })
+
+const characterTitle = document.getElementById("characterTitle")
+
+characterTitle.style.color = safeTheme.accent
