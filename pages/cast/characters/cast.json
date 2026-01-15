@@ -1,0 +1,298 @@
+{
+    "example": {
+        "name": "Example, shows on the top bar and as the tab's title",
+        "title": "Shows as the colorful text, first thing on the scrollable box",
+        "images": [
+            {
+                "file": "Put the file name here, don't worry about paths, as long as the image is placed inside a folder inside of /pages/cast/characters/assets/ with the same name as the characterId then this should work",
+                "title": "The text that will show up on the banner atop the image on the carousel"
+            },
+            {
+                "file": "Repeat, important that images is an array, even if you're only going to include one image, otherwise it will break",
+                "title": "You can add as many images as you want, just add a comma after the closing curly bracket } and open a new one {"
+            }
+        ],
+        "blockOne": {
+            "Here what's on the left is customizable": "and everything to the right will show up after",
+            "use this for things that follow the key: value format": "like age: number, occupation: text, username: text",
+            "mind the CaPiTaLiZaTiOn": "the way you write things here is how they'll show up on the page",
+            "you can add as many key: value pairs as you want here": "but I don't recommend going overboard, as it will make the carousel align somewhat weirdly"
+        },
+        "blockTwo": [
+            {
+                "heading": "here's the bulk of the entry",
+                "paragraphs": [
+                    "Where you can write continuous text like this, if you have a heading and a paragraphs array (and it's important that this is an array, even if you only have one paragraph, otherwise it will break) then the text will render like this, but if you have a heading and a listItems array then it will render as an unordered list"
+                ]
+            },
+            {
+                "heading": "list example",
+                "listItems": [
+                    "item 1",
+                    "item 2",
+                    "item 3",
+                    "good for like, a likes and dislikes list for example"
+                ]
+            },
+            {
+                "heading": "BUT",
+                "paragraphs": [
+                    "If you ever need something other than an unordered list or a title + paragraph combo then we can probably arrange that"
+                ]
+            }
+        ]
+    },
+    "ferdRay": {
+        "name": "Ferd Ray",
+        "title": "Totally fine cat dude",
+        "images": [
+            {
+                "file": "FerdRay.png",
+                "title": "Ferd ray there"
+            },
+            {
+                "file": "FerdRayMonochromeEra.png",
+                "title": "Ferd emo"
+            },
+            {
+                "file": "Potassium.png",
+                "title": "Wait what"
+            }
+        ],
+        "blockOne": {
+            "Species": "Antropomorphic American Bobtail Cat",
+            "Gender": "Male",
+            "Age": 21,
+            "Birthday": "October 17th",
+            "Height / Weight": "5'10\" / Average",
+            "Bloodtype": "Rh-null",
+            "Internet username": "cat167844"
+        },
+        "blockTwo": [
+            {
+                "heading": "About",
+                "paragraphs": [
+                    "Ferd is the loveliest guy one can meet, somehow finding a way to like something about everything.",
+                    "He's a relaxed person without a flaw, but interrupting him or his work anytime can lead to lots of frustration.",
+                    "He also has a girlfriend named Ena Lone who often uses him as a resting pillow.",
+                    "Unlike her he isn't as talented, but with his best efforts he always tries to support her and participate in projects.",
+                    "He has no known siblings or parents, no related recorded family, he himself doesn't know from where he came from.",
+                    "One day he was just found wandering the streets of a city as a child until a kind woman found him and offered shelter, eventually deciding to adopt him.One day he was just found wandering the streets of a city as a child until a kind woman found him and offered shelter, eventually deciding to adopt him."
+                ]
+            },
+            {
+                "heading": "Likes",
+                "listItems": [
+                    "Pets",
+                    "Studying",
+                    "Peace",
+                    "Outdated internet humor"
+                ]
+            },
+            {
+                "heading": "Dislikes",
+                "listItems": [
+                    "Negative moods",
+                    "Interruptions",
+                    "Loud noises"
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    "He looked more distinct when he was created, even having a different name! He was originally based off a friends' cat.",
+                    "During the times I changed his design to the one we know now, he was supposed to wear the glasses at all times. It looked odd and too cool, so I made them rest on his forehead since then.",
+                    "Personally, he is my favorite character."
+                ]
+            }
+        ]
+    },
+    "enaLone": {
+        "name": "Ena Lone",
+        "title": "Totally fine panda dude girl",
+        "images": [
+            {
+                "file": "EnaLone.png",
+                "title": "Ena Lone there"
+            },
+            {
+                "file": "FerdRayMonochromeEra.png",
+                "title": "Ferd emo"
+            },
+            {
+                "file": "Potassium.png",
+                "title": "Wait what"
+            }
+        ],
+        "blockOne": {
+            "Species": "Antropomorphic Giant Panda",
+            "Gender": "Female",
+            "Age": 22,
+            "Birthday": "May 27th",
+            "Height / Weight": "6'10\" / Chubby",
+            "Bloodtype": "B+",
+            "Internet username": "sexypanda420"
+        },
+        "blockTwo": [
+            {
+                "heading": "About",
+                "paragraphs": [
+                    "Ena Lone is an average plus-sized cuddly bear born in the United States from a Latino Family.",
+                    "She's a natural born artist with lots of passion for music specifically, and with her explosive energy and unbound motivation she works constantly on her next projects.",
+                    "She also has a boyfriend named Ferd Ray, who when she's tired serves as a pillow.",
+                    "Both of them always travel around the world trying to make a hit for the world, but they have yet to succeed."
+                ]
+            },
+            {
+                "heading": "Likes",
+                "listItems": [
+                    "Cats",
+                    "Funny short videos on MeTube",
+                    "Composing",
+                    "Painting",
+                    "Cats",
+                    "Eating",
+                    "Fashion"
+                ]
+            },
+            {
+                "heading": "Dislikes",
+                "listItems": [
+                    "Dogs",
+                    "Bugs",
+                    "Sports",
+                    "Strangers",
+                    "Procrastinating",
+                    "Critics",
+                    "Movies"
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    "She is my most popular character to date.",
+                    "She used to be my persona online for a long time.",
+                    "Her design, funnily enough, branches off a Fortnite skin.",
+                    "She was the first anthropomorphic character I have created.",
+                    "She went through an entire evolution of designs, which inspired some insane lore and characters.",
+                    "Madness Combat heavily influenced her stories, to this day I'm not really sure what was up with that either."
+                ]
+            }
+        ]
+    },
+    "hazuneNiku": {
+        "name": "Hazune Niku",
+        "title": "One Beloved Android",
+        "images": [
+            {
+                "title": "Image One",
+                "file": "HazuneNiku.png"
+            }
+        ],
+        "blockOne": {
+            "Origin": "Unknown",
+            "Species": "Android Bunny",
+            "Ethnicity": "Asian",
+            "Gender": "Female",
+            "Age": "168 (since creation)",
+            "Birthday": "August 31st",
+            "Height/Weight": "[Current Model] 182 cm (6' 0\") / 299 kg (659 lbs)",
+            "Blood Type": "Electricity",
+            "Internet username": "Hazune Niku"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "Niku Hazune is one of the most recognizable and unique idols in the universe. Originally built to serve as an animatronic in an unknown place with a special voice, her popularity swiftly took off after more and more people started enjoying her pleasant singing."
+                ]
+            },
+            {
+                "heading": "Appearence",
+                "paragraphs": [
+                    "Her appearance always changes, but she's usually seen in turquoise-rimmed gray and black clothing. Depends on which artist she's working with, what event she's sponsoring, all her colors and whole attire change to match the mood - except for her twintails of course, her hair stays the same all around."
+                ]
+            },
+            {
+                "heading": "Personality",
+                "paragraphs": [
+                    "It's hard to describe her exact personality, it all completely depends on who she is working with. Pop, Rock, EDM, Rap, Hip Hop, Classical, Funk, Blues, Jazz, Metal, Trance, and all the other genres, she reprograms her whole identity to produce the best sounding voice for each genre."
+                ]
+            },
+            {
+                "heading": "History",
+                "paragraphs": [
+                    "Where we were walking together? I will see you in the end",
+                    "I'll take you where you've never been, then bring you back again",
+                    "Listen to me with your eyes, I'm watching you from in the sky.",
+                    "If you forget I'll fade away, I'm asking you to let me stay",
+                    "So bathe me in your magic light, and keep it on in darkest night",
+                    "I need you here to keep me strong, to live my life and sing along",
+                    "I'm lying with you wide awake, like your expensive poison snake",
+                    "You found me here inside a dream, walk through the fire straight to me"
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    "She was made to be used for examples and tests in this website!",
+                    "...And also because of Houston's slight allude to vocaloids even existing in this world."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "None..?"
+                ]
+            }
+        ]
+    },
+    "houstonMarch": {
+        "name": "Houston March",
+        "title": "Brown Bnunny",
+        "images": [
+            {
+                "title": "Houston's beautiful mug",
+                "file": "Houston_March.png"
+            }
+        ],
+        "blockOne": {
+            "Species": "Anthropomorphic Chocolate Rabbit",
+            "Gender": "Nonbinary",
+            "Age": 20,
+            "Birthday": "July 4th",
+            "Height/Weight": "5' 7\"/Average",
+            "Blood Type": "AB",
+            "Internet username": "LemoGreNade"
+        },
+        "blockTwo": [
+            {
+                "heading": "About",
+                "paragraphs": [
+                    "Houston... oh this Houston, not doing any work! Recent intern for the Babylon's Inka study, but instead of studying they choose to just be wild sloppily kissing their boyfriend atop the desks smelling like pure vanilla. Oh my lord, I can't with this unchained evil."
+                ]
+            },
+            {
+                "heading": "Likes",
+                "listItems": [
+                    "Being Lazy",
+                    "Mice / Rodents",
+                    "Vocaloid"
+                ]
+            },
+            {
+                "heading": "Dislikes",
+                "listItems": [
+                    "Work",
+                    "Filling these in"
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    "Their golden hair is probably very long"
+                ]
+            }
+        ]
+    }
+}
