@@ -59,3 +59,8 @@ body {
     justify-content: space-between;
     width: 917px;
 }
+
+.secretButtons {
+    display: block;
+    width: 100%; 
+}
