@@ -1,5 +1,4 @@
-import THEMES from "/assets/themeMap.js"
-
+import { initNavBarHover } from "/assets/javascript/theme/theme.js";
 //data rendering stuff below
 const params = new URLSearchParams(window.location.search);
 const characterId = params.get("id") || "ferdRay";
@@ -67,48 +66,6 @@ character.blockTwo.forEach(section => {
     }
 })
 
-//theme stuff below
-const logo = document.getElementById("logo")
-const homeUi = document.getElementById("ui")
-const buttons = document.querySelectorAll(".navbtn")
-const secretButtons = document.getElementById("secretButtons")
-const carousel = document.getElementById("carousel")
-
-function setButtonState(button, isActive) {
-    const name = button.dataset.name
-    const state = isActive ? "Select" : ""
-
-    button.src = `/assets/home/Buttons/Top/${currentTheme}/${name}${currentTheme}${state}.png`
-}
-
-buttons.forEach(btn => {
-    btn.addEventListener("mouseenter", () => {
-        setButtonState(btn, true)
-    })
-
-    btn.addEventListener("mouseleave", () => {
-        setButtonState(btn, false)
-    })
-})
-
-function applyTheme(themeName){
-    const theme = THEMES[themeName] ?? THEMES.Pink
-    const safeName = THEMES[themeName] ? themeName : "Pink"
-
-    logo.src = `/assets/home/Logo/Logo${safeName}.png`
-    homeUi.src = `/assets/home/PageEmpty/RightSidebar/PageSidebar${safeName}.png`
-    secretButtons.src = `/assets/home/Buttons/BottomSecret/SecretButtonRow${safeName}.png`
-
-    buttons.forEach(btn => {
-        btn.src = `/assets/home/Buttons/Top/${safeName}/${btn.dataset.name}${safeName}.png`
-    })
-
-    document.body.style.backgroundImage = `url(/assets/home/ChosenBackgrounds/${theme.defaultBg}.png)`
-
-    characterTitle.style.color = theme.accent;
-    carousel.style.borderColor = theme.accent;
-}
-
 //carousel stuff below
 
 const slides = track.children
@@ -132,12 +89,4 @@ prevBtn.addEventListener("click", () => {
     updateCarousel()
 })
 
-let currentTheme = "Pink";
-applyTheme(currentTheme)
-
-const themeSelect = document.getElementById("themeSelect");
-themeSelect.value = currentTheme;
-themeSelect.addEventListener("change", (e) => {
-    applyTheme(e.target.value)
-    currentTheme = e.target.value
-})
+initNavBarHover()
