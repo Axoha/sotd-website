@@ -51,7 +51,7 @@ character.blockTwo.forEach(section => {
     if (section.paragraphs) {
         section.paragraphs.forEach((text)=>{
             const p = document.createElement("p")
-            p.textContent = text
+            p.innerHTML = text
             boxTwo.appendChild(p)
         })
     }
