@@ -1,6 +1,11 @@
 import THEMES from "./themeMap.js"
 
 let currentTheme = "Pink"
+const themeListeners  = new Set()
+
+function onThemeChange(fn){
+    themeListeners.add(fn)
+}
 
 function applyGlobalTheme(themeName) {
     const theme = THEMES[themeName] ?? THEMES.Pink
@@ -38,29 +43,12 @@ function applyGlobalTheme(themeName) {
         "--theme-accent",
         theme.accent
     )
+
+    themeListeners.forEach(fn => fn(currentTheme))
 }
 
 function getCurrentTheme() {
     return currentTheme
-}
-
-function setButtonState(button, isActive) {
-    const name = button.dataset.name
-    const state = isActive ? "Select" : ""
-
-    button.src = `/assets/home/Buttons/Top/${currentTheme}/${name}${currentTheme}${state}.png`
-}
-
-function initNavBarHover() {
-    document.querySelectorAll(".navbtn").forEach(btn => {
-        btn.addEventListener("mouseenter", () => {
-            setButtonState(btn, true)
-        })
-
-        btn.addEventListener("mouseleave", () => {
-            setButtonState(btn, false)
-        })
-    })
 }
 
 const themeSelect = document.getElementById("themeSelect");
@@ -74,4 +62,4 @@ if (themeSelect) {
 
 applyGlobalTheme(currentTheme)
 
-export { applyGlobalTheme, getCurrentTheme, initNavBarHover }
+export { applyGlobalTheme, getCurrentTheme, onThemeChange }

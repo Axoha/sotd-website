@@ -1,4 +1,3 @@
-import { initNavBarHover } from "/assets/javascript/theme/theme.js";
 //data rendering stuff below
 const params = new URLSearchParams(window.location.search);
 const characterId = params.get("id") || "ferdRay";
@@ -88,5 +87,3 @@ prevBtn.addEventListener("click", () => {
     index = (index - 1 + slides.length) % slides.length
     updateCarousel()
 })
-
-initNavBarHover()
