@@ -8,8 +8,54 @@
     src: url(./fonts/Verdana.ttf) format("truetype")
 }
 
+:root {
+    --theme-accent: #ae008c;
+}
+
+body {
+    background-image: url("/assets/home/ChosenBackgrounds/LoveCity.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Verdana';
+}
+
 .titleText {
     font-family: 'Verdana Bold';
     color: white;
     text-shadow: black 0px 1px 0px;
+}
+
+.content {
+    max-width: 917px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 2rem;
+    margin: 0px 0px 0.5rem 0px;
+    align-items: center;
+}
+
+.themeSelector {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    z-index: 10;
+}
+
+.randomtext {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 917px;
 }
