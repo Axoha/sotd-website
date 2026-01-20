@@ -39,7 +39,7 @@ const textStrings = [
     "October 19th is a special day."
 ]
 
-let chosenQuoteIndex = (Math.floor(Math.random() * (38)))
+let chosenQuoteIndex = (Math.floor(Math.random() * (textStrings.length))) //i think this has a microscopic chance to be a 38 which will throw an error
 
 const documentQuote = document.getElementById("randomText")
 console.log(textStrings[chosenQuoteIndex])
