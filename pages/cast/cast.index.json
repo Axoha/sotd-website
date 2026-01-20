@@ -1,0 +1,17 @@
+[
+    {
+        "id": "ferdRay",
+        "name": "Ferd Ray",
+        "thumbnail": "ferdRayThumb.png"
+    },
+    {
+        "id": "enaLone",
+        "name": "Ena Lone",
+        "thumbnail": "enaLoneThumb.png"
+    },
+    {
+        "id": "hazuneNiku",
+        "name": "Hazune Niku",
+        "thumbnail": "hazuneNikuThumb.png"
+    }
+]
