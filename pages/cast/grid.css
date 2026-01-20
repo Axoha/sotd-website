@@ -1,0 +1,10 @@
+.castCard {
+    border-style: solid;
+    border-width: 10px;
+}
+
+.castGrid {
+    border-style: solid;
+    border-color: yellow;
+    border-width: 100px
+}
