@@ -22,7 +22,7 @@ const boxOne = document.getElementById("boxOne")
 for (const [key, value] of Object.entries(character.blockOne)){
     const p  = document.createElement("p")
     p.style.marginBottom = '0px'
-    p.innerHTML= `${key}: ${value}`
+    p.innerHTML= `<b>${key}</b>: <i>${value}</i>`
     boxOne.appendChild(p)
 }
 

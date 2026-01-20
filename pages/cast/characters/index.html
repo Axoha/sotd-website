@@ -11,24 +11,35 @@
 
 <body>
     <div class="content">
+        <div class="themeDropdown">
+            <button class="themeToggle"><img src="/assets/socialmediaicons/ButtonTheme.png"></button>
+            <div class="themeMenu">
+                <button class="themeOption" data-theme="Pink">Pink</button>
+                <button class="themeOption" data-theme="Aqua">Aqua</button>
+                <button class="themeOption" data-theme="Blue">Blue</button>
+                <button class="themeOption" data-theme="Cyan">Cyan</button>
+                <button class="themeOption" data-theme="DeepBlue">Deep Blue</button>
+                <button class="themeOption" data-theme="Golden">Golden</button>
+                <button class="themeOption" data-theme="Green">Green</button>
+                <button class="themeOption" data-theme="Monochrome">Monochrome</button>
+                <button class="themeOption" data-theme="Orange">Orange</button>
+                <button class="themeOption" data-theme="Purple">Purple</button>
+                <button class="themeOption" data-theme="Red">Red</button>
+            </div>
+        </div>
         <div class="hero">
-            <img id="logo" src="/assets/home/Logo/LogoPink.png">
-            <div class="themeSelector">
-                <p>Select your theme:</p>
-                <select style="font-size: 1rem; padding: 0.1rem 0.4rem; line-height: 1.2; height: auto;"
-                    id="themeSelect">
-                    <option value="Pink">Pink</option>
-                    <option value="Aqua">Aqua</option>
-                    <option value="Blue">Blue</option>
-                    <option value="Cyan">Cyan</option>
-                    <option value="DeepBlue">Deep Blue</option>
-                    <option value="Golden">Golden</option>
-                    <option value="Green">Green</option>
-                    <option value="Monochrome">Monochrome</option>
-                    <option value="Orange">Orange</option>
-                    <option value="Purple">Purple</option>
-                    <option value="Red">Red</option>
-                </select>
+            <div class="logo">
+                <img id="logo" src="/assets/home/Logo/LogoPink.png">
+                <a href="/pages/pardonourdust/"><img class="bumper" src="/assets/bumper.png"></a>
+            </div>
+            <div class="socialMediaIcons">
+                <a href="https://discord.gg/MRYQWqpsef"><img src="/assets/socialmediaicons/ButtonDiscord.png"></a>
+                <a href="https://bsky.app/profile/storiesofthedead.bsky.social"><img
+                        src="/assets/socialmediaicons/ButtonBluSky.png"></a>
+                <a href="https://www.tumblr.com/communities/stories-of-the-dead"><img
+                        src="/assets/socialmediaicons/ButtonTumblr.png"></a>
+                <a href="https://www.reddit.com/r/StoryOfTheDead/"><img
+                        src="/assets/socialmediaicons/ButtonReddit.png"></a>
             </div>
         </div>
         <div class="navbar">
@@ -45,8 +56,7 @@
             <img id="contactbtn" class="navbtn" data-name="Contact" src="/assets/home/Buttons/Top/Pink/ContactPink.png">
         </div>
         <div class="randomtext">
-            <p style="font-family: 'Arial'; padding-left: 20px">Here to read? Waste no time! Click <span
-                    style="font-weight: bold;">Stories</span> to get started!</p>
+            <p style="font-family: 'Arial'; padding-left: 20px" id="randomText"></p>
             <p style="padding-right: 20px"><a href="/pages/pardonourdust/">FAQ</a> | <a
                     href="/pages/pardonourdust/">Help</a>
             </p>
@@ -58,7 +68,6 @@
                 <h2 class="titleText characterTitle" id="characterTitle"></h2>
                 <div class="topRow">
                     <div class="boxOne" id="boxOne">
-                        
                     </div>
                     <div class="carousel" id="carousel">
                         <button class="carouselButton prev" id="prev">◀</button>
@@ -78,6 +87,7 @@
     </div>
     <script type="module" src="/assets/javascript/layout.js"></script>
     <script type='module' src="./cast.js"></script>
+    <script type="module" src="/assets/javascript/randomText/randomText.js"></script>
 </body>
 
 </html>
