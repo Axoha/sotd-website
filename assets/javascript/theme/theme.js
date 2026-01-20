@@ -1,10 +1,12 @@
 import THEMES from "./themeMap.js"
 
-let currentTheme = "Pink"
+let currentTheme = localStorage.getItem("theme") || "Pink"
 
 function applyGlobalTheme(themeName) {
     const theme = THEMES[themeName] ?? THEMES.Pink
     currentTheme = THEMES[themeName] ? themeName : "Pink"
+
+    localStorage.setItem("theme", currentTheme)
 
     document.body.style.backgroundImage =
         `url(/assets/home/ChosenBackgrounds/${theme.defaultBg}.png)`
@@ -44,15 +46,34 @@ function getCurrentTheme() {
     return currentTheme
 }
 
-const themeSelect = document.getElementById("themeSelect");
+function initThemeDropdown() {
+    const dropdown = document.querySelector(".themeDropdown")
+    const toggle = document.querySelector(".themeToggle")
+    const menu = document.querySelector(".themeMenu")
 
-if (themeSelect) {
-    themeSelect.value = currentTheme;
-    themeSelect.addEventListener("change", (e) => {
-        applyGlobalTheme(e.target.value)
+    if (!dropdown || !toggle || !menu) return
+
+    //opening and closing of the dropdown
+    toggle.addEventListener("click", (e) => {
+        e.stopPropagation();
+        menu.classList.toggle("open")
+    })
+
+    menu.addEventListener("click", (e) => {
+        const option = e.target.closest(".themeOption")
+        if (!option) return
+
+        const theme = option.dataset.theme
+        applyGlobalTheme(theme)
+        menu.classList.remove("open")
+    })
+
+    document.addEventListener("click", () => {
+        menu.classList.remove("open")
     })
 }
 
 applyGlobalTheme(currentTheme)
+initThemeDropdown()
 
 export { applyGlobalTheme, getCurrentTheme }
