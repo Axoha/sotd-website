@@ -42,5 +42,4 @@ const textStrings = [
 let chosenQuoteIndex = (Math.floor(Math.random() * (textStrings.length))) //i think this has a microscopic chance to be a 38 which will throw an error
 
 const documentQuote = document.getElementById("randomText")
-console.log(textStrings[chosenQuoteIndex])
 documentQuote.innerHTML = textStrings[chosenQuoteIndex]
