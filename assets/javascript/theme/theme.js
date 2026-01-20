@@ -1,11 +1,6 @@
 import THEMES from "./themeMap.js"
 
 let currentTheme = "Pink"
-const themeListeners  = new Set()
-
-function onThemeChange(fn){
-    themeListeners.add(fn)
-}
 
 function applyGlobalTheme(themeName) {
     const theme = THEMES[themeName] ?? THEMES.Pink
@@ -43,8 +38,6 @@ function applyGlobalTheme(themeName) {
         "--theme-accent",
         theme.accent
     )
-
-    themeListeners.forEach(fn => fn(currentTheme))
 }
 
 function getCurrentTheme() {
@@ -62,4 +55,4 @@ if (themeSelect) {
 
 applyGlobalTheme(currentTheme)
 
-export { applyGlobalTheme, getCurrentTheme, onThemeChange }
+export { applyGlobalTheme, getCurrentTheme }

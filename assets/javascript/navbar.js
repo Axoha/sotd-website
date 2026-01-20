@@ -1,4 +1,4 @@
-import { getCurrentTheme, onThemeChange } from "./theme/theme.js"
+import { getCurrentTheme } from "./theme/theme.js"
 
 const NAV_ROUTES = {
     Home: "/",
@@ -12,8 +12,6 @@ const NAV_ROUTES = {
     Contact: "/pages/contact/"
 }
 
-let activeNavKey = null
-    
 function initNavBar() {
     const buttons = document.querySelectorAll(".navbtn")
     const currentPath = window.location.pathname
@@ -22,41 +20,18 @@ function initNavBar() {
         const name = btn.dataset.name
         const route = NAV_ROUTES[name]
         if (!route) return
+        btn.addEventListener("mouseenter", () => {
+            setButtonState(btn, true)
+        })
 
-        //if the button is home it will check if we're at /, otherwise it will check if currentPath starts with route (which for everything else is /pages/something)
-        const isActive =
-            route === "/"
-                ? currentPath === "/"
-                : currentPath.startsWith(route)
-
-        if (!isActive) {
-
-            btn.addEventListener("mouseenter", () => {
-                setButtonState(btn, true)
-            })
-
-            btn.addEventListener("mouseleave", () => {
-                setButtonState(btn, false)
-            })
-        } else {
-
-            activeNavKey = name
-            setActive(btn)
-
-        }
-
+        btn.addEventListener("mouseleave", () => {
+            setButtonState(btn, false)
+        })
         btn.addEventListener("click", () => {
             window.location.href = route
         })
         btn.style.cursor = "pointer"
     })
-}
-
-function setActive(btn) {
-    const theme = getCurrentTheme()
-    const name = btn.dataset.name
-
-    btn.src = `/assets/home/Buttons/Top/${theme}/${name}${theme}Select.png`
 }
 
 function setButtonState(button, isActive) {
@@ -67,22 +42,4 @@ function setButtonState(button, isActive) {
     button.src = `/assets/home/Buttons/Top/${currentTheme}/${name}${currentTheme}${state}.png`
 }
 
-function syncNavBarWithTheme(){
-    const buttons = document.querySelectorAll(".navbtn")
-
-    buttons.forEach(btn => {
-        const name = btn.dataset.name
-
-        if (name === activeNavKey) {
-            setActive(btn)
-        } else {
-            setButtonState(btn, false)
-        }
-    })
-}
-
-onThemeChange(() => {
-    syncNavBarWithTheme()
-})
-
-export { initNavBar, syncNavBarWithTheme }
+export { initNavBar }
