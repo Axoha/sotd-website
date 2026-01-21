@@ -1,0 +1,32 @@
+[
+    {
+        "id": "peaShooter",
+        "name": "Pea Shooter",
+        "thumbnail": "peaShooterThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "snowPea",
+        "name": "Snow Pea",
+        "thumbnail": "snowPeaThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "rePeater",
+        "name": "Re-peater",
+        "thumbnail": "rePeaterThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "threePeater",
+        "name": "Threepeater",
+        "thumbnail": "threePeaterThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "splitPea",
+        "name": "SplitPea",
+        "thumbnail": "splitPeaThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    }
+]
