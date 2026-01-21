@@ -4,7 +4,7 @@ const container = document.getElementById("uiOverlay")
 const res = await fetch("./cast.index.json")
 let characters = await res.json()
 const options = {
-    urlPrefx: `/pages/cast/characters/index.html`,
+    urlPrefix: `/pages/cast/characters/index.html`,
     thumbnailPath: `./thumbnails`
 }
 function render(list){
