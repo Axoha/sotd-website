@@ -28,7 +28,7 @@ const THEMES = {
         defaultBg: "Citadel"
     },
     Monochrome: {
-        accent: "white", //between "#575757" and "white", settle on one later
+        accent: "#575757", //between "#575757" and "white", settle on one later
         defaultBg: "aero" //between aero, Inkatan and monochrome
     },
     Orange: {
