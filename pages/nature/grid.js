@@ -4,7 +4,7 @@ const container = document.getElementById("uiOverlay")
 const res = await fetch("./nature.index.json")
 let entries = await res.json()
 const options = {
-    urlPrefx: `/pages/nature/entries/index.html`,
+    urlPrefix: `/pages/nature/entries/index.html`,
     thumbnailPath: `./thumbnails`
 }
 function render(list){
