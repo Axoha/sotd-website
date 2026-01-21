@@ -14,7 +14,7 @@
         margin-bottom: 0.5%;
     }
 
-    .characterName {
+    .entryName {
         position: absolute;
         display: block;
         /* background-color: rgba(255,0,0,0.25);
@@ -62,7 +62,7 @@
         padding-right: 2%;
     }
 
-    .characterTitle {
+    .entryTitle {
         font-family: "Verdana";
         color: var(--theme-accent);
     }
@@ -155,4 +155,8 @@
     .boxTwo {
         text-align: justify;
         padding-right: 1rem;
+    }
+
+    #carouselTrack[data-mode="static"] {
+        cursor: default;
     }

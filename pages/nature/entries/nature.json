@@ -1,0 +1,101 @@
+{
+    "peaShooter": {
+        "name": "Pea Shooter",
+        "title": "Baby's first gun",
+        "images": [
+            {
+                "file": "peaShooterFun.png",
+                "title": "Pea Shooter fun"
+            },
+            {
+                "file": "peaShooterUnfun.png",
+                "title": "Pea Shooter something else"
+            }
+        ],
+        "blockOne": {
+            "Age": "1 month",
+            "Free": "yeah",
+            "Cool": "I'd say so",
+            "having fun?": "not really, no"
+        },
+        "blockTwo": [
+            {
+                "heading": "here's the bulk of the entry",
+                "paragraphs": [
+                    "Where you can write continuous text like this, if you have a heading and a paragraphs array (and it's important that this is an array, even if you only have one paragraph, otherwise it will break) then the text will render like this, but if you have a heading and a listItems array then it will render as an unordered list"
+                ]
+            },
+            {
+                "heading": "list example",
+                "listItems": [
+                    "item 1",
+                    "item 2",
+                    "item 3",
+                    "good for like, a likes and dislikes list for example"
+                ]
+            },
+            {
+                "heading": "BUT",
+                "paragraphs": [
+                    "If you ever need something other than an unordered list or a title + paragraph combo then we can probably arrange that"
+                ]
+            }
+        ]
+    },
+    "snowPea": {
+        "name": "Snow Pea",
+        "title": "One chill pea",
+        "images": [
+            {
+                "file": "snowPea.png",
+                "title": "Snow pea chilling"
+            },
+            {
+                "file": "snowPeaSecond.png",
+                "title": "Snow pea set on fire"
+            }
+        ],
+        "blockOne": {
+            "Species": "Pea of snow",
+            "Gender": "Snow of pea",
+            "Age": "5 month",
+            "Birthday": "Yeah sure",
+            "Height / Weight": "I used to ship pea shooter x snow pea",
+            "Bloodtype": "peas",
+            "Internet username": "piss"
+        },
+        "blockTwo": [
+            {
+                "heading": "About",
+                "paragraphs": [
+                    "None of this makes any sense"
+                ]
+            },
+            {
+                "heading": "Likes",
+                "listItems": [
+                    "Melting",
+                    "Dying",
+                    "Peas emo like that",
+                    "Ducks"
+                ]
+            },
+            {
+                "heading": "Dislikes",
+                "listItems": [
+                    "Negative moods",
+                    "Interruptions",
+                    "Loud noises"
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    "He looked more distinct when he was created, even having a different name! He was originally based off a friends' cat.",
+                    "During the times I changed his design to the one we know now, he was supposed to wear the glasses at all times. It looked odd and too cool, so I made them rest on his forehead since then.",
+                    "Personally, he is my favorite character."
+                ]
+            }
+        ]
+    }
+}
