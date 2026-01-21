@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/global.css">
-    <link rel="stylesheet" href="./css/stories.css">
+    <link rel="stylesheet" href="./css/book.css">
     <title>Stories - SOTD</title>
 </head>
 
@@ -45,14 +45,12 @@
         <div class="navbar">
             <img id="homebtn" class="navbtn" data-name="Home" data-wip src="/assets/home/Buttons/Top/Pink/HomePink.png">
             <img id="newsbtn" class="navbtn" data-name="News" data-wip src="/assets/home/Buttons/Top/Pink/NewsPink.png">
-            <img id="storiesbtn" class="navbtn" data-name="Stories"
-                src="/assets/home/Buttons/Top/Pink/StoriesPink.png">
+            <img id="storiesbtn" class="navbtn" data-name="Stories" src="/assets/home/Buttons/Top/Pink/StoriesPink.png">
             <img id="castbtn" class="navbtn" data-name="Character"
                 src="/assets/home/Buttons/Top/Pink/CharacterPink.png">
             <img id="machinesbtn" class="navbtn" data-name="Machines"
                 src="/assets/home/Buttons/Top/Pink/MachinesPink.png">
-            <img id="naturebtn" class="navbtn" data-name="Nature"
-                src="/assets/home/Buttons/Top/Pink/NaturePink.png">
+            <img id="naturebtn" class="navbtn" data-name="Nature" src="/assets/home/Buttons/Top/Pink/NaturePink.png">
             <img id="artbtn" class="navbtn" data-name="Art" data-wip src="/assets/home/Buttons/Top/Pink/ArtPink.png">
             <img id="shopbtn" class="navbtn" data-name="Shop" data-wip src="/assets/home/Buttons/Top/Pink/ShopPink.png">
             <img id="contactbtn" class="navbtn" data-name="Contact" data-wip
@@ -67,7 +65,18 @@
         <div class="ui">
             <img id="ui" src="/assets/home/PageEmpty/PageEmptyPink.png" style="min-width: 100%">
             <div class="uiOverlay" id="uiOverlay">
-                <div id="bookShelf" class="shelf"></div>
+                <div class="topRow">
+                    <div class="leftSide">
+                        <h2 id="bookTitle">Title</h2>
+                        <p id="synopsis">dummy text dummy text dummy text dummy text dummy text</p>
+                    </div>
+                    <img src="" id="bookCover">
+                </div>
+                <div class="contentsColumn">
+                    <h3>Contents:</h3>
+                    <hr>
+                    <div class="tableOfContents" id="tableOfContents"></div>
+                </div>
             </div>
             <img class="secretButtons" id="secretButtons"
                 src="/assets/home/Buttons/BottomSecret/SecretButtonRowPink.png">
@@ -77,7 +86,7 @@
 
     <img id="wipCursor" src="/assets/taylorfail.png">
     <script type="module" src="/assets/javascript/layout.js"></script>
-    <script type="module" src="./js/renderBookshelf.js"></script>
+    <script type="module" src="./js/renderBook.js"></script>
     <script type="module" src="/assets/javascript/randomText/randomText.js"></script>
 
 </html>

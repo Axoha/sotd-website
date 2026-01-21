@@ -1,0 +1,58 @@
+.ui {
+    position: relative;
+    width: 100%;
+}
+
+.ui img {
+    display: block;
+    width: 100%;
+}
+
+.uiOverlay {
+    position: absolute;
+    inset: 5.1% 0 3.3% 0;
+    width: 72.1%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    margin-bottom: 6.1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bookShelf {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.bookCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s
+}
+
+.bookCard img {
+    height: 15.625rem;
+    width: 9.375rem;
+    border: 0.125rem solid var(--theme-accent);
+    object-fit: cover;
+    transition: transform 0.2s;
+}
+
+.bookCard h3 {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--theme-accent)
+}
+
+.bookCard:hover {
+    transform: scale(1.05)
+}
