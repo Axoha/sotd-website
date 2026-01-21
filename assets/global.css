@@ -139,3 +139,23 @@ body {
     display: block;
     width: 100%;
 }
+
+#wipCursor {
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+
+    width: 6.25rem;
+    transform: translate(12px, 12px);
+
+    opacity: 0;
+    transition: opacity 120ms ease-out;
+}
+
+.copyright {
+    display: flex;
+    justify-items: center;
+    width: 50%;
+    margin-left: 25%;
+    background-color: black;
+}
