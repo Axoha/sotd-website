@@ -5,7 +5,7 @@ const filterBar = document.getElementById("filterBar")
 const res = await fetch("./technology.index.json")
 const machines = await res.json()
 const options = {
-    urlPrefix: "/pages/machines/index.html",
+    urlPrefix: "/pages/technology/machines/index.html",
     thumbnailPath: "./thumbnails"
 }
 
