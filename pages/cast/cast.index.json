@@ -2,16 +2,97 @@
     {
         "id": "ferdRay",
         "name": "Ferd Ray",
-        "thumbnail": "ferdRayThumb.png"
+        "thumbnail": "ferdRayThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
     },
     {
         "id": "enaLone",
         "name": "Ena Lone",
-        "thumbnail": "enaLoneThumb.png"
+        "thumbnail": "enaLoneThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
     },
     {
         "id": "hazuneNiku",
         "name": "Hazune Niku",
-        "thumbnail": "hazuneNikuThumb.png"
+        "thumbnail": "hazuneNikuThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "enaLone",
+        "name": "Ena Lone",
+        "thumbnail": "enaLoneThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "ferdRay",
+        "name": "Ferd Ray",
+        "thumbnail": "ferdRayThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "enaLone",
+        "name": "Ena Lone",
+        "thumbnail": "enaLoneThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "ferdRay",
+        "name": "Ferd Ray",
+        "thumbnail": "ferdRayThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "enaLone",
+        "name": "Ena Lone",
+        "thumbnail": "enaLoneThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "ferdRay",
+        "name": "Ferd Ray",
+        "thumbnail": "ferdRayThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "enaLone",
+        "name": "Ena Lone",
+        "thumbnail": "enaLoneThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "ferdRay",
+        "name": "Ferd Ray",
+        "thumbnail": "ferdRayThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "enaLone",
+        "name": "Ena Lone",
+        "thumbnail": "enaLoneThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "ferdRay",
+        "name": "Ferd Ray",
+        "thumbnail": "ferdRayThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "enaLone",
+        "name": "Ena Lone",
+        "thumbnail": "enaLoneThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    }
+    ,{
+        "id": "ferdRay",
+        "name": "Ferd Ray",
+        "thumbnail": "ferdRayThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+    },
+    {
+        "id": "enaLone",
+        "name": "Ena Lone",
+        "thumbnail": "enaLoneThumb.png",
+        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
     }
 ]
