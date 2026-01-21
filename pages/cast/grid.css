@@ -51,7 +51,7 @@
     font-weight: bold
 }
 
-.castCard {
+.entryCard {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -65,7 +65,7 @@
 }
 
 
-.castCard img {
+.entryCard img {
     width: 100px;
     height: 100px;
 
@@ -91,11 +91,11 @@
     font-size: small;
 }
 
-.castCard .sideContent p {
+.entryCard .sideContent p {
     color: white;
     transition: color 0.2s ease;
 }
 
-.castCard:hover .sideContent p{
+.entryCard:hover .sideContent p{
     color: var(--theme-accent)
 }
