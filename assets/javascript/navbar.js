@@ -1,7 +1,7 @@
 import { getCurrentTheme } from "./theme/theme.js"
 
 const NAV_ROUTES = {
-    Home: "/",
+    Home: "/pages/home",
     News: "/pages/news/",
     Stories: "/pages/stories/",
     Character: "/pages/cast/",
