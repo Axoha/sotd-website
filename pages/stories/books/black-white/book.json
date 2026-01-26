@@ -5,22 +5,76 @@
     "cover": "cover.png",
     "chapters": [
         {
-            "designation": "ACT I CHAPTER I",
+            "designation": "PRELUDE",
             "chapterId": "0-prelude",
-            "title": "Prelude, The Cat and The Bear",
+            "title": "The Cat and The Bear",
             "file": "0-prelude.md"
         },
         {
-            "designation": "ACT I CHAPTER II",
+            "designation": "ACT I CHAPTER I",
             "chapterId": "1-first-impression",
             "title": "First Impression",
             "file": "1-first-impression.md"
         },
         {
-            "designation": "ACT I CHAPTER III",
+            "designation": "ACT I CHAPTER II",
             "chapterId": "2-this-rotten-sanctuary",
             "title": "This Rotten Sanctuary",
             "file": "2-this-rotten-sanctuary.md"
+        },
+        {
+            "designation": "ACT I CHAPTER III",
+            "chapterId": "3-seven-years",
+            "title": "Seven Years",
+            "file": "3-seven-years.md"
+        },
+        {
+            "designation": "ACT I CHAPTER IV",
+            "chapterId": "4-a-good-night-sleep",
+            "title": "A Good Night's Sleep",
+            "file": "4-a-good-night-sleep.md"
+        },
+        {
+            "designation": "ACT I CHAPTER V",
+            "chapterId": "5-orders-orders-orders",
+            "title": "Orders, Orders, Orders",
+            "file": "5-orders-orders-orders.md"
+        },
+        {
+            "designation": "ACT I CHAPTER VI",
+            "chapterId": "6-fate-finds-its-way-i",
+            "title": "Fate Finds Its Way, I",
+            "file": "6-fate-finds-its-way-i.md"
+        },
+        {
+            "designation": "ACT I CHAPTER VII",
+            "chapterId": "7-fate-finds-its-way-ii",
+            "title": "Fate Finds Its Way, II",
+            "file": "7-fate-finds-its-way-ii.md"
+        },
+        {
+            "designation": "ACT I CHAPTER VIII",
+            "chapterId": "8-yaw-sti-sdnif-etaf-xxxxxxxx",
+            "title": "YAW STI SDNIF ETAF, XXXXXXXXXX",
+            "file": "8-yaw-sti-sdnif-etaf-xxxxxxxx.md"
+        },
+        {
+            "designation": "ACT I CHAPTER IX",
+            "chapterId": "9-royalty-i",
+            "title": "Ⱳꖾꔇ ꕒꕯꕒ ꔇꗞꖹ ꕒꗞ ꖡꖾꗇꖡ",
+            "file": "9-royalty-i.md"
+        },
+        {
+            "designation": "ACT I CHAPTER X",
+            "chapterId": "10-royalty-ii",
+            "title": "ꕯꕮ ꗇꝆRꗍꗇꕒꔇ ꕒꗍꗇꕒ",
+            "file": "10-royalty-ii.md"
+        },
+        {
+            "designation": "ACT I EPILOGUE",
+            "chapterId": "11-act-i-epilogue",
+            "title": "New Friends",
+            "file": "11-act-i-epilogue.md"
         }
     ]
 }
