@@ -53,7 +53,7 @@
     }
 
     .boxOne {
-        text-align: justify;
+        text-align: left;
         display: flex;
         flex-direction: column;
         /* background-color: rgba(93, 0, 255, 0.25);
@@ -159,4 +159,16 @@
 
     #carouselTrack[data-mode="static"] {
         cursor: default;
+    }
+
+    .ageMargin {
+        margin-left: 2.7rem;
+    }
+
+    .boxTwo a {
+        color: var(--theme-accent)
+    }
+
+    #entryTitle {
+        margin-top: 3%;
     }

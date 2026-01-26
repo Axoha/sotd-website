@@ -8,7 +8,6 @@ export function renderEntry({
 
     const titleEl = document.getElementById("entryTitle")
     titleEl.textContent = entry.title
-    titleEl.style.marginTop = "3%" //could break into a generic wiki entry css file
 
     document.title = `${entry.name} - SOTD`
 
@@ -60,7 +59,7 @@ export function renderEntry({
             const ul = document.createElement("ul")
             section.listItems.forEach(item => {
                 const li = document.createElement("li")
-                li.textContent = item
+                li.innerHTML = item
                 ul.appendChild(li)
             })
             boxTwo.append(ul)
