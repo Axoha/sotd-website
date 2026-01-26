@@ -1,87 +1,71 @@
-body {
-    background-image: url("../../assets/home/ChosenBackgrounds/LoveCity.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
+    h2 {
+        margin-top: 8%;
+    }
 
-.centereddiv {
-    display: flex;
-    justify-content: center;
-}
+    .centereddiv {
+        display: flex;
+        justify-content: center;
+    }
 
-.content {
-    max-width: 917px;
-    padding: 2rem;
-    margin: 0 auto;
-}
-
-.hero {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 2rem;
-    margin: 0px 0px 0.5rem 0px
-}
-
-.navbar {
-    display: flex;
-    justify-content: left;
-}
-
-.homecrop {
-    position: relative;
-    width: 917px;
-    height: 976px;
-    overflow: hidden;
-    aspect-ratio: 902 / 976;
-}
-
-.randomtext {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    width: 917px;
-    margin: 0 auto;
-}
-
-.randomtext a {
-    color: white;
-}
-
-.homeui {
-    margin-top: -41px;
-    width: 100%;
-    display: block;
-}
-
-.highlightscontent {
-    position: absolute;
-    display: block;
-    /* uncomment what's below to activate the debugging borders */
-    /* background-color: rgba(255,0,0,0.25);
+    .ui {
+        position: relative;
+        /* background-color: rgba(255,0,0,0.25);
     border: 1px solid red; */
-    overflow: scroll;
-}
+        margin-bottom: 0.5%;
+    }
 
-.notifier {
-    position: relative;
-    max-width: 79.1046%;
-}
+    .uiContent {
+        position: absolute;
+        display: block;
+        background-color: rgba(93, 0, 255, 0.25);
+        border: 1px solid blue;
+        width: 68.5%;
+        min-width: 622.38px;
+        height: 91.3%;
+        top: 5.3%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        padding-left: 2%;
+        padding-right: 1.4%;
+        padding-top: 1%;
+        padding-bottom: 2.2%;
+    }
 
-.notifierPicture {
-    position: absolute;
-    display: block;
-    /* background-color: rgba(115, 0, 255, 0.25);
-    border: 1px solid blue; */
-    top: 26.5%;
-    left: 2.581%;
-    height: 62.5%;
-    width: 20.5%;
-}
+    .article {
+        position: relative;
+        margin-bottom: 13rem;
+    }
 
-.notifierPicture img {
-    max-width: 100%;
-    max-height: 100%;
-}
+    .notifier {
+        position: absolute;
+        left: 4.313rem;
+    }
+
+    .thumbnail {
+        position: absolute;
+        width: 110px;
+        height: 110px;
+        left: 5.1rem;
+        top: 3rem;  
+        border: 1px solid var(--theme-accent)
+    }
+
+    .articleTitle {
+        /* background-color: rgba(128, 0, 128, 0.403); */
+        position: absolute;
+        width: 381px;
+        left: 190px;
+        top: -0.5rem;
+        text-align: right;
+        white-space: nowrap;
+    }
+
+    .articleBody { 
+        /* background-color: rgba(137, 43, 226, 0.42);  */
+        position: absolute;
+        top: 4rem;
+        left: 12.575rem;
+        width: 380px;
+        font-size: small;
+        text-align: justify;
+    }

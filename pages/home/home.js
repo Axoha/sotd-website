@@ -1,46 +1,37 @@
-import THEMES from "/assets/themeMap.js"
+import { applyGlobalTheme } from "/assets/javascript/theme/theme.js"
 
-let currentTheme = "Monochrome"
+const res = await fetch("/assets/news/news.index.json")
+const news = await res.json()
+const uiContent = document.querySelector(".uiContent")
 
-const theme = THEMES[currentTheme]
+//fuckcing making thhe fucking thingy fucking have two divs so II cann make the thingy the backgroundd an have the other thingy on top of it
+news.forEach((article)=>{
+    const articleDiv = document.createElement("div")
+    const innerDiv = document.createElement("div")
+    const notifier = document.createElement("img")
+    const title = document.createElement("h2")
+    const body = document.createElement("p")
 
-if(!theme) {
-    console.warn("Invalid theme, falling back to Pink")
-}
+    innerDiv.className = "articleContent"
+    articleDiv.className = "article"
+    notifier.className = `${article.boxType.toLowerCase()} notifier`
+    notifier.dataset.box = article.boxType
 
-const safeTheme = theme ?? THEMES.Pink
-const safeThemeName = theme ? currentTheme : "Pink"
+    title.innerHTML = article.title
+    title.className = "articleTitle"
+    body.innerHTML = article.body
+    body.className = "articleBody"
 
-const resolvedBackground = safeTheme.defaultBg
+    const thumbnail = document.createElement("img")
+    thumbnail.className = "thumbnail"
+    thumbnail.src = `/assets/news/${article.thumbnail}`
+    
+    articleDiv.appendChild(notifier)
+    articleDiv.appendChild(thumbnail)
+    articleDiv.appendChild(title)
+    articleDiv.appendChild(body)
 
-const logo = document.getElementById("logo")
-const homeUi = document.getElementById("homeui")
-const buttons = document.querySelectorAll(".navbtn")
-const secretButtons = document.getElementById("secretButtons") 
-const specialNotifier  = document.getElementById("specialNotifier")
-
-specialNotifier.src = `/assets/home/SpecialNotifier/Community/Community${safeThemeName}.png`
-secretButtons.src = `/assets/home/Buttons/BottomSecret/SecretButtonRow${safeThemeName}.png`
-logo.src = `/assets/home/Logo/Logo${safeThemeName}.png`
-homeUi.src = `/assets/home/PageEmpty/RightSidebar/PageSidebar${safeThemeName}.png`
-document.body.style.backgroundImage = `url(../../assets/home/ChosenBackgrounds/${resolvedBackground}.png)`
-
-function setButtonState(button, isActive){
-    const name = button.dataset.name
-    const state = isActive ? "Select" : ""
-
-    button.src = `/assets/home/Buttons/Top/${safeThemeName}/${name}${safeThemeName}${state}.png`
-}
-
-buttons.forEach(btn => {
-    //initially sets each button to have the correct theme color
-    btn.src = `/assets/home/Buttons/Top/${safeThemeName}/${btn.dataset.name}${safeThemeName}.png`
-
-    btn.addEventListener("mouseenter", () => {
-        setButtonState(btn, true)
-    })
-
-    btn.addEventListener("mouseleave", () => {
-        setButtonState(btn, false)
-    })
+    uiContent.appendChild(articleDiv)
 })
+
+applyGlobalTheme(localStorage.getItem("theme"))

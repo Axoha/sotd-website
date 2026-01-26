@@ -1,0 +1,16 @@
+[
+    {
+        "id": "example",
+        "boxType": "Community",
+        "thumbnail": "martianCat.webp",
+        "title": "Example",
+        "body": "FUUUUCK I HATE IT FUUUUCK I HATE IT FUUUUCK I HATE IT FUUUUCK I HATE IT FUUUUCK I HATE IT FUUUUCK I HATE IT FUUUUCK I HATE IT"
+    },
+    {
+        "id": "example",
+        "boxType": "LatestRelease",
+        "thumbnail": "example.png",
+        "title": "Another example",
+        "body": "Yeah, still hate, still don't like it, oh woe is me"
+    }
+]
