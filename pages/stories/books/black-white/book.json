@@ -1,0 +1,26 @@
+{
+    "bookId": "black-white",
+    "title": "Black & White",
+    "synopsis": "Ferd leaves his house, and oh boy things sure do happen there's a panda there's guns there's the dead people.<br> &quotFerd, the war&quot<br> &quotType shit&quot",
+    "cover": "cover.png",
+    "chapters": [
+        {
+            "designation": "ACT I CHAPTER I",
+            "chapterId": "0-prelude",
+            "title": "Prelude, The Cat and The Bear",
+            "file": "0-prelude.md"
+        },
+        {
+            "designation": "ACT I CHAPTER II",
+            "chapterId": "1-first-impression",
+            "title": "First Impression",
+            "file": "1-first-impression.md"
+        },
+        {
+            "designation": "ACT I CHAPTER III",
+            "chapterId": "2-this-rotten-sanctuary",
+            "title": "This Rotten Sanctuary",
+            "file": "2-this-rotten-sanctuary.md"
+        }
+    ]
+}

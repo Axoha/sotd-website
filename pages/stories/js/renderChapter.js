@@ -21,7 +21,7 @@ if (!chapterInfo) {
 }
 
 chapterTitleEl.textContent = chapterInfo.title;
-chapterNumberEl.textContent = `Chapter ${chapterInfo.number}`;
+chapterNumberEl.textContent = `${chapterInfo.designation}`;
 
 const mdRes = await fetch(`/pages/stories/books/${bookId}/chapters/${chapterInfo.file}`)
 const mdText = await mdRes.text()

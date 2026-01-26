@@ -20,7 +20,7 @@ bookCover.src = `./books/${book.bookId}/${book.cover}`
 book.chapters.forEach((chapter)=> {
     const a = document.createElement("a")
     a.href = `./chapter.html?bookId=${bookId}&chapterId=${chapter.chapterId}`
-    a.textContent = `Chapter ${chapter.number}: ${chapter.title}`
+    a.textContent = `${chapter.designation} - ${chapter.title}`
     a.className = "chapterLink"
     tableOfContents.appendChild(a)
     tableOfContents.appendChild(document.createElement("br"))

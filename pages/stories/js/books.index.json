@@ -1,8 +1,8 @@
 [
     {
-        "bookId": "ferds-big-day",
-        "title": "Ferd's Big Day",
-        "cover": "./books/ferds-big-day/cover.png"
+        "bookId": "black-white",
+        "title": "Black & White",
+        "cover": "./books/black-white/cover.png"
     },
     {
         "bookId": "ferds-big-day",
