@@ -26,6 +26,16 @@ function applyGlobalTheme(themeName) {
         uiNoSideBar.src = `/assets/home/PageEmpty/PageEmpty${currentTheme}.png`
     }
 
+    const uiHome = document.getElementById("uiHome")
+    if (uiHome) {
+        uiHome.src = `/assets/home/HomePage/Home${currentTheme}.png`
+    }
+
+    const notifier = document.querySelectorAll(".notifier")
+    notifier.forEach((element => {
+        element.src = `/assets/home/SpecialNotifier/${element.dataset.box}/${element.dataset.box}${currentTheme}.png`
+    }))
+
     const secretButtons = document.getElementById("secretButtons")
     if (secretButtons) {
         secretButtons.src =
