@@ -360,7 +360,7 @@
             {
                 "heading": "Personality",
                 "paragraphs": [
-                    ""
+                    "Very shy, quiet, and sensitive. But very chatty and cuddly sometimes. Also a bit fruity."
                 ]
             },
             {
@@ -586,6 +586,59 @@
           "In early idealization, he wore the same outfit as Heather Mason from Silent Hill 3.",
           "Formerly, he had heterochromic eyes, one being the current pink and the other a lime green.",
           "Spawned from every person's need to be a bit of a little guy who gets to sleep a lot."
+        ]
+      }
+    ]
+  },
+  "welder": {
+    "name": "Welder",
+    "title": "",
+    "images": [],
+    "blockOne": {
+      "Author": "Jegr",
+      "Species": "Robot (Conscious, Sentient)",
+      "Gender": "Male",
+      "Age": "26",
+      "Birthday": "May 30th",
+      "Height / Weight": "178cm (5' 10\") / 70kg (154 lbs)",
+      "Internet Username": "FreeFloatingSpirit"
+    },
+    "blockTwo": [
+      {
+        "heading": "General Information",
+        "paragraphs": [
+          "<i>Welder</i> is a general robot who just like many other people just goes through life trying to have some fun and connect with people, his work is annoying as always but fun sometimes and the pay is good, he's stationed as a mechanic in a <i>GL</i> workshop."
+        ]
+      },
+      {
+        "heading": "Appearance",
+        "paragraphs": [
+          "Light frame civilian design. Composed of a few white hard metal bits (Torso, forearms, Shins) the rest Black rubber with an Metal endoskeleton, Custom civilian class helm design <i>id:56843312</i> characterized by a hard green cover on the top going all the way to the back of the head, Viewport similar to the shape of enlarged skiing goggles capable of free expression similar to monitors, surrounded with a white metal frame, Dark gray underside of the helm with two aesthetic stripes going along the back of the helm. Usually wears white hoodies with green markings, blue-grayish pants."
+        ]
+      },
+      {
+        "heading": "Personality",
+        "paragraphs": [
+          "Reserved, Laid back, pragmatic but also caring of people he likes."
+        ]
+      },
+      {
+        "heading": "History",
+        "paragraphs": [
+          "Welder like most robots don't have a standard name, originally a human who has been has willingly been transformed to a mechanical body. Younger sibling of two, used to work in the army with his sister but later quit as it wasn't for him. Although he still worked for the GL this time as a welder and general repair / construction crew and or any related jobs he could find at the time."
+        ]
+      },
+      {
+        "heading": "Trivia",
+        "listItems": [
+          "His favorite colour in fact <b>isn't</b>: <span style=\"color: #05FF00\">#05FF00</span>.",
+          "Based off of a mech I made in FTD."
+        ]
+      },
+      {
+        "heading": "Connections",
+        "listItems": [
+            "<i>Comet (Sister)</i>"
         ]
       }
     ]

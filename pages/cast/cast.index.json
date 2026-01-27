@@ -52,5 +52,11 @@
         "name": "Taylor ✰",
         "thumbnail": "taylorThumb.png",
         "flavorText": "An anxious and directionless jackalope who'd be more than content drifting through life, was it not for his friends pushing him to do more."
+    },
+    {
+        "id": "welder",
+        "name": "Welder ✰",
+        "thumbnail": "welderThumb.png",
+        "flavorText": "A carefree ex army man turned GL employee (also ex human turned robot, but that hardly seems important)"
     }
 ]
