@@ -1,47 +1,4 @@
 {
-    "example": {
-        "name": "Example, shows on the top bar and as the tab's title",
-        "title": "Shows as the colorful text, first thing on the scrollable box",
-        "images": [
-            {
-                "file": "Put the file name here, don't worry about paths, as long as the image is placed inside a folder inside of /pages/cast/characters/assets/ with the same name as the characterId then this should work",
-                "title": "The text that will show up on the banner atop the image on the carousel"
-            },
-            {
-                "file": "Repeat, important that images is an array, even if you're only going to include one image, otherwise it will break",
-                "title": "You can add as many images as you want, just add a comma after the closing curly bracket } and open a new one {"
-            }
-        ],
-        "blockOne": {
-            "Here what's on the left is customizable": "and everything to the right will show up after",
-            "use this for things that follow the key: value format": "like age: number, occupation: text, username: text",
-            "mind the CaPiTaLiZaTiOn": "the way you write things here is how they'll show up on the page",
-            "you can add as many key: value pairs as you want here": "but I don't recommend going overboard, as it will make the carousel align somewhat weirdly"
-        },
-        "blockTwo": [
-            {
-                "heading": "here's the bulk of the entry",
-                "paragraphs": [
-                    "Where you can write continuous text like this, if you have a heading and a paragraphs array (and it's important that this is an array, even if you only have one paragraph, otherwise it will break) then the text will render like this, but if you have a heading and a listItems array then it will render as an unordered list"
-                ]
-            },
-            {
-                "heading": "list example",
-                "listItems": [
-                    "item 1",
-                    "item 2",
-                    "item 3",
-                    "good for like, a likes and dislikes list for example"
-                ]
-            },
-            {
-                "heading": "BUT",
-                "paragraphs": [
-                    "If you ever need something other than an unordered list or a title + paragraph combo then we can probably arrange that"
-                ]
-            }
-        ]
-    },
     "ferdRay": {
         "name": "Ferd Ray",
         "title": "Totally fine cat dude",
@@ -49,60 +6,79 @@
             {
                 "file": "FerdRay.png",
                 "title": "Ferd ray there"
-            },
-            {
-                "file": "FerdRayMonochromeEra.png",
-                "title": "Ferd emo"
-            },
-            {
-                "file": "Potassium.png",
-                "title": "Wait what"
             }
         ],
         "blockOne": {
-            "Species": "Antropomorphic American Bobtail Cat",
+            "Origin": "No birthplace record, assumed to be born on Sol-3²²",
+            "Species": "Anthropomorphic American Bobtail Cat",
+            "Ethnicity": "Blasian",
             "Gender": "Male",
-            "Age": 21,
+            "Age": "14 (THE GAME) <br><span class=\"ageMargin\">18 (Totally Fine) </span><br><span class=\"ageMargin\">26 (Black & White) </span><br><span class=\"ageMargin\">31 (Post Actologue) </span>",
             "Birthday": "October 17th",
-            "Height / Weight": "5'10\" / Average",
-            "Bloodtype": "Rh-null",
-            "Internet username": "cat167844"
+            "Height / Weight": "180 cm (5' 11\") / 79.3 kg (175 lbs)",
+            "Blood Type": "Rh-null",
+            "Internet Username": "cat167844"
         },
         "blockTwo": [
             {
-                "heading": "About",
+                "heading": "General Information",
                 "paragraphs": [
-                    "Ferd is the loveliest guy one can meet, somehow finding a way to like something about everything.",
-                    "He's a relaxed person without a flaw, but interrupting him or his work anytime can lead to lots of frustration.",
-                    "He also has a girlfriend named Ena Lone who often uses him as a resting pillow.",
-                    "Unlike her he isn't as talented, but with his best efforts he always tries to support her and participate in projects.",
-                    "He has no known siblings or parents, no related recorded family, he himself doesn't know from where he came from.",
-                    "One day he was just found wandering the streets of a city as a child until a kind woman found him and offered shelter, eventually deciding to adopt him.One day he was just found wandering the streets of a city as a child until a kind woman found him and offered shelter, eventually deciding to adopt him."
+                    "<i>Ferd Ray</i> is the reckless protagonist of <i>Stories of the Dead: Black & White</i>, <i>THE GAME</i>, and a side character in <i>Totally Fine</i>. He's known for tackling his foes and obstacles in the most absurd ways possible and never giving up."
                 ]
             },
             {
-                "heading": "Likes",
-                "listItems": [
-                    "Pets",
-                    "Studying",
-                    "Peace",
-                    "Outdated internet humor"
+                "heading": "Appearance",
+                "paragraphs": [
+                    "Ferd has clean white short fur with black marks. His waist is surrounded by cascading black lines, his left eye has a whole black spot around it, and his ears are black with the insides being white. His hair is completely fluffy and very soft, reminiscent of a standard mullet. Sometimes he lets the back of his hair grow out just to make ponytails, and sometimes... his hair grows a bit too much at the front. His cheeks are also grown with amazing and well-groomed fur. He has a small, stubby white tail that he always tries to hide in any way possible at all times. His tail also often moves reflexively, if exposed, signaling various mood and emotions, but unfortunately unlike other cats bobtails cannot use their tails as well. His legs are also unusually fatter than average for the height, weight, age, and species, though his arms are adequate. His eye pupils have glow within them, nobody knows why. Due to the fact he barely wears shirts especially during the winter seasons, fur has been extensively growing around his neck and shoulders... which made wearing shirts even more uncomfortable for him.",
+                    "Ferd always dresses blandly, usually in black clothing. His favorite is wearing shorts and wearing black round glasses on him at all times (usually on his forehead through the hair). Sometimes he may look fashionable, but truthfully he has no sense in that sort of thing.",
+                    "During his childhood, he unsurprisingly wore black shorts and really random t-shirts (merchandise from some of his favorite franchises, such as <i>Craftermine</i> and <i>Sky Legends</i>). He also wore sparkly red sport shoes, unsure why he always insisted on getting those up until his teen years whenever he'd outgrow his previous pair. He's had his round black glasses and a black collar with a golden accessory since he was found.",
+                    "During his time in middle school he's forced to wear a formal blue school uniform with a red tie. For the whole journey in the computer program, oddly enough, his fur turns pink and all the black spots turn red. He also becomes shirtless, wearing just shorts and a wrap around his body to carry his temporary shotgun-sword. All his golden accessories also turn blue and the glasses remained the same.",
+                    "As an adult he has mostly stopped wearing merchandise and goofy shirts, shifting rather into plain clothes in the grayscale range. Even after signing up for the military, he still dresses as he's told to. It's only after he meets Ally Parks and Houston March when he adopts a stylish set, a long black coat with shiny big boots and gloves. Around that time he also has a great golden gauntlet stuck to his right arm, making his life slightly more inconvenient. This new style would never change later on, not even after the monochrome era. His fur would continue growing, sometimes during longer depressive episodes it would grow far too much and he'd need a helping hand to trim it for him."
                 ]
             },
             {
-                "heading": "Dislikes",
-                "listItems": [
-                    "Negative moods",
-                    "Interruptions",
-                    "Loud noises"
+                "heading": "Personality",
+                "paragraphs": [
+                    "Ferd is incredibly stubborn and reckless, no matter what you tell him he won't change his goals. He's also brave and selfless, caring too much for others and not himself... but deep down, he is scared of death just like anyone else. He really doesn't favor following plans unless they're his own.",
+                    "Since his childhood up until teenage years he could be best described as an awkward geek. He spent a lot of time on his personal computer, reading incredibly niche articles on creepy anomalies and strange sightings. He would also look up videos of error screens in various systems, intrigued by the sounds they'd make. He also played a lot of games, more notably Craftermine, Sky Legends, and World of Wrath. Due to his strange interests and terrible social experiences, he'd struggle to find friends. Some described him as creepy, odd, and a misfit simply due to being different. Having no friends upset him slightly, but he never really knew how it even felt to hang out with someone so it didn't bother him for a long time. Sometime when he was fourteen years old he'd develop a crush on a emo girl in his class with the name of Ena Lone, and his whole mentality changed since then.",
+                    "During THE GAME he'd finally get his chance to shine in front of others. Using his knowledge of games and niche interests, he'd help his whole team fight through various obstacles in order to escape the program. Though most didn't really care, he'd continue trying to impress Ena Lone. He took rejections deeply to his heart, but he wasn't willing to give up ever. During his whole journey in the program he'd start developing insane ideas to get past over obstacles and foes, and somehow, they'd always work. When he returned to his world with everyone else, after some important and final secret moments, Ena Lone would ask him something he never thought he'd hear from anyone. She asked to be hang out later, be strong friends from now on.",
+                    "For the first few months his relationship with Ena was just a simple friendship, but eventually they became a couple. So much love changed Ferd's personality to be more obsessive, following, usually asking others what to do rather than thinking for himself. Ena would be the more dominant person in the relationship, but he was still capable of surprising her with anything. They had no problems with each other, their relationship was sweet. It did not change even after they both enlisted into the Disobedient military service. During bootcamp Ferd would struggle tremendously, but now with the helping hand of Ena he'd be able to break through anything - This would also apply to their future missions. He did not take killing someone at first lightly, he was in fact terribly traumatized for a while, but after a few more missions he'd devolve into a war-criminal. His reckless and inventive personality shined here the most, coming up with ideas which many violated the Geneva convention (most notably the false surrender). It could be argued his mind was slightly rotting by this point, constantly taking orders. He'd ignore the rising popularity he had among his group, it didn't really matter to him. Ferd would sometimes get worried for Ena too, especially after it turns out she's pregnant by the end of their seventh year in military service. Everything fell apart for Ferd after Ena vanished one day. He eventually abandons his group to look for Ena himself, sacrificing whole seven years of his reputation for her.",
+                    "And even then, after obtaining the golden gauntlet, it all kept getting worse for him. Letting fate guide his soul, he ends up at the lowest points one can be."
+                ]
+            },
+            {
+                "heading": "History",
+                "paragraphs": [
+                    "One day he just appeared in the streets of a city while it was raining terribly, holding a pair of black round glasses, wearing just shorts. An adult, kind woman named Emilia Jones found him and decided to take him to her home for shelter. There, he stayed for around two weeks as his case was investigated by Emilia. There were frequent hospital visits, lots of police calls, his parents were simply unknown and his case has stopped at the assumption of being abandoned. It was recommended that Ferd would be sent to an adoption center, and... at that moment, Emilia chose to adopt Ferd herself. It was going to be a complicated process, she never planned on having a kid, but Ferd changed her heart. She was willing to raise Ferd, give him a life he would never get to live otherwise.",
+                    "Ferd would frequently visit the hospital to donate some of his rare blood, but he didn't know about it. Some of the odd information regarding his body was kept private, even from him, only the doctors and his mother knew. His mother had two places to live in, an apartment in a city for work and weekdays and a small house in a nearby small town for weekends. There was a small room in both places to turn into Ferd's personal room, but before they had a bed and other basic furniture, Ferd would sleep with his mom in the bedroom. These living spaces would make his commute to school in the future convenient and safe.",
+                    "After another few weeks, young Ferd would get signed up for local kindergarten in the town. The building also served as an elementary school, but its location would make Emilia have to pick Ferd from school each day all the way from the city. He continued to pass through the classes as the years passed. He was really friendly to the teachers and his grades were always amazing with slight hiccups, but he had no friends. Later he'd be signed up for middle school in the city, which would make things easier for mother as by this point Ferd had learned to commute to school by himself.",
+                    "During his first year in high school he would mysteriously disappear for up to two weeks alongside a few of his other classmates and then return as if nothing had ever happened. He continued to do well in classes, until he got closer to Ena Lone, then his grades began dropping drastically. Even with that, they've both managed to graduate normally. As an adult Ferd would find a regular retail job, often getting fired due to a severe mistake or two. Eventually, him and Ena chose to enlist in the military just to recover from their financial problems.",
+                    "There they'd proceed to go through an ordinary bootcamp for a few weeks, initially struggling but later excelling in final exams. Then the first missions struck harshly, but overtime, using their experiences from a journey they went through as teenagers, they became the best in their group. Seven years of constant missions have hit them, and they enjoyed them all. However, at the end of the seventh year Ena vanished without a trace, which led to Ferd abandoning his whole group and reputation just to find her in the New Babylon (as told by Masy, the divine caretaker). Within the New Babylon Ferd meets Houston, who tells him that they know of a way to reach Ena. They lead him to a museum that covers the history of a Divine Era, sharing facts as they make their way to a hidden room containing the golden gauntlet. Upon hearing that the gauntlet is the key to finding Ena, Ferd with no hesitation breaks through the security and steals the gauntlet. At that moment the gauntlet becomes bound to him for good and the merciless alarms sound. Ferd and Houston make their escape out of the New Babylon as they are chased by the highest forces the Babylon can muster.",
+                    "After an exhausting trip, Ferd wakes in a monochrome wasteland under someone's makeshift shelter. There he meets Ally, who just stumbled upon his body and took good care before he woke up. Ally believes that Ferd must be here for the same reason, finding their lover who has mysteriously made their way here. They ready their gear and make their way into the snow, walking towards a gate that's been locked for a good while. The gate needed a six-letter password to be unlocked via strange symbols, she's been trying for hours each day finding the proper word to unlock it. Ferd decides to help, and for hours they sit around the gate with a campfire trying out various combinations, until a little Inka appears holding a pair of flowers. The password was srewofl.",
+                    "Find out more in <a href=\"/pages/pardonourdust\">SOTD: Black & White (Draft)</a>."
                 ]
             },
             {
                 "heading": "Trivia",
                 "listItems": [
-                    "He looked more distinct when he was created, even having a different name! He was originally based off a friends' cat.",
-                    "During the times I changed his design to the one we know now, he was supposed to wear the glasses at all times. It looked odd and too cool, so I made them rest on his forehead since then.",
-                    "Personally, he is my favorite character."
+                    "He was originally based off a friend's pet cat named \"Jasper\", having violet fur, lighter marks, and dotted eyes.",
+                    "When I first added the glasses to his character he was supposed to have them on the eyes all the time, it looked a little too cool for him so I changed that.",
+                    "Owning and riding a motorcycle was supposed to be an iconic part of his character, but I couldn't think of any plausible scenarios when writing that would also fit his character I had in mind."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i>Emilia Jones (Mother)</i>",
+                    "<i>Sammy Ray (Daughter)</i>",
+                    "<i>Ena Lone (Lover)</i>",
+                    "<i>Ally Parks (Best Friend)</i>",
+                    "<i>Houston March (Best Friend)</i>",
+                    "<i>Veronika Barashova (Childhood Internet Friend)</i>",
+                    "<i>Masy (Friend)</i>",
+                    "<i>Vladimir Koshinov (Acquaintance)</i>",
+                    "<i>Isaac Sir Kablooey (Acquaintance)</i>",
+                    "<i>Toby (Awkward History)</i>"
                 ]
             }
         ]
@@ -286,5 +262,332 @@
                 ]
             }
         ]
-    }
+    },
+    "georg": {
+        "name": "Georg",
+        "title": "Grass roots gamer (derogatory)",
+        "images": [
+            {
+                "title": "fuckass turty",
+                "file": "georg.png"
+            }
+        ],
+        "blockOne": {
+            "Author": "Qwerturdle",
+            "Origin": "Sol-3²², Most Racist Country",
+            "Species": "Galapagos Tortoise (Somehow Barely Evolved)",
+            "Ethnicity": "Scandinavian",
+            "Gender": "Chimera",
+            "Age": "2",
+            "Birthday": "January 31st",
+            "Height / Weight": "76 cm (2’ 6\") / 34 kg (77 lbs)",
+            "Blood Type": "A",
+            "Internet Username": "Qwerturdoise"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "This guy fucking GAMES. Also very racist as it comes with the hardcore gaming. Commonly confused with another user online called <i>Qwerturdle</i>. When it's not racist, it is pretty chill."
+                ]
+            },
+            {
+                "heading": "Appearance",
+                "paragraphs": [
+                    "Big green tortoise, his eyes are permanently closed, he has a (usually) RGB keyboard on top of his shell, missing a toe nail on one of his feet, big green tail, and (ski band) headphones."
+                ]
+            },
+            {
+                "heading": "Personality",
+                "paragraphs": [
+                    "Racist, not sexist though, and chill sometimes but gets angry easily. He takes small things pretty seriously. His favorite games are <i>Text of Responsibility</i>, <i>Oxidation</i>, and <i>Opposite Hit 2</i>."
+                ]
+            },
+            {
+                "heading": "History",
+                "paragraphs": [
+                    "He got serpentine in Voice of Duty, met <i>Sonchai Anong</i>, died, then didn't."
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    "A mascot.",
+                    "He is a working electricity source hence the keyboard and headphones.",
+                    "Used to be named George, but since the headphones he was born with said Georg, he got his name legally changed to Georg.",
+                    "The headphones he wears are sometimes confused for a headband.",
+                    "Chud"
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i>Sonchai Anong (Frenemy)</i>",
+                    "<i>Anyone Online (Hates)</i>",
+                    "<i>Qwerturdle (Despises)</i>"
+                ]
+            }
+        ]
+    },
+    "icyCruz": {
+        "name": "Icy Cruz",
+        "title": "The Baby",
+        "images": [],
+        "blockOne": {
+            "Author": "Suralot",
+            "Origin": "Sol-3²², Cold Mountainous Areas",
+            "Species": "Anthropomorphic Axolotl",
+            "Gender": "Male",
+            "Age": "20",
+            "Birthday": "June 11th",
+            "Height / Weight": "175 cm (5' 9\") / 131 kg (290 lbs)",
+            "Blood Type": "B+",
+            "Internet Username": "epicaxolotl212"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "<i>Icy Cruz</i> is an interesting dork who loves eating food and going on a date with his girlfriend, <i>Maria</i>. He is very shy at first, but becomes the clingy when someone becomes friends with him. He also loves discovering things and exploring. He is also also also seen as a 'baby'."
+                ]
+            },
+            {
+                "heading": "Appearance",
+                "paragraphs": [
+                    "Very shy, quiet, and sensitive. But very chatty and cuddly sometimes. Also a bit fruity. Smells like fish."
+                ]
+            },
+            {
+                "heading": "Personality",
+                "paragraphs": [
+                    ""
+                ]
+            },
+            {
+                "heading": "History",
+                "paragraphs": [
+                    "Not known since he is very private."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i>Maria Ramirez (Lover)</i>",
+                    "<i>Dennis (Friend)</i>",
+                    "<i>Tina (Doesn't Like)</i>",
+                    "<i>Sue Parks (Cousin He Hates)</i>",
+                    "<i>Ally Parks (Cousin He Doesn't Know Of)</i>"
+                ]
+            }
+        ]
+    },
+    "jinx": {
+        "name": "Jinx",
+        "title": "The Prankster",
+        "images": [],
+        "blockOne": {
+            "Author": "Kat (dietmilkers)",
+            "Origin": "Sol-3²², Mountainous Area",
+            "Species": "Anthropomorphic Coyote",
+            "Gender": "Nonbinary",
+            "Age": "25",
+            "Birthday": "January 8th",
+            "Height / Weight": "177 cm (5' 10\") / 90 kg (200 lbs)",
+            "Blood Type": "Red",
+            "Internet Username": "xx_Janxxxxx_xx"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "Wild. Maybe good looking??? Talks improperly."
+                ]
+            },
+            {
+                "heading": "Appearance",
+                "paragraphs": [
+                    "Tan fur with brown hair. Yellow eyes with black X's on eye lids. Usually seen wearing orange or black."
+                ]
+            },
+            {
+                "heading": "Personality",
+                "paragraphs": [
+                    "Annoying and blunt. Stands up for friends but picks on them too. Loves attention. They think of themselves as great but really aren't."
+                ]
+            },
+            {
+                "heading": "History",
+                "paragraphs": [
+                    "\"They exist for funnies.\" (TBD.)"
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i>Toby (Bestie)</i>",
+                    "<i>Alice (Friend)</i>",
+                    "<i>Sophie (Acquaintance)</i>",
+                    "<i>'Skater Boy' (Acquaintance)</i>"
+                ]
+            }
+        ]
+    },
+    "junoEvergreen": {
+        "name": "Juno Evergreen",
+        "title": "The Girl that was never meant to exist",
+        "images": [],
+        "blockOne": {
+            "Author": "Credit",
+            "Origin": "Unknown",
+            "Species": "Anthropomorphic Cybernetic Animal",
+            "Gender": "Female",
+            "Age": "26 (New World Juno)",
+            "Birthday": "Unknown...",
+            "Height / Weight": "203 cm (6'8\") / 131 kg (290 lbs)",
+            "Blood Type": "AB (Infused with unstable matter)",
+            "Internet Username": "missjunejune"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "<i>Juno Evergreen</i> is a freakish, deformed anthropomorphic cybernetic animal once used by the Citadel for her unique disease and for assassinations. Once freed from their control, she spends her days questioning everything and anyone. All while desperately and hopelessly trying to gain the time she lost."
+                ]
+            },
+            {
+                "heading": "Appearance",
+                "paragraphs": [
+                    "Juno's appearance is far from appealing and could only be described as freakish and grotesque due to many factors. Her tall and lanky figure tower over many, even other larger cybernetic animals. Her fur consist of mainly light purple with black spots and patterns littering all over her body. Unlike her fur, which is rough and fuzzy, her hair is surprisingly soft and thick. Juno's facial features are the most deformed and disfigured part of her appearance. Under her visor, her face is covered in irregular bumps, bruises, scars, and even some burnt skin that seemingly never heals. Her right eye is also missing and the fur around it is a gross combination of black and purple. Juno's horns are somewhat similar to a rams horns, but she doesn't really give them a second thought, as they are surprisingly weak and fragile. Although she does have four ears, which are marked with the Citadel's symbol, only two seem to fully work. One of them is completely deaf, while the other can barely hear sounds.",
+                    "Juno is very insecure about her appearance, she knows how much it scares others and is usually seen with oversized, seconded used clothes. Anything to cover up the many scars all around her body, so she avoids any clothes that don't cover her body and legs. Despite this, she has a liking to a simple white dress and skirt with a large red sun hat. She seems to only wear this on private occasions and events with only her close friends."
+                ]
+            },
+            {
+                "heading": "Personality",
+                "paragraphs": [
+                    "Juno is somewhat shy and timid, not used to being in social interactions due to her long time \"working\" at the Citadel. However, once out of her shell, she is seemingly a quiet but softly cheery woman. Excited to be around others and hearing their conversations and stories. She can come off as mean sometimes, since she's quite bad on understanding many social queues. Juno is seemingly at her most cheery mood when around <i>Nayami</i>, as she feels the most comfortable around the other cybernetic animal."
+                ]
+            },
+            {
+                "heading": "History",
+                "paragraphs": [
+                    "Juno was the girl that was never meant to exist. Born with a degenerative disease that would age her backwards until she was nothing. She lived on despite it, albeit with heavy consequences...",
+                    "This continued for years, all until at the age of twenty-six, Juno was sent on a mission to scope out and possibly kill <i>La Reina</i>...",
+                    "Only escaping after <i>Ferd Ray</i> had brushed some of the rope that tied her..."
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    "\"Gay.\""
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i>Amyl Evergreen (Mother)</i>",
+                    "<i>Nayami Yuki (Complicated And Troubled Relationship)</i>"
+                ]
+            }
+        ]
+    },
+    "toby": {
+        "name": "Toby",
+        "title": "Local sexyman",
+        "images": [],
+        "blockOne": {
+            "Author": "Trash7129",
+            "Origin": "Sol-3²², North American-Like Continent, West",
+            "Species": "Anthropomorphic Housecat",
+            "Gender": "Male",
+            "Age": "24",
+            "Birthday": "June 21st",
+            "Height / Weight": "175 cm (5' 9\") / 907184 kg (2,000,000 lbs)",
+            "Blood Type": "O+",
+            "Internet Username": "Tobaised"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "Cat."
+                ]
+            },
+            {
+                "heading": "Appearance",
+                "paragraphs": [
+                    "Cat. Grey fur with white patterns, usually wears jeans and his red sneakers."
+                ]
+            },
+            {
+                "heading": "Personality",
+                "paragraphs": [
+                    "Bit anxious a bit of a loser."
+                ]
+            },
+            {
+                "heading": "History",
+                "paragraphs": [
+                    "TBD."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i>Sophie (Lover)</i>",
+                    "<i>Jinx (Acquaintance?)</i>",
+                    "<i>Alice (Fears)</i>"
+                ]
+            }
+        ]
+    },
+    "taylor": {
+    "name": "Taylor",
+    "title": "Rabittoid",
+    "images": [],
+    "blockOne": {
+      "Author": "DopTime",
+      "Species": "Jackalope",
+      "Gender": "Male",
+      "Age": "21",
+      "Birthday": "Not provided",
+      "Height / Weight": "4' 9\" / ~79 lbs",
+      "Blood Type": "O-",
+      "Internet Username": "BunnyMode"
+    },
+    "blockTwo": [
+      {
+        "heading": "General Information",
+        "paragraphs": [
+          "Taylor is a young jackalope who's always siding with caution and sticking to the plan."
+        ]
+      },
+      {
+        "heading": "Appearance",
+        "paragraphs": [
+          "Short and of average weight, his ears are always laying flat down, either over or behind his shoulders, his fur fluctuates between an orange and a light brown, depending on dietary and hormonal changes. His antlers are a dark brown, as wide as they are tall, and his tail is a short nub. His eyes are big, round, and a vivid shade of pink. As most rabbits, he has a wide nose and two well developed incisors, as well as long, flat feet.",
+          "On an average day he likes wearing comfortable clothes, not minding much whether they match too well, but on an outing with friends or similar event, he'll try to go all out, often prioritizing clothes from the unisex aisle."
+        ]
+      },
+      {
+        "heading": "Personality",
+        "paragraphs": [
+          "Anxious and unambitious, you'll have a tough time persuading him to do much, but he does try to put his best foot forward to satisfy his friends so they won't worry about him. However, every night he can hear the gears of the clock turning, and he can't help but worry that \"the way he is\" is costing him dearly."
+        ]
+      },
+      {
+        "heading": "History",
+        "paragraphs": [
+          "Taylor used to live in a distant warm island, despite loving the nature and the people, he always felt suffocated by his overbearing relatives, and moving out to the big city seemed like a perfectly ambitious and acceptable excuse to be far away, without straight up severing bonds, as well as allowing him for a little more \"people watching\". They could still meet up on every other christmas, but he didn't have anyone to answer to on his everyday life."
+        ]
+      },
+      {
+        "heading": "Trivia",
+        "listItems": [
+          "In early idealization, he wore the same outfit as Heather Mason from Silent Hill 3.",
+          "Formerly, he had heterochromic eyes, one being the current pink and the other a lime green.",
+          "Spawned from every person's need to be a bit of a little guy who gets to sleep a lot."
+        ]
+      }
+    ]
+  }
 }

@@ -3,7 +3,7 @@
         "id": "ferdRay",
         "name": "Ferd Ray",
         "thumbnail": "ferdRayThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+        "flavorText": "The reckless protagonist of <i>Stories of the Dead: Black & White</i> and <i>THE GAME</i>, also featured in <i>Totally Fine</i>. He's known for tackling his foes and obstacles in the most absurd ways possible and never giving up."
     },
     {
         "id": "enaLone",
@@ -18,81 +18,39 @@
         "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
     },
     {
-        "id": "enaLone",
-        "name": "Ena Lone",
-        "thumbnail": "enaLoneThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+        "id": "junoEvergreen",
+        "name": "Juno Evergreen ✰",
+        "thumbnail": "junoEvergreenThumb.png",
+        "flavorText": "Juno is a cybernetic animal suffering from a taxing ailment, formerly used by the citadel as a weapon, she has now found freedom with the help of new allies."
     },
     {
-        "id": "ferdRay",
-        "name": "Ferd Ray",
-        "thumbnail": "ferdRayThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+        "id": "qwerturdle",
+        "name": "Georg ✰",
+        "thumbnail": "qwerturdleThumb.png",
+        "flavorText": "Like a gamer, racist... turt- look man idk I just type these in."
     },
     {
-        "id": "enaLone",
-        "name": "Ena Lone",
-        "thumbnail": "enaLoneThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+        "id": "icyCruz",
+        "name": "Icy Cruz ✰",
+        "thumbnail": "icyCruzThumb.png",
+        "flavorText": "An axolotl who loves nothing more than his girlfriend (and food), it'll take a moment for him to warm up to you, but you'll have found a real ride or die."
     },
     {
-        "id": "ferdRay",
-        "name": "Ferd Ray",
-        "thumbnail": "ferdRayThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+        "id": "jinx",
+        "name": "Jinx ✰",
+        "thumbnail": "jinxThumb.png",
+        "flavorText": "A free spirited coyote who's not above picking on their friends, but who'll always be there in their time of need."
     },
     {
-        "id": "enaLone",
-        "name": "Ena Lone",
-        "thumbnail": "enaLoneThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+        "id": "toby",
+        "name": "Toby ✰",
+        "thumbnail": "tobyThumb.png",
+        "flavorText": "Toby is a domestic housecat who bagged a baddie so out of his league he'll never quite figure it out."
     },
     {
-        "id": "ferdRay",
-        "name": "Ferd Ray",
-        "thumbnail": "ferdRayThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
-    },
-    {
-        "id": "enaLone",
-        "name": "Ena Lone",
-        "thumbnail": "enaLoneThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
-    },
-    {
-        "id": "ferdRay",
-        "name": "Ferd Ray",
-        "thumbnail": "ferdRayThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
-    },
-    {
-        "id": "enaLone",
-        "name": "Ena Lone",
-        "thumbnail": "enaLoneThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
-    },
-    {
-        "id": "ferdRay",
-        "name": "Ferd Ray",
-        "thumbnail": "ferdRayThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
-    },
-    {
-        "id": "enaLone",
-        "name": "Ena Lone",
-        "thumbnail": "enaLoneThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
-    }
-    ,{
-        "id": "ferdRay",
-        "name": "Ferd Ray",
-        "thumbnail": "ferdRayThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
-    },
-    {
-        "id": "enaLone",
-        "name": "Ena Lone",
-        "thumbnail": "enaLoneThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+        "id": "taylor",
+        "name": "Taylor ✰",
+        "thumbnail": "taylorThumb.png",
+        "flavorText": "An anxious and directionless jackalope who'd be more than content drifting through life, was it not for his friends pushing him to do more."
     }
 ]
