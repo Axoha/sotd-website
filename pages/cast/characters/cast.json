@@ -592,10 +592,11 @@
   },
   "welder": {
     "name": "Welder",
-    "title": "",
+    "title": "Employee of the month",
     "images": [],
     "blockOne": {
       "Author": "Jegr",
+      "Origin": "Liann-2",
       "Species": "Robot (Conscious, Sentient)",
       "Gender": "Male",
       "Age": "26",
