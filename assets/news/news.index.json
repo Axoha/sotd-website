@@ -7,10 +7,24 @@
         "body": "FUUUUCK I HATE IT FUUUUCK I HATE IT FUUUUCK I HATE IT FUUUUCK I HATE IT FUUUUCK I HATE IT FUUUUCK I HATE IT FUUUUCK I HATE IT"
     },
     {
-        "id": "example",
+        "id": "exampleTwo",
         "boxType": "LatestRelease",
         "thumbnail": "example.png",
         "title": "Another example",
         "body": "Yeah, still hate, still don't like it, oh woe is me"
+    },
+    {
+        "id": "exampleThree",
+        "boxType": "QuestionMark",
+        "thumbnail": "martianCat.webp",
+        "title": "The thir onne",
+        "body": "I swear to god thiis time im really gonna do it"
+    },
+        {
+        "id": "exampleFour",
+        "boxType": "LatestRelease",
+        "thumbnail": "example.png",
+        "title": "froth one",
+        "body": "wait it's fire"
     }
 ]
