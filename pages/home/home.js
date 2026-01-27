@@ -1,4 +1,5 @@
 import { applyGlobalTheme } from "/assets/javascript/theme/theme.js"
+import { timeAgo } from "/assets/javascript/timeAgo.js"
 
 const res = await fetch("/assets/news/news.index.json")
 const news = await res.json()
@@ -12,6 +13,7 @@ news.forEach((article)=>{
     const notifier = document.createElement("img")
     const title = document.createElement("h2")
     const body = document.createElement("p")
+    const timeAgoEl = document.createElement("p")
 
     innerDiv.className = "articleContent"
     articleDiv.className = "article"
@@ -27,6 +29,9 @@ news.forEach((article)=>{
     body.innerHTML = article.body
     body.className = "articleBody"
 
+    timeAgoEl.className = "timeAgo"
+    timeAgoEl.textContent = `Published ${timeAgo(article.publishTime)}`
+
     const thumbnail = document.createElement("img")
     thumbnail.className = "thumbnail"
     thumbnail.src = `/assets/news/${article.thumbnail}`
@@ -36,6 +41,7 @@ news.forEach((article)=>{
     articleLink.appendChild(thumbnail)
     articleLink.appendChild(title)
     articleLink.appendChild(body)
+    articleLink.appendChild(timeAgoEl)
 
     uiContent.appendChild(articleDiv)
 })

@@ -69,6 +69,7 @@
         top: -0.25rem;
         text-align: left;
         white-space: nowrap;
+        transition: color 0.2s;
     }
 
     .articleBody { 
@@ -80,4 +81,17 @@
         width: 23.188rem;
         font-size: small;
         text-align: justify;
+        transition: color 0.2s;
+    }
+
+    .timeAgo {
+        position: absolute;
+        /* background-color: rgba(165, 42, 42, 0.41); */
+        font-size: 0.875rem;
+        right: 2.7rem;
+        bottom: -0.65rem;
+    }
+
+    .articleLink:hover .articleTitle {
+        color: var(--theme-accent)
     }
