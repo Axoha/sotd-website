@@ -4,7 +4,7 @@
 
         list.forEach(item => {
             const card = document.createElement("a")
-            card.className = "entryCard" //should be changed to something generic? fml
+            card.className = "entryCard"
             card.href = `${urlPrefix}?id=${item.id}`
 
             card.innerHTML = `

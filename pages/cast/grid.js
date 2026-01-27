@@ -7,10 +7,14 @@ const options = {
     urlPrefix: `/pages/cast/characters/index.html`,
     thumbnailPath: `./thumbnails`
 }
-function render(list){
-renderGrid(container, list, options)
+function render(list) {
+    renderGrid(container, list, options)
 }
 
-render(characters)
+const sortedCharacters = [...characters].sort((a, b) =>
+    a.name.localeCompare(b.name, undefined, { sensitivity: "base" })
+)
 
-setupAlphabetFilter(container, characters, render)
+render(sortedCharacters)
+
+setupAlphabetFilter(container, sortedCharacters, render)

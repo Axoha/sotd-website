@@ -11,6 +11,10 @@ function render(list){
 renderGrid(container, list, options)
 }
 
-render(entries)
+const sortedEntries = [...entries].sort((a, b) =>
+    a.name.localeCompare(b.name, undefined, { sensitivity: "base" })
+)
 
-setupAlphabetFilter(container, entries, render)
+render(sortedEntries)
+
+setupAlphabetFilter(container, sortedEntries, render)

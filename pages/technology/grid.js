@@ -13,5 +13,9 @@ function render(list){
     renderGrid(overlay,list,options)
 }
 
-render(machines)
-setupAlphabetFilter(filterBar, machines, render)
+const sortedMachines = [...machines].sort((a, b) =>
+    a.name.localeCompare(b.name, undefined, { sensitivity: "base" })
+)
+
+render(sortedMachines)
+setupAlphabetFilter(filterBar, sortedMachines, render)
