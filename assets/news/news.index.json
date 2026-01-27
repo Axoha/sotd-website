@@ -5,27 +5,34 @@
         "thumbnail": "martianCat.webp",
         "title": "Example",
         "body": "FUUUUCK I HATE IT FUUUUCK I HATE IT FUUUUCK I HATE IT FUUUUCK I HATE IT FUUUUCK I HATE IT FUUUUCK I HATE IT FUUUUCK I HATE IT",
-        "publishTime": "1769516685"
+        "publishTime": "1769516685",
+        "file": "exampleNewsEntry.md"
     },
     {
         "id": "exampleTwo",
         "boxType": "LatestRelease",
         "thumbnail": "example.png",
         "title": "Another example",
-        "body": "Yeah, still hate, still don't like it, oh woe is me"
+        "body": "Yeah, still hate, still don't like it, oh woe is me",
+        "publishTime": "",
+        "file": "exampleNewsEntry.md"
     },
     {
         "id": "exampleThree",
         "boxType": "QuestionMark",
         "thumbnail": "martianCat.webp",
         "title": "The thir onne",
-        "body": "I swear to god thiis time im really gonna do it"
+        "body": "I swear to god thiis time im really gonna do it",
+        "publishTime": "",
+        "file": "exampleNewsEntry.md"
     },
-        {
+    {
         "id": "exampleFour",
         "boxType": "LatestRelease",
         "thumbnail": "example.png",
         "title": "froth one",
-        "body": "wait it's fire"
+        "body": "wait it's fire",
+        "publishTime": "1",
+        "file": "exampleNewsEntry.md"
     }
 ]

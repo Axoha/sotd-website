@@ -34,7 +34,7 @@ news.forEach((article)=>{
 
     const thumbnail = document.createElement("img")
     thumbnail.className = "thumbnail"
-    thumbnail.src = `/assets/news/${article.thumbnail}`
+    thumbnail.src = `/assets/news/newsAssets/thumbnails/${article.thumbnail}`
     
     articleDiv.appendChild(articleLink)
     articleLink.appendChild(notifier)
