@@ -75,6 +75,72 @@
             "chapterId": "11-act-i-epilogue",
             "title": "New Friends",
             "file": "11-act-i-epilogue.md"
+        },
+        {
+            "designation": "ACT II CHAPTER I",
+            "chapterId": "12-crisis",
+            "title": "Crisis",
+            "file": "12-crisis.md"
+        },
+        {
+            "designation": "ACT II CHAPTER II",
+            "chapterId": "13-centuries-old-man",
+            "title": "Centuries Old Man",
+            "file": "13-centuries-old-man.md"
+        },
+        {
+            "designation": "ACT II CHAPTER III",
+            "chapterId": "14-shooting-stars-1",
+            "title": "Shooting Stars, I",
+            "file": "14-shooting-stars-1.md"
+        },
+        {
+            "designation": "ACT II CHAPTER IV",
+            "chapterId": "15-shooting-stars-2",
+            "title": "Shooting Stars, II",
+            "file": "15-shooting-stars-2.md"
+        },
+        {
+            "designation": "ACT II CHAPTER V",
+            "chapterId": "16-shooting-stars-3",
+            "title": "Shooting Stars, III",
+            "file": "16-shooting-stars-3.md"
+        },
+        {
+            "designation": "ACT II CHAPTER VI",
+            "chapterId": "17-underworld",
+            "title": "The Underworld",
+            "file": "17-underworld.md"
+        },
+        {
+            "designation": "ACT II CHAPTER VII",
+            "chapterId": "18-train",
+            "title": "Bullet Train",
+            "file": "18-train.md"
+        },
+        {
+            "designation": "ACT II CHAPTER VIII",
+            "chapterId": "19-connection",
+            "title": "Faraway Connection",
+            "file": "19-connection.md"
+        },
+        {
+            "designation": "ACT II CHAPTER IX",
+            "chapterId": "20-love-city",
+            "title": "Love City",
+            "file": "20-love-city.md"
+        },
+        {
+            "designation": "ACT II CHAPTER X",
+            "chapterId": "21-construct",
+            "title": "The Construct",
+            "file": "21-construct.md"
+        },
+        {
+            "designation": "ACT II CHAPTER XI",
+            "chapterId": "22-monarchy",
+            "title": "The Monarchy",
+            "file": "22-monarchy.md"
         }
     ]
 }
