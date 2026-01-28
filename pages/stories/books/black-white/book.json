@@ -141,6 +141,96 @@
             "chapterId": "22-monarchy",
             "title": "The Monarchy",
             "file": "22-monarchy.md"
+        },
+        {
+            "designation": "ACT III CHAPTER I",
+            "chapterId": "23-tartarus",
+            "title": "Tartarus",
+            "file": "23-tartarus.md"
+        },
+        {
+            "designation": "ACT III CHAPTER II",
+            "chapterId": "24-unintelligible",
+            "title": "UNINTELLIGIBLE",
+            "file": "24-unintelligible.md"
+        },
+        {
+            "designation": "ACT III CHAPTER III",
+            "chapterId": "25-containment",
+            "title": "Containment",
+            "file": "25-containment.md"
+        },
+        {
+            "designation": "ACT III CHAPTER IV",
+            "chapterId": "26-catching-up",
+            "title": "Catching Up",
+            "file": "26-catching-up.md"
+        },
+        {
+            "designation": "ACT III CHAPTER V",
+            "chapterId": "27-questionable",
+            "title": "Questionable Life",
+            "file": "27-questionable.md"
+        },
+        {
+            "designation": "ACT III CHAPTER VI",
+            "chapterId": "28-heart-of-the-underworld",
+            "title": "Heart Of The Underworld",
+            "file": "28-heart-of-the-underworld.md"
+        },
+        {
+            "designation": "ACT III CHAPTER VII",
+            "chapterId": "29-the-jester",
+            "title": "At Last, The Jester",
+            "file": "29-the-jester.md"
+        },
+        {
+            "designation": "ACT III CHAPTER VIII",
+            "chapterId": "30-best-friends",
+            "title": "Best Friends Forever",
+            "file": "30-best-friends.md"
+        },
+        {
+            "designation": "ACT III CHAPTER IX",
+            "chapterId": "31-falling",
+            "title": "Falling Behind",
+            "file": "31-falling.md"
+        },
+        {
+            "designation": "ACT III CHAPTER X",
+            "chapterId": "32-back-in-war",
+            "title": "Back In War",
+            "file": "32-back-in-war.md"
+        },
+        {
+            "designation": "ACT III CHAPTER XI",
+            "chapterId": "33-rila",
+            "title": "Someone's Special Chapter",
+            "file": "33-rila.md"
+        },
+        {
+            "designation": "ACT III CHAPTER XII",
+            "chapterId": "34-the-tale",
+            "title": "The Story Of Black And White",
+            "file": "34-the-tale.md"
+        },
+        {
+            "designation": "ACT III CHAPTER XIII",
+            "chapterId": "35-queen",
+            "title": "The Queen Of Creation",
+            "file": "35-queen.md"
+        },
+        {
+            "designation": "UNINTELLIGIBLE",
+            "chapterId": "36-positive-negative",
+            "title": "UNINTELLIGIBLE",
+            "file": "36-positive-negative.md"
+        },
+        {
+            "designation": "EPILOGUE",
+            "chapterId": "37-epilogue",
+            "title": "Fireworks",
+            "file": "37-epilogue.md"
         }
     ]
 }
