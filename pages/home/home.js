@@ -5,8 +5,7 @@ const res = await fetch("/assets/news/news.index.json")
 const news = await res.json()
 const uiContent = document.querySelector(".uiContent")
 
-//fuckcing making thhe fucking thingy fucking have two divs so II cann make the thingy the backgroundd an have the other thingy on top of it
-news.forEach((article)=>{
+news.slice(-4).reverse().forEach((article)=>{ //all these methods are so only the latest 4 news are displayed and so they're in order newest at the top oldest at the bottom
     const articleDiv = document.createElement("div")
     const articleLink = document.createElement("a")
     const innerDiv = document.createElement("div")
