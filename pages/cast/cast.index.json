@@ -3,7 +3,7 @@
         "id": "ferdRay",
         "name": "Ferd Ray",
         "thumbnail": "ferdRayThumb.png",
-        "flavorText": "The reckless protagonist of <i>Stories of the Dead: Black & White</i> and <i>THE GAME</i>, also featured in <i>Totally Fine</i>. He's known for tackling his foes and obstacles in the most absurd ways possible and never giving up."
+        "flavorText": "A cat of mysterious origins, Ferd is a hardened veteran who's recklessness landed him many successful missions and accolades, though he'd give it all up to protect who he loves most."
     },
     {
         "id": "enaLone",
@@ -58,5 +58,11 @@
         "name": "Welder ✰",
         "thumbnail": "welderThumb.png",
         "flavorText": "Carefree robot specialising in welding, construction and repair. If you need any help with mechanical construction and repairs contact on: [REDACTED]"
+    },
+    {
+        "id": "elysia",
+        "name": "Elysia ✰",
+        "thumbnail": "elysiaThumb.png",
+        "flavorText": "An acient cheetah who mysteriously washed up the coast, or at least that's the working theory. She now attempts to fit into this wholly changed world."
     }
 ]

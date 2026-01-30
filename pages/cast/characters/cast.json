@@ -643,5 +643,70 @@
         ]
       }
     ]
-  }
+  },
+  "elysia": {
+    "name": "Elysia",
+    "title": "",
+    "images" : [],
+    "blockOne": {
+        "Author": "cbaer08",
+        "Origin": "???",
+        "Species": "Cheetah",
+        "Race": "Idk",
+        "Ethnicity": "mixed?",
+        "Gender": "Female",
+        "Age": "???",
+        "Birthday": "???",
+        "Height / Weight": "5'6\" / 180lbs",
+        "Blood Type": "B+",
+        "Internet Username": "prohibited from the internet"
+    },
+    "blockTwo": [
+        {
+            "heading": "General Information",
+            "paragraphs": [
+                "Elysia seems to be an ancient cheetah of some sort who was found near the coastline in Novus Terra 6/18/2026. She always seems confused and unsure, but continues to explore her surroundings. As of right now, she's being observed in Novus Terra's laboratory for further information."
+            ]
+        },
+        {
+            "heading": "Appearance",
+            "paragraphs": [
+                "Elysia is a light orange cheetah with tons of mysterious scars and wounds all over her body with heterochromatic eyes (right one light blue and the left one yellow). She has very long, curly, dark brown hair reaching her legs, but rarely lets it down, always having it in a massive ponytail or bun. She landed on the planet bare foot with tattered clothing covering her chest and bottom surprisingly made from cotton, and now wears comfy baggy shirts that can cover her entire body with shorts."
+            ]
+        },
+        {
+            "heading": "Personality",
+            "listItems": [
+                "Very reckless / destroys a lot",
+                "Can be very moody",
+                "Intelligent (sometimes)",
+                "Attachement issues",
+                "Sleeps a lot",
+                "Loves company (if possible)",
+                "Likes to explore"
+            ]
+        },
+        {
+            "heading": "History",
+            "paragraphs": [
+                "There seems to be no collection or trace of her history, nor could it be found at the moment."
+            ]
+        },
+        {
+            "heading": "Trivia",
+            "listItems": [
+                "Starting to understand more of the customs and language of Novus Terra",
+                "Cuddles with bowls after her meals",
+                "Her favorite color is <b style=\"background-color: #801b23\">dark rose</b>"
+            ]
+        },
+        {
+            "heading": "Connections",
+            "listItems": [
+                "Has seen Sammy once."
+            ]
+        }
+    ]
+    
+}
 }

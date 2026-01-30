@@ -34,5 +34,14 @@
         "body": "wait it's fire",
         "publishTime": "1",
         "file": "exampleNewsEntry.md"
+    },
+    {
+        "id": "exampleFive",
+        "boxType": "LatestRelease",
+        "thumbnail": "example.png",
+        "title": "This one should replace the first one",
+        "body": "did it? :O",
+        "publishTime": "1769634640",
+        "file": "exampleNewsEntry.md"
     }
 ]
