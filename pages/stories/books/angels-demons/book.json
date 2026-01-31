@@ -45,6 +45,204 @@
             "chapterId": "6-never-go",
             "title": "...Should Never Go Unnoticed",
             "file": "6-never-go.md"
+        },
+        {
+            "designation": "ACT II CHAPTER I",
+            "chapterId": "7-candles",
+            "title": "The Candles Of The Dead Continue To Burn Ever So Brightly",
+            "file": "7-candles.md"
+        },
+        {
+            "designation": "ACT II CHAPTER II",
+            "chapterId": "8-desire",
+            "title": "My One Desire",
+            "file": "8-desire.md"
+        },
+        {
+            "designation": "ACT II CHAPTER III",
+            "chapterId": "9-bullies",
+            "title": "Bullies",
+            "file": "9-bullies.md"
+        },
+        {
+            "designation": "ACT II CHAPTER IV",
+            "chapterId": "10-presence",
+            "title": "Within Your Presence",
+            "file": "10-presence.md"
+        },
+        {
+            "designation": "ACT II CHAPTER V",
+            "chapterId": "11-mask",
+            "title": "Uncovering The Mask",
+            "file": "11-mask.md"
+        },
+        {
+            "designation": "ACT II CHAPTER VI",
+            "chapterId": "12-showdown",
+            "title": "Showdown",
+            "file": "12-showdown.md"
+        },
+        {
+            "designation": "ACT II CHAPTER VII",
+            "chapterId": "13-final",
+            "title": "Final Round",
+            "file": "13-final.md"
+        },
+        {
+            "designation": "ACT II CHAPTER VIII",
+            "chapterId": "14-constant-desire",
+            "title": "Your Constant Desire",
+            "file": "14-constant-desire.md"
+        },
+        {
+            "designation": "ACT II CHAPTER IX",
+            "chapterId": "15-rila-2",
+            "title": "Rila, II",
+            "file": "15-rila-2.md"
+        },
+        {
+            "designation": "ACT III CHAPTER I",
+            "chapterId": "16-hidden",
+            "title": "The Hidden War",
+            "file": "16-hidden.md"
+        },
+        {
+            "designation": "ACT III CHAPTER II",
+            "chapterId": "17-time-space-2",
+            "title": "The Age Of Time And Space, Sequel",
+            "file": "17-time-space-2.md"
+        },
+        {
+            "designation": "ACT III CHAPTER III",
+            "chapterId": "18-numbers",
+            "title": "They Think In Numbers",
+            "file": "18-numbers.md"
+        },
+        {
+            "designation": "ACT III CHAPTER IV",
+            "chapterId": "19-degrees",
+            "title": "40,000 Degress Of Love",
+            "file": "19-degrees.md"
+        },
+        {
+            "designation": "ACT III CHAPTER V",
+            "chapterId": "20-hive",
+            "title": "The Hive",
+            "file": "20-hive.md"
+        },
+        {
+            "designation": "ACT III CHAPTER VI",
+            "chapterId": "21-beneath-hive",
+            "title": "Beneath The Hive",
+            "file": "21-beneath-hive.md"
+        },
+        {
+            "designation": "ACT III CHAPTER VII",
+            "chapterId": "22-my-heart",
+            "title": "My Heart Beats For You, Brother",
+            "file": "22-my-heart.md"
+        },
+        {
+            "designation": "ACT III EPILOGUE",
+            "chapterId": "23-act-3-epilogue",
+            "title": "Aftermath",
+            "file": "23-act-3-epilogue.md"
+        },
+        {
+            "designation": "ACT IV CHAPTER I",
+            "chapterId": "24-transmission",
+            "title": "The Transmission",
+            "file": "24-transmission.md"
+        },
+        {
+            "designation": "ACT IV CHAPTER II",
+            "chapterId": "25-daughter-1",
+            "title": "The Daughter Of The Holy Earth, I",
+            "file": "25-daughter-1.md"
+        },
+        {
+            "designation": "ACT IV CHAPTER III",
+            "chapterId": "26-daughter-2",
+            "title": "The Daughter Of The Holy Earth, II",
+            "file": "26-daughter-2.md"
+        },
+        {
+            "designation": "ACT IV CHAPTER IV",
+            "chapterId": "27-daughter-3",
+            "title": "The Daughter Of The Holy Earth, III",
+            "file": "27-daughter-3.md"
+        },
+        {
+            "designation": "ACT IV CHAPTER V",
+            "chapterId": "28-fifth",
+            "title": "The Fifth Subject",
+            "file": "28-fifth.md"
+        },
+        {
+            "designation": "ACT IV CHAPTER VI",
+            "chapterId": "29-illusion",
+            "title": "Illusion Of Choice",
+            "file": "29-illusion.md"
+        },
+        {
+            "designation": "ACT IV CHAPTER VII",
+            "chapterId": "30-angels-vs-demons",
+            "title": "Angels Vs. Demons",
+            "file": "30-angels-vs-demons.md"
+        },
+        {
+            "designation": "ACT IV CHAPTER VIII",
+            "chapterId": "31-coming-end",
+            "title": "The Coming End Of An Era",
+            "file": "31-coming-end.md"
+        },
+        {
+            "designation": "ACT IV CHAPTER IX",
+            "chapterId": "32-fall",
+            "title": "The Fall Of The Holy Earth",
+            "file": "32-fall.md"
+        },
+        {
+            "designation": "ACT IV EPILOGUE",
+            "chapterId": "33-act-4-epilogue",
+            "title": "Love",
+            "file": "33-act-4-epilogue.md"
+        },
+        {
+            "designation": "ACT V PART I",
+            "chapterId": "34-part-1",
+            "title": "It is not your fault.",
+            "file": "34-part-1.md"
+        },
+        {
+            "designation": "ACT V PART II",
+            "chapterId": "35-part-2",
+            "title": "It is not your fault.",
+            "file": "35-part-2.md"
+        },
+        {
+            "designation": "ACT V PART III",
+            "chapterId": "36-part-3",
+            "title": "It is not your fault.",
+            "file": "36-part-3.md"
+        },
+        {
+            "designation": "ACT V PART IV",
+            "chapterId": "37-part-4",
+            "title": "It is not your fault.",
+            "file": "37-part-4.md"
+        },
+        {
+            "designation": "ACT V PART V",
+            "chapterId": "38-part-5",
+            "title": "It is not your fault.",
+            "file": "38-part-5.md"
+        },
+        {
+            "designation": "EPILOGUE",
+            "chapterId": "39-end",
+            "title": "An Existence Void Of...",
+            "file": "39-end.md"
         }
     ]
 }
