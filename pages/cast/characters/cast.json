@@ -4,8 +4,20 @@
         "title": "Totally fine cat dude",
         "images": [
             {
-                "file": "FerdRay.png",
-                "title": "Ferd ray there"
+                "file": "ferd1.png",
+                "title": ""
+            },
+            {
+                "file": "ferd2.png",
+                "title": ""
+            },
+            {
+                "file": "ferd3.png",
+                "title": "Teen Years"
+            },
+            {
+                "file": "ferdwoah.png",
+                "title": "Woah"
             }
         ],
         "blockOne": {
@@ -55,7 +67,7 @@
                     "During his first year in high school he would mysteriously disappear for up to two weeks alongside a few of his other classmates and then return as if nothing had ever happened. He continued to do well in classes, until he got closer to Ena Lone, then his grades began dropping drastically. Even with that, they've both managed to graduate normally. As an adult Ferd would find a regular retail job, often getting fired due to a severe mistake or two. Eventually, him and Ena chose to enlist in the military just to recover from their financial problems.",
                     "There they'd proceed to go through an ordinary bootcamp for a few weeks, initially struggling but later excelling in final exams. Then the first missions struck harshly, but overtime, using their experiences from a journey they went through as teenagers, they became the best in their group. Seven years of constant missions have hit them, and they enjoyed them all. However, at the end of the seventh year Ena vanished without a trace, which led to Ferd abandoning his whole group and reputation just to find her in the New Babylon (as told by Masy, the divine caretaker). Within the New Babylon Ferd meets Houston, who tells him that they know of a way to reach Ena. They lead him to a museum that covers the history of a Divine Era, sharing facts as they make their way to a hidden room containing the golden gauntlet. Upon hearing that the gauntlet is the key to finding Ena, Ferd with no hesitation breaks through the security and steals the gauntlet. At that moment the gauntlet becomes bound to him for good and the merciless alarms sound. Ferd and Houston make their escape out of the New Babylon as they are chased by the highest forces the Babylon can muster.",
                     "After an exhausting trip, Ferd wakes in a monochrome wasteland under someone's makeshift shelter. There he meets Ally, who just stumbled upon his body and took good care before he woke up. Ally believes that Ferd must be here for the same reason, finding their lover who has mysteriously made their way here. They ready their gear and make their way into the snow, walking towards a gate that's been locked for a good while. The gate needed a six-letter password to be unlocked via strange symbols, she's been trying for hours each day finding the proper word to unlock it. Ferd decides to help, and for hours they sit around the gate with a campfire trying out various combinations, until a little Inka appears holding a pair of flowers. The password was srewofl.",
-                    "Find out more in <a href=\"/pages/pardonourdust\">SOTD: Black & White (Draft)</a>."
+                    "Find out more in <a href=\"/pages/stories/books/black-white\">SOTD: Black & White (Draft)</a>."
                 ]
             },
             {
@@ -153,7 +165,7 @@
         "title": "One Beloved Android",
         "images": [
             {
-                "title": "Image One",
+                "title": "",
                 "file": "HazuneNiku.png"
             }
         ],
@@ -263,7 +275,7 @@
             }
         ]
     },
-    "georg": {
+    "qwerturdle": {
         "name": "Georg",
         "title": "Grass roots gamer (derogatory)",
         "images": [
@@ -280,7 +292,7 @@
             "Gender": "Chimera",
             "Age": "2",
             "Birthday": "January 31st",
-            "Height / Weight": "76 cm (2’ 6\") / 34 kg (77 lbs)",
+            "Height / Weight": "76 cm (2' 6\") / 34 kg (77 lbs)",
             "Blood Type": "A",
             "Internet Username": "Qwerturdoise"
         },
@@ -384,7 +396,20 @@
     "jinx": {
         "name": "Jinx",
         "title": "The Prankster",
-        "images": [],
+        "images": [
+            {
+                "title": "",
+                "file": "Jinx1.png"
+            },
+            {
+                "title": "",
+                "file": "Jinx2.png"
+            },
+            {
+                "title": "",
+                "file": "Jinx3.png"
+            }
+        ],
         "blockOne": {
             "Author": "Kat (dietmilkers)",
             "Origin": "Sol-3²², Mountainous Area",
@@ -435,7 +460,12 @@
     "junoEvergreen": {
         "name": "Juno Evergreen",
         "title": "The Girl that was never meant to exist",
-        "images": [],
+        "images": [
+            {
+                "title": "",
+                "file": "juno1.png"
+            }
+        ],
         "blockOne": {
             "Author": "Credit",
             "Origin": "Unknown",
