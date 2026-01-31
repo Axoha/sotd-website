@@ -1,5 +1,10 @@
 [
     {
+        "bookId": "angels-demons",
+        "title": "Angels & Demons",
+        "cover": "./books/angels-demons/cover.png"
+    },
+    {
         "bookId": "black-white",
         "title": "Black & White",
         "cover": "./books/black-white/cover.png"

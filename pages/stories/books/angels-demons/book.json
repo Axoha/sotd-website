@@ -1,0 +1,50 @@
+{
+    "bookId": "angels-demons",
+    "title": "Angels & Demons",
+    "synopsis": "During the late 21st century humanity<br> was in ruin. Ravaged by endless wars,<br> humanity built a collider which brought<br> an angel to the world, and so ushered<br> a new renaissance for millennia to come. Ferdinand Ray, a young optimistic<br> individual is invited to a sacred place<br> above all - The Holy Earth. Following his dreams, it is apparent that he is destined for something bigger.",
+    "cover": "cover.png",
+    "chapters": [
+        {
+            "designation": "PRELUDE",
+            "chapterId": "0-prelude",
+            "title": "The Age Of Time And Space",
+            "file": "0-prelude.md"
+        },
+        {
+            "designation": "ACT I CHAPTER I",
+            "chapterId": "1-holy-earth",
+            "title": "The Holy Earth",
+            "file": "1-holy-earth.md"
+        },
+        {
+            "designation": "ACT I CHAPTER II",
+            "chapterId": "2-rila-1",
+            "title": "Rila, I",
+            "file": "2-rila-1.md"
+        },
+        {
+            "designation": "ACT I CHAPTER III",
+            "chapterId": "3-unspoken",
+            "title": "Unspoken Feelings...",
+            "file": "3-unspoken.md"
+        },
+        {
+            "designation": "ACT I CHAPTER IV",
+            "chapterId": "4-dozy",
+            "title": "Dozy Days",
+            "file": "4-dozy.md"
+        },
+        {
+            "designation": "ACT I CHAPTER V",
+            "chapterId": "5-first-day",
+            "title": "The First Day",
+            "file": "5-first-day.md"
+        },
+        {
+            "designation": "ACT I CHAPTER VI",
+            "chapterId": "6-never-go",
+            "title": "...Should Never Go Unnoticed",
+            "file": "6-never-go.md"
+        }
+    ]
+}
