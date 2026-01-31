@@ -1,12 +1,12 @@
 [
     {
         "bookId": "angels-demons",
-        "title": "Angels & Demons",
+        "title": "Angels & Demons (D)",
         "cover": "./books/angels-demons/cover.png"
     },
     {
         "bookId": "black-white",
-        "title": "Black & White",
+        "title": "Black & White (D)",
         "cover": "./books/black-white/cover.png"
     }
 ]
