@@ -20,19 +20,19 @@
     {
         "id": "junoEvergreen",
         "name": "Juno Evergreen ✰",
-        "thumbnail": "junoEvergreenThumb.png",
+        "thumbnail": "junoThumb.png",
         "flavorText": "Juno is a cybernetic animal suffering from a taxing ailment, formerly used by the citadel as a weapon, she has now found freedom with the help of new allies."
     },
     {
         "id": "qwerturdle",
         "name": "Georg ✰",
-        "thumbnail": "qwerturdleThumb.png",
+        "thumbnail": "georgThumb.png",
         "flavorText": "Like a gamer, racist... turt- look man idk I just type these in."
     },
     {
         "id": "icyCruz",
         "name": "Icy Cruz ✰",
-        "thumbnail": "icyCruzThumb.png",
+        "thumbnail": "icyThumb.png",
         "flavorText": "An axolotl who loves nothing more than his girlfriend (and food), it'll take a moment for him to warm up to you, but you'll have found a real ride or die."
     },
     {
@@ -56,13 +56,13 @@
     {
         "id": "welder",
         "name": "Welder ✰",
-        "thumbnail": "welderThumb.png",
+        "thumbnail": "unknown.png",
         "flavorText": "Carefree robot specialising in welding, construction and repair. If you need any help with mechanical construction and repairs contact on: [REDACTED]"
     },
     {
         "id": "elysia",
         "name": "Elysia ✰",
-        "thumbnail": "elysiaThumb.png",
+        "thumbnail": "unknown.png",
         "flavorText": "An acient cheetah who mysteriously washed up the coast, or at least that's the working theory. She now attempts to fit into this wholly changed world."
     }
 ]
