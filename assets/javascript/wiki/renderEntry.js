@@ -31,7 +31,8 @@ export function renderEntry({
 
         slide.innerHTML = `
         <img src="${assetBasePath}/${entryId}/${img.file}">
-        <h2 class="titleText imageTitle">${img.title}</h2>
+        <h2 class="titleText imageTitle">${img.title || ""}</h2>
+        <p class="titleText imageCredits">${img.credits || ""}</p>
         `
 
         track.appendChild(slide)

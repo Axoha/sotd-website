@@ -5,7 +5,8 @@
         "images": [
             {
                 "file": "ferd1.png",
-                "title": ""
+                "title": "",
+                "credits":"by @Radropicall"
             },
             {
                 "file": "ferd2.png",
@@ -17,7 +18,8 @@
             },
             {
                 "file": "ferdwoah.png",
-                "title": "Woah"
+                "title": "Woah",
+                "credits":"by @Trash7129"
             }
         ],
         "blockOne": {
@@ -398,16 +400,19 @@
         "title": "The Prankster",
         "images": [
             {
-                "title": "by @Radropicall",
-                "file": "Jinx1.png"
+                "title": "",
+                "file": "Jinx1.png",
+                "credits": "by @Radropicall"
             },
             {
-                "title": "by @Radropicall",
-                "file": "Jinx2.png"
+                "title": "",
+                "file": "Jinx2.png",
+                "credits": "by @Radropicall"
             },
             {
-                "title": "by @Radropicall",
-                "file": "Jinx3.png"
+                "title": "",
+                "file": "Jinx3.png",
+                "credits": "by @Radropicall"
             }
         ],
         "blockOne": {

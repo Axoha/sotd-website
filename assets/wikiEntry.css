@@ -85,6 +85,7 @@
     }
 
     .imageTitle {
+        font-size: 20px;
         opacity: 0;
         position: absolute;
         top: 0.75%;
@@ -95,6 +96,20 @@
                 rgba(0, 0, 0, 0));
         margin-top: -0.2rem;
         padding: 0.5rem 0;
+    }
+
+    .imageCredits {
+        box-sizing: border-box;
+        width: 100%;
+        font-size: small;
+        position: absolute;
+        bottom: -4%;
+        text-align: right;
+        padding-bottom: 3%;
+        padding-right: 2%;
+        background: linear-gradient(to top,
+                rgba(0, 0, 0, 1),
+                rgba(0, 0, 0, 0));
     }
 
     .carouselTrack {
