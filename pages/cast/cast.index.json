@@ -56,7 +56,7 @@
     {
         "id": "welder",
         "name": "Welder ✰",
-        "thumbnail": "unknown.png",
+        "thumbnail": "welderthumb.png",
         "flavorText": "Carefree robot specialising in welding, construction and repair. If you need any help with mechanical construction and repairs contact on: [REDACTED]"
     },
     {
@@ -64,5 +64,11 @@
         "name": "Elysia ✰",
         "thumbnail": "unknown.png",
         "flavorText": "An acient cheetah who mysteriously washed up the coast, or at least that's the working theory. She now attempts to fit into this wholly changed world."
+    },
+    {
+        "id": "ally",
+        "name": "Ally Parks",
+        "thumbnail": "allythumb.png",
+        "flavorText": "tax this is yo job"
     }
 ]

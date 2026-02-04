@@ -679,6 +679,91 @@
       }
     ]
   },
+      "ally": {
+        "name": "Ally Parks",
+        "title": "tax this is also yo job",
+        "images": [
+            {
+                "title": "",
+                "file": "Ally1.png",
+                "credits": "by @Radropicall"
+            },
+            {
+                "title": "",
+                "file": "Ally2.png"
+            },
+            {
+                "title": "",
+                "file": "Ally3.png",
+                "credits": "by @Trash7129"
+            },
+            {
+                "title": "",
+                "file": "Ally4.png"
+            }
+        ],
+        "blockOne": {
+            "Origin": "Sol-3²², American-Like Continent, West",
+            "Species": "Anthropomorphic Axolotl",
+            "Ethnicity": "Mixed",
+            "Gender": "Female",
+            "Age": "21 (Black & White B-Side) <br><span class=\"ageMargin\">23 (Black & White) </span><br><span class=\"ageMargin\">28 (Post Actologue) </span>",
+            "Birthday": "February 14th",
+            "Height / Weight": "165 cm (5' 5\") / 51 kg (112 lbs)",
+            "Blood Type": "O+",
+            "Internet Username": "mibiribi"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "Ally Parks is the sweetest supporting character of <i>Stories of the Dead: Black & White</i> and its <i>Post Actologue</i>. She's known for her exciting energy, history, and unyielding optimistic hope."
+                ]
+            },
+            {
+                "heading": "Appearance",
+                "paragraphs": [
+                    "Ally has a smooth dark-magenta skin with a slimy coat and redder fluffy gills. She has a bubbly ponytail using a technique many anthropomorphic salamanders use to have hair for style. She is pretty skinny and lightweight due to fast metabolism. Her tail is longer and heavier than average for the height, weight, and age, letting her use it for many habits such as balancing and odd relaxing positions. Due to some possible background of her interacting with mammals (often the feline type), she learned to use her tail reflexively to signal her emotion. Her slimy coat is either nasty or unnoticeable depending on her mood, whenever she's stressed her body naturally produces an excess amount of slime from her whole body - generally similar to sweat but more viscous and worse. Oddly enough, she can use the slime coat to slide around on a smooth floor. If she's barefoot she'll have a hard time standing. Just like most anthropomorphic aquatic beings she has no webbed hands due to evolution.",
+                    "She wears makeup, more notably a thick black eyeliner with three additional spiky eyelashes below each eye. She also has a band aid on her snout, despite recovering from an injury years ago she still keeps the band aid on, same goes for her lower left cheek. She stylizes her gills like hair, letting them droop down on her shoulders and below. An important fact to note is that she absolutely hates shirts, likely due to the excess slime she produces when she's stressed, she has her chest wrapped with bandages for cover instead. Even during the winter, she doesn't mind not wearing a shirt or a coat, she enjoys the cold as axolotls naturally do. She loves to wear baggy pants of any kind, as long as they're one size bigger than hers.",
+                    "During the beginning of the Monochrome Era her skin turns completely white. Though she retained her previous style, her fashion choices led to a more military-styled approach, wearing ammo belts and camouflaged pants. Sometimes on rare occasion, Ferd lets her wear his round black glasses.",
+                    "After the <i>Actologue</i> her appearance turns more rough, though she still remains the same Ally she always ever was."
+                ]
+            },
+            {
+                "heading": "Personality",
+                "paragraphs": [
+                    "Ally tries to be everyone's best friend. She is very empathetic and will prioritize others rather than herself if necessary. Generally she's very energetic, but knows when to stop. She will never run out of things to say and can keep conversations going for hours. Ally's personality has rarely changed, but with each moment she loses a close friend her desire to keep strong connections grows to the point where it can be concerning.",
+                    "Before the monochrome era, somewhere in an unknown desolate wasteland, Ally is a confused soul. She meets Emma Hindue, her eventual soulmate, and a few other close friends who help her find herself. She learns a lot, willingly, and adopts the explosive personality from Emma and the care for others from helping those in need. Additionally, some of the conversation starters and jokes she says are copied from Emma later on, except for the fact that she's not the butt of a joke this time.",
+                    "Ally is the heart of a trio she gets close to in Black & White. Cracking jokes, taking things lightly, being there for others when they need it the most. However this personality she's been keeping for years is completely destroyed during one heart-breaking moment. At the end of the monochrome era and afterwards, she becomes depressed and adopts a more soft and caring personality. She eventually completely lets go of the childish wonder and joy she once had. Despite depression, her soul remains strong."
+                ]
+            },
+            {
+                "heading": "History",
+                "paragraphs": [
+                    "It's not clear what she was up to before her rise of popularity in the wastelands and the monochrome era. She wasn't really all that special in the group she was a part of either, at least in the eyes of strangers. Her tale is yet to be known."
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    "She didn't exist until I recolored the 'Axo' skin from Fortnite to put in one of my older artworks. An idea struck me at that moment.",
+                    "A friend of mine Jegr pitched the idea of her being able to slide around with her slimy coat.",
+                    "She has a Samsung Galaxy S III phone which she uses to play ancient android games, similar to the one I have.",
+                    "She likes to be held in the air by her waist because she's so light, it makes her feel free and really happy."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i>Sue Parks (Sister)</i>",
+                    "<i>Emma Hindue (Lover)</i>",
+                    "<i>Ferd Ray (Best Friend)</i>",
+                    "<i>Houston March ('Best Friends Forever')</i>",
+                    "<i>Masy (Friend)</i>"
+                ]
+            }
+        ]
+    },
   "elysia": {
     "name": "Elysia",
     "title": "",
