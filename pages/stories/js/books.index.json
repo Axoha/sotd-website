@@ -8,5 +8,10 @@
         "bookId": "black-white",
         "title": "Black & White (D)",
         "cover": "./books/black-white/cover.png"
+    },
+    {
+        "bookId": "black-white-c-side",
+        "title": "Black & White C-Side (D)",
+        "cover": "./books/black-white-c-side/cover.png"
     }
 ]

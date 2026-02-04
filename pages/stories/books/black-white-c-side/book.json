@@ -1,0 +1,32 @@
+{
+    "bookId": "black-white-c-side",
+    "title": "Black & White ----- C-Side",
+    "synopsis": "It all begins with one wild race and one reckless Houston. Seven years before the events of Black & White.",
+    "cover": "cover.png",
+    "chapters": [
+        {
+            "designation": "PRELUDE",
+            "chapterId": "0-prelude",
+            "title": "The Creation Of Bill",
+            "file": "0-prelude.md"
+        },
+        {
+            "designation": "ACT I C-SIDE CHAPTER I",
+            "chapterId": "1-first-impression",
+            "title": "First Impression",
+            "file": "1-first-impression.md"
+        },
+        {
+            "designation": "ACT I C-SIDE CHAPTER II",
+            "chapterId": "2-cogs",
+            "title": "Cogs In The Machine",
+            "file": "2-cogs.md"
+        },
+        {
+            "designation": "ACT I C-SIDE CHAPTER III",
+            "chapterId": "3-beginning-end",
+            "title": "Beginning Of The End",
+            "file": "3-beginning-end.md"
+        }
+    ]
+}
