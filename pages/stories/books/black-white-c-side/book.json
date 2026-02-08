@@ -27,6 +27,12 @@
             "chapterId": "3-beginning-end",
             "title": "Beginning Of The End",
             "file": "3-beginning-end.md"
+        },
+        {
+            "designation": "ACT I C-SIDE CHAPTER IV",
+            "chapterId": "4-concepts",
+            "title": "Concepts Unheard Of",
+            "file": "4-concepts.md"
         }
     ]
 }
