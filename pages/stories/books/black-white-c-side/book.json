@@ -33,6 +33,12 @@
             "chapterId": "4-concepts",
             "title": "Concepts Unheard Of",
             "file": "4-concepts.md"
+        },
+        {
+            "designation": "ACT I C-SIDE CHAPTER V",
+            "chapterId": "5-big-day",
+            "title": "The Big Day",
+            "file": "5-big-day.md"
         }
     ]
 }
