@@ -395,6 +395,64 @@
             }
         ]
     },
+    "mariaRamirez": {
+        "name": "Maria Ramirez",
+        "title": "",
+        "images": [],
+        "blockOne": {
+            "Author": "Suralot",
+            "Origin": "'Big cozy cabin house in the forest' / Sol-3²²",
+            "Species": "Anthropomorphic Axolotl",
+            "Ethnicity": "Hispanic",
+            "Gender": "Female",
+            "Age": "20",
+            "Birthday": "November 6th",
+            "Height / Weight": "187 cm (6' 2\") / 73 kg (161 lbs)",
+            "Blood Type": "A+",
+            "Internet Username": "Roses825"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "Maria is a very sweet and talented axolotl who loves to create, explore, and work out. She is very supportive of her friends and family and loves doing her hobbies with Icy. (She does however get really overprotective of him and is scary when angry)"
+                ]
+            },
+            {
+                "heading": "Appearance",
+                "paragraphs": [
+                    "Maria is a tall and fit light purple axolotl, having some decent muscles. She has rather large “hair” that she likes to tie. Her tail is very long, almost as long as her height. She has big pretty eyes and a blush on her cheeks. Her gills are more rounder and well kept than usual. She wears a big pink and red sweater with a heart in the middle, which is based on her first sweater that she knit by herself when she was young and wears black athletic shorts, but is always barefoot. Underneath her sweater, she has a red sports bra, since she can simply take off her sweater to begin to exercise. On her ankle, she has a bracelet based on the colors of her lover, Icy."
+                ]
+            },
+            {
+                "heading": "Personality",
+                "paragraphs": [
+                    "Maria is calm and supportive to everyone. She always tries to help everyone do better. She is often very loyal to her friends and family. She is also very confident and tries to find the best in even the worst moments. However, in the rare moments that Maria gets angered, she becomes very aggressive, sometimes getting physical."
+                ]
+            },
+            {
+                "heading": "History",
+                "paragraphs": [
+                    "She grew up with a supportive family who owns a tavern. She lives with multiple brothers who sometimes like teasing her, but this did not affect her. Her mother helped her be creative with arts and cooking, while her father makes her very fit and healthy. She made many friends in school, her most supportive one being Valentina Raine. One day, she saw Icy alone in a berry bush while she was getting ingredients, and immediately fell in love."
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    "Genderbent Icy originally."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i>Icy Cruz (Lover)</i>",
+                    "<i>Tina (Best Friend)</i>",
+                    "<i>Sue Parks (Acquaintance)</i>",
+                    "<i>Dennis (Dislikes)</i>"
+                ]
+            }
+        ]
+    },
     "jinx": {
         "name": "Jinx",
         "title": "The Prankster",
@@ -770,16 +828,15 @@
     "images" : [],
     "blockOne": {
         "Author": "cbaer08",
-        "Origin": "???",
-        "Species": "Cheetah",
-        "Race": "Idk",
-        "Ethnicity": "mixed?",
+        "Origin": "Unknown",
+        "Species": "Anthropomorphic Cheetah",
+        "Ethnicity": "Mixed",
         "Gender": "Female",
-        "Age": "???",
-        "Birthday": "???",
-        "Height / Weight": "5'6\" / 180lbs",
+        "Age": "Unknown",
+        "Birthday": "Unknown...",
+        "Height / Weight": "167 cm (5' 6\") / 81 kg (180 lbs)",
         "Blood Type": "B+",
-        "Internet Username": "prohibited from the internet"
+        "Internet Username": "'Prohibited From The Internet'"
     },
     "blockTwo": [
         {
@@ -797,13 +854,13 @@
         {
             "heading": "Personality",
             "listItems": [
-                "Very reckless / destroys a lot",
-                "Can be very moody",
-                "Intelligent (sometimes)",
-                "Attachement issues",
-                "Sleeps a lot",
-                "Loves company (if possible)",
-                "Likes to explore"
+                "Very reckless / destroys a lot.",
+                "Can be very moody.",
+                "Intelligent (sometimes).",
+                "Attachment issues.",
+                "Sleeps a lot.",
+                "Loves company (if possible).",
+                "Likes to explore."
             ]
         },
         {
@@ -815,15 +872,15 @@
         {
             "heading": "Trivia",
             "listItems": [
-                "Starting to understand more of the customs and language of Novus Terra",
-                "Cuddles with bowls after her meals",
-                "Her favorite color is <b style=\"background-color: #801b23\">dark rose</b>"
+                "Starting to understand more of the customs and language of Novus Terra.",
+                "Cuddles with bowls after her meals.",
+                "Her favorite color is <b style=\"background-color: #801b23\">Dark Rose</b>"
             ]
         },
         {
             "heading": "Connections",
             "listItems": [
-                "Has seen Sammy once."
+                "None."
             ]
         }
     ]

@@ -36,6 +36,12 @@
         "flavorText": "An axolotl who loves nothing more than his girlfriend (and food), it'll take a moment for him to warm up to you, but you'll have found a real ride or die."
     },
     {
+        "id": "mariaRamirez",
+        "name": "Maria Ramirez ✰",
+        "thumbnail": "mariaThumb.png",
+        "flavorText": ""
+    },
+    {
         "id": "jinx",
         "name": "Jinx ✰",
         "thumbnail": "jinxThumb.png",
@@ -62,8 +68,8 @@
     {
         "id": "elysia",
         "name": "Elysia ✰",
-        "thumbnail": "unknown.png",
-        "flavorText": "An acient cheetah who mysteriously washed up the coast, or at least that's the working theory. She now attempts to fit into this wholly changed world."
+        "thumbnail": "elysiaThumb.png",
+        "flavorText": "An ancient cheetah who mysteriously washed up the coast, or at least that's the working theory. She now attempts to fit into this wholly changed world."
     },
     {
         "id": "ally",
