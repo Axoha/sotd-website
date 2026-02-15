@@ -39,6 +39,12 @@
             "chapterId": "5-big-day",
             "title": "The Big Day",
             "file": "5-big-day.md"
+        },
+        {
+            "designation": "ACT I C-SIDE CHAPTER VI",
+            "chapterId": "6-tale",
+            "title": "The Tale Of...",
+            "file": "6-tale.md"
         }
     ]
 }
