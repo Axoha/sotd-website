@@ -45,6 +45,12 @@
             "chapterId": "6-tale",
             "title": "The Tale Of...",
             "file": "6-tale.md"
+        },
+        {
+            "designation": "ACT I C-SIDE CHAPTER VII",
+            "chapterId": "7-Disobedient",
+            "title": "Disobedient Nature",
+            "file": "7-Disobedient.md"
         }
     ]
 }
