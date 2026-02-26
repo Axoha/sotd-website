@@ -76,5 +76,11 @@
         "name": "Ally Parks",
         "thumbnail": "allythumb.png",
         "flavorText": "tax this is yo job"
+    },
+    {
+        "id": "HoustonM",
+        "name": "Houston March",
+        "thumbnail": "houstonthumb.png",
+        "flavorText": "tax this is yo job"
     }
 ]

@@ -14,7 +14,11 @@
             },
             {
                 "file": "ferd3.png",
-                "title": "Teen Years"
+                "title": ""
+            },
+            {
+                "file": "FerdCard.png",
+                "title": ""
             },
             {
                 "file": "ferdwoah.png",
@@ -758,6 +762,10 @@
             {
                 "title": "",
                 "file": "Ally4.png"
+            },
+            {
+                "title": "",
+                "file": "AllyCard.png"
             }
         ],
         "blockOne": {
@@ -885,5 +893,84 @@
         }
     ]
     
+},
+      "HoustonM": {
+        "name": "Houston March",
+        "title": "tax this is also yo job",
+        "images": [
+            {
+                "title": "",
+                "file": "Houston1.png",
+                "credits": "by @Radropicall"
+            },
+            {
+                "title": "",
+                "file": "HoustonCard.png"
+            }
+        ],
+        "blockOne": {
+            "Origin": "New Babylon's Earth (Sol-3¹), Saint Kalina",
+            "Species": "Anthropomorphic Californian Rabbit",
+            "Ethnicity": "White",
+            "Gender": "Nonbinary",
+            "Age": "18 (Black & White C-Side Beginning) <br><span class=\"ageMargin\">20 (Black & White C-Side) </span><br><span class=\"ageMargin\">25 (Black & White) </span><br><span class=\"ageMargin\">28 (Post Actologue) </span>",
+            "Birthday": "July 4th",
+            "Height / Weight": "170 cm (5' 7\") (Not Counting Ears) / 61 kg (134 lbs)",
+            "Blood Type": "Strange Variation Of AB",
+            "Internet Username": "HustnWeHavAProblm"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "Houston is the mischievous supporting character of <i>Stories of the Dead: Black & White</i> and a main character in <i>Black & White C-Side</i>. They're defined by their talent, intelligence, and skill put to use for rather interesting..."
+                ]
+            },
+            {
+                "heading": "Appearance",
+                "paragraphs": [
+                    "Houston's physical appearance is divided in two major times of their life, however most things about their style never change. Their ears are long and thick, their body is lanky and fully covered in fur which is incredibly soft. Their right eye is usually covered by an eyepatch due to medical reasons, but other than that they don't suffer from any physical issues. They've always been obsessed over fashion, picking out clothes and changing their whole fit depending on their mood each day of the week. Sometimes, when they feel lazy, they'll pick out some cozy black and pink pajamas themed after *'Bye-Bye Kitty'* and wear them everywhere.",
+                    "Since birth Houston was tan with long beautiful blonde hair. They were born with a cute birthmark in the shape of a heart on their left cheek. Their eyes are covered surrounded by a dark browner spot. Their eyelashes change often as they experiment with all the different looks, and so does the makeup they put on whenever they're setting out to go somewhere. They hate anything that appears on their body that make them 'uglier', such as pimples, and will do anything no matter what to hide it. Their clothes are usually adored with trinkets, charms, keychains, anything that reminds them of a past memory. Yes, it makes a lot of noise whenever they move.",
+                    "In the other time of their life their physical appearance significantly changed, and so has their style. Taking a more minimalistic and dull approach to their fashion, they wear black clothes typically jackets and pants. All the fur on their has turned monochrome with the gray shades reminiscing of the marks that used to be on their fur. Their birthmark is also completely gone from right cheek. Their whole body is also much taller than how it used to be, though the lanky frame still remains. Their current form as some describe, could be named a 'blank canvas'. It's important to mention that they don't wear the trinkets anymore as well, they usually have them all stored inside their bag they always carry around."
+                ]
+            },
+            {
+                "heading": "Personality",
+                "paragraphs": [
+                    "Houston is an introvert. Full of talents and learnt skill, all that yet they struggle to maintain a proper conversation with strangers. They can easily stick to someone for ages when someone's kind to them, however. They're really shy and usually don't understand how crazy their skills are sometimes, on some days they even unknowingly act like as if everyone was so talented and knowledgeful of niche things. Many people find that annoying.",
+                    "During the monochrome era Houston doesn't appear so shy as they used to be. In some moments they're even the main lead. They lean more into a busy caretaker sort of role, but sometimes they're also just a supporting character in the background. Rarely, they're seen being silently jealous of developing and close relationships."
+                ]
+            },
+            {
+                "heading": "History",
+                "paragraphs": [
+                    "Since they were a child Houston has been completely obsessed over the grand races that were held every four years in the New Babylon through all seven capital cities. Watching older recordings and histories of previous events whilst also making completely sure to be there for the latest ones, the races inspired them to become the greatest racer in the universe. Houston was born as a gifted child, and with a burning passion for such stuff they managed to learn the ropes in no time. Looking up the interior systems of the hover-machines, visiting museums and workshops to simply learn more, playing videogames which typically revolved around racing. Somehow, even after doing all of that throughout most of their childhood, they never got burnt out.",
+                    "Houston's parents weren't exactly nice, upon finding out that their child has immense potential they fully invested into their future. Assigning Houston to extra courses in school, after-school, pressuring them to learn stuff they weren't even interested in and were completely unnecessary. Questions such as what to do in the future were asked often outside of racing, their parents hoped they would turn out to be a scientist or a doctor eventually. These complications left Houston no space to make friends and barely any free time in general throughout their whole childhood.",
+                    "Around the time they turned eighteen years old, Houston decides to change the course of their whole life with one bold decision.",
+                    "<a href=\"/pages/stories/books/black-white-c-side\">Black & White C-Side (Draft)</a>"
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    "Originally they were supposed to be a cat character based off the tuxedo breed. Would've been cool, but I settled on a bunny for more diversity.",
+                    "After designing them I thought they would be the least interesting of the whole main character trio in Black & White. I was wrong!",
+                    "The draft for Black & White may have a lot of moments where they're referred to by 'he'. These are all accidents! A year before I started writing I always envisioned them as a male, but that has changed!"
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i>Lars Mai Terma (Lover)</i>",
+                    "<i>Sweetie (Pet)</i>",
+                    "<i>Ferd Ray (Friend)</i>",
+                    "<i>Ally Parks ('Best Friends Forever')</i>",
+                    "<i>Warnie (Acquaintance)</i>",
+                    "<i>Rose (Neutral)</i>",
+                    "<i>Bill Nebula (Slightly Hates)</i>"
+                ]
+            }
+        ]
+    }
 }
-}
+
