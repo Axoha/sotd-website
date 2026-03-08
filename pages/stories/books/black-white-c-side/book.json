@@ -51,6 +51,30 @@
             "chapterId": "7-disobedient",
             "title": "Disobedient Nature",
             "file": "7-disobedient.md"
+        },
+        {
+            "designation": "ACT I C-SIDE CHAPTER VIII",
+            "chapterId": "8-be-praying",
+            "title": "Be Praying, Be Praying.",
+            "file": "8-be-praying.md"
+        },
+        {
+            "designation": "ACT I C-SIDE CHAPTER IX",
+            "chapterId": "9-beyond",
+            "title": "Beyond Space And Time",
+            "file": "9-beyond.md"
+        },
+        {
+            "designation": "ACT I C-SIDE CHAPTER X",
+            "chapterId": "10-core",
+            "title": "Core",
+            "file": "10-core.md"
+        },
+        {
+            "designation": "EPILOGUE",
+            "chapterId": "11-creation",
+            "title": "The Creation Of...",
+            "file": "11-creation.md"
         }
     ]
 }
