@@ -971,6 +971,72 @@
                 ]
             }
         ]
-    }
+    },
+      "LarsT": {
+        "name": "Lars Mai Terma",
+        "title": "tax please",
+        "images": [
+            {
+                "title": "",
+                "file": "Lars1.png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Origin": "New Babylon's Earth (Sol-3¹), Saint Kalina",
+            "Species": "Anthropomorphic Common Rat",
+            "Ethnicity": "Hispanic",
+            "Gender": "Male",
+            "Age": "18 (Black & White C-Side Beginning) <br><span class=\"ageMargin\">20 (Black & White C-Side)",
+            "Birthday": "March 17th",
+            "Height / Weight": "180 cm (6' 0\") (Not Counting Ears) / 82 kg (180 lbs)",
+            "Blood Type": "A-",
+            "Internet Username": "spitnfire_"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "Lars is the charming main anomaly of <i>Black & White C-Side</i>."
+                ]
+            },
+            {
+                "heading": "Appearance",
+                "paragraphs": [
+                    "Lars is really into rock, metal, punk, and anything else that is similar to those named genres. He'll rarely dress in a way that's not related to his interest. He has brown to faint reddish fur with black hair. His nose is quite pink, adored with long whiskers alongside the whole snout. His left ear has a few golden piercings, his tongue is also pierced though its silver. He likes to wear his pilot goggles on his forehead even during the times when he's not working for Rose."
+                ]
+            },
+            {
+                "heading": "Personality",
+                "paragraphs": [
+                    "He's always optimistic and extroverted no matter what and will do anything to raise the spirits of the people he cares for. He's also a big fan of videogames, especially if they fall in the racing genre, it's what inspired him after all! Such interest brought him enough skill to serve as one of the best pilots for Rose alongside Houston. He loves music, he loves drums especially, knowing how to play impossibly fast beats. He enjoys collecting vinyl, CDs, posters... Music and racing is what he lives for. He has strong disdain against people fake fans of something he loves. Art was something that interested him for a short while, he has a great eye for details, carrying a notebook around to sketch whatever he finds amusing (usually vehicles)."
+                ]
+            },
+            {
+                "heading": "History",
+                "paragraphs": [
+                    "One day, Lars was brought into a racing rally as a kid and since then his whole life changed. His parents were nice and loving, his life was stable and smooth ignoring some rough edges. His talents and interest for becoming a racer were heavily supported, though the pressure was a bit too heavy sometimes. He managed to get a driving license at the age of 13 with the help of a few specific rich managers who were looking forward to his potential a racer, though he couldn't drive until he was 16 years old and even then he had to be supervised. He was quite popular in all the schools he ever went to. One time in high school he somehow balanced education, his hobby, and being in an amateur rock band without completely losing his mind. He had a lot of friends but no one stayed in touch after years."
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    "I really struggled with his design.",
+                    "He also collects bobbleheads, but he's really shy about that interest for some reason."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i>Houston March (Lover)</i>",
+                    "<i>Sweetie (Pet)</i>",
+                    "<i>Cog (Friend)</i>",
+                    "<i>Warnie (Acquaintance)</i>",
+                    "<i>Bill Nebula (Neutral)</i>",
+                    "<i>Rose (Neutral)</i>"
+                ]
+            }
+        ]
+      }
 }
 
