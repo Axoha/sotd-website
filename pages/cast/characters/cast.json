@@ -1037,6 +1037,141 @@
                 ]
             }
         ]
+    },
+      "EmmaH": {
+        "name": "Emma Hindue",
+        "title": "Title pending...",
+        "images": [
+            {
+                "title": "",
+                "file": "Lars1.png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Origin": "Fourth Continent of Odyssey-812",
+            "Species": "Anthropomorphic Black Bear",
+            "Ethnicity": "Indian",
+            "Gender": "Female",
+            "Age": "31",
+            "Birthday": "March 17th",
+            "Height / Weight": "175 cm (5' 9\") / 76 kg (168 lbs)",
+            "Blood Type": "O+",
+            "Internet Username": "feminem"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "Emma is a leader of one of the seven towns of the fourth continent in Odyssey-812, one which is named simply just 'Johnny'. She is a fierce fighter, powerful, commanding, assign her as the leader to any workplace and you'd come back to sweet efficiency. Such corporate life isn't for her however, she strives in nature, hunting animals and foraging plants of any kind for her town to grow and survive. She claims her last name is supposed to echo the religion she believes in, one that is surprisingly not well-known and widespread in the universe. Locals say no one has ever seen her outside during night, not even since she was a little kid. She is not exactly smart, but she is full of energy and life, which is why everyone loves her while also being terrified of her."
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    "This was actually the first design of Ena Lone I had in mind.",
+                    "She's gone through many redesigns, I could never get it right!"
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i>Ally Parks (Soulmates?)</i>",
+                    "<i>Yzahela Haudi (Close Friend)</i>",
+                    "<i>Otto Wunderbar (Close Friend)</i>",
+                    "<i>Lan Stringer (Friend)</i>",
+                    "<i>Matush Hammered (Friend)</i>",
+                    "<i>Jian Martini (Friend)</i>",
+                    "<i>Maricia Ghumilea (Friend)</i>",
+                    "<i>Jut'n Haus (Friend)</i>",
+                    "<i>And even more...</i>"
+                ]
+            }
+        ]
+    },
+      "Rose": {
+        "name": "ROSE",
+        "title": "Title pending...",
+        "images": [
+            {
+                "title": "",
+                "file": "Lars1.png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Origin": "",
+            "Species": "",
+            "Ethnicity": "",
+            "Gender": "",
+            "Age": "",
+            "Birthday": "",
+            "Height / Weight": "",
+            "Blood Type": "",
+            "Internet Username": ""
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    ""
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    ""
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i>Lalala Lelele</i>"
+                ]
+            }
+        ]
+    },
+      "VeronikaB": {
+        "name": "Veronika Barashova",
+        "title": "Title pending...",
+        "images": [
+            {
+                "title": "",
+                "file": "Lars1.png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Origin": "",
+            "Species": "",
+            "Ethnicity": "",
+            "Gender": "",
+            "Age": "",
+            "Birthday": "",
+            "Height / Weight": "",
+            "Blood Type": "",
+            "Internet Username": ""
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    ""
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    ""
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i>Lalala Lelele</i>"
+                ]
+            }
+        ]
       }
 }
 

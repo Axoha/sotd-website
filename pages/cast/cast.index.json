@@ -9,7 +9,7 @@
         "id": "enaLone",
         "name": "Ena Lone",
         "thumbnail": "enaLoneThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+        "flavorText": "Description pending..."
     },
     {
         "id": "hazuneNiku",
@@ -39,7 +39,7 @@
         "id": "mariaRamirez",
         "name": "Maria Ramirez ✰",
         "thumbnail": "mariaThumb.png",
-        "flavorText": ""
+        "flavorText": "Description pending..."
     },
     {
         "id": "jinx",
@@ -75,18 +75,36 @@
         "id": "ally",
         "name": "Ally Parks",
         "thumbnail": "allythumb.png",
-        "flavorText": "tax this is yo job"
+        "flavorText": "Description pending..."
     },
     {
         "id": "HoustonM",
         "name": "Houston March",
         "thumbnail": "houstonthumb.png",
-        "flavorText": "tax this is yo job"
+        "flavorText": "Description pending..."
     },
     {
         "id": "LarsT",
         "name": "Lars Mai Terma",
         "thumbnail": "larsthumb.png",
-        "flavorText": "tax pleaseee"
+        "flavorText": "Description pending..."
+    },
+    {
+        "id": "EmmaH",
+        "name": "Emma Hindue",
+        "thumbnail": "emmathumb.png",
+        "flavorText": "Description pending..."
+    },
+    {
+        "id": "VeronikaB",
+        "name": "Veronika Barashova",
+        "thumbnail": "veronikathumb.png",
+        "flavorText": "Description pending..."
+    },
+    {
+        "id": "Rose",
+        "name": "ROSE",
+        "thumbnail": "rosethumb.png",
+        "flavorText": "Description pending..."
     }
 ]
