@@ -1,0 +1,32 @@
+{
+    "bookId": "the-end-of-black-white",
+    "title": "The End of Black & White -------------------- -",
+    "synopsis": "It waits.",
+    "cover": "cover.png",
+    "chapters": [
+        {
+            "designation": "ACTOLOGUE IV CHAPTEREND I",
+            "chapterId": "0-morning",
+            "title": "Mornings",
+            "file": "0-morning.md"
+        },
+        {
+            "designation": "ACTOLOGUE IV CHAPTEREND II",
+            "chapterId": "1-phantom",
+            "title": "The Phantom",
+            "file": "1-phantom.md"
+        },
+        {
+            "designation": "ACTOLOGUE IV CHAPTEREND III",
+            "chapterId": "2-purgatory",
+            "title": "Purgatory",
+            "file": "2-purgatory.md"
+        },
+        {
+            "designation": "ACTOLOGUE IV CHAPTEREND IV",
+            "chapterId": "3-citadelarian",
+            "title": "The Perfect Citadelarian",
+            "file": "3-citadelarian.md"
+        }
+    ]
+}

@@ -13,5 +13,10 @@
         "bookId": "black-white-c-side",
         "title": "Black & White C-Side (D)",
         "cover": "./books/black-white-c-side/cover.png"
+    },
+    {
+        "bookId": "the-end-of-black-white",
+        "title": "The End of Black & White",
+        "cover": "./books/the-end-of-black-white/cover.png"
     }
 ]
