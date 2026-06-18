@@ -1,0 +1,68 @@
+{
+    "bookId": "black-white-b-side",
+    "title": "Black & White ---------------------- B-Side",
+    "synopsis": "Ally :)",
+    "cover": "cover.png",
+    "chapters": [
+        {
+            "designation": "PRELUDE",
+            "chapterId": "0-prelude",
+            "title": "A (Un)Friendly Incident.",
+            "file": "0-prelude.md"
+        },
+        {
+            "designation": "2763 2/8 - First Act",
+            "chapterId": "1-happy-hour",
+            "title": "First Impression! Happy Hour, Tuesday's Cheer.",
+            "file": "1-happy-hour.md"
+        },
+        {
+            "designation": "2763 2/8 - Second Act",
+            "chapterId": "2-clan",
+            "title": "Clan Of Johnny.",
+            "file": "2-clan.md"
+        },
+        {
+            "designation": "2763 2/10 - Third Act",
+            "chapterId": "3-puzzle",
+            "title": "A Wastelander's Puzzle.",
+            "file": "3-puzzle.md"
+        },
+        {
+            "designation": "2763 2/11 - Fourth Act",
+            "chapterId": "4-i-come",
+            "title": "I Come To Be",
+            "file": "4-i-come.md"
+        },
+        {
+            "designation": "2763 2/11 - Fifth Act",
+            "chapterId": "5-theatrics",
+            "title": "Theatrics",
+            "file": "5-theatrics.md"
+        },
+        {
+            "designation": "2763 2/12 - Sixth Act",
+            "chapterId": "6-who-am-i",
+            "title": "Who Am I",
+            "file": "6-who-am-i.md"
+        },
+        {
+            "designation": "2763 2/12 - Sixth Act",
+            "chapterId": "7-who-i-am",
+            "title": "Who I Am",
+            "file": "7-who-i-am.md"
+        },
+        {
+            "designation": "2763 2/14 - Final Act",
+            "chapterId": "8-important",
+            "title": "An Important Day",
+            "file": "8-important.md"
+        },
+        {
+            "designation": "EPILOGUE",
+            "chapterId": "9-epilogue",
+            "title": "Ice",
+            "file": "9-epilogue.md"
+        }
+    ]
+}

@@ -10,6 +10,11 @@
         "cover": "./books/black-white/cover.png"
     },
     {
+        "bookId": "black-white-b-side",
+        "title": "Black & White B-Side (D)",
+        "cover": "./books/black-white-b-side/cover.png"
+    },
+    {
         "bookId": "black-white-c-side",
         "title": "Black & White C-Side (D)",
         "cover": "./books/black-white-c-side/cover.png"
