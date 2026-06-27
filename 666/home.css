@@ -1,0 +1,97 @@
+    h2 {
+        margin-top: 8%;
+    }
+
+    .centereddiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ui {
+        position: relative;
+        /* background-color: rgba(255,0,0,0.25);
+    border: 1px solid red; */
+        margin-bottom: 0.5%;
+    }
+
+    .uiContent {
+        position: absolute;
+        display: block;
+        /* background-color: rgba(93, 0, 255, 0.25);
+        border: 1px solid blue; */
+        width: 68.6%;
+        min-width: 38.899rem;
+        height: 83.5%;
+        top: 5.3%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        padding-left: 2%;
+        padding-right: 1.4%;
+        padding-top: 9%;
+        padding-bottom: 2.2%;
+    }
+
+    .article {
+        /* border: 1px solid var(--theme-accent); */
+        position: relative;
+        margin-bottom: 2rem;
+        height: 10.6rem;
+    }
+
+    .articleLink {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .notifier {
+        position: absolute;
+        left: 4.313rem;
+    }
+
+    .thumbnail {
+        position: absolute;
+        width: 7rem;
+        height: 7rem;
+        left: 5.1rem;
+        top: 2.9rem;  
+        border: 0.063rem solid var(--theme-accent)
+    }
+
+    .articleTitle {
+        /* background-color: rgba(128, 0, 128, 0.403); */
+        font-size: 1.063rem;
+        position: absolute;
+        padding-top: 0.125rem;
+        padding-left: 0.625rem;
+        height: 1.625rem;
+        width: 23.188rem;
+        left: 12.625rem;
+        top: -0.25rem;
+        text-align: left;
+        white-space: nowrap;
+        transition: color 0.2s;
+    }
+
+    .articleBody { 
+        /* background-color: rgba(137, 43, 226, 0.42);  */
+        position: absolute;
+        padding-left: 0.625rem;
+        top: 4rem;
+        left: 12.575rem;
+        width: 23.188rem;
+        font-size: small;
+        text-align: justify;
+        transition: color 0.2s;
+    }
+
+    .timeAgo {
+        position: absolute;
+        /* background-color: rgba(165, 42, 42, 0.41); */
+        font-size: 0.875rem;
+        right: 2.7rem;
+        bottom: -0.65rem;
+    }
+
+    .articleLink:hover .articleTitle {
+        color: var(--theme-accent)
+    }
