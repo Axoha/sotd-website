@@ -44,6 +44,14 @@
         #result.found {
             color: #ccc;
         }
+        #result span {
+          color: #888;
+          border-bottom: 1px solid #444;
+          cursor: pointer;
+        }
+#result span:hover {
+    color: #ccc;
+}
     </style>
 </head>
 <body style="background-color: black;">
@@ -69,6 +77,7 @@
             "inka":  "Using this word and our names...",
             "inka ena":   "Our beautiful Queen!",
             "ena lone":   "Our beautiful Queen!",
+            "la reina":   "Our beautiful Queen!",
             "inka sammy":   "A little princess.",
             "inka hazy":   "Me.",
             "inka masy":   "Someone who has yet a lot to learn.",
@@ -89,12 +98,13 @@
             "rose":   "Not a fan of him.",
             "georg":   "YIKES...",
             "gaster":   "Ding ding ding!",
-            "flowery":   "Here I come from San Francisco!!!",
+            "flowery":   "Here I come San Francisco!!!",
             "erika":   "Who is that?",
             "mia":   "Who is that?",
             "eric":   "Who is that?",
             "ivan":   "Who is that?",
             "alan":   "Who is that?",
+            "manny":   "Who is that?",
             "brandon":   "Who is that?",
             "undertale":   "What?",
             "deltarune":   "What?",
@@ -108,9 +118,11 @@
             "you suck":  "Right.",
             "sexy": "..?",
             "fag": "That isn't nice, don't you think?",
-            "rat": "Rats, rats, we're the rats. <br>We prey at night, we stalk at night, <br>we're the rats.",
+            "rat": "Rats, rats, we're the rats. <br>We prey at night, we stalk at night, <br>we're the <span onclick=\"window.open('https://www.youtube.com/watch?v=OXQwx1EolD8', '_blank')\">rats</span>.",
             "five gay rats": "You are losing your mind.",
             "i dont knowwwwwww": "It's okay... Here, give me a hug.",
+            "f12": "If you even dare to press f12<br> you are the biggest loser I'll have<br> ever laid my eyes upon.",
+            "cog": "All hail our god Cog. <br>For if we don't pray... <br>it will come down, <br> and bring the apocalypse.",
         };
 
         const input = document.getElementById('kw-input');
