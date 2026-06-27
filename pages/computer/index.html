@@ -1,27 +1,127 @@
+// I vibe coded this shit because I genuinely can't wrap my head around this and I'm the only one left to make the website. I'm super sorry.
 <!DOCTYPE html>
 <html lang="en">
-<html>
 <head>
     <title>Knowledge</title>
-<style>
-html, body, #wrapper {
-       height:100%;
-       width: 100%;
-       margin: 0;
-       padding: 0;
-       border: 0;
-    }
-    #wrapper td {
-       vertical-align: middle;
-       text-align: center;
-    }
-</style>
+    <style>
+        html, body, #wrapper {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        #wrapper td {
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        #kw-input {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #444;
+            color: #ccc;
+            font-size: 1rem;
+            padding: 0.4rem 0.2rem;
+            width: 260px;
+            text-align: center;
+            outline: none;
+            margin-top: -44rem;
+            margin-left: -13rem;
+        }
+        #kw-input::placeholder {
+            color: #444;
+        }
+
+        #result {
+            margin-top: -41rem;
+            margin-left: -13rem;
+            font-size: 0.9rem;
+            color: #888;
+            min-height: 1.2em;
+            font-family: monospace;
+        }
+        #result.found {
+            color: #ccc;
+        }
+    </style>
 </head>
-<body style="background-color:black;">
-   <table id="wrapper">
-      <tr>
-         <td><img src="./hazysterriblegoofyoldcomputer.png" alt="Forgotten monochrome desktop computer" /></td>
-      </tr>
-   </table>
+<body style="background-color: black;">
+    <table id="wrapper">
+        <tr>
+            <td>
+                <img src="./hazysterriblegoofyoldcomputer.png" alt="Forgotten monochrome desktop computer" />
+
+                <br>
+
+                <input type="text" id="kw-input" placeholder="_ _ _" autocomplete="off" spellcheck="false" />
+
+                <div id="result"></div>
+            </td>
+        </tr>
+    </table>
+
+    <script>
+        const keywords = {
+            "something":  "You are really funny.",
+            "banishment":  "...",
+            "banish":  "...",
+            "inka":  "Using this word and our names...",
+            "inka ena":   "Our beautiful Queen!",
+            "ena lone":   "Our beautiful Queen!",
+            "inka sammy":   "A little princess.",
+            "inka hazy":   "Me.",
+            "inka masy":   "Someone who has yet a lot to learn.",
+            "inka rila":   "Father's personal favorite... <br> despite saying he has no favorites.",
+            "rila jones":   "Father's personal favorite... <br> despite saying he has no favorites.",
+            "emilia jones":   "Father's personal favorite... <br> despite saying he has no favorites.",
+            "inka emma":   "What happened here to create such a powerful and feared monster?",
+            "emma hindue":   "What happened here to create such a powerful and feared monster?",
+            "inka lars":   "He does not qualify as one of us.",
+            "lars mai terma":   "He does not qualify as one of us.",
+            "ferd ray":   "The protagonist of a story that is <br>very, very important to...",
+            "ferdinand ray":   "The unfortunate catalyst.",
+            "ally parks":   "The sweetest blessing.",
+            "sam parks":   "A little flower bud.",
+            "sue parks":   "A small bundle of joy.",
+            "surl parks":   "A small bundle of joy.",
+            "houston march":   "Someone who would make for a... <br> very wonderful Inka.",
+            "rose":   "Not a fan of him.",
+            "georg":   "YIKES...",
+            "gaster":   "Ding ding ding!",
+            "flowery":   "Here I come from San Francisco!!!",
+            "erika":   "Who is that?",
+            "mia":   "Who is that?",
+            "eric":   "Who is that?",
+            "ivan":   "Who is that?",
+            "alan":   "Who is that?",
+            "brandon":   "Who is that?",
+            "undertale":   "What?",
+            "deltarune":   "What?",
+            "the amazing digital circus":   "What?",
+            "the wonderful digital circus":   "Hmm...",
+            "craftermine":   "My base is built at -14860 ~ 21423. <br>Fun game.",
+            "craftermine anti void":   "I helped making that one!",
+            "craftermine anti-void":   "I helped making that one!",
+            "minecraft":   "Lame rip-off.",
+            "you are very hot":  "Okay.",
+            "you suck":  "Right.",
+            "sexy": "..?",
+        };
+
+        const input = document.getElementById('kw-input');
+        const result = document.getElementById('result');
+
+        input.addEventListener('input', () => {
+            const val = input.value.trim().toLowerCase();
+            if (keywords[val]) {
+                result.innerHTML = keywords[val];
+                result.classList.add('found');
+            } else {
+                result.innerHTML = '';
+                result.classList.remove('found');
+            }
+        });
+    </script>
 </body>
 </html>
