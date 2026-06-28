@@ -11,10 +11,30 @@ function applyGlobalTheme(themeName) {
     document.body.style.backgroundImage =
         `url(/assets/home/ChosenBackgrounds/${theme.defaultBg}.png)`
 
-    const logo = document.getElementById("logo")
+    const logo = document.getElementById("logo") // this is vibe coded, beware
     if (logo) {
-        logo.src = `/assets/home/Logo/Logo${currentTheme}.png`
+    const month = new Date().getMonth();
+    const pridePaths = [
+        "/assets/home/Logo/Pride/LogoAromantic.png",
+        "/assets/home/Logo/Pride/LogoAsexual.png",
+        "/assets/home/Logo/Pride/LogoBisexual.png",
+        "/assets/home/Logo/Pride/LogoDemiromantic.png",
+        "/assets/home/Logo/Pride/LogoDemisexual.png",
+        "/assets/home/Logo/Pride/LogoGay.png",
+        "/assets/home/Logo/Pride/LogoIntersex.png",
+        "/assets/home/Logo/Pride/LogoLesbian.png",
+        "/assets/home/Logo/Pride/LogoNonbinary.png",
+        "/assets/home/Logo/Pride/LogoPansexual.png",
+        "/assets/home/Logo/Pride/LogoPride.png",
+        "/assets/home/Logo/Pride/LogoTrans.png",
+    ];
+
+    if (month === 5) {
+        logo.src = pridePaths[Math.floor(Math.random() * pridePaths.length)];
+    } else {
+        logo.src = `assets/home/Logo/Logo${currentTheme}.png`;
     }
+}
 
     const ui = document.getElementById("ui")
     if (ui) {
