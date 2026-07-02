@@ -32,7 +32,7 @@ function applyGlobalTheme(themeName) {
     if (month === 5) {
         logo.src = pridePaths[Math.floor(Math.random() * pridePaths.length)];
     } else {
-        logo.src = `assets/home/Logo/Logo${currentTheme}.png`;
+        logo.src = `/assets/home/Logo/Logo${currentTheme}.png`;
     }
 }
 
