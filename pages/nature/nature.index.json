@@ -3,12 +3,36 @@
         "id": "peaShooter",
         "name": "Pea Shooter",
         "thumbnail": "peaShooterThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+        "flavorText": "Someone named Doptime made this masterpiece, will be removed... Eventually."
     },
     {
         "id": "snowPea",
         "name": "Snow Pea",
         "thumbnail": "snowPeaThumb.png",
-        "flavorText": "THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT! THIS IS DUMMY TEXT!"
+        "flavorText": "Someone named Taxtapy made this masterpiece, will be removed... Eventually."
+    },
+    {
+        "id": "deca",
+        "name": "Decaying Leaves",
+        "thumbnail": ".png",
+        "flavorText": "Images are pending, please wait..."
+    },
+    {
+        "id": "bulem",
+        "name": "Family of Strange Golems",
+        "thumbnail": ".png",
+        "flavorText": "Images are pending, please wait..."
+    },
+    {
+        "id": "firpecker",
+        "name": "Family of Blazing Birds",
+        "thumbnail": ".png",
+        "flavorText": "Images are pending, please wait..."
+    },
+    {
+        "id": "walenotl",
+        "name": "Family of Entertaining Fish",
+        "thumbnail": ".png",
+        "flavorText": "Images are pending, please wait..."
     }
 ]

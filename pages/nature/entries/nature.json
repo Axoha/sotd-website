@@ -97,5 +97,42 @@
                 ]
             }
         ]
+    },
+    "deca": {
+        "name": "Decaying Leaves",
+        "title": "Mythical Giant Autumn Snake",
+        "images": [
+            {
+                "file": ".png",
+                "title": "Nothing... Yet."
+            }
+        ],
+        "blockOne": {
+            "Source": "Babylon Bizarre Interests Vol.2445. Shortened for the reader's convenience."
+            
+        },
+        "blockTwo": [
+            {
+                "heading": "Introduction",
+                "paragraphs": [
+                    "<i>Also usually known as Deca, it has many other names depending on culture.</i>",
+                    "<i>Decaying Leaves</i> is a scientific name for the mythical autumn snake that appears anywhere during each fall. As the name suggests - once winter sets in, its body decays and the cycle continues."
+                ]
+            },
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "<i>Decaying Leaves</i> is an unusual snake, boasting vibrant orange tints and colors across its whole body. It is almost as big as the average human, with big round eyes and long fuzzy hair composed of autumn foliage. It has a pointy snout like an average snake, round thick ears similar to a rabbit, and knight-like markings at its cheeks and the outer layer of its body. Abnormally sized daisies are also scattered across its body, one notably growing at the peak of its snout.",
+                    "<i>Decaying Leaves</i> appears during each autumn at a random forest that is affected by fall. Over the centuries there have been numerous claims that it drops down from the crown of a tree once leaves start turning orange. It is truly unknown how this creature is born. It seems to swiftly adapt to any ecosystem it appears in, but more oddly it seeks out places populated by people.",
+                    "It has an explosive playful personality, mostly positive. It finds great joy in socializing among people, using its expressions and moves to communicate.",
+                    "In contrast of what many cultures and folklores tell, <i>Decaying Leaves</i> does not actually have any magical abilities. The stories claim that it can grow any flower anywhere, bring an exceptional harvest to any crop, or even bring riches to towns. However, it did persuade many people into changing for the better, bringing peace to many conflicts - both small and large.",
+                    "Once the last remaining leaves fall out of the trees' branches, <i>Decaying Leaves</i> begins to experience lethal symptoms such as <b>trouble breathing</b>, <b>fatigue</b>, <b>skin breakdown</b>, and much more. Its appearance also changes significantly; it progressively loses a huge chunk of its hair, its eyes become more tired, and the outer layers turn more dry and lifeless. After a certain time when winter sets in, it stops breathing and the body is left to decay in nature.",
+                    "<b>After it is reborn, it begins completely anew without a single memory of its past lives.",
+                    "<i>Decaying Leaves</i> is important in many cultures despite having such a short lifespan, the evidence of its first sighting dates all the way back to the <b>year 1204</b> on an uncertain planet. Even to this year it still appears anywhere, though its rise in popularity among researchers makes it difficult to see in a natural habitat.",
+                    "<i>Decaying Leaves</i> has become one of the symbols for the people who want a better future, usually seen as an icon during protests against pollution, wars, and more. An artist claiming to have lived with <i>Decaying Leaves</i> for an entire fall has written a song about it, which quickly became a hit for a certain time due to how beautiful and sad it was.",
+                    "<i>Decaying Leaves</i> is incredibly popular within hippie culture."
+                ]
+            }
+        ]
     }
 }
