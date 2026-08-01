@@ -1,6 +1,6 @@
 const textStrings = [
     'Here to read? Waste no time! Click <a href="/pages/stories">Stories</a> to get started!',
-    'Join the Discord <a href="">server</a> for the latest news!',
+    'Join the Discord <a href="https://discord.com/invite/MRYQWqpsef">server</a> for the latest news!',
     'Bored? Click <a href="">this</a> to visit a random page!',
     'Bro Just Let Me Karate Chop You And You Can Have As Many Skateboards As You Want',
     "Inspired by... I forgot actually.",
@@ -11,7 +11,7 @@ const textStrings = [
     "You're here very early!",
     'Your playing is "an anti-blessing from Planet Hell."',
     "Ever heard of Eyecandy? No? You will soon. :)",
-    'Ever heard of Craftermine? No?! What the hell?! Check it out <a href="">here!!!</a>',
+    'Ever heard of Craftermine? No?! What?! Check it out <a href="/craftermine/index.html">here!</a>',
     "Have you seen all the secrets?",
     "Have you met the Banana Man?",
     "Have you seen Cog?",

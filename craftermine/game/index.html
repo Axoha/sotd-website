@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Craftermine</title>
+<link rel="icon" type="image/x-icon" href="/assets/craftermine/icon_table.png" />
+<style>
+header {
+  background-image: url('/assets/craftermine/bg_dirt.png');
+  background-repeat: repeat-x;
+  padding: 8px 0 8px 0;
+}
+.header-inner {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+header img {
+  height: 38px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.account-links {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.account-links a {
+  color: mediumslateblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+.account-links a:hover {
+  text-decoration: underline;
+}
+.main-content {
+  width: 960px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.video-player {
+  width: 620px;
+  height: 350px;
+  background-color: black;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.carousel-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+.carousel-slide.active {
+  opacity: 1;
+}
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px 14px;
+  cursor: pointer;
+  z-index: 10;
+}
+.carousel-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.carousel-btn.prev {
+  left: 10px;
+}
+.carousel-btn.next {
+  right: 10px;
+}
+.carousel-dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+.dot.active {
+  background-color: white;
+}
+.sidebar {
+  width: 280px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.sidebar img {
+  width: 100%;
+  max-width: 260px;
+}
+.sidebar a {
+  color: mediumslateblue;
+  text-decoration: none;
+}
+.sidebar a.buy-now {
+  color: white;
+}
+.sidebar a:hover {
+  text-decoration: underline;
+}
+.sidebar p {
+  background: none;
+  margin: 8px 0;
+  padding: 0;
+  font-size: 90%;
+}
+.buy-now {
+  display: inline-block;
+  background-color: #e08a1e;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 12px 40px;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+.buy-now:hover {
+  background-color: #c9791a;
+}
+.description {
+  color: #ccc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90%;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.description a {
+  color: mediumslateblue;
+  text-decoration: none;
+}
+.description a:hover {
+  text-decoration: underline;
+}
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 40px;
+}
+.footer-col {
+  width: 300px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-col h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+.footer-col h3 img {
+  width: 24px;
+  height: 24px;
+}
+.footer-col p {
+  background: none;
+  padding: 0;
+  margin: 8px 0;
+  font-size: 90%;
+  color: #ccc;
+}
+.footer-col a {
+  color: mediumslateblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-col a:hover {
+  text-decoration: underline;
+}
+.post-date {
+  color: #888;
+  font-size: 80%;
+  display: block;
+  margin-bottom: 10px;
+}
+body {
+  background-image: url('/assets/craftermine/bg_stone.png');
+  background-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+div.text-box {
+ width: 50%;
+ padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+   <img src="/assets/craftermine/title_craftermine.png" alt="Craftermine">
+   <nav>
+     <ul>
+      <li><a href="/craftermine/index.html">Home</a></li>
+      <li><a href="/craftermine/game/index.html">Game</a></li>
+      <li><a href="/craftermine/community/index.html">Community</a></li>
+      <li><a href="/craftermine/anti-void/index.html">ANTI-VOID</a></li>
+      <li><a href="/craftermine/help/index.html">Help</a></li>
+     </ul>
+   </nav>
+
+   <div class="account-links">
+    <a href="https://www.minecraft.net/en-us/login?return_url=https%3A%2F%2Fwww.minecraft.net%2Fen-us%2Fmsaprofile">Register</a>
+   </div>
+  </div>
+</header>
+
+<div class="main-content">
+
+  <p class="description">
+   There is nothing here yet. Come back later.
+  </p>
+
+<script>
+  let registered = 918556064;
+  let playing = 86;
+
+  function formatNumber(num) {
+    return num.toLocaleString('en-US');
+  }
+
+  function updateCounters() {
+    registered += Math.random() < 0.1 ? Math.floor(Math.random() * 20) + 5 : Math.floor(Math.random() * 3) + 1;
+    if (Math.random() < 0.4) {
+      playing += Math.random() < 0.5 ? 1 : -1;
+    }
+
+    document.getElementById('registered-count').textContent = formatNumber(registered);
+    document.getElementById('playing-count').textContent = formatNumber(playing);
+  }
+
+  setInterval(updateCounters, 2000);
+
+  function timeAgo(dateString) {
+    const posted = new Date(dateString);
+    const now = new Date();
+    const diffMs = now - posted;
+
+    const seconds = Math.floor(diffMs / 1000);
+    const minutes = Math.floor(seconds / 60);
+    const hours = Math.floor(minutes / 60);
+    const days = Math.floor(hours / 24);
+    const months = Math.floor(days / 30);
+    const years = Math.floor(days / 365);
+
+    if (years > 0) return years + (years === 1 ? " year ago" : " years ago");
+    if (months > 0) return months + (months === 1 ? " month ago" : " months ago");
+    if (days > 0) return days + (days === 1 ? " day ago" : " days ago");
+    if (hours > 0) return hours + (hours === 1 ? " hour ago" : " hours ago");
+    if (minutes > 0) return minutes + (minutes === 1 ? " minute ago" : " minutes ago");
+    return "just now";
+  }
+
+  function updateAllTimestamps() {
+    document.querySelectorAll('.post-date').forEach(el => {
+      const posted = el.getAttribute('data-posted');
+      el.textContent = timeAgo(posted);
+    });
+  }
+
+  updateAllTimestamps();
+
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.carousel-slide');
+  const dotsContainer = document.getElementById('carousel-dots');
+
+  slides.forEach((slide,index) => {
+    const dot = document.createElement('span');
+    dot.classList.add('dot');
+    if (index === 0) dot.classList.add('active');
+    dot.addEventListener('click', () => goToSlide(index));
+    dotsContainer.appendChild(dot);
+  });
+
+  const dots = document.querySelectorAll('.dot');
+
+
+  function showSlide(index) {
+    slides.forEach(slide => slide.classList.remove('active'));
+    dots.forEach(dot => dot.classList.remove('active'));
+
+    slides[index].classList.add('active');
+    dots[index].classList.add('active');
+    currentSlide = index;
+  }
+
+  function changeSlide(direction) {
+    let newIndex = currentSlide + direction;
+    if (newIndex < 0) newIndex = slides.length - 1;
+    if (newIndex >= slides.length) newIndex = 0;
+    showSlide(newIndex);
+  }
+
+  function goToSlide(index) {
+    showSlide(index);
+  }
+</script>
+
+</body>
+</html>
