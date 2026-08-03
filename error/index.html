@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>error</title>
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+  }
+  img {
+    max-width: 90%;
+    max-height: 90vh;
+    display: block;
+  }
+  #status {
+    position: fixed;
+    bottom: 12px;
+    left: 12px;
+    color: #888;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+ 
+  <img src="/assets/error.png" alt="Centered image">
+ 
+  <div id="status">Loading...</div>
+ 
+  <audio id="player" autoplay></audio>
+ 
+  <script>
+    // List your mp3 files here (paths relative to this HTML file)
+    const songs = [
+      "/error/01_ally_parks_sweetest_love.mp3",
+      "/error/02_just_the_two_of_us.mp3",
+      "/error/03_mrbluesky.mp3",
+      "/error/04_g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g.mp3",
+      "/error/05_phantom_of_the_opera_angels&demons.mp3",
+      "/error/06_flight_of_the_valkyries_stupid_disobedient_theme.mp3",
+      "/error/07_015.mp3",
+      "/error/08_im_only_thinking_of_him.mp3",
+      "/error/09_dance.mp3",
+      "/error/10_romance.mp3",
+      "/error/11_angels.mp3",
+      "/error/12_days_of_christmas.mp3"
+    ];
+ 
+    const player = document.getElementById("player");
+    const status = document.getElementById("status");
+ 
+    function playRandomSong() {
+      const choice = songs[Math.floor(Math.random() * songs.length)];
+      player.src = choice;
+ 
+      player.play().then(() => {
+        status.textContent = "" + choice;
+      }).catch(() => {
+        // Autoplay might be blocked until the user interacts with the page
+        status.textContent = "Click anywhere to start music";
+        document.body.addEventListener("click", () => {
+          player.play().then(() => {
+            status.textContent = "" + choice;
+          });
+        }, { once: true });
+      });
+    }
+ 
+    playRandomSong();
+  </script>
+
+ 
+</body>
+</html>
