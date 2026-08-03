@@ -36,7 +36,6 @@
   <audio id="player" autoplay></audio>
  
   <script>
-    // List your mp3 files here (paths relative to this HTML file)
     const songs = [
       "/error/01_ally_parks_sweetest_love.mp3",
       "/error/02_just_the_two_of_us.mp3",
@@ -60,13 +59,12 @@
       player.src = choice;
  
       player.play().then(() => {
-        status.textContent = "" + choice;
+        status.textContent = choice;
       }).catch(() => {
-        // Autoplay might be blocked until the user interacts with the page
         status.textContent = "Click anywhere to start music";
         document.body.addEventListener("click", () => {
           player.play().then(() => {
-            status.textContent = "" + choice;
+            status.textContent = choice;
           });
         }, { once: true });
       });
