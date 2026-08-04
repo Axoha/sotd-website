@@ -6,30 +6,30 @@
 //##############################
 //        General Info:
 //##############################
-first_name = "Taylor"
-last_name = ""
-about_me = "Hi, my name is Taylor, I'm here to share fun things I do with friends. Send me a message if you want to do something together or if you want some strawberries.";
-who_id_like_to_meet = "I'm here for my friends really, but if you're not and you think we have enough in common, you can message me.";
-status = "I gotta spleep on this";
-profile_picture = "/myplace/img/taylor/profilepic.jpg";
-gender = "Male";
+first_name = "Jessica"
+last_name = "Hatherleigh"
+about_me = "Hey, call me Jerka.";
+who_id_like_to_meet = "Dudes with familiar taste";
+status = "Throw bricks at wealthy people";
+profile_picture = "/myplace/img/jerka/profilepic.jpg";
+gender = "Female";
 age = "21";
 city = "Davisville, Oregon";
 country = "United States of Columbia";
-number_of_friends = 2;
-myspace_url = "http://myplace.com/taylor";
+number_of_friends = 5;
+myspace_url = "http://myplace.com/jessicahatherleigh";
 
 
 //##############################
 //          Interests:
 //##############################
-general = "Farming, cooking, dressing up, sleeping, board games (Preferrably nerdy card games)";
-music = "All of it";
-movies = "Thrillers";
-television = "Mysteries, cooking reality shows, rural affairs programming";
-video_games = "Turn based and sims";
-books = "What do you take me for? A nerd? (Horror)";
-groups= "None"
+general = "Listening to music, dressing up";
+music = "Alternate rock";
+movies = "Horror";
+television = "MTV";
+video_games = "Roleplaying games";
+books = "Whatever Taylor recommends";
+groups= "Alice's cult"
 //##############################
 
 
@@ -37,17 +37,17 @@ groups= "None"
 //##############################
 //          Details:
 //##############################
-relationship_status = "Single";
-here_for = "Sharing and keeping up";
+relationship_status = "Dating an idiot";
+here_for = "Having fun!!!";
 hometown = "Davisville, OR";
-zodiac = "Leo";
+zodiac = "Virgo";
 //############
 //for Smoke / Drink you're supposed to answer yes or no to each. For example, if you don't smoke and don't drink
 //you answer "No / No" 
 //############
-smoke_drink = "No / No";
-education = "Attending college";
-occupation = "Library assistant (the vibes are good, I don't read much myself)";
+smoke_drink = "No / Get me a drink";
+education = "High School";
+occupation = "Gloogs fast food warrior";
 //##############################
 
 
@@ -76,7 +76,7 @@ school_years[2] = "Class of 2010";
 //##############################
 //     Music Player:
 //##############################
-music_player = false;
+music_player = true;
 song_name = "Sugar We're Going Down";
 artist_name = "Fall Out Boy";
 mp3_file = "https://dropbysayhi.com/media/music/myspace_songs/sugar_were_going_down.mp3";
@@ -90,13 +90,29 @@ mp3_file = "https://dropbysayhi.com/media/music/myspace_songs/sugar_were_going_d
 //          Top 8:
 //##############################
 
-friend1_name="Toby";
-friend1_pic="/myplace/img/defaultprofilepic.jpg";
-friend1_url="/myplace/toby";
+friend1_name="Kyle Anderson";
+friend1_pic="/myplace/img/kyle/profilepic.jpg";
+friend1_url="/myplace/kyleanderson";
 
-friend2_name="Jessica Hatherleigh";
-friend2_pic="/myplace/img/jerka/profilepic.jpg";
-friend2_url="/myplace/jessicahatherleigh";
+friend2_name="Taylor";
+friend2_pic="/myplace/img/taylor/profilepic.jpg";
+friend2_url="/myplace/taylor";
+
+friend3_name="Jinx";
+friend3_pic="/myplace/img/defaultprofilepic.jpg";
+friend3_url="/myplace/jinx";
+
+friend4_name="Sophie";
+friend4_pic="/myplace/img/defaultprofilepic.jpg";
+friend4_url="/myplace/sophie";
+
+friend5_name="Natasha Carter";
+friend5_pic="/myplace/img/defaultprofilepic.jpg";
+friend5_url="/myplace/natashacarter";
+
+friend6_name="Quinn Lone";
+friend6_pic="/myplace/img/defaultprofilepic.jpg";
+friend6_url="/myplace/quinnlone";
 
 //##############################
 
@@ -114,17 +130,17 @@ commenter_url = [];
 number_of_comments= 2;
 total_number_of_comments= 2;
 
-commenter[1] = "Toby";
-commenter_pic[1] = "/myplace/img/defaultprofilepic.jpg";
-comment_date_time[1] = "4/20/2014 1:02 PM";
-comment[1] = "Help me";
-commenter_url[1] = "/error/index.html"
+commenter[1] = "Taylor";
+commenter_pic[1] = "/myplace/img/taylor/profilepic.jpg";
+comment_date_time[1] = "12/13/2012 9:12 AM";
+comment[1] = "Your boyfriends real????";
+commenter_url[1] = "/myplace/taylor"
 
-commenter[2] = "Toby";
-commenter_pic[2] = "/myplace/img/defaultprofilepic.jpg";
-comment_date_time[2] = "4/19/2014 3:26 PM";
-comment[2] = "Hey";
-commenter_url[2] = "/error/index.html"
+commenter[2] = "Kyle Anderson";
+commenter_pic[2] = "/myplace/img/kyle/profilepic.jpg";
+comment_date_time[2] = "10/5/2012 7:54 PM";
+comment[2] = "Hey beautiful i didnt expect your pfp to be that one you should rock that fit again sometime again pls";
+commenter_url[2] = "/myplace/kyleanderson"
 
 </script>
 <!--############################
@@ -259,6 +275,23 @@ function initializeProfile() {
 	document.getElementById("friend2Pic").src = friend2_pic;
 	document.getElementById("friend2").href = friend2_url;
 	document.getElementById("friend2URL").href = friend2_url;
+	document.getElementById("friend3").innerHTML = friend3_name;
+	document.getElementById("friend3Pic").src = friend3_pic;
+	document.getElementById("friend3").href = friend3_url;
+	document.getElementById("friend3URL").href = friend3_url;
+	document.getElementById("friend4").innerHTML = friend4_name;
+	document.getElementById("friend4Pic").src = friend4_pic;
+	document.getElementById("friend4").href = friend4_url;
+	document.getElementById("friend4URL").href = friend4_url;
+	document.getElementById("friend5").innerHTML = friend5_name;
+	document.getElementById("friend5Pic").src = friend5_pic;
+	document.getElementById("friend5").href = friend5_url;
+	document.getElementById("friend5URL").href = friend5_url;
+	document.getElementById("friend6").innerHTML = friend6_name;
+	document.getElementById("friend6Pic").src = friend6_pic;
+	document.getElementById("friend6").href = friend6_url;
+	document.getElementById("friend6URL").href = friend6_url;
+
 	document.getElementById("commentHeader").innerHTML =  first_name + "'s Friends Comments";
 	document.getElementById("commentSection").innerHTML = makeCommentSection();
 	if( music_player == true){
@@ -444,7 +477,7 @@ function initializeProfile() {
 								
 	
 
-<div id="musicPlayer" style="display:none; height:53px; width:300px; background-image:url('img/playersmallpaused.gif');">
+<div id="musicPlayer" style="display:none; height:53px; width:300px; background-image:url('/myplace/img/playersmallpaused.gif');">
 <div onclick="playButton()" style="cursor:pointer; width:40px; height:40px; float:left; margin-left:6px; margin-top:6px;"></div>
 <h7 style="float:left; text-align:left; color:white; margin-left:11px; margin-top:10px; font-weight:bold; font-family: Arial, sans-serif; font-size: 12px" id="song"></h7></div><br />
 
@@ -692,7 +725,7 @@ Your browser does not support the audio element.
 		
 			<tr valign="top">
 				<td width="435" style="word-wrap:break-word">
-					It's raining&nbsp;
+					Burning bugs with Jinx part 4&nbsp;
 					(<a href="/error/index.html">view more</a>)
 					<br><br>
 				</td>
@@ -763,8 +796,36 @@ Your browser does not support the audio element.
 							<td bgcolor="FFFFFF" align="center" valign="top" width="1">
 
 								<table border="0" cellspacing="0" align="center">
-									<tr><td bgcolor="FFFFFF" align="center" valign="top" width="107" style="word-wrap:break-word">&nbsp;<a href="" id="friend2">Andi</a>&nbsp;</td></tr>
+									<tr><td bgcolor="FFFFFF" align="center" valign="top" width="107" style="word-wrap:break-word">&nbsp;<a href="" id="friend2"></a>&nbsp;</td></tr>
 									<tr><td bgcolor="FFFFFF" align="center" valign="top" width="25%"><a href="" id="friend2URL"><img id="friend2Pic" src="" width="90"></a></td></tr>
+								</table>
+							</td>
+							<td bgcolor="FFFFFF" align="center" valign="top" width="1">
+
+								<table border="0" cellspacing="0" align="center">
+									<tr><td bgcolor="FFFFFF" align="center" valign="top" width="107" style="word-wrap:break-word">&nbsp;<a href="" id="friend3"></a>&nbsp;</td></tr>
+									<tr><td bgcolor="FFFFFF" align="center" valign="top" width="25%"><a href="" id="friend3URL"><img id="friend3Pic" src="" width="90"></a></td></tr>
+								</table>
+							</td>
+							<td bgcolor="FFFFFF" align="center" valign="top" width="1">
+
+								<table border="0" cellspacing="0" align="center">
+									<tr><td bgcolor="FFFFFF" align="center" valign="top" width="107" style="word-wrap:break-word">&nbsp;<a href="" id="friend4"></a>&nbsp;</td></tr>
+									<tr><td bgcolor="FFFFFF" align="center" valign="top" width="25%"><a href="" id="friend4URL"><img id="friend4Pic" src="" width="90"></a></td></tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td bgcolor="FFFFFF" align="center" valign="top" width="1">
+								<table border="0" cellspacing="0" align="center">
+									<tr><td bgcolor="FFFFFF" align="center" valign="top" width="107" style="word-wrap:break-word">&nbsp;<a href="" id="friend5"></a>&nbsp;</td></tr>
+									<tr><td bgcolor="FFFFFF" align="center" valign="top" width="25%"><a href="" id="friend5URL"><img src="" id="friend5Pic" width="90"></a></td></tr>
+								</table>
+							</td>
+							<td bgcolor="FFFFFF" align="center" valign="top" width="1">
+								<table border="0" cellspacing="0" align="center">
+									<tr><td bgcolor="FFFFFF" align="center" valign="top" width="107" style="word-wrap:break-word">&nbsp;<a href="" id="friend6"></a>&nbsp;</td></tr>
+									<tr><td bgcolor="FFFFFF" align="center" valign="top" width="25%"><a href="" id="friend6URL"><img src="" id="friend6Pic" width="90"></a></td></tr>
 								</table>
 							</td>
 						</tr>
