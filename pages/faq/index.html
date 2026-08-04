@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Frequently Asked Questions - SOTD</title>
+<style>
+  :root {
+    --text: #ffffff;
+    --line: #ffffff;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: verdana;
+  }
+  
+  body {
+    background-image: url('/assets/spacebg.png');
+    background-size: 50%;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px 20px;
+  }
+
+  header img {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 24px 100px;
+  }
+
+  .faq-item {
+    margin-bottom: 40px;
+  }
+
+  .faq-item h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 10px;
+  }
+
+  .faq-item hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 0 0 24px;
+  }
+
+  .faq-item p {
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 0;
+    color: #eaeaea;
+  }
+
+  footer {
+    text-align: center;
+    padding: 30px 0 60px;
+  }
+
+  footer a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;
+  }
+
+  footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <img src="/assets/sotdlogo.png" alt="Stories of the Dead">
+  </header>
+
+  <main id="faq-container">
+  </main>
+
+  <footer>
+    <a href="/error/index.html">Contact</a>
+    <a href="/error/index.html">Help</a>
+  </footer>
+
+  <script>
+    const faqs = [
+      {
+        question: "What is Stories of the Dead?",
+        answer: "Stories of the Dead is a collection of stories (wow!) taking place in its own ambitious bubble. Mostly sci-fi, but any genre is welcome."
+      },
+      {
+        question: "What does the '(D)' mean next to some stories?",
+        answer: "It means that the published story is a draft and may be subject to some heavy rewriting in the future, keep that in mind while reading."
+      },
+      {
+        question: "What do the stars next to some links mean?",
+        answer: "If there's a star that means it's a page that isn't written by me. The author's name will be displayed first once you click on it."
+      },
+      {
+        question: "How do I become an author?",
+        answer: "For now only the people I know will be allowed to add onto SOTD as a whole. If the demands and communities grow however, I may consider the idea of letting anyone contact me to add their original stuff to the website under my supervision."
+      },
+      {
+        question: "Is it currently active?",
+        answer: "Yes, I'm actively working on it every day."
+      },
+      {
+        question: "Where can I fund this project?",
+        answer: "For now, there are no places where you can fund the project. However you can explore what the website has so far and join the main communities on socials, that'd be wonderful!"
+      },
+      {
+        question: "Your project fucking sucks and you should give up.",
+        answer: "Thanks."
+      },
+    ];
+
+    const container = document.getElementById("faq-container");
+
+    faqs.forEach(item => {
+      const section = document.createElement("div");
+      section.className = "faq-item";
+
+      const h2 = document.createElement("h2");
+      h2.textContent = item.question;
+
+      const hr = document.createElement("hr");
+
+      const p = document.createElement("p");
+      p.textContent = item.answer;
+
+      section.appendChild(h2);
+      section.appendChild(hr);
+      section.appendChild(p);
+      container.appendChild(section);
+    });
+  </script>
+
+</body>
+</html>
