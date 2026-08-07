@@ -230,6 +230,43 @@ div.text-box {
  width: 50%;
  padding: 20px;
 }
+.minecraft-chat {
+  width: 500px;
+  height: 220px;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 2px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.chat-line {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 3px 6px;
+  width: fit-content;
+  max-width: 100%;
+  opacity: 1;
+  transition: opacity 2s ease-in-out;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.6);
+}
+.chat-line.fade {
+  opacity: 0;
+}
+.chat-username {
+  font-weight: bold;
+}
+.chat-system {
+  color: #FFFF55;
+  font-style: italic;
+}
+.chat-death {
+  color: #CCCCCC;
+  font-style: italic;
+}
 </style>
 </head>
 <body>
@@ -256,8 +293,10 @@ div.text-box {
 <div class="main-content">
 
   <p class="description">
-   There is nothing here yet. Come back later.
+   
   </p>
+
+  <div class="minecraft-chat" id="minecraft-chat"></div>
 
 <script>
   let registered = 918556064;
@@ -342,6 +381,430 @@ div.text-box {
   function goToSlide(index) {
     showSlide(index);
   }
+
+  const chatBox = document.getElementById('minecraft-chat');
+
+const usernames = ["mibiribi", "sexypanda420", "cat167844", "iceeslushy", "Qwerturdoise", "HustnWeHavAProblm", "epicaxolotl212", "xx_Janxxxxx_xx", "missjunejune", "spitnfire_", "bonbonerie", "Roses825", "MUFF", "BunnyMode", "Tobaised", "BailaBella", "AroMa", "FreeFloatingSpirit", "Xx_DingusBooger_xX", "DestroyerOfEverything88", "RAAAHHH!!!!!", "CrftrmineSUX", "Citadel4Ever", "MyNameISbINGUS", "__shitass", "Gilden12", "Herobrine", "HashtagHelp", "Ironmaster99", "CreepersGonCreep", "RabbitRabbit452551", "Cryingpls89", "Monstieinthedark996", "MyNameIsBrian", "Trash7128", "DopClock", "AxoGa", "Slurpalot", "Girllloh", "DebitCarrd", "DazyBatt", "BorderOfSky7", "Inkingus124", "wet_sock74", "xXx_Gamer_xXx", "XXXX_ABSOLUTEGAMER_XXXX", "Hazy", "MrSteak3", "Ga1by1", "noobmaster69", "67overlord", "Xx_Zz_67_zZ_xX", "420SmokeWeedEveryday"];
+
+const messages = [
+  "anyone got spare wood?",
+  "anyone got spare iron?",
+  "anyone got spare redstone?",
+  "anyone got spare diamonds?",
+  "anyone got sum weed",
+  "anyone got a good shop",
+  "anybody selling cake?",
+  "anybody selling building blocks?",
+  "are you out of your mind?",
+  "anvils are so stupidly complex how the hell do you use this",
+  "anvil didnt work",
+  "alright im here",
+  "alright",
+  "anti void mogs milk craftermine",
+  "anti void is so much better",
+  "afk",
+  "afk brb",
+  "afk dont grief",
+  "are yall fucking insane",
+  "dial up internet?? really?????",
+  "do a barrel roll off a cliff loser",
+  "deleting u from my friends list irl",
+  "deleting you from the server ngl",
+  "im an awesome redstone engineer!!! will work for diamonds!!!",
+  "im a builder message me and we can work on something together!!",
+  "im an pixel artist",
+  "im brokeeeeeeeeeeee",
+  "im stuck in a hole",
+  "im stuck, i cant move or else ill die",
+  "im so bad at this game",
+  "im bad",
+  "im good",
+  "im proud of this house",
+  "im proud of my base",
+  "idk",
+  "idkkkkk",
+  "i dont know",
+  "i have 42 wood",
+  "i got no wood",
+  "i like craftermine",
+  "I like Craftermine",
+  "i like this game",
+  "i hate this game",
+  "i hate craftermine",
+  "I DIED AND LOST EVERYTHING NOOOOOOOOOOOOOOOOOOOOOOO",
+  "I FOUND DIAMONDS!!!",
+  "I FOUND OBSIDIAN!!!",
+  "I FOUND GOLD!!!",
+  "i love you",
+  "i know what you are...",
+  "ignore the haters",
+  "is this good for money",
+  "is a cow farm good 4 money",
+  "is a suger cane farm good for money",
+  "jarona!",
+  "follow me im on the nether highway",
+  "follow me",
+  "f",
+  "F",
+  "fuuuuuuuuuuuuuuucjk",
+  "fuck",
+  "fail",
+  "EPIC WIN",
+  "epic win",
+  "epic fail rofl",
+  "epic fail",
+  "okay",
+  "okay shitass lets see what you got",
+  "tp to me",
+  "tp if you do",
+  "this shit is so boring",
+  "this is so boring",
+  "this is so boring hop on anti void",
+  "THIS ZOMBIE JUST BROKE MY DOOR???",
+  "theres no money in this game",
+  "theres no money in this game you trade using anything",
+  "thx",
+  "thanks",
+  "thank you!",
+  "thanks for participating in my event hope yall enjoyed it.",
+  "THE LAG FUCKING SUCKSSSSSSSSSSSS",
+  "the lag sucks",
+  "ttyl",
+  "talk to ya later",
+  "time to grief bases",
+  "time to fuck someones shit up",
+  "use the item dipshit",
+  "use the item pls",
+  "my mob grinder really just exploded",
+  "my base just exploded.",
+  "REVIVE ME!!!!!!!!!!!",
+  "will trade a stack of wood for 2 dirt blocks",
+  "will trade a stack of diamonds for 5 dabloons",
+  "will trade diamond gear for building blocks i choose peace",
+  "will tade a stock of diamonds for 7 emeralds",
+  "were all broke in this server bruh",
+  "wtf yes you can",
+  "wtf yes you can???",
+  "WTF I JUST SAW GILDEN9",
+  "what the hell is an enchanting table",
+  "what the hell are you doing",
+  "what the hell are you doing???????",
+  "what the fuck are you doing",
+  "what the fuck are you doing??????",
+  "what are you doing???",
+  "what dungeon",
+  "what are you talking about",
+  "what is this game??",
+  "what did she do",
+  "what did he do",
+  "what did they do",
+  "what do wands do",
+  "when is the next update dropping",
+  "who the hell is this",
+  "who is this fella",
+  "who is this",
+  "whos hosting this shit?",
+  "who built this garbage??",
+  "who built this trash...?",
+  "who let a noob here",
+  "why is my glowstone portal not working????",
+  "why is nothing working??",
+  "why is my computer really loud?",
+  "why did my anvil disappear?",
+  "why is my pc so slow?",
+  "watch this mlg bucket clutch",
+  "watch this bucket clutch",
+  "watch this absolute crazy play",
+  "wands?? there are no wands in this game",
+  "vote for me",
+  "vote for me pls",
+  "vote for me ill be a reliable leader i know what to do unlike yall",
+  "pls",
+  "pls ill work for free",
+  "pls gib food",
+  "pls gib",
+  "please",
+  "PLEASE",
+  "please i need blocks",
+  "pwn3d",
+  "pvp time",
+  "drop your coords",
+  "drop the coords i wanna see",
+  "drop the location lets see this",
+  "dumbass",
+  "no",
+  "no.",
+  "NO",
+  "no you didnt you liar",
+  "naaaaaahhhhhhh",
+  "no way",
+  "NOOOOOOOOOOOOOOOO!!!!!!!!",
+  "nooooooo........",
+  "no one has anything!!! yall suck!!!",
+  "not gonna say who but u know who u are >:(",
+  "NUMA NUMA YEI",
+  "nice",
+  "nice hacks shithead",
+  "nice hacks",
+  "n00b",
+  "noob",
+  "someone revive me PLS",
+  "someone tp to me i need help with a build",
+  "someone tp to me i need help with a build i will pay you not lying",
+  "someone tp to me i need help with a dungeon",
+  "someone tp to me i need help with a dungeon i will giv a lot of rewards",
+  "someone come to me i wanna do a boss rush",
+  "some people here are so fake",
+  "subscribe to my channel",
+  "subscribe to my channel type in my username",
+  "selling top gear tp to me",
+  "selling building mats tp to me",
+  "selling food tp to me",
+  "stop self promoting asshole",
+  "stop killing me",
+  "STOP KILLING ME!!!!!",
+  "skeletons suck so much",
+  "skeletons fucking suck",
+  "smoke weed everyday",
+  "bros working for diamonds",
+  "bros working for emeralds",
+  "bros working for dirt blocks",
+  "bros being a slave",
+  "bros still using dial up internet what a loser",
+  "bitch you cant tp in this game",
+  "bruh you cant tp in this game",
+  "bruh",
+  "BRO",
+  "BRUH",
+  "bye",
+  "byebye",
+  "byebybebybey",
+  "brb",
+  "brb internet shat itself",
+  "brb dial up slow",
+  "brb parents want something",
+  "brb someones fucking up my connection by being on the phone",
+  "hi",
+  "haiiiiii",
+  "hello",
+  "hellloooooooooooo",
+  "hey",
+  "HEY",
+  "HEY WTF ARE YOU DOING??",
+  "hey what are you doing here?",
+  "how do i claim land",
+  "how do i use anvil",
+  "how do i use an anvil",
+  "how do i use enchanting table",
+  "how do i use an enchanting table",
+  "how do i make a portal",
+  "how do i enter the chess world??",
+  "how do i enter the creative world??",
+  "how to play the game",
+  "help me pls",
+  "help me",
+  "hacker",
+  "haxor",
+  "hax detected",
+  "goodbye",
+  "get out of here dumbass",
+  "get out of here",
+  "gg",
+  "GG",
+  "good game dipshit",
+  "good game",
+  "guys how do I make a nether portal??? pls???",
+  "guys how do make a nether portal??",
+  "g2g",
+  "g2g mom needs the computer",
+  "going afk yall better behave",
+  "gtfo noob",
+  "gtfo",
+  "get a life",
+  "get a life fucker",
+  "your ass better not destroy everything this time",
+  "your so trash",
+  "your such a hacker",
+  "youre so trash",
+  "you better not destroy everything this time",
+  "you a bitch",
+  "yall heard of fort night",
+  "yall heard of jak fort night",
+  "yall heard of the next update",
+  "yall are actually insufferable",
+  "yes",
+  "YES",
+  "YESSSS!!!!!!!!!",
+  "yeah",
+  "yeh",
+  "YEAH",
+  "yeah its behind me",
+  "yummy cake",
+  "yummy",
+  "yum",
+  "y u no give diamonds",
+  "y u no give",
+  "y u no help",
+  "y u no tp",
+  "dont burn my house down again pls",
+  "dont burn the forest again pls",
+  "oof im bad",
+  "oof",
+  "only my top 8s can enter my base",
+  "only goats can enter",
+  "OVER 9000!!!!!!!!!",
+  "ooooof",
+  "u trash rofl",
+  "u trash lol",
+  "u mad?",
+  "cya",
+  "cya later",
+  "cya l8r",
+  "camping much?",
+  "k thx bye",
+  "k thx",
+  "kay",
+  "1v1 me bitch",
+  "1v1 me bro",
+  "1v1 me tp",
+  "lol",
+  "LOL",
+  "lawl",
+  "LAWL",
+  "Lmao",
+  "lmao",
+  "LMAO",
+  "rofl",
+  ":)",
+  ":))))",
+  "=)",
+  ":D",
+  ":DDDDD",
+  ":3",
+  ":333",
+  ":(",
+  ":((((((",
+  ">:(",
+  ">:)",
+  ">.>",
+  "<.<",
+  "^_^",
+  "._.",
+  "...",
+  "Xd",
+  "XD",
+  "xD",
+  "*trade",
+  "*give",
+  "iuhsdlgskhdjkjgaksada",
+  "nfdgkjhusdkyvgsnfygdfkvnysgvynrvynkjynsvduuhgvfdumkxuvfguhdmvhuvuhmshgmhhumvhlma8lhkmhlcmuakc",
+  "ijlajiolojalo,jxamlimijklaxlil,ijijfasijhsfahfcmfas",
+  "3595292332434128426242355293"
+];
+
+const usernameColors = {};
+const colorPalette = ["#55FFFF", "#FF5555", "#55FF55", "#FFFF55", "#FF55FF", "#5555FF", "#FFAA00"];
+
+function getUsernameColor(username) {
+  if (!usernameColors[username]) {
+    const color = colorPalette[Object.keys(usernameColors).length % colorPalette.length];
+    usernameColors[username] = color;
+  }
+  return usernameColors[username];
+}
+
+function addLine(el) {
+  chatBox.appendChild(el);
+
+  while (chatBox.children.length > 8) {
+    chatBox.removeChild(chatBox.firstChild);
+  }
+
+  setTimeout(() => {
+    el.classList.add('fade');
+  }, 12000);
+}
+
+function addChatMessage() {
+  const username = usernames[Math.floor(Math.random() * usernames.length)];
+  const message = messages[Math.floor(Math.random() * messages.length)];
+
+  const line = document.createElement('div');
+  line.classList.add('chat-line');
+
+  const usernameSpan = document.createElement('span');
+  usernameSpan.classList.add('chat-username');
+  usernameSpan.textContent = `<${username}> `;
+
+  line.appendChild(usernameSpan);
+  line.appendChild(document.createTextNode(message));
+
+  addLine(line);
+}
+
+function addSystemMessage(username, action) {
+  const line = document.createElement('div');
+  line.classList.add('chat-line', 'chat-system');
+  line.textContent = `${username} ${action} the game`;
+  addLine(line);
+}
+
+function randomEvent() {
+  const username = usernames[Math.floor(Math.random() * usernames.length)];
+  const roll = Math.random();
+
+  if (roll < 0.12) {
+    addSystemMessage(username, "joined");
+  } else if (roll < 0.20) {
+    addSystemMessage(username, "left");
+  } else if (roll < 0.30) {
+    addDeathMessage();
+  } else {
+    addChatMessage();
+  }
+}
+
+function scheduleNextMessage() {
+  const delay = Math.random() * 1500 + 1000;
+  setTimeout(() => {
+    randomEvent();
+    scheduleNextMessage();
+  }, delay);
+}
+
+scheduleNextMessage();
+
+const deathMessages = [
+  "{player} was slain by a zombie",
+  "{player} was shot by a skeleton",
+  "{player} fell from a high place",
+  "{player} tried to swim in lava",
+  "{player} was blown up by a creeper",
+  "{player} walked into a cactus while trying to escape a phantom",
+  "{player} was pricked to death",
+  "{player} drowned",
+  "{player} hit the ground too hard",
+  "{player} went off with a bang",
+  "{player} didn't want to live in the same world as {other}",
+  "{player} was killed by {other}"
+];
+
+function addDeathMessage() {
+  const player = usernames[Math.floor(Math.random() * usernames.length)];
+  let other = usernames[Math.floor(Math.random() * usernames.length)];
+  while (other === player) {
+    other = usernames[Math.floor(Math.random() * usernames.length)];
+  }
+
+  const template = deathMessages[Math.floor(Math.random() * deathMessages.length)];
+  const text = template.replace('{player}', player).replace('{other}', other);
+
+  const line = document.createElement('div');
+  line.classList.add('chat-line', 'chat-death');
+  line.textContent = text;
+
+  addLine(line);
+}
 </script>
 
 </body>
