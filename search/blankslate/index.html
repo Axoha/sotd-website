@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  overflow: hidden;
+}
+
+#desktop {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 40px); /* leave room for taskbar */
+  background: url("/search/assets/wallpaper.jpg") center/cover no-repeat;
+}
+
+.icon {
+  position: absolute;
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: default;
+  user-select: none;
+}
+
+.icon img {
+  width: 48px;
+  height: 48px;
+  pointer-events: none;
+}
+
+.icon-label {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8), -1px -1px 2px rgba(0,0,0,0.8);
+  margin-top: 4px;
+  padding: 1px 2px;
+  border-radius: 2px;
+}
+
+.icon-label.selected {
+  background: rgba(51, 153, 255, 0.4);
+  outline: 1px dotted rgba(255,255,255,0.7);
+}
+
+#taskbar {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to bottom,
+    #4a7fc1 0%,
+    #3465a8 8%,
+    #1f4d8c 40%,
+    #163d73 100%);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+              inset 0 2px 6px rgba(255,255,255,0.15);
+  border-top: 1px solid rgba(255,255,255,0.4);
+}
+
+#start-btn {
+  position: relative;
+  height: 54px;
+  width: 54px;
+  margin-top: -1px;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.orb-layer {
+  position: absolute;
+  top: 0; left: 0;
+  width: 106px;
+  height: 318px;
+  background-image: url("/search/assets/startorb.png");
+  background-repeat: no-repeat;
+  transition: opacity 0.15s ease;
+  transform: scale(calc(54 / 106));
+  transform-origin: top left;
+}
+
+.orb-default { background-position: 0 0px;    opacity: 1; }
+.orb-hover   { background-position: 0 -106px; opacity: 0; }
+.orb-active  { background-position: 0 -212px; opacity: 0; }
+
+#start-btn:hover .orb-default { opacity: 0; }
+#start-btn:hover .orb-hover   { opacity: 1; }
+#start-btn:active .orb-active { opacity: 1; }
+
+.taskbar-icon {
+  height: 32px;
+  width: 32px;
+  margin: 0 2px;
+  padding: 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.taskbar-icon:hover {
+  background: rgba(255,255,255,0.15);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.3);
+}
+
+#system-tray {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+  color: white;
+  font-size: 12px;
+}
+
+#clock {
+  margin-left: auto;
+  text-align: center;
+  line-height: 1.3;
+  padding: 0 10px;
+  border-left: 1px solid rgba(255,255,255,0.2);
+  color: white;
+  cursor: default;
+}
+#clock .date {
+  font-size: 11px;
+  opacity: 0.9;
+}
+
+#start-menu {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  width: 420px;
+  height: 500px;
+  background: linear-gradient(to bottom, rgba(30,60,100,0.95), rgba(15,35,65,0.98));
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.5);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+#start-menu.hidden {
+  transform: translateY(20px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+#pinned-apps {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#boot-screen {
+  position: fixed; inset: 0;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#boot-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+</style>
+
+<title>Blank</title>
+
+</head>
+
+<body>
+
+<div id="boot-screen">
+   <video id="boot-video" src="/search/assets/startup.mp4" muted playsinline></video>
+</div>
+
+<div id="desktop"></div>
+
+<div id="taskbar">
+  <button id="start-btn">
+    <span class="orb-layer orb-default"></span>
+    <span class="orb-layer orb-hover"></span>
+    <span class="orb-layer orb-active"></span>
+  </button>
+  <div id="pinned-apps">
+    <img class="taskbar-icon" src="/search/assets/fileexplorer.jpg" alt="Windows Explorer">
+  </div>
+  <div id="start-menu" class="hidden">
+  </div>
+  <div id="clock"></div>
+</div>
+
+
+</body>
+
+<script>
+
+const bootScreen = document.getElementById('boot-screen');
+const bootVideo = document.getElementById('boot-video');
+
+function wasReload() {
+  const [entry] = performance.getEntriesByType('navigation');
+  return entry && entry.type === 'reload';
+}
+
+const alreadyPlayedThisSession = sessionStorage.getItem('bootPlayed');
+
+if (alreadyPlayedThisSession && !wasReload()) {
+  bootScreen.style.display = 'none';
+} else {
+  sessionStorage.setItem('bootPlayed', 'true');
+  bootVideo.currentTime = 0;
+  bootVideo.play();
+
+  bootVideo.addEventListener('ended', () => {
+    bootScreen.style.transition = 'opacity 0.6s ease';
+    bootScreen.style.opacity = '0';
+    setTimeout(() => { bootScreen.style.display = 'none'; }, 600);
+  });
+}
+
+let icons = JSON.parse(localStorage.getItem('desktopIcons')) || [
+  { id: 'recycle-bin', name: 'Recycle Bin', img: "/search/assets/recyclebin.jpg", x: 20, y: 20 }
+];
+
+function saveIcons() {
+  localStorage.setItem('desktopIcons', JSON.stringify(icons));
+}
+
+function renderIcons() {
+  const desktop = document.getElementById('desktop');
+  desktop.innerHTML = '';
+  icons.forEach(icon => {
+    const el = document.createElement('div');
+    el.className = 'icon';
+    el.style.left = icon.x + 'px';
+    el.style.top = icon.y + 'px';
+    el.dataset.id = icon.id;
+    el.innerHTML = `
+      <img src="${icon.img}" draggable="false">
+      <span class="icon-label" contenteditable="false">${icon.name}</span>
+    `;
+    desktop.appendChild(el);
+    makeDraggable(el, icon);
+    makeEditable(el, icon);
+    makeImageSwappable(el, icon);
+  });
+}
+
+function makeDraggable(el, icon) {
+  let offsetX, offsetY, dragging = false;
+
+  el.addEventListener('mousedown', (e) => {
+    if (e.target.classList.contains('icon-label')) return;
+    dragging = true;
+    offsetX = e.clientX - el.offsetLeft;
+    offsetY = e.clientY - el.offsetTop;
+    el.style.zIndex = 10;
+  });
+
+  document.addEventListener('mousemove', (e) => {
+    if (!dragging) return;
+    icon.x = e.clientX - offsetX;
+    icon.y = e.clientY - offsetY;
+    el.style.left = icon.x + 'px';
+    el.style.top = icon.y + 'px';
+  });
+
+  document.addEventListener('mouseup', () => {
+    if (dragging) { dragging = false; saveIcons(); }
+  });
+}
+
+function makeEditable(el, icon) {
+  const label = el.querySelector('.icon-label');
+  el.addEventListener('dblclick', () => {
+    label.contentEditable = true;
+    label.focus();
+  });
+  label.addEventListener('blur', () => {
+    label.contentEditable = false;
+    icon.name = label.textContent.trim();
+    saveIcons();
+  });
+}
+
+function makeImageSwappable(el, icon) {
+  el.addEventListener('contextmenu', (e) => {
+    e.preventDefault();
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.accept = 'image/*';
+    input.onchange = () => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        icon.img = reader.result;
+        saveIcons();
+        renderIcons();
+      };
+      reader.readAsDataURL(input.files[0]);
+    };
+    input.click();
+  });
+}
+
+const startBtn = document.getElementById('start-btn');
+const startMenu = document.getElementById('start-menu');
+
+startBtn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  startMenu.classList.toggle('hidden');
+});
+
+document.addEventListener('click', (e) => {
+  if (!startMenu.contains(e.target) && e.target !== startBtn) {
+    startMenu.classList.add('hidden');
+  }
+});
+
+function updateClock() {
+  const now = new Date();
+  const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  const date = now.toLocaleDateString([], { month: 'numeric', day: 'numeric', year: 'numeric' });
+  document.getElementById('clock').innerHTML = `<div>${time}</div><div class="date">${date}</div>`;
+}
+setInterval(updateClock, 1000);
+updateClock();
+renderIcons();
+
+</script>
+
+</html>

@@ -385,8 +385,6 @@ table.blue_header, tr.blue_header, td.blue_header{
     font-size:9pt; 
     color:#ffffff; 
     font-weight:bold;
-    valign:middle;
-    align:left;
 }
 
 table.red_header, tr.red_header, td.red_header{
@@ -395,8 +393,6 @@ table.red_header, tr.red_header, td.red_header{
     font-size:9pt; 
     color:#ffffff; 
     font-weight:bold;
-    valign:middle;
-    align:left;
 }
 
 table.blue_white, tr.blue_white, td.blue_white{

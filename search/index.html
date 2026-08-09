@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+  margin: 0;
+  background: black;
+}
+
+#boot-menu {
+  font-family: 'Perfect DOS VGA 437', 'Lucida Console', monospace;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+}
+
+.title-bar, .status-bar {
+  background: silver;
+  color: black;
+  padding: 6px 12px;
+  font-weight: bold;
+}
+
+.status-bar {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-bar {
+  text-align: center;
+}
+
+.menu-body {
+  padding: 20px 32px;
+  flex: 1;
+}
+
+#menu-options {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+#menu-options li {
+  padding: 2px 8px;
+  cursor: default;
+}
+
+#menu-options li.spacer {
+  height: 1em;
+  padding: 0;
+}
+
+#menu-options li.selected {
+  background: silver;
+  color: black;
+}
+
+#description {
+  margin-top: 30px;
+}
+
+</style>
+<title>Advanced Search</title>
+</head>
+<body>
+
+<audio id="bg-sound" src="/search/assets/unpleasantsound.mp3" loop></audio>
+
+<div id="boot-menu">
+  <div class="title-bar">Advanced Search Options</div>
+
+  <div class="menu-body">
+    <p>Maybe, after all...</p>
+    <p>(Use the arrow keys to highlight your choice.)</p>
+
+    <ul id="menu-options">
+      <li data-url="/computer/index.html">Connect FUN</li>
+      <li data-url="/search/blankslate/index.html">Connect BLANK</li>
+      <li data-url="/search/mafiapc/index.html">Connect MAFIAPC</li>
+      <li data-url="/error/index.html">Connect Unknown</li>
+      <li data-url="/error/index.html">Connect Unknown</li>
+      <li data-url="/error/index.html">Connect Unknown</li>
+      <li data-url="/error/index.html">Connect Unknown</li>
+      <li data-url="/error/index.html">Connect Unknown</li>
+      <li data-url="/error/index.html">Connect Unknown</li>
+      <li data-url="/error/index.html">Connect Unknown</li>
+      <li data-url="/error/index.html">Connect Unknown</li>
+      <li class="spacer"></li>
+      <li data-url="/error/index.html">Advanced Settings</li>
+    </ul>
+
+    <p id="description">View a list of system recovery tools you can use to repair startup problems, run diagnostics, or restore your system.</p>
+  </div>
+
+  <div class="status-bar">
+    <span>ENTER=Choose</span>
+    <span>ESC=Cancel</span>
+  </div>
+</div>
+</body>
+
+<script>
+
+const sound = document.getElementById('bg-sound');
+
+sound.play().catch(() => {
+  document.addEventListener('click', () => sound.play(), { once: true });
+});
+
+const options = Array.from(document.querySelectorAll('#menu-options li:not(.spacer)'));
+let selectedIndex = 0;
+
+function updateSelection() {
+  options.forEach((el, i) => {
+    el.classList.toggle('selected', i === selectedIndex);
+  });
+}
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    selectedIndex = (selectedIndex + 1) % options.length;
+    updateSelection();
+  }
+  else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    selectedIndex = (selectedIndex - 1 + options.length) % options.length;
+    updateSelection();
+  }
+  else if (e.key === 'Enter') {
+    e.preventDefault();
+    const url = options[selectedIndex].dataset.url;
+    if (url) window.location.href = url;
+  }
+  else if (e.key === 'Escape') {
+    e.preventDefault();
+    window.history.back();
+  }
+});
+
+updateSelection();
+</script>
+</html>
