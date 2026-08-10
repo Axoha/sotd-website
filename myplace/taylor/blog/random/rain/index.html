@@ -1,0 +1,268 @@
+<html>
+<head>
+<link rel="STYLESHEET" type="text/css" href="/myplace/template/myspace.css">
+<script>
+//##############################
+//   Blog Owner Info:
+//   (mirrors the variables used on the profile page so the
+//    two pages can share the same look & feel)
+//##############################
+first_name = "Taylor";
+last_name = "";
+profile_picture = "/myplace/img/taylor/profilepic.jpg";
+myspace_url = "http://myplace.com/taylor";
+mood = "Contemplative";
+mood_icon = "/myplace/img/moodicon.gif"; // small mood smiley, optional
+
+//##############################
+//   Blog Entry:
+//##############################
+blog_subject = "It's raining";
+blog_date_time = "Wednesday, April 7th, 2010";
+blog_time = "2:28 AM";
+blog_category = "Random";
+blog_body = "like... really, look:<br>" + "<img src='/myplace/img/taylor/placewhereitrained.jpg' width='400' border='0'>";
+
+//##############################
+//   Comments:
+//##############################
+commenter = [];
+commenter_pic = [];
+comment_date_time = [];
+comment = [];
+commenter_url = [];
+
+number_of_comments = 1;
+total_number_of_comments = 1;
+
+commenter[1] = "Ferd Ray";
+commenter_pic[1] = "/myplace/img/defaultprofilepic.jpg";
+comment_date_time[1] = "4/8/2010 3:19 PM";
+comment[1] = "You really made a blog post just for this.";
+commenter_url[1] = "/myplace/ferdray";
+
+//##############################
+//   Rendering functions
+//##############################
+function makeCommentSection() {
+	comment_section = '<tr><td><b>Displaying <span class="redtext">' + number_of_comments + '</span> of <span class="redtext">';
+	comment_section = comment_section + total_number_of_comments + '</span> comments (<a href="/error/index.html">View/Edit All Comments</a>)</td></tr>';
+	for (i = 1; i <= number_of_comments; i++) {
+		comment_section = comment_section + '<tr><td bordercolor="ff9933" bgcolor="ffcccc"><table width="100%" border="1" cellspacing="0" cellpadding="3"';
+		comment_section = comment_section + ' bordercolor="FFffff"><tr><td align="center" valign="top" width="150" bgcolor="FF9933" style="word-wrap:break-word"><a href="' + commenter_url[i] + '">';
+		comment_section = comment_section + commenter[i] + '</a><br><br><a href="' + commenter_url[i] + '"><img style="max-width:90px; max-height:180px;" src="' + commenter_pic[i] + '"  border="0"></a><br><br><br></td>';
+		comment_section = comment_section + '<td bgcolor="F9D6B4" align="left" valign="top" width="260" style="word-wrap:break-word"><span  class="blacktext10">';
+		comment_section = comment_section + comment_date_time[i] + '</span><br><br>' + comment[i] + '</td></tr></table></td></tr>';
+	}
+	return comment_section;
+}
+
+function initializeBlog() {
+	document.getElementById("pageTitle").innerHTML = first_name.toLowerCase() + last_name.toLowerCase() + "'s blog | " + blog_subject;
+
+	document.getElementById("sidebarName").innerHTML = first_name + " " + last_name;
+	document.getElementById("profilePicture").src = profile_picture;
+	document.getElementById("profilePicture").alt = first_name + "'s profile picture";
+	document.getElementById("profilePicture").href = "/myplace/taylor/index.html";
+	document.getElementById("myspaceURL").innerHTML = "&nbsp;&nbsp;" + myspace_url + "&nbsp;&nbsp;";
+	document.getElementById("viewProfileLink").innerHTML = "Profile | Pics | Videos";
+
+	document.getElementById("blogOwnerHeader").innerHTML = first_name + "'s blog";
+	document.getElementById("blogSubject").innerHTML = blog_subject;
+	document.getElementById("blogDateTime").innerHTML = blog_date_time + " | " + blog_time;
+	document.getElementById("blogCategory").innerHTML = blog_category;
+	document.getElementById("blogMood").innerHTML = mood;
+	document.getElementById("blogBody").innerHTML = blog_body;
+
+	document.getElementById("commentHeader").innerHTML = "Comments (" + total_number_of_comments + ")";
+	document.getElementById("commentSection").innerHTML = makeCommentSection();
+}
+</script>
+<title id="pageTitle">Blog</title>
+</head>
+
+<body onload="initializeBlog()" alink="4e607b" link="4e607b" vlink="4e607b" bottommargin="0" leftmargin="0" rightmargin="0" topmargin="0">
+
+<div align="center">
+<table width="800" border="0" align="center" cellpadding="5" cellspacing="0" bgcolor="003399">
+<form action="/error/index.html" method="post">
+<tr><td>&nbsp;<a class="navbar" href="/error/index.html"><font color="FFFFFF">MyPlace.com</font></a>&nbsp;<font color="FFFFFF">|</font>&nbsp;
+<a class="navbar" href="/error/index.html"><font color="FFFFFF">Home</font></a></td>
+<td align="left"><font color="FFFFFF">The Web <input type="radio" name="searchtype" value="web" checked> MyPlace <input type="radio" name="searchtype" value="myspace"> <input style="font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 10px;" name="searchrequest" type="text" size="25" maxlength="75">&nbsp;&nbsp;&nbsp;<input type="submit" value="Search" style="font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 10px; background-color:E0FFFF;"></td>
+<td align="right"><a class="man" href="/error/index.html"><font color="FFFFFF">Help</font></a> <font color="FFFFFF" size="1">|</font>&nbsp;
+<a class="man" href="/error/index.html"><font color="FFFFFF">SignUp</font></a>&nbsp;</td></tr></form>
+</table>
+</div>
+<div align="center">
+<table border="0" cellspacing="0" cellpadding="0" width="800">
+<tr><td width="800" height="26" bgcolor="6698CB">
+<table width="800" height="26" border="0" cellspacing="0" cellpadding="0">
+<tr valign="middle"><td align="center"><font face="Arial, Helvetica, sans-serif" color="#000000">
+<a class="navbar" href="/error/index.html">Home</a>&nbsp;|&nbsp;
+<a class="navbar" href="/error/index.html">Browse</a>&nbsp;|&nbsp;
+<a class="navbar" href="/error/index.html">Search</a>&nbsp;|&nbsp;
+<a class="navbar" href="/error/index.html">Invite</a>&nbsp;|&nbsp;
+<a class="navbar" href="/error/index.html">Rank</a>&nbsp;|&nbsp;
+<a class="navbar" href="/error/index.html">Mail</a>&nbsp;|&nbsp;
+<a class="navbar" href="/error/index.html">Blog</a>&nbsp;|&nbsp;
+<a class="navbar" href="/error/index.html">Favorites</a>&nbsp;|&nbsp;
+<a class="navbar" href="/error/index.html">Forum</a>&nbsp;|&nbsp;
+<a class="navbar" href="/error/index.html">Groups</a>&nbsp;|&nbsp;
+<a class="navbar" href="/error/index.html">Events</a>&nbsp;|&nbsp;
+<a class="navbar" href="/error/index.html">Games</a>&nbsp;|&nbsp;
+<a class="navbar" href="/error/index.html">Music</a>&nbsp;|&nbsp;
+<a class="navbar" href="/error/index.html">Classifieds</a>
+</font></td></tr></table></td></tr></table>
+</div>
+
+<table width="800" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td width="20" bgcolor="FFFFFF"></td>
+<td width="780" align="center" bgcolor="FFFFFF">
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+
+<!-- ##################### LEFT: mini profile sidebar ##################### -->
+<td width="180" align="center" valign="top" bgcolor="FFFFFF"><br>
+
+<table border="0" cellspacing="0" cellpadding="0" width="180">
+<tr><td align="center">
+<a href="/myplace/taylor/index.html"><img id="profilePicture" src="" border="0" width="150"></a><br><br>
+<span class="nametext" id="sidebarName"></span><br>
+<span id="viewProfileLink" class="text"></span>
+</td></tr>
+</table>
+<br>
+
+<table class="contactTable" border="1" cellspacing="0" cellpadding="0" width="180" bordercolor="#6699cc">
+<tr>
+<td width="180" height="15" bgcolor="#6699cc" class="text" align="left" style="WORD-WRAP:break-word">&nbsp;&nbsp;&nbsp;<span class="whitetext12">MySpace URL</span></td>
+</tr>
+<tr>
+<td bgcolor="ffffff" align="center"><div id="myspaceURL" class="text" style="word-wrap:break-word"></div></td>
+</tr>
+</table>
+<br>
+
+<table bordercolor="6699cc" cellspacing="0" cellpadding="0" width="180" bgcolor="6699cc" border="1">
+<tr>
+<td class="text" valign="center" align="left" width="180" bgcolor="6699cc" height="10" style="word-wrap:break-word">
+&nbsp;&nbsp;&nbsp;<span class="whitetext12">Blog Categories</span>
+</td>
+</tr>
+<tr valign="top">
+<td>
+<table bordercolor="000000" cellspacing="3" cellpadding="3" width="180" align="center" bgcolor="ffffff" border="0">
+<tr><td valign="top" align="left" width="180" bgcolor="d5e8fb"><a href="#">Life</a> (0)</td></tr>
+<tr><td valign="top" align="left" width="180" bgcolor="ffffff"><a href="#">Music</a> (0)</td></tr>
+<tr><td valign="top" align="left" width="180" bgcolor="d5e8fb"><a href="#">Random</a> (1)</td></tr>
+<tr><td valign="top" align="left" width="180" bgcolor="ffffff"><a href="#">View-All</a></td></tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+
+</td>
+<td width="15" align="center" valign="top" bgcolor="White"></td>
+
+<!-- ##################### RIGHT: blog entry ##################### -->
+<td width="585" align="center" valign="top" bgcolor="White" class="text"><br>
+
+<table bordercolor="ffcc99" cellspacing="0" cellpadding="0" width="585" bgcolor="ffcc99" border="0">
+<tr>
+<td class="text" valign="center" align="left" width="585" bgcolor="ffcc99" height="20" style="word-wrap:break-word">
+&nbsp;&nbsp;&nbsp;<span class="orangetext15" id="blogOwnerHeader"></span>
+</td>
+</tr>
+</table>
+
+<table bordercolor="000000" cellspacing="0" cellpadding="8" width="585" align="center" bgcolor="ffffff" border="0">
+<tr>
+<td width="585" style="word-wrap:break-word">
+
+<span class="blacktext13" id="blogSubject"></span><br>
+<span class="stext" id="blogDateTime"></span><br><br>
+
+<table cellspacing="0" cellpadding="4" width="100%" border="0">
+<tr>
+<td width="90" class="lightbluetext8" valign="top">Category:</td>
+<td class="text" id="blogCategory"></td>
+</tr>
+<tr>
+<td width="90" class="lightbluetext8" valign="top">Mood:</td>
+<td class="text" id="blogMood"></td>
+</tr>
+</table>
+<br>
+
+<div id="blogBody" class="spacetext" style="word-wrap:break-word"></div>
+
+</td>
+</tr>
+</table>
+<br>
+
+<table cellspacing="0" cellpadding="0" width="585" border="0">
+<tr><td align="right"><a href="#" class="redlink">Previous Entry</a>&nbsp;|&nbsp;<a href="#" class="redlink">Next Entry</a></td></tr>
+</table>
+<br>
+
+<!-- ##################### comments ##################### -->
+<table bordercolor="ffcc99" height="20" cellspacing="0" cellpadding="0" width="585" bgcolor="ffcc99" border="1">
+<tr>
+<td width="585" style="word-wrap:break-word">&nbsp;&nbsp;&nbsp;<span class="orangetext15" id="commentHeader"></span></td>
+</tr>
+</table>
+<table bordercolor="000000" cellspacing="3" cellpadding="0" width="585" align="center" bgcolor="ffffff" border="0">
+
+<div id="commentSection"></div>
+
+<tr>
+<td align="right"><a href="/error/index.html">Add Comment</a></td>
+</tr>
+</table>
+<br>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr bgcolor="#e5e5e5" valign="top">
+		<td>
+			<div align="center">
+				<div align=center>
+					<b><font face="Arial, Helvetica, sans-serif"><font color="#990000"><br>
+          </font> <font color="#003399" size="1" face="Arial, Helvetica, sans-serif">  
+          <a class="text" href="/error/index.html" target="_blank"><u>About</u></a>&nbsp;| 
+          &nbsp; <a class="text" href="/error/index.html" target="_blank"><u>FAQ</u></a>&nbsp;| 
+          &nbsp; <a class="text" href="/error/index.html" target="_blank"><u>Terms</u></a>&nbsp;| 
+          &nbsp; <a class="text" href="/error/index.html" target="_blank"><u>Privacy</a></u>&nbsp;| 
+          <a class="text" href="/error/index.html" target="_blank"><u>Safety 
+          Tips</u></a>&nbsp; |&nbsp; <a class="text" href="/error/index.html" target="_blank"><u>Contact 
+          MyPlace </u></a>&nbsp;| &nbsp; <a class="text" href="/error/index.html" target="_blank"><u>Promote!</a></u>&nbsp;| 
+          &nbsp; <a class="text" href="/error/index.html" target="_blank"><u>Advertise</a></u>&nbsp;| 
+          &nbsp; <a class="text" href="/error/index.html" target="_new"><u>MyPlace 
+          Shop</a> </b> </div>
+				<font size="2" face="Arial, Helvetica, sans-serif"><br></font>
+				<a href="#">
+				<div align="center">
+					<font size="1" face="Arial, Helvetica, sans-serif" color="black">
+						<u>&copy;2003-2026 MyPlace.com All Rights Reserved.</u>
+					</font>
+				</div></a>
+			</div>
+		</td>
+	</tr>
+</table>
+
+<style type="text/css">
+	body, html {visibility:visible !important; display:block !important}
+</style>
+
+</body>
+</html>
