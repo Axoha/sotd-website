@@ -3,13 +3,13 @@
         "id": "ferdRay",
         "name": "Ferd Ray",
         "thumbnail": "ferdRayThumb.png",
-        "flavorText": "A cat of mysterious origins, Ferd is a hardened veteran who's recklessness landed him many successful missions and accolades, though he'd give it all up to protect who he loves most."
+        "flavorText": "He is an insufferable, weird, and most importantly a stubborn mindless maniac who will do anything for the people he loves, and whatever he wants for himself of course."
     },
     {
         "id": "enaLone",
         "name": "Ena Lone",
         "thumbnail": "enaLoneThumb.png",
-        "flavorText": "Chubby, artsy, and creative oreo bear with main interest being music and art. She is very caring for the people she loves."
+        "flavorText": "Ena Lone is a chubby hotheaded dominant force. Incredibly popular among peers, though not so much outside of the city where she came from."
     },
     {
         "id": "hazuneNiku",
@@ -72,39 +72,45 @@
         "flavorText": "An ancient cheetah who mysteriously washed up the coast, or at least that's the working theory. She now attempts to fit into this wholly changed world."
     },
     {
-        "id": "ally",
+        "id": "allyParks",
         "name": "Ally Parks",
         "thumbnail": "allythumb.png",
         "flavorText": "Description pending..."
     },
     {
-        "id": "HoustonM",
+        "id": "houstonMarch",
         "name": "Houston March",
         "thumbnail": "houstonthumb.png",
         "flavorText": "A rabbit who specializes in mechanics. They have always been meeting new people but their ability to whip up a good sandwich never leaves them."
     },
     {
-        "id": "LarsT",
+        "id": "larsTerma",
         "name": "Lars Mai Terma",
         "thumbnail": "larsthumb.png",
         "flavorText": "Description pending..."
     },
     {
-        "id": "EmmaH",
+        "id": "emmaHindue",
         "name": "Emma Hindue",
         "thumbnail": "emmathumb.png",
         "flavorText": "Description pending..."
     },
     {
-        "id": "VeronikaB",
+        "id": "veronikaBarashova",
         "name": "Veronika Barashova",
         "thumbnail": "veronikathumb.png",
         "flavorText": "Description pending..."
     },
     {
-        "id": "Rose",
+        "id": "rose",
         "name": "ROSE",
         "thumbnail": "rosethumb.png",
+        "flavorText": "Description pending..."
+    },
+    {
+        "id": "jerka",
+        "name": "Jessica Hatherleigh",
+        "thumbnail": "jerkathumb.png",
         "flavorText": "Description pending..."
     }
 ]

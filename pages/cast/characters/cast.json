@@ -4,36 +4,26 @@
         "title": "Totally Fine Cat Dude",
         "images": [
             {
-                "file": "ferd1.png",
-                "title": "",
-                "credits":"by @Radropicall"
-            },
-            {
-                "file": "ferd2.png",
-                "title": ""
-            },
-            {
-                "file": "ferd3.png",
-                "title": ""
-            },
-            {
                 "file": "FerdCard.png",
                 "title": ""
             },
             {
+                "file": "ferd1.png",
+                "title": "",
+                "credits":"@Radropicall"
+            },
+            {
                 "file": "ferdwoah.png",
                 "title": "Woah",
-                "credits":"by @Trash7129"
+                "credits":"@Trash7129"
             }
         ],
         "blockOne": {
             "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Disobedient Scrap Group: Steel Steelers Steelisk Whatever. Shortened for the reader's convenience.",
-            "Origin": "No birthplace record, assumed to be born on Sol-3²²",
-            "Species": "Anthropomorphic American Bobtail Cat",
-            "Ethnicity": "Blasian",
+            "Origin": "No birthplace record, assumed to be born on <a href=\"/error/index.html\">Sol-3²²</a>",
+            "Species": "Anthropomorphic American Manx Cat",
             "Gender": "Male",
-            "Age": "26",
-            "Birthday": "October 17th",
+            "Birthday": "October 17th, 1994",
             "Height / Weight": "180 cm (5' 11\") / 79.3 kg (175 lbs)",
             "Blood Type": "Rh-null",
             "Internet Username": "cat167844"
@@ -42,15 +32,15 @@
             {
                 "heading": "General Information",
                 "paragraphs": [
-                    "<i>Ferd Ray</i> is an insufferable, unstoppable, and most importantly a stubborn mindless maniac who will do anything for the people he loves, and whatever he wants for himself of course. He has a very inflated ego... Not when he's around with his girlfriend, then he turns into a complete submissive dork. Originating from a rather normal variation of 'Earth', as a young adult he and the love of his life <i>Ena Lone</i> chose to enlist in the military seemingly for easy money, which obviously, escalated into... a trap, would that even be the right word to describe it? They both dearly love their time working as expendable pawns for the <i>Disobedient Armed Forces.</i>",
+                    "<i>Ferd Ray</i> is an insufferable, unstoppable, and most importantly a stubborn mindless maniac who will do anything for the people he loves, and whatever he wants for himself of course. He has a very inflated ego... Not when he's around with his girlfriend, then he turns into a complete submissive dork. Originating from a rather normal variation of 'Earth', as a young adult he and the love of his life <a href=\"/pages/cast/characters/index.html?id=enaLone\">Ena Lone</a> chose to enlist in the military seemingly for easy money, which obviously, escalated into... a trap, would that even be the right word to describe it? They both dearly love their time working as expendable pawns for the <a href=\"/error/index.html\">Disobedient Armed Forces</a>.",
                     "He has short white fur with black marks around his left eye, ears, and hips. His legs are thicker than usual for his size, but the rest of his body is perfectly average. His pupils have a strange white glow, and his blood is one of an extraordinarily rare type. His body is a perfect canvas for fashion, unfortunately he lacks a sense for that.",
-                    "Surprisingly, he doesn't want to return to the place where he came from. He claims he found his life together with <i>Ena Lone</i>, fighting in an endless unreasonable war forever deep in outer space. It doesn't matter if they've lived together through missions for years; one day, one of them will lose another, and their baffling view of conquest as a game will shatter completely."
+                    "Surprisingly, he doesn't want to return to the place where he came from. He claims he found his life together with <a href=\"/pages/cast/characters/index.html?id=enaLone\">Ena Lone</a>, fighting in an endless unreasonable war forever deep in outer space. It doesn't matter if they've lived together through missions for years; one day, one of them will lose another, and their baffling view of conquest as a game will shatter completely."
                 ]
             },
             {
                 "heading": "Trivia From A Place Above",
                 "listItems": [
-                    "He was originally based off a friend's pet cat named \"Jasper\", having violet fur, lighter marks, and dotted eyes.",
+                    "He was originally based off a friend's pet cat named <i>Jasper</i>, having violet fur, lighter marks, and dotted eyes.",
                     "When I first added the glasses to his character he was supposed to have them on the eyes all the time, it looked a little too cool for him so I changed that.",
                     "Owning and riding a motorcycle was supposed to be an iconic part of his character, but I couldn't think of any plausible scenarios when writing that would also fit his character I had in mind."
                 ]
@@ -58,77 +48,62 @@
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i>Emilia Jones (Mother)</i>",
-                    "<i>Ena Lone (Lover)</i>",
-                    "<i>Veronika Barashova (Childhood Internet Friend)</i>",
-                    "<i>Vladimir Koshinov (Acquaintance)</i>",
-                    "<i>Isaac Sir Kablooey (Acquaintance)</i>",
-                    "<i>Toby (Awkward History)</i>"
+                    "<i><a href=\"/pages/cast/characters/index.html?id=emiliaJones\">Emilia Jones</a> (Mother)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=enaLone\">Ena Lone</a> (Lover)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=enaLone\">Sam Parks</a> (Childhood Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=veronikaBarashova\">Veronika Barashova</a> (Childhood Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=vladimirKoshinov\">Vladimir Koshinov</a> (Acquaintance)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=isaacKablooey\">Isaac Sir Kablooey</a> (Acquaintance)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=toby\">Toby</a> (Awkward History)</i>"
                 ]
             }
         ]
     },
     "enaLone": {
         "name": "Ena Lone",
-        "title": "Totally fine panda dude girl",
+        "title": "Totally Fine Panda Dude Girl",
         "images": [
             {
-                "file": "EnaLone.png",
-                "title": "Ena Lone there"
+                "file": "EnaCard.png",
+                "title": ""
             }
         ],
         "blockOne": {
-            "Species": "Antropomorphic Giant Panda",
+            "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Disobedient Scrap Group: Steel Steelers Steelisk Whatever. Shortened for the reader's convenience.",
+            "Origin": "No birthplace record, assumed to be born on <a href=\"/error/index.html\">Sol-3²²</a>",
+            "Species": "Anthropomorphic Giant Panda",
             "Gender": "Female",
-            "Age": 22,
-            "Birthday": "May 27th",
-            "Height / Weight": "6'10\" / Chubby",
-            "Bloodtype": "B+",
-            "Internet username": "sexypanda420"
+            "Birthday": "May 27th, 1994",
+            "Height / Weight": "180 cm (6' 0\") / 104 kg (230 lbs)",
+            "Blood Type": "B+",
+            "Internet Username": "sexypanda420"
         },
         "blockTwo": [
             {
-                "heading": "About",
+                "heading": "General Information",
                 "paragraphs": [
-                    "Ena Lone is an average plus-sized cuddly bear born in the United States from a Latino Family.",
-                    "She's a natural born artist with lots of passion for music specifically, and with her explosive energy and unbound motivation she works constantly on her next projects.",
-                    "She also has a boyfriend named Ferd Ray, who when she's tired serves as a pillow.",
-                    "Both of them always travel around the world trying to make a hit for the world, but they have yet to succeed."
+                    "<i>Ena Lone</i> is a hotheaded dominant force. Incredibly popular among peers, though not so much outside of the city where she came from. Often thinks she's at the top of the world, leaves no space for others' opinions and if anyone even dares to disagree with her they will quickly be in a world of hurt. Originating from a rather normal variation of 'Earth', as a young adult she and the love of her life <a href=\"/pages/cast/characters/index.html?id=ferdRay\">Ferd Ray</a> chose to enlist in the military seemingly for easy money after her dream of becoming a popular musician failed, which obviously, escalated into... a trap, would that even be the right word to describe it? They both dearly love their time working as expendable pawns for the <a href=\"/error/index.html\">Disobedient Armed Forces</a>.",
+                    "Quite uncommon in the place where she comes from, she has no fur. Her skin is plain white and very soft, and interestingly enough her body lacks marks for a giant panda. At around the age of four she was found and adopted by the known pink <a href=\"/error/index.html\">Lone</a> panda family, and she quickly grew up with pink-shaded makeup and hair dyes just to fit in. She was found with a pretty severe birthmark on her right eye, she hides it with her hair because not only does it look pretty ugly she also claims it's hard to see with it anyway. Enjoys ponytails, interested in fashion, but likes to keep things simple and dresses pretty plainly. Has a freaky pierced tongue."
                 ]
             },
             {
-                "heading": "Likes",
+                "heading": "Trivia From A Place Above",
                 "listItems": [
-                    "Cats",
-                    "Funny short videos on MeTube",
-                    "Composing",
-                    "Painting",
-                    "Cats",
-                    "Eating",
-                    "Fashion"
+                    "She was quite popular for a moment, her being the first fuzzy character I have created has led me to draw her a lot.",
+                    "Her design somehow stems from the <i>Fortnite</i> skin <i>Skull Squad Leader</i>. She went through an entire evolution of designs, which inspired some insane lore and characters. What?",
+                    "The web series <i>Madness Combat</i> heavily influenced her old stories, to this day I'm not really sure what was up with that either."
                 ]
             },
             {
-                "heading": "Dislikes",
+                "heading": "Connections",
                 "listItems": [
-                    "Dogs",
-                    "Bugs",
-                    "Sports",
-                    "Strangers",
-                    "Procrastinating",
-                    "Critics",
-                    "Movies"
-                ]
-            },
-            {
-                "heading": "Trivia",
-                "listItems": [
-                    "She is my most popular character to date.",
-                    "She used to be my persona online for a long time.",
-                    "Her design, funnily enough, branches off a Fortnite skin.",
-                    "She was the first anthropomorphic character I have created.",
-                    "She went through an entire evolution of designs, which inspired some insane lore and characters.",
-                    "Madness Combat heavily influenced her stories, to this day I'm not really sure what was up with that either."
+                    "<i><a href=\"/pages/cast/characters/index.html?id=valentinaL\">Valentina Lone</a> (Mother)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=emanuelLone\">Emanuel Lone</a> (Father)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=quinnaLone\">Quinna Lone</a> (Sister)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=ferdRay\">Ferd Ray</a> (Lover)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=alice\">Alice</a> (Somewhat Respect Each Other)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=miraRose\">Mira Rose</a> (Enemies)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=toby\">Toby</a> (Even Bigger Enemies)</i>"
                 ]
             }
         ]
@@ -708,7 +683,7 @@
       }
     ]
   },
-      "ally": {
+      "allyParks": {
         "name": "Ally Parks",
         "title": "tax this is also yo job",
         "images": [
@@ -861,7 +836,7 @@
     ]
     
 },
-      "HoustonM": {
+      "houstonMarch": {
         "name": "Houston March",
         "title": "A Foolish Rabbit",
         "images": [
@@ -939,7 +914,7 @@
             }
         ]
     },
-      "LarsT": {
+      "larsTerma": {
         "name": "Lars Mai Terma",
         "title": "tax please",
         "images": [
@@ -1005,7 +980,7 @@
             }
         ]
     },
-      "EmmaH": {
+      "emmaHindue": {
         "name": "Emma Hindue",
         "title": "Title pending...",
         "images": [
@@ -1056,7 +1031,7 @@
             }
         ]
     },
-      "Rose": {
+      "rose": {
         "name": "ROSE",
         "title": "Title pending...",
         "images": [
@@ -1098,7 +1073,7 @@
             }
         ]
     },
-      "VeronikaB": {
+      "veronikaBarashova": {
         "name": "Veronika Barashova",
         "title": "Title pending...",
         "images": [
