@@ -1,2 +1,26 @@
 [
+    {
+        "id": "rsrcmvr",
+        "name": "RSRC-MVR",
+        "thumbnail": "rsrcmvrthumb.png",
+        "flavorText": "Ancient skyscraper-sized copper beasts built to haul large amounts of resources across barren wastelands."
+    },
+    {
+        "id": "ck199",
+        "name": "CK-199 'Woodpecker'",
+        "thumbnail": "ck199thumb.png",
+        "flavorText": "Versatile mass produced tank capable of piercing any armor with its up-to-date railgun."
+    },
+    {
+        "id": "ck102",
+        "name": "CK-102 'GRÜBBENTRAKTOR'",
+        "thumbnail": "ck102thumb.png",
+        "flavorText": "Small lightweight tank destroyer designed to crash and infiltrate enemy bases in lethal speeds."
+    },
+    {
+        "id": "wb110",
+        "name": "WB-110 'Big Ant'",
+        "thumbnail": "wb110thumb.png",
+        "flavorText": "The gigantic backbone of the Disobedient Armed Forces. One of these was enough to change the tides of a battlefield."
+    }
 ]

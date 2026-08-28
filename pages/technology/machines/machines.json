@@ -37,5 +37,41 @@
                 ]
             }
         ]
+    },
+    "rsrcmvr": {
+        "name": "RSRC-MVR",
+        "title": "RESOURCE MOVER",
+        "images": [
+            {
+                "file": ".png",
+                "title": "Nothing... Yet."
+            }
+        ],
+        "blockOne": {
+            "Source": "Kool History From Abandoned Planets, Babylon Interests Vol. 154, Wastelander Interviews (All of them). Shortened for the reader's convenience.",
+            "Type": "Ultra-Heavy Walker",
+            "Origin": "Unknown",
+            "Used By": "Wastelanders",
+            "Service": "??? – Present Day",
+            "Mass": "~1500 Tons",
+            "Armor": "20 – 100 mm",
+            "Length": "~150 m (~492 ft)",
+            "Width": "~50 m (~164 ft)",
+            "Crew": "Minimum 24",
+            "Maximum Speed": "~120 km/h (~74 mph)"
+            
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "The origin of these beautiful skyscraper-sized copper beasts is unfortunately unknown. They're littered across apocalyptic worlds, <a href=\"/error/index.html\">wastelanders</a> often use the hollow corpses of <i>RSRC-MVRs</i> to seek shelter or scavenge for mechanical parts. Known history and study show that these machines were built just to move whole civilizations, and it is widely inferred that they have all collapsed at some point together due to something we don't know of. Some wastelanders centuries later managed to fix and operate the machines through sheer effort, and so they've soon become a symbol for their kind as a whole. Grander civilizations refuse to use these simply due to missing proper blueprints and great costs to even operate these things on a massive scale.",
+                    "It's difficult to tell the history of these machines. Many believe these were brought by an alien species from a whole different universe, but of course, that's ridiculous for many reasons. One thing that is known for sure is that these machines have been around for millennia, helping the <a href=\"/error/index.html\">New Babylon</a> construct itself by hoarding and moving resources very slowly in it's young days. The <i>New Babylon</i> retired these machines later, yet many more remain on apocalyptic worlds for unknown reasons. It's ability to work off solar energy helps it keep relevancy instead of being forgotten about due to being too inefficient. This machine earned its title of being the <i>wastelanders'</i> icon, mainly due to helping them survive through the harshest times.",
+                    "This walker is made of hollow metal, just like most other machines out there. What makes it unique however is its thick copper plating. Without a closer it looks like it was made completely out of copper, boasting both orange and cyan colors for the whole world to see. The cyan colors come from weathering, forgotten walkers are completely cyan with most of the copper plating fallen off revealing their gray inner skin. Traditions among the <i>wastelanders</i> run where the weathering of the <i>RSRC-MVRs</i> are manipulated to <i>paint</i> shapes and patterns on its plating. Some places are kept clean, shiny and orange, whilst some are purposefully kept to weather and gain a distinct cyan color. This technique is also used to form numbers on it to easily identify it from far distances.",
+                    "At first glance it may seem like running this machine may take too much effort, but surprisingly, it's flexible to bounds no one thought of. It's powered off solar and wind energy, allowing it to power its terminal with enough fixing. There are many automated drones that resembles crabs hidden within the walker, their main purpose to fix a minor problem that occurs. The main core of the walker is powered by large batteries which can be ejected and taken out to charge through different sources rather than wind or solar. These batteries are highly explosive, yet some have exploited that and purposefully ejected the batteries at their foes via makeshift cannons.",
+                    "Many people believe this walker can just walk, but it can also run during emergencies. It has a strange, animalistic design that from distances you'd believe there was a large mechanical camel roaming the surface. It's limbs, head, neck, anything can be controlled and in the worst cases they can be given self-control with its shoddy artificial intelligence."
+                ]
+            }
+        ]
     }
 }
