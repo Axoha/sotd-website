@@ -1,0 +1,92 @@
+{
+    "bookId": "totally-fine",
+    "title": "Totally Fine",
+    "synopsis": "Collection of random comics holy shit its so broken",
+    "cover": "cover.png",
+    "chapters": [
+        {
+            "designation": "SERIES I",
+            "chapterId": "1-gender",
+            "title": "Totally Gender",
+            "file": "1-gender.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "2-wind",
+            "title": "Totally Wind",
+            "file": "2-wind.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "3-stupid",
+            "title": "Totally Stupid",
+            "file": "3-stupid.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "4-foot",
+            "title": "Totally Foot",
+            "file": "4-foot.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "5-twings",
+            "title": "Totally Wind",
+            "file": "5-twings.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "6-birthday",
+            "title": "Totally Birthday",
+            "file": "6-birthday.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "7-maid",
+            "title": "Totally Maid",
+            "file": "7-maid.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "8-depression",
+            "title": "Totally Depression",
+            "file": "8-depression.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "9-crush",
+            "title": "Totally Crush",
+            "file": "9-crush.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "10-internet",
+            "title": "Totally Internet",
+            "file": "10-internet.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "11-wheel",
+            "title": "Totally Wheel",
+            "file": "11-wheel.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "12-swim",
+            "title": "Totally Swim",
+            "file": "12-swim.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "13-festival",
+            "title": "Totally Festival",
+            "file": "13-festival.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "14-experiment",
+            "title": "Totally Experiment",
+            "file": "14-experiment.md"
+        }
+    ]
+}

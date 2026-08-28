@@ -1,0 +1,1 @@
+![](/pages/stories/books/totally-fine/chapters/11.png)

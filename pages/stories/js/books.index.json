@@ -23,5 +23,10 @@
         "bookId": "the-end-of-black-white",
         "title": "The End of Black & White",
         "cover": "./books/the-end-of-black-white/cover.png"
+    },
+    {
+        "bookId": "totally-fine",
+        "title": "Totally Fine",
+        "cover": "./books/totally-fine/cover.png"
     }
 ]
