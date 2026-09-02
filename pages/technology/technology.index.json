@@ -22,5 +22,29 @@
         "name": "WB-110 'Big Ant'",
         "thumbnail": "wb110thumb.png",
         "flavorText": "The gigantic backbone of the Disobedient Armed Forces. One of these was enough to change the tides of a battlefield."
+    },
+    {
+        "id": "wb110type2",
+        "name": "WB-110 Type 2",
+        "thumbnail": "wb110type2thumb.png",
+        "flavorText": "A new prototype of the beloved 'Big Ant' after many have criticized it for not looking like an ant."
+    },
+    {
+        "id": "hourglass",
+        "name": "Hourglass",
+        "thumbnail": "hourglassthumb.png",
+        "flavorText": "Looking for more sources..."
+    },
+    {
+        "id": "molebread",
+        "name": "Molebread MK III",
+        "thumbnail": "molebreadthumb.png",
+        "flavorText": "Looking for more sources..."
+    },
+    {
+        "id": "abyssalite",
+        "name": "Abyssalite",
+        "thumbnail": "abyssalitethumb.png",
+        "flavorText": "Looking for more sources..."
     }
 ]

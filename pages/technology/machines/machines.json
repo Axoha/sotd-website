@@ -73,5 +73,134 @@
                 ]
             }
         ]
+    },
+    "hourglass": {
+        "name": "Hourglass",
+        "title": "Hourglass",
+        "images": [
+            {
+                "file": ".png",
+                "title": "Nothing... Yet."
+            }
+        ],
+        "blockOne": {
+            "Author": "Jegr",
+            "Source": "DOTGL Navy Database",
+            "Type": "Unspecified",
+            "Origin": "Unspecified",
+            "Used By": "Dawn of the Green Light",
+            "Service": "Unspecified",
+            "Mass": "Unspecified",
+            "Armor": "Unspecified",
+            "Length": "Unspecified",
+            "Width": "Unspecified",
+            "Crew": "Unspecified",
+            "Maximum Speed": "Unspecified"
+            
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "Designed roughly at the same time as other logistic related craft in an effort to properly expand by building structures and supporting combat craft by being able to repair or tow them away. It was noted its evasive and nimble nature and a combat version was created named 'Incendiary Hourglass' its results were mixed but it remains in the blueprint database. the hourglasses hull though still is the subject of talk of making various versions of this craft."
+                ]
+            }
+        ]
+    },
+    "molebread": {
+        "name": "Molebread MK III",
+        "title": "Molebread..?",
+        "images": [
+            {
+                "file": ".png",
+                "title": "Nothing... Yet."
+            }
+        ],
+        "blockOne": {
+            "Author": "Jegr",
+            "Source": "DOTGL Navy Database",
+            "Type": "Light Submarine",
+            "Origin": "Unspecified",
+            "Used By": "Dawn of the Green Light",
+            "Service": "Unspecified",
+            "Mass": "Unspecified",
+            "Armor": "Unspecified",
+            "Length": "Unspecified",
+            "Width": "Unspecified",
+            "Crew": "Unspecified",
+            "Maximum Speed": "Unspecified"
+            
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "It has to do as much with moles as it has to do with bread, literally nothing. A small sized family of submarines designed for survival and endurance as they slowly whittle down their enemies.",
+                    "First iteration of the mole bread was created for a tournament where 4 people had to construct a vessel and fight against each other to death. Anyway it never ended up happening as it was against the law and all 4 craft were confiscated and the people detained. Although all 4 craft were considerably shitty they have been analyzed and the mole bread actually seemed worth something. Not in terms of quality nonono the torpedoes, half of them didn't even function which one of them exploded injuring 3 personal. The engine has been found faulty and not properly vented which would have led to the driver suffocation in a matter of hours. And it was made half out of wood for goodness sake! It's hull got completely revamped internals also replaced until it actually could be used in a regular manner. The origin of this name is also something spectacular, when it was confiscated and held in a dry dock for the first time it didn't have any name and with a brown wooden cover and a two rods sticking out, on one end a rather outdated and taped together sonar and on the other an equally ineffective torpedo decoy. It got pointed out on multiple occasions that it looks like a piece of bread by various employees who were working on the retrofit at that time. And during one morning two eyes could be seen on it. Someone managed to spray paint googly eyes on it the night before as a prank. And thus it earned its name as the mole bread. Management at first confused with this occurrence but later adopted the mole bread name in its database as it's become wide spread already. On the redesign eyes were included on its original location, the metal painted brown to remind them of the bread looking wooden hull it used to have."
+                ]
+            }
+        ]
+    },
+    "abyssalite": {
+        "name": "Abyssalite",
+        "title": "ABYSSALITE",
+        "images": [
+            {
+                "file": ".png",
+                "title": "Nothing... Yet."
+            }
+        ],
+        "blockOne": {
+            "Author": "Jegr",
+            "Source": "DOTGL Navy Database",
+            "Type": "Medium Assault Submarine",
+            "Origin": "Unspecified",
+            "Used By": "Dawn of the Green Light",
+            "Service": "Unspecified",
+            "Mass": "Unspecified",
+            "Armor": "Unspecified",
+            "Length": "Unspecified",
+            "Width": "Unspecified",
+            "Crew": "Unspecified",
+            "Maximum Speed": "Unspecified"
+            
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "A medium sized assault submarine armed with a devastating dual chain-cannon also a home to one of the most unusual restaurants. Designed with a more cost effective stone inner armor and unusual turret design and placement. Most known for it's rather gruesome and uncanny design of the front side turret and the devastating storm of high velocity HEAT shells going so fast they damage the outer armor meantime the HEAT works on the internal components. The downside of this beast is Its hungry attitude as its melts away enemies and fuel alike.",
+                    "Already when first introduced the Abyssalite made its presence known both by sheer destruction of other helpless craft ill-equipped to deal with underwater threats, its great fighting chance against more lethal targets and of course Its Fuel hungry nature and volatile components. Due to those downsides and some of its outdated systems a retrofit addressing-",
+                    "<b>--Sponsored Segment Of 'Deep Trench Restaurant™'--</b>",
+                    "Do you feel like your life is boring? Do you feel like you only eat slop daily with no enjoyment or pleasure of consumption of your food? Worry not my Friend! We can easily solve this lifelong dreadful issue of yours! Introducing the Deep trench restaurant™ Located on the top secret and awesome military war submarine Abyssalite! No longer will eating your food be boring! You will be able to experience exciting battles and delicious spectacular food for your and your families enjoyment only! Banter, laugh, talk, dance and most importantly enjoy eating your food as you can see your Pitiful enemies get rightfully torn to shreds for their crimes and terrible acts against you and humanity!",
+                    "<b>--Sponsor Segment Over--</b>",
+                    "-addressing its fuel hungry nature old engines and propulsion systems along trying to fix its volatile nature and its poor detection systems, removing its massive fins was suggested although it helps with stability it slows down the vessel tremendously. Removal of some of the overkill torpedo interception was also suggested. Review of these changes is pending..."
+                ]
+            },
+            {
+                "heading": "Incident_000 24/8/2643 04:32",
+                "paragraphs": [
+                    "During maintenance autoloader jammed mechanic currently working there reportedly tried hitting the jammed shell to get it unstuck the shell jerked back into the system fast almost causing a chain reaction. There were no deaths or injuries. Mechanic in question was later fired and charged."
+                ]
+            },
+            {
+                "heading": "Incident_001 2/10/2643 13:54",
+                "paragraphs": [
+                    "Unknown engine malfunction occurred causing the submarine to halt. Due to the malfunction the vessels arrival was delayed by approximately 2 hours."
+                ]
+            },
+            {
+                "heading": "Incident_002 5/4/2644 19:03",
+                "paragraphs": [
+                    "A murder occurred In the Deep Trench Restaurant suspect wearing long red dress going from the neck approximately ending on the knees, Suspect was seen wearing an unusual white helmet with a V shape with two holes serving as viewports. Suspect killed 21 year old [REDACTED] and proceeded to drink his blood out of a glass, afterwards suspect ran away and vanished. Security was not called. Upon arrival at the port everyone on the submarine was ordered to not leave upon further notice. Special operatives were called to search thru the submarine and its subsystems suspect was not found. Everyone was let go except witnesses which were questioned."
+                ]
+            },
+            {
+                "heading": "Incident_003 16/4/2644 09:34",
+                "paragraphs": [
+                    "A rock got stuck in the submarines sonar obscuring vision Diving team was dispatched and in 30 minutes the vessel could continue moving."
+                ]
+            }
+        ]
     }
 }
