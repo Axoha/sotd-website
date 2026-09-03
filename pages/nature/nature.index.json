@@ -1,38 +1,26 @@
 [
     {
-        "id": "peaShooter",
-        "name": "Pea Shooter",
-        "thumbnail": "peaShooterThumb.png",
-        "flavorText": "Someone named Doptime made this masterpiece, will be removed... Eventually."
-    },
-    {
-        "id": "snowPea",
-        "name": "Snow Pea",
-        "thumbnail": "snowPeaThumb.png",
-        "flavorText": "Someone named Taxtapy made this masterpiece, will be removed... Eventually."
-    },
-    {
         "id": "deca",
         "name": "Decaying Leaves",
-        "thumbnail": ".png",
-        "flavorText": "Images are pending, please wait..."
+        "thumbnail": "decathumb.png",
+        "flavorText": "A mythical giant snake that visits a random populated forest every fall. Enjoys hippie culture."
     },
     {
         "id": "bulem",
         "name": "Family of Strange Golems",
-        "thumbnail": ".png",
-        "flavorText": "Images are pending, please wait..."
+        "thumbnail": "bulemthumb.png",
+        "flavorText": "Forgotten ancient machines made by man, burdened with a great power that keeps them alive."
     },
     {
         "id": "firpecker",
         "name": "Family of Blazing Birds",
-        "thumbnail": ".png",
-        "flavorText": "Images are pending, please wait..."
+        "thumbnail": "firpeckerthumb.png",
+        "flavorText": "Fiery birds that dream of nothing but attention, often considered a national threat if it migrates above forests."
     },
     {
         "id": "walenotl",
         "name": "Family of Entertaining Fish",
-        "thumbnail": ".png",
-        "flavorText": "Images are pending, please wait..."
+        "thumbnail": "walenotlthumb.png",
+        "flavorText": "Magical fish that try too hard to impress beings more developed than them."
     }
 ]
