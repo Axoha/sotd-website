@@ -9,13 +9,13 @@
         "id": "ck199",
         "name": "CK-199 'Woodpecker'",
         "thumbnail": "ck199thumb.png",
-        "flavorText": "Versatile mass produced tank capable of piercing any armor with its up-to-date railgun."
+        "flavorText": "Versatile mass-produced tank capable of piercing any armor with its up-to-date railgun."
     },
     {
         "id": "ck102",
         "name": "CK-102 'GRÜBBENTRAKTOR'",
         "thumbnail": "ck102thumb.png",
-        "flavorText": "Small lightweight tank destroyer designed to crash and infiltrate enemy bases in lethal speeds."
+        "flavorText": "Small lightweight tank destroyer designed to crash and infiltrate enemy bases at lethal speeds."
     },
     {
         "id": "wb110",
@@ -27,24 +27,60 @@
         "id": "wb110type2",
         "name": "WB-110 Type 2",
         "thumbnail": "wb110type2thumb.png",
-        "flavorText": "A new prototype of the beloved 'Big Ant' after many have criticized it for not looking like an ant."
+        "flavorText": "A new prototype of the beloved 'Big Ant' after many have criticized it for not looking like an ant at all."
     },
     {
         "id": "hourglass",
-        "name": "Hourglass",
+        "name": "Hourglass ✰",
         "thumbnail": "hourglassthumb.png",
         "flavorText": "Looking for more sources..."
     },
     {
         "id": "molebread",
-        "name": "Molebread MK III",
+        "name": "Molebread MK III ✰",
         "thumbnail": "molebreadthumb.png",
         "flavorText": "Looking for more sources..."
     },
     {
         "id": "abyssalite",
-        "name": "Abyssalite",
+        "name": "Abyssalite ✰",
         "thumbnail": "abyssalitethumb.png",
         "flavorText": "Looking for more sources..."
+    },
+    {
+        "id": "demolisher",
+        "name": "Demolisher ✰",
+        "thumbnail": "demolisherthumb.png",
+        "flavorText": "Looking for more sources..."
+    },
+    {
+        "id": "wb1",
+        "name": "WB-1 'Bird Walker' ✰",
+        "thumbnail": "wb1thumb.png",
+        "flavorText": "An attempt has been made at mass-producing walking machines."
+    },
+    {
+        "id": "ck101",
+        "name": "CK-101",
+        "thumbnail": "ck101thumb.png",
+        "flavorText": "The Disobedient's standard-issue medium tank. Equipped with a cannon powerful enough to plow through anything."
+    },
+    {
+        "id": "turtlelord",
+        "name": "Walking Cannon Fortress MK II 'Turtle Lord' ✰",
+        "thumbnail": "turtlelordthumb.png",
+        "flavorText": "Looking for more sources..."
+    },
+    {
+        "id": "birdwalkerprime",
+        "name": "Bird Walker PRIME ✰",
+        "thumbnail": "birdwalkerprimethumb.png",
+        "flavorText": "Looking for more sources..."
+    },
+    {
+        "id": "ck105",
+        "name": "CK-105",
+        "thumbnail": "ck105thumb.png",
+        "flavorText": "A light tank designed for reconnaissance missions and carrying infantry."
     }
 ]
