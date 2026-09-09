@@ -27,6 +27,48 @@
             "chapterId": "3-citadelarian",
             "title": "The Perfect Citadelarian",
             "file": "3-citadelarian.md"
+        },
+        {
+            "designation": "ACT IV CHAPTER V",
+            "chapterId": "4-nothing",
+            "title": "Three Years Later",
+            "file": "4-nothing.md"
+        },
+        {
+            "designation": "ACT IV CHAPTER VI",
+            "chapterId": "5-time",
+            "title": "There is Still Time",
+            "file": "5-time.md"
+        },
+        {
+            "designation": "ACT IV CHAPTER VII",
+            "chapterId": "6-happy",
+            "title": "One's Happiest Day of the Year",
+            "file": "6-happy.md"
+        },
+        {
+            "designation": "ACT IV CHAPTER VIII",
+            "chapterId": "7-redroom",
+            "title": "Anything Goes, in the Red Room",
+            "file": "7-redroom.md"
+        },
+        {
+            "designation": "ACT IV CHAPTER IX",
+            "chapterId": "8-wanted",
+            "title": "Wanted (Keep Going!) - Reprise",
+            "file": "8-wanted.md"
+        },
+        {
+            "designation": "ARC 42 PART I",
+            "chapterId": "9-tritanopia",
+            "title": "Tritanopia",
+            "file": "9-tritanopia.md"
+        },
+        {
+            "designation": "Abrupt Ending",
+            "chapterId": "10-summary",
+            "title": "Summary",
+            "file": "10-summary.md"
         }
     ]
 }

@@ -31,7 +31,7 @@
  
   <img src="/assets/error.png" alt="He's playing the piano.">
  
-  <div id="status">Loading...</div>
+  <div id="status">Thinking...</div>
  
   <audio id="player" autoplay></audio>
  
@@ -61,7 +61,7 @@
       player.play().then(() => {
         status.textContent = choice;
       }).catch(() => {
-        status.textContent = "Click anywhere to start music";
+        status.textContent = "Click anywhere to listen to him play";
         document.body.addEventListener("click", () => {
           player.play().then(() => {
             status.textContent = choice;
