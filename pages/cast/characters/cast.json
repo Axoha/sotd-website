@@ -109,68 +109,47 @@
         ]
     },
     "hazuneNiku": {
-        "name": "Hazune Niku",
+        "name": "Niku Hazune",
         "title": "One Beloved Android",
         "images": [
             {
-                "title": "",
-                "file": "HazuneNiku.png"
+                "file": "hazuneniku.png",
+                "title": ""
             }
         ],
         "blockOne": {
+            "Sources": "Celebrity Highlights For Total Dweebs Vol. 97, New Babylon: Interesting Figures Part 39. Shortened for the reader's convenience.",
             "Origin": "Unknown",
             "Species": "Android Bunny",
-            "Ethnicity": "Asian",
-            "Gender": "Female",
-            "Age": "168 (since creation)",
-            "Birthday": "August 31st",
-            "Height/Weight": "[Current Model] 182 cm (6' 0\") / 299 kg (659 lbs)",
-            "Blood Type": "Electricity",
-            "Internet username": "Hazune Niku"
+            "Gender": "Female Preferred",
+            "Software Creation (Birthday)": "August 31st, 2604",
+            "Height / Weight": "[Current Model] 182 cm (6' 0\") / 299 kg (659 lbs)",
+            "Blood Type": "Solar Powered (???)",
+            "Internet Username": "Hazune Niku (Reserved Everywhere)"
         },
         "blockTwo": [
             {
                 "heading": "General Information",
                 "paragraphs": [
-                    "Niku Hazune is one of the most recognizable and unique idols in the universe. Originally built to serve as an animatronic in an unknown place with a special voice, her popularity swiftly took off after more and more people started enjoying her pleasant singing."
+                    "<i>Niku Hazune</i> is one of the most recognizable and unique idols in the universe, originally built to serve as an advanced animatronic in an assumed restaurant with a special voice. Her popularity swiftly took off once a popular artist specializing in experimental music sampled her voice for a whole album, and since then even more artists took note of her special voice which was barely ever heard anywhere else. She somehow managed to change the perception of Vocaloids in the universe, turning an otherwise niche type of music into something much greater. It is completely unclear on what is going on with her behind the scenes, but her first live appearance took place at <a href=\"/error/index.html\">Festival of Life: Power & Love</a> where her popularity really soared with an original track composed with the help of anonymous producers and <a href=\"/pages/cast/characters/index.html?id=nayamiYuko\">Nayami Yuko</a>. Her voice is so angelic that many refuse to believe she is an android in the first place.",
+                    "She has silky smooth white fur paired with turquoise hair styled with iconic long twin ponytails. Her ears are usually droopy for convenience. Favors a light blue color, her outfits are usually centered around it. Deep inside she knows she's nothing but wires and technology and it hurts for her to admit, but it doesn't stop her from creating more and inspiring artists all over the universe.",
+                    "<i>Hazune Niku</i> is a name that's basically become embedded as THE Vocaloid. She works with any and all genres, for any and all audiences and haters. Her immense, somewhat controversial talent also painted her as a great target, she could do what no other android could. During the year 2761, she was stolen by <a href=\"/error/index.html\">CREATECH</a> to be completely reprogrammed and perform for their company, rather than being a freelancer open to collaborate with popular names. During the same year, just a month later, three underground artists set on an illegal and dangerous operation to save her. Everyone thought they were taking a break simultaneously. They described the whole ordeal as wild upon returning, claiming they would gladly kick ass for <i>Hazune Niku</i> again."
                 ]
             },
             {
-                "heading": "Appearance",
-                "paragraphs": [
-                    "Her appearance always changes, but she's usually seen in turquoise-rimmed gray and black clothing. Depends on which artist she's working with, what event she's sponsoring, all her colors and whole attire change to match the mood - except for her twintails of course, her hair stays the same all around."
-                ]
-            },
-            {
-                "heading": "Personality",
-                "paragraphs": [
-                    "It's hard to describe her exact personality, it all completely depends on who she is working with. Pop, Rock, EDM, Rap, Hip Hop, Classical, Funk, Blues, Jazz, Metal, Trance, and all the other genres, she reprograms her whole identity to produce the best sounding voice for each genre."
-                ]
-            },
-            {
-                "heading": "History",
-                "paragraphs": [
-                    "<i>Where we were walking together? I will see you in the end</i>",
-                    "<i>I'll take you where you've never been, then bring you back again</i>",
-                    "<i>Listen to me with your eyes, I'm watching you from in the sky.</i>",
-                    "<i>If you forget I'll fade away, I'm asking you to let me stay</i>",
-                    "<i>So bathe me in your magic light, and keep it on in darkest night</i>",
-                    "<i>I need you here to keep me strong, to live my life and sing along</i>",
-                    "<i>I'm lying with you wide awake, like your expensive poison snake</i>",
-                    "<i>You found me here inside a dream, walk through the fire straight to me</i>"
-                ]
-            },
-            {
-                "heading": "Trivia",
+                "heading": "Trivia From A Place Above",
                 "listItems": [
-                    "She was made to be used for examples and tests in this website!",
-                    "...And also because of Houston's slight allude to vocaloids even existing in this world."
+                    "She was originally made to test the character page for this website.",
+                    "And I thought it'd be a funny parody.",
+                    "Houston loves her."
                 ]
             },
             {
                 "heading": "Connections",
                 "listItems": [
-                    "None..?"
+                    "<i><a href=\"/pages/cast/characters/index.html?id=valentinaLone\">Nayami Yuko</a> (Close Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=violet\">VIOLET</a> (Close Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=fillaNorthstar\">Filla Northstar</a> (Close Friend)</i>"
                 ]
             }
         ]
