@@ -49,8 +49,8 @@
                 "heading": "Connections",
                 "listItems": [
                     "<i><a href=\"/pages/cast/characters/index.html?id=emiliaJones\">Emilia Jones</a> (Mother)</i>",
-                    "<i><a href=\"/pages/cast/characters/index.html?id=enaLone\">Ena Lone</a> (Lover)</i>",
-                    "<i><a href=\"/pages/cast/characters/index.html?id=enaLone\">Sam Parks</a> (Childhood Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=enaLone\">Ena Lone</a> (Partner)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=allyParks\">Sam Parks</a> (Childhood Friend)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=veronikaBarashova\">Veronika Barashova</a> (Childhood Friend)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=vladimirKoshinov\">Vladimir Koshinov</a> (Acquaintance)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=isaacKablooey\">Isaac Sir Kablooey</a> (Acquaintance)</i>",
@@ -100,7 +100,7 @@
                     "<i><a href=\"/pages/cast/characters/index.html?id=valentinaLone\">Valentina Lone</a> (Mother)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=emanuelLone\">Emanuel Lone</a> (Father)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=quinnaLone\">Quinna Lone</a> (Sister)</i>",
-                    "<i><a href=\"/pages/cast/characters/index.html?id=ferdRay\">Ferd Ray</a> (Lover)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=ferdRay\">Ferd Ray</a> (Partner)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=alice\">Alice</a> (Somewhat Respect Each Other)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=miraRose\">Mira Rose</a> (Enemies)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=toby\">Toby</a> (Even Bigger Enemies)</i>"
@@ -147,14 +147,14 @@
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i><a href=\"/pages/cast/characters/index.html?id=valentinaLone\">Nayami Yuko</a> (Close Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=nayamiYuki\">Nayami Yuki</a> (Close Friend)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=violet\">VIOLET</a> (Close Friend)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=fillaNorthstar\">Filla Northstar</a> (Close Friend)</i>"
                 ]
             }
         ]
     },
-    "houstonMarch": {
+    "houstonMarchc": {
         "name": "Houston March",
         "title": "Brown Bnunny",
         "images": [
@@ -204,22 +204,21 @@
     },
     "qwerturdle": {
         "name": "Georg",
-        "title": "Grass roots gamer (derogatory)",
+        "title": "Grass Roots Gamer (Derogatory)",
         "images": [
             {
-                "title": "fuckass turty",
-                "file": "georg.png"
+                "file": "georg.png",
+                "title": ""
             }
         ],
         "blockOne": {
             "Author": "Qwerturdle",
-            "Origin": "Sol-3²², Most Racist Country",
+            "Sources": "Chatlogs and data from various videogames, Strange Anomalies on Sol-3²² Vol. 1 by New Babylon.",
+            "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, \"Most Racist Country\"",
             "Species": "Galapagos Tortoise (Somehow Barely Evolved)",
-            "Ethnicity": "Scandinavian",
-            "Gender": "Chimera",
-            "Age": "2",
-            "Birthday": "January 31st",
-            "Height / Weight": "76 cm (2' 6\") / 34 kg (77 lbs)",
+            "Gender": "\"Chimera\"",
+            "Birthday": "January 31st, 2012",
+            "Height / Weight": "76 cm (2’ 6\") / 34 kg (77 lbs)",
             "Blood Type": "A",
             "Internet Username": "Qwerturdoise"
         },
@@ -227,41 +226,23 @@
             {
                 "heading": "General Information",
                 "paragraphs": [
-                    "This guy fucking GAMES. Also very racist as it comes with the hardcore gaming. Commonly confused with another user online called <i>Qwerturdle</i>. When it's not racist, it is pretty chill."
+                    "This guy fucking GAMES. Also very racist as it comes with the hardcore gaming. Commonly confused with another user online called <i>Qwerturdle</i>. When it's not racist, it is pretty chill. He is a big green tortoise, his eyes are permanently closed. He has a (usually) RGB keyboard on top of his shell, missing a toe nail on one of his feet, big green tail, and (ski band) headphones. Racist, not sexist though, and chill sometimes but gets angry easily. He takes small things pretty seriously. His favorite games are <a href=\"/error/index.html\">Text of Responsibility</a>, <a href=\"/error/index.html\">Oxidation</a>, and <a href=\"/error/index.html\">Opposite Hit 2</a>. He got serpentine in <a href=\"/error/index.html\">Voice of Duty</a>, met <a href=\"/pages/cast/characters/index.html?id=sonchaiAnong\">Sonchai Anong</a>, died, then didn't."
                 ]
             },
             {
-                "heading": "Appearance",
-                "paragraphs": [
-                    "Big green tortoise, his eyes are permanently closed, he has a (usually) RGB keyboard on top of his shell, missing a toe nail on one of his feet, big green tail, and (ski band) headphones."
-                ]
-            },
-            {
-                "heading": "Personality",
-                "paragraphs": [
-                    "Racist, not sexist though, and chill sometimes but gets angry easily. He takes small things pretty seriously. His favorite games are <i>Text of Responsibility</i>, <i>Oxidation</i>, and <i>Opposite Hit 2</i>."
-                ]
-            },
-            {
-                "heading": "History",
-                "paragraphs": [
-                    "He got serpentine in Voice of Duty, met <i>Sonchai Anong</i>, died, then didn't."
-                ]
-            },
-            {
-                "heading": "Trivia",
+                "heading": "Trivia From A Place Above",
                 "listItems": [
                     "A mascot.",
                     "He is a working electricity source hence the keyboard and headphones.",
                     "Used to be named George, but since the headphones he was born with said Georg, he got his name legally changed to Georg.",
                     "The headphones he wears are sometimes confused for a headband.",
-                    "Chud"
+                    "Chud."
                 ]
             },
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i>Sonchai Anong (Frenemy)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=sonchaiAnong\">Sonchai Anong</a> (Frenemies)</i>",
                     "<i>Anyone Online (Hates)</i>",
                     "<i>Qwerturdle (Despises)</i>"
                 ]
@@ -274,10 +255,10 @@
         "images": [],
         "blockOne": {
             "Author": "Suralot",
-            "Origin": "Sol-3²², Cold Mountainous Areas",
+            "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
+            "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>",
             "Species": "Anthropomorphic Axolotl",
             "Gender": "Male",
-            "Age": "20",
             "Birthday": "June 11th",
             "Height / Weight": "175 cm (5' 9\") / 131 kg (290 lbs)",
             "Blood Type": "B+",
@@ -287,35 +268,17 @@
             {
                 "heading": "General Information",
                 "paragraphs": [
-                    "<i>Icy Cruz</i> is an interesting dork who loves eating food and going on a date with his girlfriend, <i>Maria</i>. He is very shy at first, but becomes the clingy when someone becomes friends with him. He also loves discovering things and exploring. He is also also also seen as a 'baby'."
-                ]
-            },
-            {
-                "heading": "Appearance",
-                "paragraphs": [
-                    "Very shy, quiet, and sensitive. But very chatty and cuddly sometimes. Also a bit fruity. Smells like fish."
-                ]
-            },
-            {
-                "heading": "Personality",
-                "paragraphs": [
-                    "Very shy, quiet, and sensitive. But very chatty and cuddly sometimes. Also a bit fruity."
-                ]
-            },
-            {
-                "heading": "History",
-                "paragraphs": [
-                    "Not known since he is very private."
+                    "Update needed! Come back later."
                 ]
             },
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i>Maria Ramirez (Lover)</i>",
-                    "<i>Dennis (Friend)</i>",
-                    "<i>Tina (Doesn't Like)</i>",
-                    "<i>Sue Parks (Cousin He Hates)</i>",
-                    "<i>Ally Parks (Cousin He Doesn't Know Of)</i>"
+                    "<i><a href=\"/pages/cast/characters/index.html?id=mariaRamirez\">Maria Ramirez</a> (Partner)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=dennis\">Dennis</a> (Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=tina\">Tina</a> (Doesn't Like)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=sueParks\">Sue Parks</a> (Cousin He Hates)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=allyParks\">Ally Parks</a> (Cousin He Doesn't Know Of)</i>"
                 ]
             }
         ]
@@ -326,11 +289,10 @@
         "images": [],
         "blockOne": {
             "Author": "Suralot",
-            "Origin": "'Big cozy cabin house in the forest' / Sol-3²²",
+            "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
+            "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>",
             "Species": "Anthropomorphic Axolotl",
-            "Ethnicity": "Hispanic",
             "Gender": "Female",
-            "Age": "20",
             "Birthday": "November 6th",
             "Height / Weight": "187 cm (6' 2\") / 73 kg (161 lbs)",
             "Blood Type": "A+",
@@ -340,29 +302,11 @@
             {
                 "heading": "General Information",
                 "paragraphs": [
-                    "Maria is a very sweet and talented axolotl who loves to create, explore, and work out. She is very supportive of her friends and family and loves doing her hobbies with Icy. (She does however get really overprotective of him and is scary when angry)"
+                    "Update needed! Come back later."
                 ]
             },
             {
-                "heading": "Appearance",
-                "paragraphs": [
-                    "Maria is a tall and fit light purple axolotl, having some decent muscles. She has rather large “hair” that she likes to tie. Her tail is very long, almost as long as her height. She has big pretty eyes and a blush on her cheeks. Her gills are more rounder and well kept than usual. She wears a big pink and red sweater with a heart in the middle, which is based on her first sweater that she knit by herself when she was young and wears black athletic shorts, but is always barefoot. Underneath her sweater, she has a red sports bra, since she can simply take off her sweater to begin to exercise. On her ankle, she has a bracelet based on the colors of her lover, Icy."
-                ]
-            },
-            {
-                "heading": "Personality",
-                "paragraphs": [
-                    "Maria is calm and supportive to everyone. She always tries to help everyone do better. She is often very loyal to her friends and family. She is also very confident and tries to find the best in even the worst moments. However, in the rare moments that Maria gets angered, she becomes very aggressive, sometimes getting physical."
-                ]
-            },
-            {
-                "heading": "History",
-                "paragraphs": [
-                    "She grew up with a supportive family who owns a tavern. She lives with multiple brothers who sometimes like teasing her, but this did not affect her. Her mother helped her be creative with arts and cooking, while her father makes her very fit and healthy. She made many friends in school, her most supportive one being Valentina Raine. One day, she saw Icy alone in a berry bush while she was getting ingredients, and immediately fell in love."
-                ]
-            },
-            {
-                "heading": "Trivia",
+                "heading": "Trivia From A Place Above",
                 "listItems": [
                     "Genderbent Icy originally."
                 ]
@@ -370,10 +314,10 @@
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i>Icy Cruz (Lover)</i>",
-                    "<i>Tina (Best Friend)</i>",
-                    "<i>Sue Parks (Acquaintance)</i>",
-                    "<i>Dennis (Dislikes)</i>"
+                    "<i><a href=\"/pages/cast/characters/index.html?id=icyCruz\">Icy Cruz</a> (Partner)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=tina\">Tina</a> (Best Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=sueParks\">Sue Parks</a> (Acquaintance)</i></i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=dennis\">Dennis</a> (Dislikes)</i>"
                 ]
             }
         ]
@@ -400,54 +344,36 @@
         ],
         "blockOne": {
             "Author": "Kat (dietmilkers)",
-            "Origin": "Sol-3²², Mountainous Area",
+            "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
+            "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>",
             "Species": "Anthropomorphic Coyote",
             "Gender": "Nonbinary",
-            "Age": "25",
-            "Birthday": "January 8th",
+            "Birthday": "January 8th, 1993",
             "Height / Weight": "177 cm (5' 10\") / 90 kg (200 lbs)",
-            "Blood Type": "Red",
+            "Blood Type": "\"Red\"",
             "Internet Username": "xx_Janxxxxx_xx"
         },
         "blockTwo": [
             {
                 "heading": "General Information",
                 "paragraphs": [
-                    "Wild. Maybe good looking??? Talks improperly."
-                ]
-            },
-            {
-                "heading": "Appearance",
-                "paragraphs": [
-                    "Tan fur with brown hair. Yellow eyes with black X's on eye lids. Usually seen wearing orange or black."
-                ]
-            },
-            {
-                "heading": "Personality",
-                "paragraphs": [
-                    "Annoying and blunt. Stands up for friends but picks on them too. Loves attention. They think of themselves as great but really aren't."
-                ]
-            },
-            {
-                "heading": "History",
-                "paragraphs": [
-                    "\"They exist for funnies.\" (TBD.)"
+                    "Wild. Maybe good looking??? Talks improperly. Annoying and blunt. Stands up for friends but picks on them too. Loves attention. They think of themselves as great but really aren't."
                 ]
             },
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i>Toby (Bestie)</i>",
-                    "<i>Alice (Friend)</i>",
-                    "<i>Sophie (Acquaintance)</i>",
-                    "<i>'Skater Boy' (Acquaintance)</i>"
+                    "<i><a href=\"/pages/cast/characters/index.html?id=toby\">Toby</a> (Bestie)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=alice\">Alice</a> (Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=sophie\">Sophie</a> (Acquaintance)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=error\">\"Skater Boy\"</a> (Acquaintance)</i>"
                 ]
             }
         ]
     },
     "junoEvergreen": {
         "name": "Juno Evergreen",
-        "title": "The Girl that was never meant to exist",
+        "title": "The Girl That Was Never Meant To Exist",
         "images": [
             {
                 "title": "",
@@ -456,45 +382,24 @@
         ],
         "blockOne": {
             "Author": "Credit",
+            "Sources": "Unknown",
             "Origin": "Unknown",
             "Species": "Anthropomorphic Cybernetic Animal",
             "Gender": "Female",
-            "Age": "26 (New World Juno)",
             "Birthday": "Unknown...",
             "Height / Weight": "203 cm (6'8\") / 131 kg (290 lbs)",
-            "Blood Type": "AB (Infused with unstable matter)",
+            "Blood Type": "AB (Infused With Unstable Matter)",
             "Internet Username": "missjunejune"
         },
         "blockTwo": [
             {
                 "heading": "General Information",
                 "paragraphs": [
-                    "<i>Juno Evergreen</i> is a freakish, deformed anthropomorphic cybernetic animal once used by the Citadel for her unique disease and for assassinations. Once freed from their control, she spends her days questioning everything and anyone. All while desperately and hopelessly trying to gain the time she lost."
+                    "Update needed! Come back later."
                 ]
             },
             {
-                "heading": "Appearance",
-                "paragraphs": [
-                    "Juno's appearance is far from appealing and could only be described as freakish and grotesque due to many factors. Her tall and lanky figure tower over many, even other larger cybernetic animals. Her fur consist of mainly light purple with black spots and patterns littering all over her body. Unlike her fur, which is rough and fuzzy, her hair is surprisingly soft and thick. Juno's facial features are the most deformed and disfigured part of her appearance. Under her visor, her face is covered in irregular bumps, bruises, scars, and even some burnt skin that seemingly never heals. Her right eye is also missing and the fur around it is a gross combination of black and purple. Juno's horns are somewhat similar to a rams horns, but she doesn't really give them a second thought, as they are surprisingly weak and fragile. Although she does have four ears, which are marked with the Citadel's symbol, only two seem to fully work. One of them is completely deaf, while the other can barely hear sounds.",
-                    "Juno is very insecure about her appearance, she knows how much it scares others and is usually seen with oversized, seconded used clothes. Anything to cover up the many scars all around her body, so she avoids any clothes that don't cover her body and legs. Despite this, she has a liking to a simple white dress and skirt with a large red sun hat. She seems to only wear this on private occasions and events with only her close friends."
-                ]
-            },
-            {
-                "heading": "Personality",
-                "paragraphs": [
-                    "Juno is somewhat shy and timid, not used to being in social interactions due to her long time \"working\" at the Citadel. However, once out of her shell, she is seemingly a quiet but softly cheery woman. Excited to be around others and hearing their conversations and stories. She can come off as mean sometimes, since she's quite bad on understanding many social queues. Juno is seemingly at her most cheery mood when around <i>Nayami</i>, as she feels the most comfortable around the other cybernetic animal."
-                ]
-            },
-            {
-                "heading": "History",
-                "paragraphs": [
-                    "Juno was the girl that was never meant to exist. Born with a degenerative disease that would age her backwards until she was nothing. She lived on despite it, albeit with heavy consequences...",
-                    "This continued for years, all until at the age of twenty-six, Juno was sent on a mission to scope out and possibly kill <i>La Reina</i>...",
-                    "Only escaping after <i>Ferd Ray</i> had brushed some of the rope that tied her..."
-                ]
-            },
-            {
-                "heading": "Trivia",
+                "heading": "Trivia From A Place Above",
                 "listItems": [
                     "\"Gay.\""
                 ]
@@ -502,24 +407,24 @@
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i>Amyl Evergreen (Mother)</i>",
-                    "<i>Nayami Yuki (Complicated And Troubled Relationship)</i>"
+                    "<i><a href=\"/pages/cast/characters/index.html?id=amylEvergreen\">Amyl Evergreen</a> (Mother)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=nayamiYuki\">Nayami Yuki</a> (Complicated And Troubled Relationship)</i>"
                 ]
             }
         ]
     },
     "toby": {
         "name": "Toby",
-        "title": "Local sexyman",
+        "title": "Local Sexyman",
         "images": [],
         "blockOne": {
             "Author": "Trash7129",
-            "Origin": "Sol-3²², North American-Like Continent, West",
+            "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
+            "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, North American-Like Continent, West",
             "Species": "Anthropomorphic Housecat",
             "Gender": "Male",
-            "Age": "24",
-            "Birthday": "June 21st",
-            "Height / Weight": "175 cm (5' 9\") / 907184 kg (2,000,000 lbs)",
+            "Birthday": "June 21st, 1994",
+            "Height / Weight": "175 cm (5' 9\") / 907184 kg (2,000,000 lbs) ???????",
             "Blood Type": "O+",
             "Internet Username": "Tobaised"
         },
@@ -527,33 +432,16 @@
             {
                 "heading": "General Information",
                 "paragraphs": [
-                    "Cat."
-                ]
-            },
-            {
-                "heading": "Appearance",
-                "paragraphs": [
-                    "Cat. Grey fur with white patterns, usually wears jeans and his red sneakers."
-                ]
-            },
-            {
-                "heading": "Personality",
-                "paragraphs": [
-                    "Bit anxious a bit of a loser."
-                ]
-            },
-            {
-                "heading": "History",
-                "paragraphs": [
-                    "TBD."
+                    "Update needed! Come back later."
                 ]
             },
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i>Sophie (Lover)</i>",
-                    "<i>Jinx (Acquaintance?)</i>",
-                    "<i>Alice (Fears)</i>"
+                    "<i><a href=\"/pages/cast/characters/index.html?id=sophie\">Sophie</a> (Partner)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=jinx\">Jinx</a> (Acquaintance)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=alice\">Alice</a> (Fears)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=ferdRay\">Ferd Ray</a> (Awkward History)</i>"
                 ]
             }
         ]
@@ -564,91 +452,61 @@
     "images": [],
     "blockOne": {
       "Author": "DopTime",
-      "Species": "Jackalope",
+      "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
+      "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>",
+      "Species": "Anthropomorphic Jackalope",
       "Gender": "Male",
-      "Age": "21",
-      "Birthday": "Not provided",
+      "Birthday": "Unknown",
       "Height / Weight": "4' 9\" / ~79 lbs",
       "Blood Type": "O-",
       "Internet Username": "BunnyMode"
     },
     "blockTwo": [
-      {
+      {                
         "heading": "General Information",
         "paragraphs": [
-          "Taylor is a young jackalope who's always siding with caution and sticking to the plan."
+          "Update needed! Come back later."
         ]
       },
       {
-        "heading": "Appearance",
-        "paragraphs": [
-          "Short and of average weight, his ears are always laying flat down, either over or behind his shoulders, his fur fluctuates between an orange and a light brown, depending on dietary and hormonal changes. His antlers are a dark brown, as wide as they are tall, and his tail is a short nub. His eyes are big, round, and a vivid shade of pink. As most rabbits, he has a wide nose and two well developed incisors, as well as long, flat feet.",
-          "On an average day he likes wearing comfortable clothes, not minding much whether they match too well, but on an outing with friends or similar event, he'll try to go all out, often prioritizing clothes from the unisex aisle."
-        ]
-      },
-      {
-        "heading": "Personality",
-        "paragraphs": [
-          "Anxious and unambitious, you'll have a tough time persuading him to do much, but he does try to put his best foot forward to satisfy his friends so they won't worry about him. However, every night he can hear the gears of the clock turning, and he can't help but worry that \"the way he is\" is costing him dearly."
-        ]
-      },
-      {
-        "heading": "History",
-        "paragraphs": [
-          "Taylor used to live in a distant warm island, despite loving the nature and the people, he always felt suffocated by his overbearing relatives, and moving out to the big city seemed like a perfectly ambitious and acceptable excuse to be far away, without straight up severing bonds, as well as allowing him for a little more \"people watching\". They could still meet up on every other christmas, but he didn't have anyone to answer to on his everyday life."
-        ]
-      },
-      {
-        "heading": "Trivia",
+        "heading": "Trivia From A Place Above",
         "listItems": [
           "In early idealization, he wore the same outfit as Heather Mason from Silent Hill 3.",
           "Formerly, he had heterochromic eyes, one being the current pink and the other a lime green.",
           "Spawned from every person's need to be a bit of a little guy who gets to sleep a lot."
+        ]
+      },
+      {
+        "heading": "Connections",
+        "listItems": [
+            "<i></i>"
         ]
       }
     ]
   },
   "welder": {
     "name": "Welder",
-    "title": "Your average mechanic",
+    "title": "Your Average Mechanic",
     "images": [],
     "blockOne": {
       "Author": "Jegr",
-      "Origin": "Liann-2",
+      "Sources": "Unknown",
+      "Origin": "<a href=\"/error/index.html\">Liann-2</a>",
       "Species": "Robot (Conscious, Sentient)",
       "Gender": "Male",
-      "Age": "26",
       "Birthday": "May 30th",
       "Height / Weight": "178cm (5' 10\") / 70kg (154 lbs)",
       "Internet Username": "FreeFloatingSpirit"
     },
     "blockTwo": [
-      {
+      {                
         "heading": "General Information",
         "paragraphs": [
-          "<i>Welder</i> is a general robot who just like many other people just goes through life trying to have some fun and connect with people, his work is annoying as always but fun sometimes and the pay is good, he's stationed as a mechanic in a <i>GL</i> workshop."
+          "Update needed! Come back later."
         ]
       },
       {
-        "heading": "Appearance",
-        "paragraphs": [
-          "Light frame civilian design. Composed of a few white hard metal bits (Torso, forearms, Shins) the rest Black rubber with an Metal endoskeleton, Custom civilian class helm design <i>id:56843312</i> characterized by a hard green cover on the top going all the way to the back of the head, Viewport similar to the shape of enlarged skiing goggles capable of free expression similar to monitors, surrounded with a white metal frame, Dark gray underside of the helm with two aesthetic stripes going along the back of the helm. Usually wears white hoodies with green markings, blue-grayish pants."
-        ]
-      },
-      {
-        "heading": "Personality",
-        "paragraphs": [
-          "Reserved, Laid back, pragmatic but also caring of people he likes."
-        ]
-      },
-      {
-        "heading": "History",
-        "paragraphs": [
-          "Welder like most robots don't have a standard name, originally a human who has been has willingly been transformed to a mechanical body. Younger sibling of two, used to work in the army with his sister but later quit as it wasn't for him. Although he still worked for the GL this time as a welder and general repair / construction crew and or any related jobs he could find at the time."
-        ]
-      },
-      {
-        "heading": "Trivia",
+        "heading": "Trivia From A Place Above",
         "listItems": [
           "His favorite colour in fact <b>isn't</b>: <span style=\"color: #05FF00\">#05FF00</span>.",
           "Based off of a mech I made in FTD."
@@ -657,7 +515,7 @@
       {
         "heading": "Connections",
         "listItems": [
-            "<i>Comet (Sister)</i>"
+            "<i><a href=\"/pages/cast/characters/index.html?id=comet\">Comet</a> (Sister)</i>"
         ]
       }
     ]
@@ -668,34 +526,20 @@
         "images": [
             {
                 "title": "",
+                "file": "AllyCard.png"
+            },
+            {
+                "title": "",
                 "file": "Ally1.png",
                 "credits": "by @Radropicall"
-            },
-            {
-                "title": "",
-                "file": "Ally2.png"
-            },
-            {
-                "title": "",
-                "file": "Ally3.png",
-                "credits": "by @Trash7129"
-            },
-            {
-                "title": "",
-                "file": "Ally4.png"
-            },
-            {
-                "title": "",
-                "file": "AllyCard.png"
             }
         ],
         "blockOne": {
+            "Sources": "Unknown",
             "Origin": "Sol-3²², American-Like Continent, West",
             "Species": "Anthropomorphic Axolotl",
-            "Ethnicity": "Mixed",
             "Gender": "Female",
-            "Age": "21 (Black & White B-Side) <br><span class=\"ageMargin\">23 (Black & White) </span><br><span class=\"ageMargin\">28 (Post Actologue) </span>",
-            "Birthday": "February 14th",
+            "Birthday": "February 14th, 1994",
             "Height / Weight": "165 cm (5' 5\") / 51 kg (112 lbs)",
             "Blood Type": "O+",
             "Internet Username": "mibiribi"
@@ -704,37 +548,14 @@
             {
                 "heading": "General Information",
                 "paragraphs": [
-                    "Ally Parks is the sweetest supporting character of <i>Stories of the Dead: Black & White</i> and its <i>Post Actologue</i>. She's known for her exciting energy, history, and unyielding optimistic hope."
+                    "Update needed! Come back later."
                 ]
             },
             {
-                "heading": "Appearance",
-                "paragraphs": [
-                    "Ally has a smooth dark-magenta skin with a slimy coat and redder fluffy gills. She has a bubbly ponytail using a technique many anthropomorphic salamanders use to have hair for style. She is pretty skinny and lightweight due to fast metabolism. Her tail is longer and heavier than average for the height, weight, and age, letting her use it for many habits such as balancing and odd relaxing positions. Due to some possible background of her interacting with mammals (often the feline type), she learned to use her tail reflexively to signal her emotion. Her slimy coat is either nasty or unnoticeable depending on her mood, whenever she's stressed her body naturally produces an excess amount of slime from her whole body - generally similar to sweat but more viscous and worse. Oddly enough, she can use the slime coat to slide around on a smooth floor. If she's barefoot she'll have a hard time standing. Just like most anthropomorphic aquatic beings she has no webbed hands due to evolution.",
-                    "She wears makeup, more notably a thick black eyeliner with three additional spiky eyelashes below each eye. She also has a band aid on her snout, despite recovering from an injury years ago she still keeps the band aid on, same goes for her lower left cheek. She stylizes her gills like hair, letting them droop down on her shoulders and below. An important fact to note is that she absolutely hates shirts, likely due to the excess slime she produces when she's stressed, she has her chest wrapped with bandages for cover instead. Even during the winter, she doesn't mind not wearing a shirt or a coat, she enjoys the cold as axolotls naturally do. She loves to wear baggy pants of any kind, as long as they're one size bigger than hers.",
-                    "During the beginning of the Monochrome Era her skin turns completely white. Though she retained her previous style, her fashion choices led to a more military-styled approach, wearing ammo belts and camouflaged pants. Sometimes on rare occasion, Ferd lets her wear his round black glasses.",
-                    "After the <i>Actologue</i> her appearance turns more rough, though she still remains the same Ally she always ever was."
-                ]
-            },
-            {
-                "heading": "Personality",
-                "paragraphs": [
-                    "Ally tries to be everyone's best friend. She is very empathetic and will prioritize others rather than herself if necessary. Generally she's very energetic, but knows when to stop. She will never run out of things to say and can keep conversations going for hours. Ally's personality has rarely changed, but with each moment she loses a close friend her desire to keep strong connections grows to the point where it can be concerning.",
-                    "Before the monochrome era, somewhere in an unknown desolate wasteland, Ally is a confused soul. She meets Emma Hindue, her eventual soulmate, and a few other close friends who help her find herself. She learns a lot, willingly, and adopts the explosive personality from Emma and the care for others from helping those in need. Additionally, some of the conversation starters and jokes she says are copied from Emma later on, except for the fact that she's not the butt of a joke this time.",
-                    "Ally is the heart of a trio she gets close to in Black & White. Cracking jokes, taking things lightly, being there for others when they need it the most. However this personality she's been keeping for years is completely destroyed during one heart-breaking moment. At the end of the monochrome era and afterwards, she becomes depressed and adopts a more soft and caring personality. She eventually completely lets go of the childish wonder and joy she once had. Despite depression, her soul remains strong."
-                ]
-            },
-            {
-                "heading": "History",
-                "paragraphs": [
-                    "It's not clear what she was up to before her rise of popularity in the wastelands and the monochrome era. She wasn't really all that special in the group she was a part of either, at least in the eyes of strangers. Her tale is yet to be known."
-                ]
-            },
-            {
-                "heading": "Trivia",
+                "heading": "Trivia From A Place Above",
                 "listItems": [
                     "She didn't exist until I recolored the 'Axo' skin from Fortnite to put in one of my older artworks. An idea struck me at that moment.",
-                    "A friend of mine Jegr pitched the idea of her being able to slide around with her slimy coat.",
+                    "Jegr pitched the idea of her being able to slide around naked with her slimy coat.",
                     "She has a Samsung Galaxy S III phone which she uses to play ancient android games, similar to the one I have.",
                     "She likes to be held in the air by her waist because she's so light, it makes her feel free and really happy."
                 ]
@@ -742,11 +563,11 @@
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i>Sue Parks (Sister)</i>",
-                    "<i>Emma Hindue (Lover)</i>",
-                    "<i>Ferd Ray (Best Friend)</i>",
-                    "<i>Houston March ('Best Friends Forever')</i>",
-                    "<i>Masy (Friend)</i>"
+                    "<i><a href=\"/pages/cast/characters/index.html?id=sueParks\">Sue Parks</a> (Sister)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=ferdRay\">Ferd Ray</a> (Bestie)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=houstonMarch\">Houston March</a> (Best Friend Forever)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=ottoWunderbar\">Otto Wunderbar</a> (Close Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=emmaHindue\">Emma Hindue</a> (Ex-Partner)</i>"
                 ]
             }
         ]
@@ -757,49 +578,24 @@
     "images" : [],
     "blockOne": {
         "Author": "cbaer08",
+        "Sources": "Unknown",
         "Origin": "Unknown",
         "Species": "Anthropomorphic Cheetah",
-        "Ethnicity": "Mixed",
         "Gender": "Female",
-        "Age": "Unknown",
-        "Birthday": "Unknown...",
+        "Birthday": "Unknown",
         "Height / Weight": "167 cm (5' 6\") / 81 kg (180 lbs)",
         "Blood Type": "B+",
-        "Internet Username": "'Prohibited From The Internet'"
+        "Internet Username": "\"Prohibited From The Internet\""
     },
     "blockTwo": [
         {
-            "heading": "General Information",
-            "paragraphs": [
-                "Elysia seems to be an ancient cheetah of some sort who was found near the coastline in Novus Terra 6/18/2026. She always seems confused and unsure, but continues to explore her surroundings. As of right now, she's being observed in Novus Terra's laboratory for further information."
-            ]
+              "heading": "General Information",
+              "paragraphs": [
+                 "Update needed! Come back later."
+             ]
         },
         {
-            "heading": "Appearance",
-            "paragraphs": [
-                "Elysia is a light orange cheetah with tons of mysterious scars and wounds all over her body with heterochromatic eyes (right one light blue and the left one yellow). She has very long, curly, dark brown hair reaching her legs, but rarely lets it down, always having it in a massive ponytail or bun. She landed on the planet bare foot with tattered clothing covering her chest and bottom surprisingly made from cotton, and now wears comfy baggy shirts that can cover her entire body with shorts."
-            ]
-        },
-        {
-            "heading": "Personality",
-            "listItems": [
-                "Very reckless / destroys a lot.",
-                "Can be very moody.",
-                "Intelligent (sometimes).",
-                "Attachment issues.",
-                "Sleeps a lot.",
-                "Loves company (if possible).",
-                "Likes to explore."
-            ]
-        },
-        {
-            "heading": "History",
-            "paragraphs": [
-                "There seems to be no collection or trace of her history, nor could it be found at the moment."
-            ]
-        },
-        {
-            "heading": "Trivia",
+            "heading": "Trivia From A Place Above",
             "listItems": [
                 "Starting to understand more of the customs and language of Novus Terra.",
                 "Cuddles with bowls after her meals.",
@@ -817,25 +613,24 @@
 },
       "houstonMarch": {
         "name": "Houston March",
-        "title": "A Foolish Rabbit",
+        "title": "A Foolish Bunny",
         "images": [
+            {
+                "title": "",
+                "file": "HoustonCard.png"
+            },
             {
                 "title": "",
                 "file": "Houston1.png",
                 "credits": "by @Radropicall"
-            },
-            {
-                "title": "",
-                "file": "HoustonCard.png"
             }
         ],
         "blockOne": {
-            "Origin": "New Babylon's Earth (Sol-3¹), Saint Kalina",
+            "Sources": "Unknown",
+            "Origin": "New Babylon's Earth <a href=\"/error/index.html\">Sol-3¹</a>, <a href=\"/error/index.html\">Saint Kalina</a>",
             "Species": "Anthropomorphic Californian Rabbit",
-            "Ethnicity": "White",
             "Gender": "Nonbinary",
-            "Age": "18 (Black & White C-Side Beginning) <br><span class=\"ageMargin\">20 (Black & White C-Side) </span><br><span class=\"ageMargin\">25 (Black & White) </span><br><span class=\"ageMargin\">28 (Post Actologue) </span>",
-            "Birthday": "July 4th",
+            "Birthday": "July 4th, 2740",
             "Height / Weight": "170 cm (5' 7\") (Not Counting Ears) / 61 kg (134 lbs)",
             "Blood Type": "Strange Variation Of AB",
             "Internet Username": "HustnWeHavAProblm"
@@ -844,58 +639,34 @@
             {
                 "heading": "General Information",
                 "paragraphs": [
-                    "Houston is the mischievous supporting character of <i>Stories of the Dead: Black & White</i> and a main character in <i>Black & White C-Side</i>. They're defined by their talent, intelligence, and skill put to use for rather interesting..."
+                    "Update needed! Come back later."
                 ]
             },
             {
-                "heading": "Appearance",
-                "paragraphs": [
-                    "Houston's physical appearance is divided in two major times of their life, however most things about their style never change. Their ears are long and thick, their body is lanky and fully covered in fur which is incredibly soft. Their right eye is usually covered by an eyepatch due to medical reasons, but other than that they don't suffer from any physical issues. They've always been obsessed over fashion, picking out clothes and changing their whole fit depending on their mood each day of the week. Sometimes, when they feel lazy, they'll pick out some cozy black and pink pajamas themed after *'Bye-Bye Kitty'* and wear them everywhere.",
-                    "Since birth Houston was tan with long beautiful blonde hair. They were born with a cute birthmark in the shape of a heart on their left cheek. Their eyes are covered surrounded by a dark browner spot. Their eyelashes change often as they experiment with all the different looks, and so does the makeup they put on whenever they're setting out to go somewhere. They hate anything that appears on their body that make them 'uglier', such as pimples, and will do anything no matter what to hide it. Their clothes are usually adored with trinkets, charms, keychains, anything that reminds them of a past memory. Yes, it makes a lot of noise whenever they move.",
-                    "In the other time of their life their physical appearance significantly changed, and so has their style. Taking a more minimalistic and dull approach to their fashion, they wear black clothes typically jackets and pants. All the fur on their has turned monochrome with the gray shades reminiscing of the marks that used to be on their fur. Their birthmark is also completely gone from right cheek. Their whole body is also much taller than how it used to be, though the lanky frame still remains. Their current form as some describe, could be named a 'blank canvas'. It's important to mention that they don't wear the trinkets anymore as well, they usually have them all stored inside their bag they always carry around."
-                ]
-            },
-            {
-                "heading": "Personality",
-                "paragraphs": [
-                    "Houston is an introvert. Full of talents and learnt skill, all that yet they struggle to maintain a proper conversation with strangers. They can easily stick to someone for ages when someone's kind to them, however. They're really shy and usually don't understand how crazy their skills are sometimes, on some days they even unknowingly act like as if everyone was so talented and knowledgeful of niche things. Many people find that annoying.",
-                    "During the monochrome era Houston doesn't appear so shy as they used to be. In some moments they're even the main lead. They lean more into a busy caretaker sort of role, but sometimes they're also just a supporting character in the background. Rarely, they're seen being silently jealous of developing and close relationships."
-                ]
-            },
-            {
-                "heading": "History",
-                "paragraphs": [
-                    "Since they were a child Houston has been completely obsessed over the grand races that were held every four years in the New Babylon through all seven capital cities. Watching older recordings and histories of previous events whilst also making completely sure to be there for the latest ones, the races inspired them to become the greatest racer in the universe. Houston was born as a gifted child, and with a burning passion for such stuff they managed to learn the ropes in no time. Looking up the interior systems of the hover-machines, visiting museums and workshops to simply learn more, playing videogames which typically revolved around racing. Somehow, even after doing all of that throughout most of their childhood, they never got burnt out.",
-                    "Houston's parents weren't exactly nice, upon finding out that their child has immense potential they fully invested into their future. Assigning Houston to extra courses in school, after-school, pressuring them to learn stuff they weren't even interested in and were completely unnecessary. Questions such as what to do in the future were asked often outside of racing, their parents hoped they would turn out to be a scientist or a doctor eventually. These complications left Houston no space to make friends and barely any free time in general throughout their whole childhood.",
-                    "Around the time they turned eighteen years old, Houston decides to change the course of their whole life with one bold decision.",
-                    "<a href=\"/pages/stories/books/black-white-c-side\">Black & White C-Side (Draft)</a>"
-                ]
-            },
-            {
-                "heading": "Trivia",
+                "heading": "Trivia From A Place Above",
                 "listItems": [
                     "Originally they were supposed to be a cat character based off the tuxedo breed. Would've been cool, but I settled on a bunny for more diversity.",
-                    "After designing them I thought they would be the least interesting of the whole main character trio in Black & White. I was wrong!",
+                    "After designing them I thought they would be the least interesting of the whole main character trio in Black & White. I was wrong.",
                     "The draft for Black & White may have a lot of moments where they're referred to by 'he'. These are all accidents! A year before I started writing I always envisioned them as a male, but that has changed!"
                 ]
             },
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i>Lars Mai Terma (Lover)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=larsTerma\">Lars Mai Terma</a> (Partner)</i>",
                     "<i>Sweetie (Pet)</i>",
-                    "<i>Ferd Ray (Friend)</i>",
-                    "<i>Ally Parks ('Best Friends Forever')</i>",
-                    "<i>Warnie (Acquaintance)</i>",
-                    "<i>Rose (Neutral)</i>",
-                    "<i>Bill Nebula (Slightly Hates)</i>"
+                    "<i><a href=\"/pages/cast/characters/index.html?id=ferdRay\">Ferd Ray</a> (Best Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=allyParks\">Ally Parks</a> (Best Friend Forever)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=warnie\">Warnie</a> (Appreciated Co-Worker)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=rose\">ROSE</a> (Boss)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=billNebula\">Bill Nebula</a> (Co-Worker That They Slightly Hate)</i>"
                 ]
             }
         ]
     },
       "larsTerma": {
         "name": "Lars Mai Terma",
-        "title": "tax please",
+        "title": "Punk Rat",
         "images": [
             {
                 "title": "",
@@ -904,12 +675,11 @@
             }
         ],
         "blockOne": {
-            "Origin": "New Babylon's Earth (Sol-3¹), Saint Kalina",
+            "Sources": "Unknown",
+            "Origin": "New Babylon's Earth <a href=\"/error/index.html\">Sol-3¹</a>, <a href=\"/error/index.html\">Saint Kalina</a>",
             "Species": "Anthropomorphic Common Rat",
-            "Ethnicity": "Hispanic",
             "Gender": "Male",
-            "Age": "18 (Black & White C-Side Beginning) <br><span class=\"ageMargin\">20 (Black & White C-Side)",
-            "Birthday": "March 17th",
+            "Birthday": "March 17th, 2740",
             "Height / Weight": "180 cm (6' 0\") (Not Counting Ears) / 82 kg (180 lbs)",
             "Blood Type": "A-",
             "Internet Username": "spitnfire_"
@@ -918,43 +688,24 @@
             {
                 "heading": "General Information",
                 "paragraphs": [
-                    "Lars is the charming main anomaly of <i>Black & White C-Side</i>."
+                    "Update needed! Come back later."
                 ]
             },
             {
-                "heading": "Appearance",
-                "paragraphs": [
-                    "Lars is really into rock, metal, punk, and anything else that is similar to those named genres. He'll rarely dress in a way that's not related to his interest. He has brown to faint reddish fur with black hair. His nose is quite pink, adored with long whiskers alongside the whole snout. His left ear has a few golden piercings, his tongue is also pierced though its silver. He likes to wear his pilot goggles on his forehead even during the times when he's not working for Rose."
-                ]
-            },
-            {
-                "heading": "Personality",
-                "paragraphs": [
-                    "He's always optimistic and extroverted no matter what and will do anything to raise the spirits of the people he cares for. He's also a big fan of videogames, especially if they fall in the racing genre, it's what inspired him after all! Such interest brought him enough skill to serve as one of the best pilots for Rose alongside Houston. He loves music, he loves drums especially, knowing how to play impossibly fast beats. He enjoys collecting vinyl, CDs, posters... Music and racing is what he lives for. He has strong disdain against people fake fans of something he loves. Art was something that interested him for a short while, he has a great eye for details, carrying a notebook around to sketch whatever he finds amusing (usually vehicles)."
-                ]
-            },
-            {
-                "heading": "History",
-                "paragraphs": [
-                    "One day, Lars was brought into a racing rally as a kid and since then his whole life changed. His parents were nice and loving, his life was stable and smooth ignoring some rough edges. His talents and interest for becoming a racer were heavily supported, though the pressure was a bit too heavy sometimes. He managed to get a driving license at the age of 13 with the help of a few specific rich managers who were looking forward to his potential a racer, though he couldn't drive until he was 16 years old and even then he had to be supervised. He was quite popular in all the schools he ever went to. One time in high school he somehow balanced education, his hobby, and being in an amateur rock band without completely losing his mind. He had a lot of friends but no one stayed in touch after years."
-                ]
-            },
-            {
-                "heading": "Trivia",
+                "heading": "Trivia From A Place Above",
                 "listItems": [
                     "I really struggled with his design.",
-                    "He also collects bobbleheads, but he's really shy about that interest for some reason."
+                    "He collects bobbleheads, but he's really shy about that interest for some reason."
                 ]
             },
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i>Houston March (Lover)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=houstonMarch\">Houston March</a> (Partner)</i>",
                     "<i>Sweetie (Pet)</i>",
-                    "<i>Cog (Friend)</i>",
-                    "<i>Warnie (Acquaintance)</i>",
-                    "<i>Bill Nebula (Neutral)</i>",
-                    "<i>Rose (Neutral)</i>"
+                    "<i><a href=\"/pages/cast/characters/index.html?id=warnie\">Warnie</a> (Co-Worker)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=billNebula\">Bill Nebula</a> (Co-Worker)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=rose\">Rose</a> (Boss)</i>"
                 ]
             }
         ]
@@ -965,17 +716,16 @@
         "images": [
             {
                 "title": "",
-                "file": "Lars1.png",
+                "file": ".png",
                 "credits": ""
             }
         ],
         "blockOne": {
-            "Origin": "Fourth Continent of Odyssey-812",
+            "Sources": "Weird Wastelander Documents, Unfriendly Locals of Johnny. Shortened for the reader's convenience.",
+            "Origin": "Fourth Continent of <a href=\"/error/index.html\">Odyssey-812</a>",
             "Species": "Anthropomorphic Black Bear",
-            "Ethnicity": "Indian",
             "Gender": "Female",
-            "Age": "31",
-            "Birthday": "March 17th",
+            "Birthday": "March 17th, 2734",
             "Height / Weight": "175 cm (5' 9\") / 76 kg (168 lbs)",
             "Blood Type": "O+",
             "Internet Username": "feminem"
@@ -984,7 +734,7 @@
             {
                 "heading": "General Information",
                 "paragraphs": [
-                    "Emma is a leader of one of the seven towns of the fourth continent in Odyssey-812, one which is named simply just 'Johnny'. She is a fierce fighter, powerful, commanding, assign her as the leader to any workplace and you'd come back to sweet efficiency. Such corporate life isn't for her however, she strives in nature, hunting animals and foraging plants of any kind for her town to grow and survive. She claims her last name is supposed to echo the religion she believes in, one that is surprisingly not well-known and widespread in the universe. Locals say no one has ever seen her outside during night, not even since she was a little kid. She is not exactly smart, but she is full of energy and life, which is why everyone loves her while also being terrified of her."
+                    "<i>Emma</i> is a leader of one of the seven towns of the fourth continent in <a href=\"/error/index.html\">Odyssey-812</a>, one which is named simply just <a href=\"/error/index.html\">'Johnny'</a>. She is a fierce fighter, powerful, commanding, assign her as the leader to any workplace and you'd come back to sweet efficiency. Such corporate life isn't for her however, she strives in nature, hunting animals and foraging plants of any kind for her town to grow and survive. She claims her last name is supposed to echo the religion she believes in, one that is surprisingly not well-known and widespread in the universe. Locals say no one has ever seen her outside during night, not even since she was a little kid. She is not exactly smart, but she is full of energy and life, which is why everyone loves her."
                 ]
             },
             {
@@ -997,15 +747,15 @@
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i>Ally Parks (Soulmates?)</i>",
-                    "<i>Yzahela Haudi (Close Friend)</i>",
-                    "<i>Otto Wunderbar (Close Friend)</i>",
-                    "<i>Lan Stringer (Friend)</i>",
-                    "<i>Matush Hammered (Friend)</i>",
-                    "<i>Jian Martini (Friend)</i>",
-                    "<i>Maricia Ghumilea (Friend)</i>",
-                    "<i>Jut'n Haus (Friend)</i>",
-                    "<i>And even more...</i>"
+                    "<i><a href=\"/pages/cast/characters/index.html?id=allyParks\">Ally Parks</a> (Ex-Partner)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=yzahelaHaudi\">Yzahela Haudi</a> (???)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=ottoWunderbar\">Otto Wunderbar</a> (Close Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=lanStringer\">Lan Stringer</a> (Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=matushHammered\">Matush Hammered</a> (Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=jianMartini\">Jian Martini</a> (Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=mariciaGhumilea\">Maricia Ghumilea</a> (Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=jutnHaus\">Jut'n Haus</a> (Friend)</i>",
+                    "<i>And many more...</i>"
                 ]
             }
         ]
@@ -1021,11 +771,10 @@
             }
         ],
         "blockOne": {
+            "Sources": "",
             "Origin": "",
             "Species": "",
-            "Ethnicity": "",
             "Gender": "",
-            "Age": "",
             "Birthday": "",
             "Height / Weight": "",
             "Blood Type": "",
@@ -1063,11 +812,10 @@
             }
         ],
         "blockOne": {
+            "Sources": "",
             "Origin": "",
             "Species": "",
-            "Ethnicity": "",
             "Gender": "",
-            "Age": "",
             "Birthday": "",
             "Height / Weight": "",
             "Blood Type": "",

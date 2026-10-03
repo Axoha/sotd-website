@@ -22,5 +22,11 @@
         "name": "Family of Entertaining Fish",
         "thumbnail": "walenotlthumb.png",
         "flavorText": "Magical fish that try too hard to impress beings more developed than them."
+    },
+    {
+        "id": "gorb",
+        "name": "Gorbs",
+        "thumbnail": "gorbthumb.png",
+        "flavorText": "Bizarre creatures that have survived as a single leg for millenia without ever evolving."
     }
 ]
