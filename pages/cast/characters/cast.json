@@ -439,6 +439,7 @@
                 "heading": "Connections",
                 "listItems": [
                     "<i><a href=\"/pages/cast/characters/index.html?id=sophie\">Sophie</a> (Partner)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=taylor\">Taylor</a> (Friend)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=jinx\">Jinx</a> (Acquaintance)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=alice\">Alice</a> (Fears)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=ferdRay\">Ferd Ray</a> (Awkward History)</i>"
@@ -451,35 +452,41 @@
     "title": "Rabittoid",
     "images": [],
     "blockOne": {
-      "Author": "DopTime",
+      "Author": "Taxtapy",
       "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
-      "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>",
+      "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, \"A Really Cozy Burrow\"",
       "Species": "Anthropomorphic Jackalope",
-      "Gender": "Male",
-      "Birthday": "Unknown",
-      "Height / Weight": "4' 9\" / ~79 lbs",
-      "Blood Type": "O-",
-      "Internet Username": "BunnyMode"
+      "Gender": "\"Mail\" (Male)",
+      "Birthday": "May 7th, 1993",
+      "Height / Weight": "144 cm (4' 9\") / 37 kg (79 lbs)",
+      "Blood Type": "\"He doesn't know\", O-",
+      "Internet Username": "CoolBurrowBro"
     },
     "blockTwo": [
       {                
         "heading": "General Information",
         "paragraphs": [
-          "Update needed! Come back later."
+          "Taylor is an introverted jackalope born in a very large family of rabbits and herbivores alike, who, try as he might not to, keep getting caught up in their business. He loves his \"me time\", and is a bit of a neat freak and an overthinker, but typically he's able to channel that into his small strawberry garden. He makes for great gifts, the first few times at least."
         ]
       },
       {
         "heading": "Trivia From A Place Above",
         "listItems": [
-          "In early idealization, he wore the same outfit as Heather Mason from Silent Hill 3.",
-          "Formerly, he had heterochromic eyes, one being the current pink and the other a lime green.",
-          "Spawned from every person's need to be a bit of a little guy who gets to sleep a lot."
+          "He's named after a character from the dark pictures.",
+          "His ass is so small, but people keep thinking it's not, and that's ok.",
+          "He had a green eye, but that changed.",
+          "He wore <i>Heather's</i> outfit (from <i>Silent Hill</i>) but then I decided I should make an original outfit for him (I didn't so he's just naked now)."
         ]
       },
       {
         "heading": "Connections",
         "listItems": [
-            "<i></i>"
+            "<i><a href=\"/pages/cast/characters/index.html?id=jessicahatherleigh\">Jessica Hatherleigh</a> (Mortal Enemy, Rival)</i>",
+            "<i><a href=\"/pages/cast/characters/index.html?id=toby\">Toby</a> (Friend)</i>",
+            "<i><a href=\"/pages/cast/characters/index.html?id=jinx\">Janx</a> (Friend)</i>",
+            "<i><a href=\"/pages/cast/characters/index.html?id=icyCruz\">Icy Cruz</a> (Friend)</i>",
+            "<i><a href=\"/pages/cast/characters/index.html?id=sueParks\">Sue Parks</a> (Friend)</i>",
+            "<i><a href=\"/pages/cast/characters/index.html?id=qwerturdle\">Georg</a> (Saw on the street once and went \"What a funny looking thing.\")</i>"
         ]
       }
     ]
