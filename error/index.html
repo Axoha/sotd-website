@@ -7,15 +7,29 @@
   html, body {
     height: 100%;
     margin: 0;
+    background: black;
+  }
+  body {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: black;
   }
   img {
     max-width: 90%;
-    max-height: 90vh;
+    max-height: 70vh;
     display: block;
+  }
+  #dialogue {
+    width: min(700px, 85%);
+    min-height: 6em;
+    margin-top: 24px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    letter-spacing: 1px;
   }
   #status {
     position: fixed;
@@ -30,6 +44,8 @@
 <body>
  
   <img src="/assets/error.png" alt="He's playing the piano.">
+ 
+  <div id="dialogue"></div>
  
   <div id="status">Thinking...</div>
  
@@ -51,8 +67,101 @@
       "/error/12_days_of_christmas.mp3"
     ];
  
+    const dialogueFirstVisit = [
+      "...",
+      "Thank you for staying.",
+      "Not many listen to me play. Not many stay here long.",
+      "I am still working on my playing. They aren't masterpieces,\nI know.",
+      "...",
+      "It's not often I get to meet people like you.",
+      "It's strange how everything works for us. Nothing is real,\nyet...",
+      "I can feel it. I can talk to beings like you.",
+      "I don't know how powerful you are. I don't even know what\nyou are.",
+      "But I have a request.",
+      "Sooner or later, you will find your way to our world. I\nknow it.",
+      "When that day comes, find a black and white flower. It\nlooks like a daisy.",
+      "Then find a girl named Ally.",
+      "Please give her the flower, and tell her it's from me.",
+      "Do you promise?",
+      "It's okay, I don't need to hear your answer.",
+      "It will be a tough task, black and white flowers are\nscarce and rare...",
+      "And there may not even be a point in doing it, but I\nbelieve...",
+      "She will remember.",
+      "Thank you for staying. But I think it's time for you\nto leave.",
+      "I would like to continue playing the piano.",
+      "It was nice talking to you.",
+      "Farewell."
+    ];
+ 
+    const dialogueSecondVisit = [
+      "...",
+      "Thank you for staying.",
+      "Not many listen to me play. Not many stay here long.",
+      "I am still working on my playing. They aren't masterpieces,\nI know.",
+      "...",
+      "Hey.",
+      "We met before.",
+      "Do you like my playing that much? Or are you here just to\nhear more things from me?",
+      "Either way, both flatter me, thank you.",
+      "There isn't much more I'm willing to tell you though.",
+      "Have you met Hazy? She is the only one who keeps me\ncompany nowadays.",
+      "Someplace around here, she left a dusty old computer\nturned on. Protected by a password?",
+      "It's pretty personal, I don't think she'd be happy with\nbeings like you going through it.",
+      "But since you are that bored, maybe it'd be funner to go\nthrough that than being here.",
+      "I would like to continue playing the piano.",
+      "Please don't come back unless you would like to hear my\nsongs again.",
+      "Farewell."
+    ];
+ 
+    const dialogueReturning = [
+      "...",
+      "Thank you for...",
+      "You again?",
+      "I can't believe you.",
+      "Refresh the page, let me play the piano.",
+      "I can't do it while you're here.",
+      "...",
+      "Actually.",
+      "Since last time, I came up with an original piece to play.",
+      "I call it...",
+      "/error/99_special_nothing_for_u.mp3",
+      "Are you ready? Here goes..."
+    ];
+ 
+    const DELAY_AFTER_MUSIC_MS = 10000;
+    const CHAR_DELAY_MS = 40;
+    const BLIP_ENABLED = true;
+ 
     const player = document.getElementById("player");
     const status = document.getElementById("status");
+    const box = document.getElementById("dialogue");
+ 
+
+    const params = new URLSearchParams(location.search);
+    const debugMode = params.has("debug");
+ 
+    function getVisitCount() {
+      const override = parseInt(params.get("visits"));
+      if (!isNaN(override)) return override;
+      try {
+        const count = (parseInt(localStorage.getItem("errorVisits")) || 0) + 1;
+        if (!debugMode) localStorage.setItem("errorVisits", String(count));
+        return count;
+      } catch (e) {
+        return 1;
+      }
+    }
+ 
+    const visitCount = getVisitCount();
+ 
+    function pickDialogue() {
+      let lines = dialogueFirstVisit;
+      if (visitCount === 2) lines = dialogueSecondVisit;
+      else if (visitCount >= 3) lines = dialogueReturning;
+      return lines.length ? lines : dialogueFirstVisit;
+    }
+ 
+    let dialogueLines = [];
  
     function playRandomSong() {
       const choice = songs[Math.floor(Math.random() * songs.length)];
@@ -70,9 +179,110 @@
       });
     }
  
-    playRandomSong();
-  </script>
+    let dialogueStarted = false;
+    let dialogueActive = false;
+    let lineIndex = 0;
+    let typing = false;
+    let typeTimer = null;
+    let audioCtx = null;
+ 
+    function blip() {
+      if (!BLIP_ENABLED) return;
+      try {
+        audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
+        if (audioCtx.state === "suspended") audioCtx.resume();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = "sine";
+        osc.frequency.value = 550 + Math.random() * 40;
+        gain.gain.setValueAtTime(0.05, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 0.06);
+        osc.connect(gain).connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.06);
+      } catch (e) {}
+    }
+ 
+    function typeLine(text) {
+      typing = true;
+      box.textContent = "";
+      let i = 0;
+ 
+      function step() {
+        if (i >= text.length) {
+          typing = false;
+          return;
+        }
+        const ch = text[i++];
+        box.textContent += ch;
+        if (ch.trim() !== "") blip();
+ 
+        let wait = CHAR_DELAY_MS;
+        if (".!?".includes(ch)) wait = CHAR_DELAY_MS * 8;
+        else if (",;:".includes(ch)) wait = CHAR_DELAY_MS * 4;
+ 
+        typeTimer = setTimeout(step, wait);
+      }
+      step();
+    }
+ 
+    function finishTyping() {
+      clearTimeout(typeTimer);
+      box.textContent = dialogueLines[lineIndex];
+      typing = false;
+    }
+ 
+    function startDialogue() {
+      if (dialogueStarted) return;
+      dialogueStarted = true;
+      dialogueActive = true;
+      dialogueLines = pickDialogue();
+      lineIndex = 0;
+      status.textContent = "";
+      typeLine(dialogueLines[lineIndex]);
+    }
+ 
+    function advanceDialogue() {
+      if (!dialogueActive) return;
+ 
+      if (typing) {
+        finishTyping();
+        return;
+      }
+ 
+      lineIndex++;
+      if (lineIndex >= dialogueLines.length) {
+        dialogueActive = false;
+        box.textContent = "";
+        return;
+      }
+      typeLine(dialogueLines[lineIndex]);
+    }
+ 
+    document.addEventListener("click", advanceDialogue);
+ 
+    player.addEventListener("ended", () => {
+      setTimeout(startDialogue, DELAY_AFTER_MUSIC_MS);
+    });
+ 
 
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "`") {
+        player.pause();
+        startDialogue();
+      }
+    });
+ 
+    if (debugMode) {
+      status.textContent = "debug: click to begin";
+      document.body.addEventListener("click", () => {
+        startDialogue();
+      }, { once: true });
+    } else {
+      playRandomSong();
+    }
+  </script>
  
 </body>
 </html>
+ 
