@@ -144,15 +144,20 @@
       const override = parseInt(params.get("visits"));
       if (!isNaN(override)) return override;
       try {
-        const count = (parseInt(localStorage.getItem("errorVisits")) || 0) + 1;
-        if (!debugMode) localStorage.setItem("errorVisits", String(count));
-        return count;
-      } catch (e) {
-        return 1;
-      }
-    }
- 
-    const visitCount = getVisitCount();
+       return (parseInt(localStorage.getItem("errorVisits")) || 0) + 1;
+     } catch (e) {
+       return 1; // storage blocked: treat as a first visit
+     }
+}
+
+const visitCount = getVisitCount();
+
+function recordVisit() {
+  if (debugMode || params.has("visits")) return; // testing never saves
+  try {
+    localStorage.setItem("errorVisits", String(visitCount));
+  } catch (e) {}
+}
  
     function pickDialogue() {
       let lines = dialogueFirstVisit;
@@ -237,6 +242,7 @@
       dialogueStarted = true;
       dialogueActive = true;
       dialogueLines = pickDialogue();
+      recordVisit();
       lineIndex = 0;
       status.textContent = "";
       typeLine(dialogueLines[lineIndex]);
