@@ -3,7 +3,7 @@
         "id": "ferdRay",
         "name": "Ferd Ray",
         "thumbnail": "ferdRayThumb.png",
-        "flavorText": "He is an insufferable, weird, and most importantly a stubborn mindless maniac who will do anything for the people he loves, and whatever he wants for himself of course."
+        "flavorText": "Ferd is an insufferable, weird, and most importantly a stubborn mindless maniac who will do anything for the people he loves, and whatever he wants for himself of course."
     },
     {
         "id": "enaLone",
@@ -15,7 +15,7 @@
         "id": "hazuneNiku",
         "name": "Hazune Niku",
         "thumbnail": "hazuneNikuThumb.png",
-        "flavorText": "I'm thinking Niku, Niku, ooh-ee-ooh."
+        "flavorText": "Cherished celebrity across the universe, responsible for many progressive automaton movements. I'm thinking Niku, Niku, ooh-ee-ooh."
     },
     {
         "id": "junoEvergreen",
@@ -33,7 +33,7 @@
         "id": "icyCruz",
         "name": "Icy Cruz ✰",
         "thumbnail": "icyThumb.png",
-        "flavorText": "An axolotl who loves nothing more than his girlfriend (and food), it'll take a moment for him to warm up to you, but you'll have found a real ride or die."
+        "flavorText": "Fat and immature."
     },
     {
         "id": "mariaRamirez",
@@ -45,7 +45,7 @@
         "id": "jinx",
         "name": "Jinx ✰",
         "thumbnail": "jinxThumb.png",
-        "flavorText": "A free spirited coyote who's not above picking on their friends, but who'll always be there in their time of need."
+        "flavorText": "An unemployed free spirited coyote who really cares for their friends. Loves to bully them, never too much."
     },
     {
         "id": "toby",
@@ -75,25 +75,25 @@
         "id": "allyParks",
         "name": "Ally Parks",
         "thumbnail": "allythumb.png",
-        "flavorText": "Description pending..."
+        "flavorText": "A hyperactive girl who's never boring, ever. Get close and you'll have found a real ride or die in your life. Represses too many issues."
     },
     {
         "id": "houstonMarch",
         "name": "Houston March",
         "thumbnail": "houstonthumb.png",
-        "flavorText": "A rabbit who specializes in mechanics. They have always been meeting new people but their ability to whip up a good sandwich never leaves them."
+        "flavorText": "A depressed emo bunny who grew up with machines and does incredibly stupid things sometimes. Lonely, learned to live with it."
     },
     {
         "id": "larsTerma",
         "name": "Lars Mai Terma",
         "thumbnail": "larsthumb.png",
-        "flavorText": "Description pending..."
+        "flavorText": "A punk rat obsessed over racing. Some say he's the greatest pilot in the universe, many complain about his insanely reckless driving."
     },
     {
         "id": "emmaHindue",
         "name": "Emma Hindue",
         "thumbnail": "emmathumb.png",
-        "flavorText": "Description pending..."
+        "flavorText": "Leader of the people on a planet no one has ever heard about. Reckless, dangerous, and unfortunately pretty crazy."
     },
     {
         "id": "veronikaBarashova",
@@ -105,12 +105,24 @@
         "id": "rose",
         "name": "ROSE",
         "thumbnail": "rosethumb.png",
-        "flavorText": "Description pending..."
+        "flavorText": "A brilliant and incredibly wealthy artist striving to reach an unknown definition of creation. A bit psychotic, honestly."
     },
     {
-        "id": "jerka",
+        "id": "jessicaHatherleigh",
         "name": "Jessica Hatherleigh",
         "thumbnail": "jerkathumb.png",
-        "flavorText": "Description pending..."
+        "flavorText": "A really skinny cama that has a bit too much going on in her head. Someone please get her a therapist."
+    },
+    {
+        "id": "tinaReine",
+        "name": "Tina Reine ✰",
+        "thumbnail": "tinathumb.png",
+        "flavorText": "A freelancer (likely unemployed) rich girl who loves to travel the world and be naked for some reason."
+    },
+    {
+        "id": "dennisCrona",
+        "name": "Dennis Crona ✰",
+        "thumbnail": "dennisthumb.png",
+        "flavorText": "A shady furry dealer who's well known on the Dark-Net for selling... \"stronger catnip\"."
     }
 ]

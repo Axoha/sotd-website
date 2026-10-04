@@ -466,7 +466,7 @@
       {                
         "heading": "General Information",
         "paragraphs": [
-          "Taylor is an introverted jackalope born in a very large family of rabbits and herbivores alike, who, try as he might not to, keep getting caught up in their business. He loves his \"me time\", and is a bit of a neat freak and an overthinker, but typically he's able to channel that into his small strawberry garden. He makes for great gifts, the first few times at least."
+          "<i>Taylor</i> is an introverted jackalope born in a very large family of rabbits and herbivores alike, who, try as he might not to, keep getting caught up in their business. He loves his \"me time\", and is a bit of a neat freak and an overthinker, but typically he's able to channel that into his small strawberry garden. He makes for great gifts, the first few times at least."
         ]
       },
       {
@@ -481,7 +481,7 @@
       {
         "heading": "Connections",
         "listItems": [
-            "<i><a href=\"/pages/cast/characters/index.html?id=jessicahatherleigh\">Jessica Hatherleigh</a> (Mortal Enemy, Rival)</i>",
+            "<i><a href=\"/pages/cast/characters/index.html?id=jessicaHatherleigh\">Jessica Hatherleigh</a> (Mortal Enemy, Rival)</i>",
             "<i><a href=\"/pages/cast/characters/index.html?id=toby\">Toby</a> (Friend)</i>",
             "<i><a href=\"/pages/cast/characters/index.html?id=jinx\">Janx</a> (Friend)</i>",
             "<i><a href=\"/pages/cast/characters/index.html?id=icyCruz\">Icy Cruz</a> (Friend)</i>",
@@ -845,6 +845,103 @@
                 "heading": "Connections",
                 "listItems": [
                     "<i>Lalala Lelele</i>"
+                ]
+            }
+        ]
+      },
+      "tinaReine": {
+        "name": "Tina Reine",
+        "title": "Title pending...",
+        "images": [
+            {
+                "title": "",
+                "file": ".png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Author": "Suralot",
+            "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
+            "Origin": "Sol-3²², American-Like Continent, West",
+            "Species": "Anthropomorphic Black Bear (Brown Fur)",
+            "Gender": "Female",
+            "Birthday": "March 30th, 1992",
+            "Height / Weight": "180 cm (5' 11\") / 66 kg (147 lbs)",
+            "Blood Type": "O+",
+            "Internet Username": "TheTinaHotSauce"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "<i>Tina</i> is an incredibly ambitious and extroverted bear who always loves trying her hardest on even the most pointless activities. She is very reckless and confident and just loves being herself. Her energy makes her slightly annoying to some people. Aside from her high energy, she admires all of her friends and loves talking about her adventures and hobbies with them.",
+                    "She was born with wealthy tech executives parents who want <i>Tina</i> to be perfect to be the next CEO. She was forced to study in the most pristine private schools and attend every important meeting in her company. This lasted until she went to college and finally got a taste of what it's like to be her true self. She met Maria in college, a lovely person who changed her whole life.",
+                    "She has silky soft dark brown fur and long straight blonde hair. She has a very curvy body and constantly wears somewhat revealing and comfortable clothes that many around are often uncomfortable with."
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    "She's lesbian.",
+                    "Inspired by friends' other bear characters.",
+                    "She lives in an old modified van she calls “Mina”.",
+                    "She's so generic she doesn't have any other fun facts."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i><a href=\"/pages/cast/characters/index.html?id=mariaRamirez\">Maria Ramirez</a> (Best Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=oliver\">Oliver</a> (\"Friends\")</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=dennisCrona\">Dennis Crona</a> (Cool Vendor)</i>"
+                ]
+            }
+        ]
+      },
+      "dennisCrona": {
+        "name": "Dennis Crona",
+        "title": "Title pending...",
+        "images": [
+            {
+                "title": "",
+                "file": ".png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Author": "Suralot",
+            "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Sol-3²² Leaked Dark-Net Logs. Shortened for the reader's convenience.",
+            "Origin": "Sol-3²², European-Like Continent, North",
+            "Species": "Anthropomorphic Cat",
+            "Gender": "\"Think it's a guy\" Male",
+            "Birthday": "August 8th, 1990",
+            "Height / Weight": "198 cm (6' 6\") / 195 kg (432 lbs) \"Wait, who told you this???\"",
+            "Blood Type": "\"Shut up\" B+",
+            "Internet Username": "D7389917773 (Hundreds Of Other Burners Not Included)"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "<i>Dennis</i> is a very large and very relaxed cat born in a Sweden-like country who lives alone and loves eating pizza while watching tv and listening to music. He works a crappy minimum wage job at a supermarket that barely makes him pay the bills, however, a good amount of his income comes from selling a “stronger catnip”. Somehow, he makes lots of sales across European and American-like continents using cryptocurrency.",
+                    "He is a very secretive person, constantly staying away from contact from anyone aside from his friends. Despite being very antisocial and somewhat intimidating, deep inside he is a soft gentle giant who always cares for his friends. He has a simple sense of fashion, though he barely washes the clothes he wears except for the ones signed by his favorite musicians."
+                ]
+            },
+            {
+                "heading": "Trivia",
+                "listItems": [
+                    "There is nothing to see here.",
+                    "He was made to celebrate cat day.",
+                    "That's all, please move along."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i><a href=\"/pages/cast/characters/index.html?id=oliver\">Oliver</a> (Great Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=tinaReine\">Tina Reine</a> (Frequent Customer)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=veronikaBarashova\">Veronika Barashova</a> (Frequent Customer)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=mariaRamirez\">Maria Ramirez</a> (Avoids)</i>"
                 ]
             }
         ]
