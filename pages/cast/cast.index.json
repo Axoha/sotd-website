@@ -116,13 +116,13 @@
     {
         "id": "tinaReine",
         "name": "Tina Reine ✰",
-        "thumbnail": "tinathumb.png",
+        "thumbnail": "tinaThumb.png",
         "flavorText": "A freelancer (likely unemployed) rich girl who loves to travel the world and be naked for some reason."
     },
     {
         "id": "dennisCrona",
         "name": "Dennis Crona ✰",
-        "thumbnail": "dennisthumb.png",
+        "thumbnail": "dennisThumb.png",
         "flavorText": "A shady furry dealer who's well known on the Dark-Net for selling... \"stronger catnip\"."
     }
 ]
