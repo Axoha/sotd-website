@@ -75,7 +75,7 @@
         "id": "allyParks",
         "name": "Ally Parks",
         "thumbnail": "allythumb.png",
-        "flavorText": "A hyperactive girl who's never boring, ever. Get close and you'll have found a real ride or die in your life. Represses too many issues."
+        "flavorText": "A hyperactive girl who's never boring, ever. Get close and you'll have found a real ride or die. Represses too many personal problems."
     },
     {
         "id": "houstonMarch",
@@ -99,7 +99,7 @@
         "id": "veronikaBarashova",
         "name": "Veronika Barashova",
         "thumbnail": "veronikathumb.png",
-        "flavorText": "Description pending..."
+        "flavorText": "A borzoi who's a bit lonely. Loves videogames and... war machines. Frequently builds and paints plastic models, probably inhaled way too many chemicals."
     },
     {
         "id": "rose",
@@ -124,5 +124,17 @@
         "name": "Dennis Crona ✰",
         "thumbnail": "dennisThumb.png",
         "flavorText": "A shady furry dealer who's well known on the Dark-Net for selling... \"stronger catnip\"."
+    },
+    {
+        "id": "miraRose",
+        "name": "Mira Rose ✰",
+        "thumbnail": "mirathumb.png",
+        "flavorText": "A special someone who often acts before they think. Born on an ice rock in outer space, somehow grew up in a normal world."
+    },
+    {
+        "id": "vladimirKoshinov",
+        "name": "Vladimir Koshinov",
+        "thumbnail": "vladthumb.png",
+        "flavorText": "A genius undead soldier. Long time veteran of the resistance who would rather be tending to his greenhouse rather than constantly fighting for freedom."
     }
 ]
