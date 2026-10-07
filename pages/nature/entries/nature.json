@@ -134,5 +134,31 @@
                 ]
             }
         ]
+    },
+    "seeker": {
+        "name": "Seekers",
+        "title": "Ecosystem Cleansers",
+        "images": [
+            {
+                "file": ".png",
+                "title": "Nothing... Yet."
+            }
+        ],
+        "blockOne": {
+            "Author": "DirtyBarn21",
+            "Source": "Moldypedia, Several Research Documents from an Unidentified Source. Shortened for the reader's convenience.",
+            "Scientific Name": "Porifera Quaesitor"
+            
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "Creatures that came from asteroids, they lurk in the deep dark crater created by it. They search the surrounding areas and attack anything they can sense with the fibrous and rigids growths on their bodies. They've never been documented consuming the things they kill.",
+                    "When a vivisection was attempted on a specimen that was successfully captured and restrained was preformed, it was found that they lack internal organs. The internal structure was found to be similar to animals in the phylum porifera. There's numerous microscopic vents in the skin that we presume allow the creatures to breathe.",
+                    "Vivisection was halted prematurely as the creature began to emit puffs of black smog from the chest cavity and spores. One researcher failed to follow procedure and was caught without a mask during, after two months in quarantine it has been found that they've been infected with a disease very similar to <i>Fibrodysplasia Ossificans Progressiva</i>."
+                ]
+            }
+        ]
     }
 }
