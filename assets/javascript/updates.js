@@ -4,10 +4,9 @@ import { timeAgo } from "/assets/javascript/timeAgo.js"
 const GITHUB_URL = "https://github.com/Axoha/sotd-website"
 const MAX_UPDATES = 8
 
-// Random image shown in the sidebar's black space (233 x 135). Put the files in /assets/sidebarImages/
+// Random image shown in the sidebars black space (233 x 135).
 const SIDEBAR_IMAGES = ["screennoisebumper.gif", "inkabumper.png"]
  
-// Call loadUpdates() on any page with a .ui container. Edit /assets/news/updates.json to change the text.
 export async function loadUpdates() {
     const res = await fetch("/assets/news/updates.json")
     const updates = await res.json()

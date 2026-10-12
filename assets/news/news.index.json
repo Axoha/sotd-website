@@ -1,47 +1,56 @@
 [
     {
-        "id": "homedone",
+        "id": "2026-1-23",
+        "boxType": "QuestionMark",
+        "thumbnail": "2026-1-23.png",
+        "title": "Test",
+        "body": "Archived weird thing.",
+        "publishTime": "2026-01-23 01:00",
+        "file": "2026-1-23.md"
+    },
+    {
+        "id": "2025-11-24",
         "boxType": "Announcement",
         "thumbnail": "screennoise.gif",
-        "title": "The Home Page is Finally Done!",
-        "body": "It's been far too long. I'm still working on the news page though. If this announcement is at the top don't click on the boxes yet, they're still lacking descriptive pages.",
-        "publishTime": "2026-10-05 22:26",
-        "file": "exampleNewsEntry.md"
+        "title": "ADAM Character Awards",
+        "body": "Archived old announcement.",
+        "publishTime": "2025-11-24 15:19",
+        "file": "2025-11-24.md"
     },
     {
-        "id": "miraishere",
-        "boxType": "LatestRelease",
-        "thumbnail": "MiraRose.png",
-        "title": "Mira is Finally Here!",
-        "body": "Credit's fuzzy character finally arrives to the website, along with a few minor description updates and an unnanounced placeholder addition.",
-        "publishTime": "2026-10-05 06:20",
-        "file": "exampleNewsEntry.md"
-    },
-    {
-        "id": "errorpageaddition",
-        "boxType": "QuestionMark",
+        "id": "2025-5-5",
+        "boxType": "Announcement",
         "thumbnail": "screennoise.gif",
-        "title": "Secret Addition",
-        "body": "Something's at the end of the error page now.",
-        "publishTime": "2026-10-04 23:38",
-        "file": "exampleNewsEntry.md"
+        "title": "ANGELS & DEMON IS COMPLETE",
+        "body": "Archived old announcement.",
+        "publishTime": "2025-05-05 00:03",
+        "file": "2025-5-5.md"
     },
     {
-        "id": "dennisandtina",
-        "boxType": "LatestRelease",
-        "thumbnail": "DennisCrona.png",
-        "title": "Dennis and Tina's Arrival",
-        "body": "Suralot's characters make their way to the website, along with many character blurb updates.",
-        "publishTime": "2026-10-04 20:54",
-        "file": "exampleNewsEntry.md"
+        "id": "2025-3-15",
+        "boxType": "Announcement",
+        "thumbnail": "2025-3-15.png",
+        "title": "ACT III FOR Angels & Demons Complete",
+        "body": "Archived old announcement.",
+        "publishTime": "2025-03-15 19:54",
+        "file": "2025-3-15.md"
     },
     {
-        "id": "exampleFive",
-        "boxType": "LatestRelease",
-        "thumbnail": "example.png",
-        "title": "This one should replace the first one",
-        "body": "did it? :O",
-        "publishTime": "1769634640",
-        "file": "exampleNewsEntry.md"
+        "id": "2024-12-24",
+        "boxType": "Announcement",
+        "thumbnail": "2024-12-24.png",
+        "title": "ACT II FOR Angels & Demons Complete",
+        "body": "Archived old announcement.",
+        "publishTime": "2024-12-24 02:50",
+        "file": "2024-12-24.md"
+    },
+    {
+        "id": "2024-9-20",
+        "boxType": "Announcement",
+        "thumbnail": "2024-9-20.png",
+        "title": "Feedback Needed For Angels & Demons",
+        "body": "Archived old announcement.",
+        "publishTime": "2024-09-20 01:27",
+        "file": "2024-9-20.md"
     }
 ]

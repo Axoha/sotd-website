@@ -24,7 +24,7 @@ latest.forEach((article) => {
 
     articleDiv.className = "article"
 
-    articleLink.href = `./news/entry?id=${article.id}`
+    articleLink.href = `/pages/news/entry/?id=${article.id}`
     articleLink.className = "articleLink"
 
     notifier.className = `${article.boxType.toLowerCase()} notifier`
