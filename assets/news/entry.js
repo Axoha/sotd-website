@@ -3,7 +3,7 @@ import { formatDate } from "/assets/javascript/parseTime.js"
 import { loadUpdates } from "/assets/javascript/updates.js"
 import { marked } from "https://cdn.jsdelivr.net/npm/marked@12.0.2/lib/marked.esm.js"
 
-const ENTRY_DIR = "/assets/news/newsAssets/entries/" // where the .md files live
+const ENTRY_DIR = "/assets/news/newsAssets/entries/"
 
 const uiContent = document.querySelector(".uiContent")
 const id = new URLSearchParams(location.search).get("id")
