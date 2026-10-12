@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2021</title>
+<style>
+  body {
+    margin: 0;
+    padding: 20px 10px 60px;
+    background: #222 url("/pages/art/background/2021.gif") repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #fff;
+  }
+  a { color: #9cf; }
+  a:hover { color: #fff; }
+
+  .header {
+    width: 340px;
+    max-width: 90%;
+    margin: 0 auto 40px;
+    padding: 12px 10px;
+    background: #000;
+    border: 3px ridge #888;
+    text-align: center;
+  }
+  .header h1 {
+    margin: 0 0 6px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .header .back { font-size: 11px; }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .piece {
+    width: 260px;
+    max-width: 70%;
+    margin-bottom: 50px;
+    cursor: pointer;
+  }
+  .piece:nth-child(odd)  { align-self: flex-start; margin-left: 5%; }
+  .piece:nth-child(even) { align-self: flex-end;   margin-right: 5%; }
+
+  .piece img {
+    display: block;
+    width: 100%;
+    border: 4px ridge #888;
+    background: #000;
+  }
+  .piece:hover img { border-color: #fff; }
+  .piece .info { display: none; }
+
+  .next {
+    margin: 30px auto 0;
+    width: 200px;
+    padding: 10px;
+    background: #000;
+    border: 3px ridge #888;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  #lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.88);
+    overflow-y: auto;
+    padding: 30px 10px;
+    box-sizing: border-box;
+  }
+  #lightbox.open { display: block; }
+  #lb-box {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 12px;
+    background: #000;
+    border: 3px ridge #888;
+    text-align: center;
+  }
+  #lb-img {
+    max-width: 100%;
+    max-height: 75vh;
+    border: 2px solid #888;
+  }
+  #lb-title {
+    margin: 12px 0 8px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    font-weight: normal;
+  }
+  #lb-desc {
+    text-align: left;
+    line-height: 1.5;
+  }
+  #lb-close {
+    display: block;
+    margin: 0 0 10px auto;
+    padding: 2px 8px;
+    background: #000;
+    color: #fff;
+    border: 2px outset #888;
+    font-family: inherit;
+    font-size: 12px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>All My Stuff 2021</h1>
+    <a class="back" href="art.html">Back to selection</a>
+  </div>
+
+  <!--
+    ===== HOW TO ADD AN IMAGE =====
+    Copy one whole <div class="piece"> ... </div> block and paste it
+    below the last one. Images alternate left/right automatically.
+
+    - src: the picture shown on the page
+    - data-full (optional): a bigger version to show when clicked.
+      Delete it if you only have one size.
+    - <h3>: the title shown under the large image
+    - <p>: the description. Use as many <p> as you want.
+  -->
+  <div class="gallery">
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/Madness Hally and Booomos.png" data-full="/pages/art/myart/2021/Madness Hally and Booomos.png" alt="Madness Hally and Booomos">
+      <div class="info">
+        <h3>Madness Hally and Booomos</h3>
+        <p>I was a HUGE fan of Madness Combat (likely true even now). This is my and Boooyoh's really old personas cosplaying Hank and Deimos from Madness Combat. I think this doodle also really sparked my motivation to get better back then.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/Skully Sanford thumbs up.png" data-full="/pages/art/myart/2021/Skully Sanford thumbs up.png" alt="Skully Sanford thumbs up">
+      <div class="info">
+        <h3>Skully Sanford thumbs up</h3>
+        <p>I was experimenting more. I used to reuse a lot of drawings in 2021, like positioning a character differently. I think this is when I started liking Sanford from Madness Combat more than Hank too.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/HG Icy quick sketch.png" data-full="/pages/art/myart/2021/HG Icy quick sketch.png" alt="HG Icy quick sketch">
+      <div class="info">
+        <h3>HG Icy quick sketch</h3>
+        <p>I used to make a ton of Fortnite maps themed around the hunger games, so much so that it has eventually grown into its own thing. When I started adding lore to it I thought it would be fun to include my friends, and so I doodled this thing of Suralot's sona "Hunger Game" -ified. I ended up reusing this concept for the character Isaac, who you'll see soon enough.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/Shockled.png" data-full="/pages/art/myart/2021/Shockled.png" alt="Shockled">
+      <div class="info">
+        <h3>Shockled</h3>
+        <p>I was learning blender, made this funny thing.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/Amgery.png" data-full="/pages/art/myart/2021/Amgery.png" alt="Amgery">
+      <div class="info">
+        <h3>Amgery</h3>
+        <p>I also made this.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/Sadge.png" data-full="/pages/art/myart/2021/Sadge.png" alt="Sadge">
+      <div class="info">
+        <h3>Sadge</h3>
+        <p>This is Skully frowning at a terrible post she saw on her phone.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/Modern Skully Older.png" data-full="/pages/art/myart/2021/Modern Skully Older.png" alt="Modern Skully Older">
+      <div class="info">
+        <h3>Modern Skully Older</h3>
+        <p>This is not Ena, or Rila, this is Skully. She used to be my old mascot, she was who I was known for. This is a traced digitalized drawing of a gift sketch I received. You can find the original in the drawn-by-others category, same year.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/Smonk.png" data-full="/pages/art/myart/2021/Smonk.png" alt="Smonk">
+      <div class="info">
+        <h3>Smonk</h3>
+        <p>I thought this was a pretty cool doodle of Vlad smoking a cigarette back then.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/Mfw.png" data-full="/pages/art/myart/2021/Mfw.png" alt="Mfw">
+      <div class="info">
+        <h3>Mfw</h3>
+        <p>Weird relatable doodle of Skully.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/J3remy.png" data-full="/pages/art/myart/2021/J3remy.png" alt="J3remy">
+      <div class="info">
+        <h3>J3remy</h3>
+        <p>First ever doodle of my super-computer Citadelarian character J3remy.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/Skully Empty.png" data-full="/pages/art/myart/2021/Skully Empty.png" alt="Skully Empty">
+      <div class="info">
+        <h3>Skully Empty</h3>
+        <p>Template doodle for me to insert anything and whatever I wanted on the blank sheet of... paper?</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/Modern Skully Old.png" data-full="/pages/art/myart/2021/Modern Skully Old.png" alt="Modern Skully Old">
+      <div class="info">
+        <h3>Modern Skully Old</h3>
+        <p>I made an update to Skully so she was more original. You are going to see a lot of her.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/Sketches.png" data-full="/pages/art/myart/2021/Sketches.png" alt="Sketches">
+      <div class="info">
+        <h3>Sketches</h3>
+        <p>This was my sketch board, where I drew whenever I felt like it. Has a pretty cool J3remy doodle, others not so much. I used to hate drawing bodies.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/FNF Skulleo Color.png" data-full="/pages/art/myart/2021/FNF Skulleo Color.png" alt="FNF Skulleo Color">
+      <div class="info">
+        <h3>FNF Skulleo Color</h3>
+        <p>I colored the Garcello -ified Skully doodle from the sketch board. Shoutout to that Friday Night Funkin' mod by Atsuover. I also learned about rim lights here.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/Tabi Skully color.png" data-full="/pages/art/myart/2021/Tabi Skully color.png" alt="Tabi Skully color">
+      <div class="info">
+        <h3>Tabi Skully color</h3>
+        <p>Dude, I don't know what's going on here.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/lil baby.png" data-full="/pages/art/myart/2021/lil baby.png" alt="lil baby">
+      <div class="info">
+        <h3>lil baby</h3>
+        <p>Relatable doodle.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/FNF Ena Unamused.png" data-full="/pages/art/myart/2021/FNF Ena Unamused.png" alt="FNF Ena Unamused">
+      <div class="info">
+        <h3>FNF Ena Unamused</h3>
+        <p>Honestly shoutout to that sucky game for kickstarting my art journey. I'm pretty sure around this time Skully also found her name and started to become the character we all know and love.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/you!.png" data-full="/pages/art/myart/2021/you!.png" alt="you!">
+      <div class="info">
+        <h3>you!</h3>
+        <p>This one is pretty funny.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/lol apple.png" data-full="/pages/art/myart/2021/lol apple.png" alt="lol apple">
+      <div class="info">
+        <h3>lol apple</h3>
+        <p>I'm pretty sure I referenced a pic of a black bear holding an apple sitting on top of an apple pile. Looks nothing like the original, but she conveys the same emotion.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/la bear with background.png" data-full="/pages/art/myart/2021/la bear with background.png" alt="la bear with background">
+      <div class="info">
+        <h3>la bear with background</h3>
+        <p>This one's pretty cute.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2021/Citadelarian Old.png" data-full="/pages/art/myart/2021/Citadelarian Old.png" alt="Citadelarian Old">
+      <div class="info">
+        <h3>Citadelarian Old</h3>
+        <p>First ever doodle of Citadelarians, whaaaatt????</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Citadelarian Old Goggles.png" data-full="/pages/art/myart/2021/Citadelarian Old Goggles.png" alt="Citadelarian Old Goggles">
+      <div class="info">
+        <h3>Citadelarian Old Goggles</h3>
+        <p>Goggles on (wow). What happened to the outline on the shell?</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Me and the Boys.png" data-full="/pages/art/myart/2021/Me and the Boys.png" alt="Me and the Boys">
+      <div class="info">
+        <h3>Me and the Boys</h3>
+        <p>You can probably tell I was having fun with these.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/The Future.png" data-full="/pages/art/myart/2021/The Future.png" alt="The Future">
+      <div class="info">
+        <h3>The Future</h3>
+        <p>Made this thing of a Citadelarian gone insane. Nothing here aged well LOL.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/the citade- wait what are you doing there.png" data-full="/pages/art/myart/2021/the citade- wait what are you doing there.png" alt="the citade- wait what are you doing there">
+      <div class="info">
+        <h3>the citade- wait what are you doing there</h3>
+        <p>Citadelarian tower, with a little guy on the right.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Ena Boomin'.png" data-full="/pages/art/myart/2021/Ena Boomin'.png" alt="Ena Boomin'">
+      <div class="info">
+        <h3>Ena Boomin'</h3>
+        <p>Goated Fortnite emote.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Bombalot.png" data-full="/pages/art/myart/2021/Bombalot.png" alt="Bombalot">
+      <div class="info">
+        <h3>Bombalot</h3>
+        <p>Hunger Game -ified Icy became its own character!!! Yay!!!</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/The Multiverse.png" data-full="/pages/art/myart/2021/The Multiverse.png" alt="The Multiverse">
+      <div class="info">
+        <h3>The Multiverse</h3>
+        <p>No idea why this is titled "The Multiverse" this is so clearly the icon of the Citadel.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Donut.png" data-full="/pages/art/myart/2021/Donut.png" alt="Donut">
+      <div class="info">
+        <h3>Donut</h3>
+        <p>I did not follow the donut Blender tutorial at all.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/skully sleeps sticker.png" data-full="/pages/art/myart/2021/skully sleeps sticker.png" alt="skully sleeps sticker">
+      <div class="info">
+        <h3>skully sleeps sticker</h3>
+        <p>A cute sticker that realistically sucks ass and never got used.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Boom Box Boy.png" data-full="/pages/art/myart/2021/Boom Box Boy.png" alt="Boom Box Boy">
+      <div class="info">
+        <h3>Boom Box Boy</h3>
+        <p>I might turn this guy into an actual character.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Youtube.png" data-full="/pages/art/myart/2021/Youtube.png" alt="Youtube">
+      <div class="info">
+        <h3>Youtube</h3>
+        <p>A banner I made for my Youtube channel. I don't think it ever got used.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/H.png" data-full="/pages/art/myart/2021/H.png" alt="H">
+      <div class="info">
+        <h3>H</h3>
+        <p>Okay.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Skully Troll.png" data-full="/pages/art/myart/2021/Skully Troll.png" alt="Skully Troll">
+      <div class="info">
+        <h3>Skully Troll</h3>
+        <p>Whatever dude.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/The 2 leaders, and a god.png" data-full="/pages/art/myart/2021/The 2 leaders, and a god.png" alt="The 2 leaders, and a god">
+      <div class="info">
+        <h3>The 2 leaders, and a god</h3>
+        <p>That's my kitty cat Mafia right there at the top. She's still a god of SOTD.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Zombones Hug.png" data-full="/pages/art/myart/2021/Zombones Hug.png" alt="Zombones Hug">
+      <div class="info">
+        <h3>Zombones Hug</h3>
+        <p>Somehow, the first completed digital doodle of the 'Zombones' Ena.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/WHAT.png" data-full="/pages/art/myart/2021/WHAT.png" alt="WHAT">
+      <div class="info">
+        <h3>WHAT</h3>
+        <p>Back when SOTD followed stories throughout the Multiverse and I tried making a linear timeline of the whole thing.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Skully.png" data-full="/pages/art/myart/2021/Skully.png" alt="Skully">
+      <div class="info">
+        <h3>Skully</h3>
+        <p>This is where my persona hit her peak (a while before turning into two separate characters). My mom has this design tattooed on her back.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Ferd and Bert make a microwave.png" data-full="/pages/art/myart/2021/Ferd and Bert make a microwave.png" alt="Ferd and Bert make a microwave">
+      <div class="info">
+        <h3>Ferd and Bert make a microwave</h3>
+        <p>First ever digital drawing of Ferd I'm so normal let's go guys.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Madness.png" data-full="/pages/art/myart/2021/Madness.png" alt="Madness">
+      <div class="info">
+        <h3>Madness</h3>
+        <p>Tried making a scene inspired by Madness Combat. Gave up. That's Zombones right there.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Orange.png" data-full="/pages/art/myart/2021/Orange.png" alt="Orange">
+      <div class="info">
+        <h3>Orange</h3>
+        <p>Isaac in orange. Not much to say.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Island Getaway Deltarune.png" data-full="/pages/art/myart/2021/Island Getaway Deltarune.png" alt="Island Getaway Deltarune">
+      <div class="info">
+        <h3>Island Getaway Deltarune</h3>
+        <p>Skully, Icy, and Boooyoh's persona as Deltarune characters. You know what this started!</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Island Getaway Deltarune sprites 3.png" data-full="/pages/art/myart/2021/Island Getaway Deltarune sprites 3.png" alt="Island Getaway Deltarune sprites 3">
+      <div class="info">
+        <h3>Island Getaway Deltarune sprites 3</h3>
+        <p>I made sprites of several members of Island Getaway. This is nothing like Deltarune's style, good job past me.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/real.png" data-full="/pages/art/myart/2021/real.png" alt="real">
+      <div class="info">
+        <h3>real</h3>
+        <p>Cool concept art of... Something?</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/lroe lore.png" data-full="/pages/art/myart/2021/lroe lore.png" alt="lroe lore">
+      <div class="info">
+        <h3>lroe lore</h3>
+        <p>Concept art that is totally not ripping off UNDERTALE.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Ha things Channel.png" data-full="/pages/art/myart/2021/Ha things Channel.png" alt="Ha things Channel">
+      <div class="info">
+        <h3>Ha things Channel</h3>
+        <p>This is how I envisioned my discord channel would look like as a Deltarune area.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Character Designs + Chapters.png" data-full="/pages/art/myart/2021/Character Designs + Chapters.png" alt="Character Designs + Chapters">
+      <div class="info">
+        <h3>Character Designs + Chapters</h3>
+        <p>Same thing as the sprites except I doodled everything with a pen. I wanted to make a game for the community, it obviously never went anywhere.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Happy Ena.png" data-full="/pages/art/myart/2021/Happy Ena.png" alt="Happy Ena">
+      <div class="info">
+        <h3>Happy Ena</h3>
+        <p>You can really tell I was slowly getting better.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Bea old.png" data-full="/pages/art/myart/2021/Bea old.png" alt="Bea old">
+      <div class="info">
+        <h3>Bea old</h3>
+        <p>Scrapped wasp character who's whole gimmick was to be annoying. Even drawing him was annoying. I picked up Adobe Illustrator here as my main drawing program for some reason.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/The Squad.png" data-full="/pages/art/myart/2021/The Squad.png" alt="The Squad">
+      <div class="info">
+        <h3>The Squad</h3>
+        <p>This is where I feel like it really kicked off with SOTD. THAT'S MY FERD RIGHT THERE!!!</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Unfinished.png" data-full="/pages/art/myart/2021/Unfinished.png" alt="Unfinished">
+      <div class="info">
+        <h3>Unfinished</h3>
+        <p>First WIP of a huge piece. This is a Citadelarian tower meant to be filled with all my characters in various scenarios and whatever. Right click on the image and then click "Open Image in New Tab" so you can zoom in on it. That's Rose right there!</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Nemelios.png" data-full="/pages/art/myart/2021/Nemelios.png" alt="Nemelios">
+      <div class="info">
+        <h3>Nemelios</h3>
+        <p>A revisit of a robot character I made when I was like... 9?</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Ferd.png" data-full="/pages/art/myart/2021/Ferd.png" alt="Ferd">
+      <div class="info">
+        <h3>Ferd</h3>
+        <p>IT'S HIM!!! IT'S HIM!!! IT'S HIM!!!</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Skully distant future.png" data-full="/pages/art/myart/2021/Skully distant future.png" alt="Skully distant future">
+      <div class="info">
+        <h3>Skully distant future</h3>
+        <p>This is a more proper intro for Zombones, I think.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Alpha Bot.png" data-full="/pages/art/myart/2021/Alpha Bot.png" alt="Alpha Bot">
+      <div class="info">
+        <h3>Alpha Bot</h3>
+        <p>What is going on here.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Jeremia.png" data-full="/pages/art/myart/2021/Jeremia.png" alt="Jeremia">
+      <div class="info">
+        <h3>Jeremia</h3>
+        <p>A pretty bad doodle of a character you may have heard of.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/CITADELARIAN CONCEPT.png" data-full="/pages/art/myart/2021/CITADELARIAN CONCEPT.png" alt="CITADELARIAN CONCEPT">
+      <div class="info">
+        <h3>CITADELARIAN CONCEPT</h3>
+        <p>Sketch board for all my Citadelarian ideas. Agent-S cameo!</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/wallpaper 1.png" data-full="/pages/art/myart/2021/wallpaper 1.png" alt="wallpaper 1">
+      <div class="info">
+        <h3>wallpaper 1</h3>
+        <p>Wanted to draw a sick-ass wallpaper for SOTD. Never finished it.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/together.png" data-full="/pages/art/myart/2021/together.png" alt="together">
+      <div class="info">
+        <h3>together</h3>
+        <p>Cool whatever with Icy and Ena.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/sotd more like.png" data-full="/pages/art/myart/2021/sotd more like.png" alt="sotd more like">
+      <div class="info">
+        <h3>sotd more like</h3>
+        <p>I redrew the wallpaper thing with a time limit and without a reference. Why?</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Killer Bot...png" data-full="/pages/art/myart/2021/Killer Bot...png" alt="Killer Bot..">
+      <div class="info">
+        <h3>Killer Bot..</h3>
+        <p>This is a better rendition of Jeremia.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Character Concept - THE GAME.png" data-full="/pages/art/myart/2021/Character Concept - THE GAME.png" alt="Character Concept - THE GAME">
+      <div class="info">
+        <h3>Character Concept - THE GAME</h3>
+        <p>Remember the Island Getaway Deltarune thing? Whatever that was inspired THE GAME, originally this was the cast for it.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Citadelarian.png" data-full="/pages/art/myart/2021/Citadelarian.png" alt="Citadelarian">
+      <div class="info">
+        <h3>Citadelarian</h3>
+        <p>I redrew the first Citadelarian doodle.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/not everyone is bad.png" data-full="/pages/art/myart/2021/not everyone is bad.png" alt="not everyone is bad">
+      <div class="info">
+        <h3>not everyone is bad</h3>
+        <p>Pretty scenic doodle of the Citadel and two little rebels.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/sus.png" data-full="/pages/art/myart/2021/sus.png" alt="sus">
+      <div class="info">
+        <h3>sus</h3>
+        <p>Whatever this is.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Alternates.png" data-full="/pages/art/myart/2021/Alternates.png" alt="Alternates">
+      <div class="info">
+        <h3>Alternates</h3>
+        <p>Multiversal variant of Ena. They're all dead and don't exist anymore.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Vlad Hacker.png" data-full="/pages/art/myart/2021/Vlad Hacker.png" alt="Vlad Hacker">
+      <div class="info">
+        <h3>Vlad Hacker</h3>
+        <p>This one is pretty funny.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Untitled-2.png" data-full="/pages/art/myart/2021/Untitled-2.png" alt="Untitled-2">
+      <div class="info">
+        <h3>Untitled-2</h3>
+        <p>Ancient lineup of stories I wanted to write about in a chronological order. I'm not going to write about it all here, you'll find it somewhere in the website.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Unfunny Joke.png" data-full="/pages/art/myart/2021/Unfunny Joke.png" alt="Unfunny Joke">
+      <div class="info">
+        <h3>Unfunny Joke</h3>
+        <p>???</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Mega think.png" data-full="/pages/art/myart/2021/Mega think.png" alt="Mega think">
+      <div class="info">
+        <h3>Mega think</h3>
+        <p>Actually has potential for an emoji.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/oh fuick.png" data-full="/pages/art/myart/2021/oh fuick.png" alt="oh fuick">
+      <div class="info">
+        <h3>oh fuick</h3>
+        <p>Don't know what I was on about here.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/The Forces.png" data-full="/pages/art/myart/2021/The Forces.png" alt="The Forces">
+      <div class="info">
+        <h3>The Forces</h3>
+        <p>This time the title is right, yay!!! Experiment with effects.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/THE GAMEE.png" data-full="/pages/art/myart/2021/THE GAMEE.png" alt="THE GAMEE">
+      <div class="info">
+        <h3>THE GAMEE</h3>
+        <p>I promise this will become a real thing someday.</p>
+      </div>
+    </div>,
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/The Artifact Human.png" data-full="/pages/art/myart/2021/The Artifact Human.png" alt="The Artifact Human">
+      <div class="info">
+        <h3>The Artifact Human</h3>
+        <p>Character doodle of someone that's also dead and doesn't exist anymore.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Blbl's Fate.png" data-full="/pages/art/myart/2021/Blbl's Fate.png" alt="Blbl's Fate">
+      <div class="info">
+        <h3>Blbl's Fate</h3>
+        <p>I think this comic was inspired by a conversation I had with Credit.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Vlad Origins.png" data-full="/pages/art/myart/2021/Vlad Origins.png" alt="Vlad Origins">
+      <div class="info">
+        <h3>Vlad Origins</h3>
+        <p>A comic that likely doesn't make any sense to anyone but me.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Leinad.png" data-full="/pages/art/myart/2021/Leinad.png" alt="Leinad">
+      <div class="info">
+        <h3>Leinad</h3>
+        <p>This guy used to be the big bad of SOTD. A time god who looks like someone from a spy kids movie.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Worlds Collide.png" data-full="/pages/art/myart/2021/Worlds Collide.png" alt="Worlds Collide">
+      <div class="info">
+        <h3>Worlds Collide</h3>
+        <p>Isaac and Icy switch worlds. Many differences. Super wow.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Litten sotd.png" data-full="/pages/art/myart/2021/Litten sotd.png" alt="Litten sotd">
+      <div class="info">
+        <h3>Litten sotd</h3>
+        <p>Friend who's persona was Litten from pokemon wanted to be drawn as a SOTD. To this day it's still their profile picture!</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/The end.png" data-full="/pages/art/myart/2021/The end.png" alt="The end">
+      <div class="info">
+        <h3>The end</h3>
+        <p>As far as memory helps, this was supposed to be SOTD 2's ending.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Boooyo's Theory.png" data-full="/pages/art/myart/2021/Boooyo's Theory.png" alt="Boooyo's Theory">
+      <div class="info">
+        <h3>Boooyo's Theory</h3>
+        <p>Boooyo had a theory that the Citadelarian towers were actually alive. That actually inspired some cool stuff later on!</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/THE GAME but bad.png" data-full="/pages/art/myart/2021/THE GAME but bad.png" alt="THE GAME but bad">
+      <div class="info">
+        <h3>THE GAME but bad</h3>
+        <p>A funny take on summarizing the old plot of THE GAME.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/C. Walker.png" data-full="/pages/art/myart/2021/C. Walker.png" alt="C. Walker">
+      <div class="info">
+        <h3>C. Walker</h3>
+        <p>First complete rendition of the Citadelarian PRISM walker.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/THE GAME before the story.png" data-full="/pages/art/myart/2021/THE GAME before the story.png" alt="THE GAME before the story">
+      <div class="info">
+        <h3>THE GAME before the story</h3>
+        <p>Back when I wanted to make a comic of THE GAME, but I was failing miserably at it.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/THE GAME ending.png" data-full="/pages/art/myart/2021/THE GAME ending.png" alt="THE GAME ending">
+      <div class="info">
+        <h3>THE GAME ending</h3>
+        <p>Old concept of THE GAME'S ending. Pretty silly looking.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/SOTD blbl.png" data-full="/pages/art/myart/2021/SOTD blbl.png" alt="SOTD blbl">
+      <div class="info">
+        <h3>SOTD blbl</h3>
+        <p>Credit wanted her character to be a part of the Citadel for some time. I delivered this.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/SOTD blbl bruh.png" data-full="/pages/art/myart/2021/SOTD blbl bruh.png" alt="SOTD blbl bruh">
+      <div class="info">
+        <h3>SOTD blbl bruh</h3>
+        <p>I also delivered this.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Them.png" data-full="/pages/art/myart/2021/Them.png" alt="Them">
+      <div class="info">
+        <h3>Them</h3>
+        <p>Crazy ass them drawing.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/MaxieBruh.png" data-full="/pages/art/myart/2021/MaxieBruh.png" alt="MaxieBruh">
+      <div class="info">
+        <h3>MaxieBruh</h3>
+        <p>I mean I guess.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/time travelling in sotd.png" data-full="/pages/art/myart/2021/time travelling in sotd.png" alt="time travelling in sotd">
+      <div class="info">
+        <h3>time travelling in sotd</h3>
+        <p>Had an idea that the Citadel would also act like cops around people travelling through time.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/The Crossover.png" data-full="/pages/art/myart/2021/The Crossover.png" alt="The Crossover">
+      <div class="info">
+        <h3>The Crossover</h3>
+        <p>First Eyecandy crossover.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/CITADELARIANS.png" data-full="/pages/art/myart/2021/CITADELARIANS.png" alt="CITADELARIANS">
+      <div class="info">
+        <h3>CITADELARIANS</h3>
+        <p>Cool Citadelarian doodle starring guest cameos such as Agent-S and Rose.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Thee multiverse.png" data-full="/pages/art/myart/2021/Thee multiverse.png" alt="Thee multiverse">
+      <div class="info">
+        <h3>Thee multiverse</h3>
+        <p>How I envisioned the multiverse.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Maxie.png" data-full="/pages/art/myart/2021/Maxie.png" alt="Maxie">
+      <div class="info">
+        <h3>Maxie</h3>
+        <p>A doodle of a forgotten axolotl character.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/AGENT-S unmasked.png" data-full="/pages/art/myart/2021/AGENT-S unmasked.png" alt="AGENT-S unmasked">
+      <div class="info">
+        <h3>AGENT-S unmasked</h3>
+        <p>Cool doodle of Agent-S.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Dj Nayam.png" data-full="/pages/art/myart/2021/Dj Nayam.png" alt="Dj Nayam">
+      <div class="info">
+        <h3>Dj Nayam</h3>
+        <p>???</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Groups.png" data-full="/pages/art/myart/2021/Groups.png" alt="Groups">
+      <div class="info">
+        <h3>Groups</h3>
+        <p>Icons for several factions of SOTD.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/God.png" data-full="/pages/art/myart/2021/God.png" alt="God">
+      <div class="info">
+        <h3>God</h3>
+        <p>You know what this is referencing.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Zombones.png" data-full="/pages/art/myart/2021/Zombones.png" alt="Zombones">
+      <div class="info">
+        <h3>Zombones</h3>
+        <p>I love this one.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Skully Fnaf.png" data-full="/pages/art/myart/2021/Skully Fnaf.png" alt="Skully Fnaf">
+      <div class="info">
+        <h3>Skully Fnaf</h3>
+        <p>That Citadelarian security guard is about to eat so much shit.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/THE GAME characters big size.png" data-full="/pages/art/myart/2021/THE GAME characters big size.png" alt="THE GAME characters big size">
+      <div class="info">
+        <h3>THE GAME characters big size</h3>
+        <p>First sprites for THE GAME cast.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Skulls.png" data-full="/pages/art/myart/2021/Skulls.png" alt="Skulls">
+      <div class="info">
+        <h3>Skulls</h3>
+        <p>Zombones, again.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Scrapped.png" data-full="/pages/art/myart/2021/Scrapped.png" alt="Scrapped">
+      <div class="info">
+        <h3>Scrapped</h3>
+        <p>This is a comic I gave up on I think.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Leinad Time.png" data-full="/pages/art/myart/2021/Leinad Time.png" alt="Leinad Time">
+      <div class="info">
+        <h3>Leinad Time</h3>
+        <p>Look at this doofy god of time.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/olmultiverse.png" data-full="/pages/art/myart/2021/olmultiverse.png" alt="olmultiverse">
+      <div class="info">
+        <h3>olmultiverse</h3>
+        <p>Had this awesome idea of a giant Olm surveying the whole multiverse.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/Neons.png" data-full="/pages/art/myart/2021/Neons.png" alt="Neons">
+      <div class="info">
+        <h3>Neons</h3>
+        <p>A glowing doodle of Vlad carefully handling Citadelarians.</p>
+      </div>
+    </div>
+
+      <div class="piece">
+      <img src="/pages/art/myart/2021/shumpts.png" data-full="/pages/art/myart/2021/shumpts.png" alt="shumpts">
+      <div class="info">
+        <h3>shumpts</h3>
+        <p>First concept for the ghosts of SOTD.</p>
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="next">
+    <a href="/pages/art/a2022/index.html">2022</a>
+  </div>
+
+  <div id="lightbox">
+    <div id="lb-box">
+      <button id="lb-close" type="button">[x]</button>
+      <img id="lb-img" src="" alt="">
+      <h2 id="lb-title"></h2>
+      <div id="lb-desc"></div>
+    </div>
+  </div>
+
+<script>
+  var lightbox = document.getElementById('lightbox');
+  var lbImg = document.getElementById('lb-img');
+  var lbTitle = document.getElementById('lb-title');
+  var lbDesc = document.getElementById('lb-desc');
+
+  function openPiece(piece) {
+    var img = piece.querySelector('img');
+    var info = piece.querySelector('.info');
+    var title = info.querySelector('h3');
+
+    lbImg.src = img.getAttribute('data-full') || img.src;
+    lbImg.alt = img.alt;
+    lbTitle.textContent = title ? title.textContent : '';
+
+    var rest = info.cloneNode(true);
+    var t = rest.querySelector('h3');
+    if (t) t.remove();
+    lbDesc.innerHTML = rest.innerHTML;
+
+    lightbox.classList.add('open');
+    lightbox.scrollTop = 0;
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.piece').forEach(function (p) {
+    p.addEventListener('click', function () { openPiece(p); });
+  });
+
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.getElementById('lb-close').addEventListener('click', closeLightbox);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>
+</body>
+</html>

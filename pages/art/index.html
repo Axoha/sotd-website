@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Art</title>
+<style>
+  html, body {
+    margin: 0;
+    min-height: 100%;
+    background: #000;
+    color: #fff;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+  }
+  h1 {
+    margin: 0 0 3rem;
+    font-size: clamp(2.5rem, 8vw, 5rem);
+    font-weight: normal;
+    letter-spacing: 0.05em;
+  }
+  .categories {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    column-gap: clamp(2rem, 8vw, 6rem);
+    align-items: start;
+    width: 100%;
+  }
+  .category:first-child { justify-self: end; }
+  .category:last-child { justify-self: start; }
+  @media (max-width: 600px) {
+    .categories {
+      grid-template-columns: 1fr;
+      row-gap: 2rem;
+    }
+    .category:first-child,
+    .category:last-child { justify-self: center; }
+  }
+  .category h2 {
+    margin: 0 0 1rem;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #ccc;
+  }
+  .years {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .years a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .years a:hover,
+  .years a:focus-visible {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+  <h1></h1>
+
+  <div class="categories">
+    <section class="category" id="fanart">
+      <h2>Fanart & Commissions</h2>
+      <ul class="years">
+        <li><a href="f2025">2025</a></li>
+        <li><a href="f2024">2024</a></li>
+        <li><a href="f2023">2023</a></li>
+        <li><a href="f2022">2022</a></li>
+        <li><a href="f2021">2021</a></li>
+      </ul>
+    </section>
+
+    <section class="category" id="my-art">
+      <h2>Everything I've Drawn</h2>
+      <ul class="years">
+        <li><a href="a2025">2025</a></li>
+        <li><a href="a2024">2024</a></li>
+        <li><a href="a2023">2023</a></li>
+        <li><a href="a2022">2022</a></li>
+        <li><a href="a2021">2021</a></li>
+      </ul>
+    </section>
+
+    <section class="category" id="real-sketches">
+      <h2>Miscellaneous Sketches</h2>
+      <ul class="years">
+        <li>Not Ready Yet</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
