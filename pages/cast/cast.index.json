@@ -39,7 +39,7 @@
         "id": "mariaRamirez",
         "name": "Maria Ramirez ✰",
         "thumbnail": "mariaThumb.png",
-        "flavorText": "Description pending..."
+        "flavorText": "Smart, caring, lovely. Obsessed over working out, not too fond of people with eating disorders. Will complain about the smallest things."
     },
     {
         "id": "jinx",
@@ -87,7 +87,7 @@
         "id": "larsTerma",
         "name": "Lars Mai Terma",
         "thumbnail": "larsthumb.png",
-        "flavorText": "A punk rat obsessed over racing. Some say he's the greatest pilot in the universe, many complain about his insanely reckless driving."
+        "flavorText": "A punk rat obsessed over racing. Some say he's the greatest pilot in the universe, many complain about his insanely reckless driving. Has a one star rating on his Uber."
     },
     {
         "id": "emmaHindue",
@@ -136,5 +136,17 @@
         "name": "Vladimir Koshinov",
         "thumbnail": "vladthumb.png",
         "flavorText": "A genius undead soldier. Long time veteran of the resistance who would rather be tending to his greenhouse rather than constantly fighting for freedom."
+    },
+    {
+        "id": "oliverCampanella",
+        "name": "Oliver Campanella ✰",
+        "thumbnail": "oliverthumb.png",
+        "flavorText": "A fruity basket who used to travel the world a lot since childhood. Claims he has a great sense in fashion, actually sucks at it."
+    },
+    {
+        "id": "quinneLone",
+        "name": "Quinne Lone",
+        "thumbnail": "quinnethumb.png",
+        "flavorText": ""
     }
 ]

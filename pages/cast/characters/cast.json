@@ -285,39 +285,42 @@
     },
     "mariaRamirez": {
         "name": "Maria Ramirez",
-        "title": "",
+        "title": "Cooks Noodles Like A Pro",
         "images": [],
         "blockOne": {
             "Author": "Suralot",
             "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
-            "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>",
+            "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, American-Like Continent, \"El Salvador\"",
             "Species": "Anthropomorphic Axolotl",
             "Gender": "Female",
-            "Birthday": "November 6th",
-            "Height / Weight": "187 cm (6' 2\") / 73 kg (161 lbs)",
-            "Blood Type": "A+",
+            "Birthday": "November 6th, 1997 (Sol-3²² Time)",
+            "Height / Weight": "188 cm (6' 2\") / 111 kg (245 lbs)",
+            "Blood Type": "A-",
             "Internet Username": "Roses825"
         },
         "blockTwo": [
             {
                 "heading": "General Information",
                 "paragraphs": [
-                    "Update needed! Come back later."
+                    "<i>Maria</i> is one of the sweetest people you'll ever meet. She's extremely talented and fit, and always tries to be as positive and supporting as possible. That is until you make her lose patience, which is something you should NEVER do according to <a href=\"/pages/cast/characters/index.html?id=tinaReine\">Tina</a>.",
+                    "She used to work a simple life at a small farm in <i>El Salvador</i>. Despite being in a house with five brothers she somehow always kept calm and cared for them all. She then moved to an American-like continent to study where she met <i>Tina</i> and fell in love with <a href=\"/pages/cast/characters/index.html?id=oliverCampanella\">Oliver</a>. She now owns a tavern in a rural cold forest with <i>Ollie</i> and family in Camada.",
+                    "Since she works out a lot, she's pretty muscular and tall. She has pink magenta type of skin and a blob of hair that she likes to tie up, along with round somewhat short gills. She always \"has\" a purple flower on her head at all times. She wears a red undershirt from her favorite clothing brand and black shorts. When not working out, she wears a hoodie from <i>OUO</i> (name of her university) and slightly baggy jeans. She also has a cute ankle bracelet made as a gift from <i>Oliver</i>. "
                 ]
             },
             {
                 "heading": "Trivia From A Place Above",
                 "listItems": [
-                    "Genderbent Icy originally."
+                    "Originally just a genderbent of my fursona <a href=\"/pages/cast/characters/index.html?id=icyCruz\">Icy</a>.",
+                    "She used to be much much shorter.",
+                    "Became a fit strong lady because a friend told me that."
                 ]
             },
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i><a href=\"/pages/cast/characters/index.html?id=icyCruz\">Icy Cruz</a> (Partner)</i>",
-                    "<i><a href=\"/pages/cast/characters/index.html?id=tina\">Tina</a> (Best Friend)</i>",
-                    "<i><a href=\"/pages/cast/characters/index.html?id=sueParks\">Sue Parks</a> (Acquaintance)</i></i>",
-                    "<i><a href=\"/pages/cast/characters/index.html?id=dennis\">Dennis</a> (Dislikes)</i>"
+                    "<i><a href=\"/pages/cast/characters/index.html?id=oliverCampanella\">Oliver Campanella</a> (Lovers For Life)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=tinaReine\">Tina Reine</a> (Crazy Best Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=dennisCrona\">Dennis Crona</a> (Lazy Criminal Slob She Hates)</i>"
                 ]
             }
         ]
@@ -851,7 +854,7 @@
       },
       "tinaReine": {
         "name": "Tina Reine",
-        "title": "Title pending...",
+        "title": "Reckless Nudist Bear",
         "images": [
             {
                 "title": "",
@@ -892,7 +895,7 @@
                 "heading": "Connections",
                 "listItems": [
                     "<i><a href=\"/pages/cast/characters/index.html?id=mariaRamirez\">Maria Ramirez</a> (Best Friend)</i>",
-                    "<i><a href=\"/pages/cast/characters/index.html?id=oliver\">Oliver</a> (\"Friends\")</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=oliverCampanella\">Oliver Campanella</a> (\"Friends\")</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=dennisCrona\">Dennis Crona</a> (Cool Vendor)</i>"
                 ]
             }
@@ -900,7 +903,7 @@
       },
       "dennisCrona": {
         "name": "Dennis Crona",
-        "title": "Title pending...",
+        "title": "Stinky Older Guy",
         "images": [
             {
                 "title": "",
@@ -938,7 +941,7 @@
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i><a href=\"/pages/cast/characters/index.html?id=oliver\">Oliver</a> (Great Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=oliverCampanella\">Oliver Campanella</a> (Great Friend)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=tinaReine\">Tina Reine</a> (Frequent Customer)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=veronikaBarashova\">Veronika Barashova</a> (Frequent Customer)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=mariaRamirez\">Maria Ramirez</a> (Avoids)</i>"
@@ -948,7 +951,7 @@
       },
       "miraRose": {
         "name": "Mira Rose",
-        "title": "Title pending...",
+        "title": "Polar Blbl From Outer Space",
         "images": [
             {
                 "title": "",
@@ -977,7 +980,7 @@
                 ]
             },
             {
-                "heading": "Trivia",
+                "heading": "Trivia From A Place Above",
                 "listItems": [
                     "Bundle <i>Fortnite</i> :)",
                     "Her design hasn't changed <i>that</i> much from the start. It was also heavily inspired by <i>Ena Lone's</i> design since I loved it so much.",
@@ -994,6 +997,53 @@
                     "<i><a href=\"/pages/cast/characters/index.html?id=ferdRay\">Ferd Ray</a> (Acquaintance)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=icyCruz\">Icy Cruz</a> (Acquaintance)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=enaLone\">Ena Lone</a> (Enemies)</i>"
+                ]
+            }
+        ]
+      },
+      "oliverCampanella": {
+        "name": "Oliver Campanella",
+        "title": "Random Kid",
+        "images": [
+            {
+                "title": "",
+                "file": ".png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Author": "Suralot",
+            "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
+            "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, European-Like Continent, North",
+            "Species": "Anthropomorphic Axolotl",
+            "Gender": "Male",
+            "Birthday": "June 19th, 1998 (Sol-3²² Time)",
+            "Height / Weight": "180 cm (6' 0\") / 104 kg (128 lbs)",
+            "Blood Type": "AB",
+            "Internet Username": "MrPopular222"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "<i>Oliver</i> (or just <i>Ollie</i>) is a very soft and cuddly boy who constantly dreams about being good at creating things. He always appreciates other creations and anything cute and fluffy. He is surprisingly pretty decent at making new friends. And if he does, he clings on to them. <i>Ollie</i> also really likes taking naps and going on long walks.",
+                    "<i>Ollie</i> was born in a Finland-like country with parents who constantly travel around their European-like continent for work. Every two years he always moves to a new country. In his early twenties, his parents settled in their American-like continent, where he decided to study and met <a href=\"/pages/cast/characters/index.html?id=mariaRamirez\">Maria</a>. He strongly supported her talent in creation and both quickly fell in love. After <i>Maria</i> graduated, he moved with her to Camada to help run her business.",
+                    "<i>Ollie</i> is a dark blue grayish axolotl with a slightly thin build. He has long “hair” drooping to the side and triangular flowing gills. He also constantly wears a mascara to look “cuter”. <i>Ollie</i> has a rather flamboyant sense of fashion. He wears the fluffiest brightly colored sweaters he can find and simple dark grey sweatpants. In the warmer seasons he just copies whatever <a href=\"/pages/cast/characters/index.html?id=taylor\">Taylor</a> wears."
+                ]
+            },
+            {
+                "heading": "Trivia From A Place Above",
+                "listItems": [
+                    "Based on my fursona <a href=\"/pages/cast/characters/index.html?id=icyCruz\">Icy</a>. I wanted <i>Icy</i> to stay separate from interacting with <i>Maria</i> and other characters so I made <i>Oliver</i>. His dark blue color is inspired by <i>Icy's</i> first design."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i><a href=\"/pages/cast/characters/index.html?id=dennisCrona\">Dennis Crona</a> (Father Figure..?)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=mariaRamirez\">Maria Ramirez</a> (Partner)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=taylors\">Taylor</a> (Old Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=tinaReine\">Tina Reine</a> (Finds Annoying)</i>"
                 ]
             }
         ]
