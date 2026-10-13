@@ -82,5 +82,11 @@
         "name": "CK-105",
         "thumbnail": "ck105thumb.png",
         "flavorText": "A light tank designed for reconnaissance missions and carrying infantry."
+    },
+    {
+        "id": "c4tank",
+        "name": "C4T-T4NK",
+        "thumbnail": "screennoise.gif",
+        "flavorText": "Cat-shaped tanks designed by a lunatic, manifactured by lunatics, and used by lunatics. Its origin is classified."
     }
 ]

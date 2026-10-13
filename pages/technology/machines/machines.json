@@ -202,5 +202,42 @@
                 ]
             }
         ]
+    },
+    "c4tank": {
+        "name": "C4T-T4NK",
+        "title": "Scary.",
+        "images": [
+            {
+                "file": ".png",
+                "title": "Nothing... Yet."
+            }
+        ],
+        "blockOne": {
+            "Author": "DirtyBarn21",
+            "Source": "CATalogue of War Vehicles, Babylon Interests Vol. 44, WTF Vehicles Part V. Shortened for the reader's convenience.",
+            "Type": "Heavy Tank",
+            "Origin": "Classified",
+            "Used By": "Classified",
+            "Service": "\"Recent\"",
+            "Mass": "324 Tons",
+            "Armor": "290 – 310 mm",
+            "Length": "10 m (35 ft)",
+            "Width": "13 m (45 ft)",
+            "Crew": "3",
+            "Maximum Speed": "80 km/h (50 mph)"
+            
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "Powerful tanks capable of leveling entire cities within multiple days. The inventors of these machines had a perverse sense of humor, twisting a machine to carry on the appearance of something as innocent as a kitten. The last thing many people have seen before their demise is the adorable face of a cat who's attached to a mangling machine.",
+                    "The <i>C4T-T4NK</i> is adorned with multiple weapons and features to ensure total domination. They are equipped with large dual wielded machine guns that resemble paws, used to quickly eliminate lighter vehicles and foot soldiers.",
+                    "On the shoulders are heat seeking missiles, able to lock on and give chase to any unit it's locked onto, resembling the unforgiving and relentless chase of a cat and it's mouse.",
+                    "The most devastating weapon is located on the back of the <i>C4T-T4NK</i>, two large holders for multiple cluster missiles, able to maim and destroy anything in a wide area.",
+                    "Other features of the <i>C4T-T4NK</i> is it's ability to stretch it's height resembling modern domestic cats. Gaining multiple feet to peer over buildings and gain a more tactical view. The face plate of the <i>C4T-T4NK</i> is able to be opened up for easy entrance or for a quick escape of the pilots."
+                ]
+            }
+        ]
     }
 }
