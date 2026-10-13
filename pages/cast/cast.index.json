@@ -148,5 +148,17 @@
         "name": "Quinne Lone",
         "thumbnail": "quinnethumb.png",
         "flavorText": ""
+    },
+    {
+        "id": "sonchaiAnong",
+        "name": "Sonchai Anong ✰",
+        "thumbnail": "sonchaithumb.png",
+        "flavorText": "One little scaredy-cat. Likely skilled and crazy in videogames, had to deal with a sociopathic turtle ever since it broke into his house."
+    },
+    {
+        "id": "skaterboy",
+        "name": "Sk8ter Boy ✰",
+        "thumbnail": "skaterthumb.png",
+        "flavorText": "No one knows who this guy is, but for all we know he is the most relaxed person in the world. Loves skateboarding... if you couldn't tell already."
     }
 ]

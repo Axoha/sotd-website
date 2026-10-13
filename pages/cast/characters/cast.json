@@ -23,7 +23,7 @@
             "Origin": "No birthplace record, assumed to be born on <a href=\"/error/index.html\">Sol-3²²</a>",
             "Species": "Anthropomorphic American Manx Cat",
             "Gender": "Male",
-            "Birthday": "October 17th, 1994 (Sol-3²² Time)",
+            "Birthday": "October 17th, ~1994 (Sol-3²² Time)",
             "Height / Weight": "180 cm (5' 11\") / 79.3 kg (175 lbs)",
             "Blood Type": "Rh-null",
             "Internet Username": "cat167844"
@@ -73,7 +73,7 @@
             "Origin": "No birthplace record, assumed to be born on <a href=\"/error/index.html\">Sol-3²²</a>",
             "Species": "Anthropomorphic Giant Panda",
             "Gender": "Female",
-            "Birthday": "May 27th, 1994 (Sol-3²² Time)",
+            "Birthday": "May 27th, ~1994 (Sol-3²² Time)",
             "Height / Weight": "180 cm (6' 0\") / 104 kg (230 lbs)",
             "Blood Type": "B+",
             "Internet Username": "sexypanda420"
@@ -212,7 +212,7 @@
             }
         ],
         "blockOne": {
-            "Author": "Qwerturdle",
+            "Author": "Alan (Qwerturdle)",
             "Sources": "Chatlogs and data from various videogames, Strange Anomalies on Sol-3²² Vol. 1 by New Babylon.",
             "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, \"Most Racist Country\"",
             "Species": "Galapagos Tortoise (Somehow Barely Evolved)",
@@ -254,7 +254,7 @@
         "title": "The Baby",
         "images": [],
         "blockOne": {
-            "Author": "Suralot",
+            "Author": "Brandon (Suralot)",
             "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
             "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>",
             "Species": "Anthropomorphic Axolotl",
@@ -288,7 +288,7 @@
         "title": "Cooks Noodles Like A Pro",
         "images": [],
         "blockOne": {
-            "Author": "Suralot",
+            "Author": "Brandon (Suralot)",
             "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
             "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, American-Like Continent, \"El Salvador\"",
             "Species": "Anthropomorphic Axolotl",
@@ -346,7 +346,7 @@
             }
         ],
         "blockOne": {
-            "Author": "Kat (dietmilkers)",
+            "Author": "Kat (Radropicall)",
             "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
             "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>",
             "Species": "Anthropomorphic Coyote",
@@ -384,7 +384,7 @@
             }
         ],
         "blockOne": {
-            "Author": "Credit",
+            "Author": "Mia (Credit)",
             "Sources": "Unknown",
             "Origin": "Unknown",
             "Species": "Anthropomorphic Cybernetic Animal",
@@ -863,7 +863,7 @@
             }
         ],
         "blockOne": {
-            "Author": "Suralot",
+            "Author": "Brandon (Suralot)",
             "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
             "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, American-Like Continent, West",
             "Species": "Anthropomorphic Black Bear (Brown Fur)",
@@ -912,7 +912,7 @@
             }
         ],
         "blockOne": {
-            "Author": "Suralot",
+            "Author": "Brandon (Suralot)",
             "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Sol-3²² Leaked Dark-Net Logs. Shortened for the reader's convenience.",
             "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, European-Like Continent, North",
             "Species": "Anthropomorphic Cat",
@@ -960,7 +960,7 @@
             }
         ],
         "blockOne": {
-            "Author": "Credit",
+            "Author": "Mia (Credit)",
             "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Ura-49 Royalty Data. Shortened for the reader's convenience.",
             "Origin": "<a href=\"/error/index.html\">Ura-49</a>, Exact Location Unspecified",
             "Species": "Anthropomorphic Polar Bear (Unique Kind)",
@@ -1012,7 +1012,7 @@
             }
         ],
         "blockOne": {
-            "Author": "Suralot",
+            "Author": "Brandon (Suralot)",
             "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
             "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, European-Like Continent, North",
             "Species": "Anthropomorphic Axolotl",
@@ -1044,6 +1044,100 @@
                     "<i><a href=\"/pages/cast/characters/index.html?id=mariaRamirez\">Maria Ramirez</a> (Partner)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=taylors\">Taylor</a> (Old Friend)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=tinaReine\">Tina Reine</a> (Finds Annoying)</i>"
+                ]
+            }
+        ]
+      },
+      "skaterboy": {
+        "name": "Sk8ter Boy",
+        "title": "Guy Who... Skates.",
+        "images": [
+            {
+                "title": "",
+                "file": ".png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Author": "Kat (Radropicall)",
+            "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
+            "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, Exact Place Unidentified",
+            "Species": "Anthropomorphic Opossum",
+            "Gender": "Male",
+            "Birthday": "April 26, 1992 (Sol-3²² Time) \"Not usually celebrated.\"",
+            "Height / Weight": "170 cm (5' 7\") / 58 kg (130 lbs)",
+            "Blood Type": "O",
+            "Internet Username": "\"Doesn't use social media.\""
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "<i>\"Skater boy\"</i> hangs out mostly weird places and random areas. He is the kind of guy who knows things and has lots of connections. He prefers to listen and think over speaking, but isn't great at conversation if he chooses. If you have a problem and need advice or someone to talk to, he's the guy. With a relaxed demeanor <i>\"skater boy\"</i> also remains mysterious. So much so that nobody knows his name <i>(mostly nobody asks and assumes he goes by whatever)</i>. His origin and pretty much everything about him is unknown since he doesn't share anything personal other than wise quotes he's learned. He isn't against sharing his history, he just doesn't see the point unless asked. This guy breezes through life seemingly without a worry in the world. It could also be because he kind of smells like pot."
+                ]
+            },
+            {
+                "heading": "Trivia From A Place Above",
+                "listItems": [
+                    "Really good at randomly appearing and disappearing. No magic, he's just that good. This also makes him a great escape artist and is capable of getting in and out of pretty much anything.",
+                    "He likes wearing a hat and is usually seen with it but he will take it off depending the situation.",
+                    "When talking to him, he always says a really wise quote or has really good advice to make you reflect.",
+                    "His nickname \"skater boy\" comes from <i>-you guessed it-</i> his ability to skate. Skating is easy for him, especially with his opossum feet that act like hands along his flexible tail."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i><a href=\"/pages/cast/characters/index.html?id=jinx\">Jinx</a> (Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=toby\">Toby</a> (Acquaintance Through Jinx)</i>"
+                ]
+            }
+        ]
+      },
+      "sonchaiAnong": {
+        "name": "Sonchai Anong",
+        "title": "Gamer",
+        "images": [
+            {
+                "title": "",
+                "file": ".png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Author": "Alan (Qwerturdle)",
+            "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
+            "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, Asian-Like Continent, Southeast",
+            "Species": "Anthropomorphic Siamese Cat",
+            "Gender": "Male",
+            "Birthday": "August 2nd, 2000 (Sol-3²² Time)",
+            "Height / Weight": "200 cm (6' 7\") / 67 kg (147 lbs)",
+            "Blood Type": "A",
+            "Internet Username": "Teanongus"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "<i>Sonchai Anong</i> is a very cool, tall, lanky, and most importantly, a scaredy-cat. He was born in a Thailand-like country but his family eventually moved to the American-like continent. Usually, he wears very comfortable clothes like hoodies or sweatpants. He is outgoing and likes talking to new people. He is kinda homo."
+                ]
+            },
+            {
+                "heading": "Trivia From A Place Above",
+                "listItems": [
+                    "He is inspired by <i>Dusty</i>, a friend's cat.",
+                    "<i>Sonchai</i> means courage in Thai because it's ironic.",
+                    "<i>Anong</i> also means beautiful women because funny.",
+                    "He goes <i>\"cat mode\"</i> sometimes."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i><a href=\"/pages/cast/characters/index.html?id=qwerturdle\">Georg</a> (Forced Roommate That Allegedly \"Broke Into His House\")</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=sueParks\">Sue Parks</a> (Best Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=miraRose\">Mira Rose</a> (Decent Friends)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=houstonMarch\">Houston March</a> (Looks Up To... Despite Not Knowing Who They Are)</i>"
                 ]
             }
         ]
