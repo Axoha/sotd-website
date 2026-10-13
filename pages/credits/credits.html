@@ -33,7 +33,6 @@ html, body {
   overflow: hidden;
 }
  
-/* ---------- SKY LAYER ---------- */
 .sky {
   position: absolute;
   inset: 0;
@@ -43,8 +42,6 @@ html, body {
   z-index: 1;
 }
  
-/* ---------- CLOUD LAYERS (parallax) ---------- */
-/* Two layers moving at different speeds. Fallback: drawn cloud shapes via box-shadow blobs. */
 .clouds {
   position: absolute;
   inset: 0;
@@ -64,9 +61,6 @@ html, body {
   opacity: 0.9;
 }
  
-/* Both layers scroll upward, same direction as the credits, but
-   noticeably slower — this is what creates the parallax depth.
-   Back layer is slowest/furthest, front layer is a bit quicker. */
 .cloud-layer.back {
   background-position: 12% 0;
   animation: driftUp 260s linear infinite;
@@ -84,9 +78,6 @@ html, body {
   to   { transform: translateY(-40%); }
 }
  
-/* ---------- FALLING IMAGES (left side goof) ---------- */
-/* Sits above the sky/clouds but *below* the credits panel, so items
-   visually disappear behind the black bar as they cross under it. */
 .falling-images {
   position: absolute;
   inset: 0;
@@ -107,9 +98,6 @@ html, body {
   will-change: transform;
 }
  
-/* ---------- CREDITS SCROLL ---------- */
-/* Docked to the right side of the screen with its own black
-   backing panel, so the sky/clouds/falling items only show on the left. */
 .credits-wrap {
   position: absolute;
   top: 0;
@@ -132,7 +120,7 @@ html, body {
   text-align: center;
   color: #ffffff;
   text-shadow: 0 2px 6px rgba(0,0,0,0.35);
-  animation: scrollUp 90s linear infinite;
+  animation: scrollUp 180s linear infinite; 
   animation-delay: 6s;
   animation-play-state: paused;
 }
@@ -143,7 +131,7 @@ html, body {
  
 @keyframes scrollUp {
   from { transform: translateY(0); }
-  to   { transform: translateY(-430vh); }
+  to   { transform: translateY(-830vh); }
 }
  
 .credits .dedication-echo {
@@ -243,33 +231,39 @@ html, body {
   <div class="credits-wrap">
     <div class="credits">
       <h2>Created By</h2>
-      <div class="role-name">Axoha</div>
+      <div class="role-name">Erika <span class="role-note">(Axoha)</span></div>
  
       <h2>Programming Assistance</h2>
-      <div class="role-name">Taxtapy <span class="role-note">(Also known as DopTime)</span></div>
+      <div class="role-name">Taxtapy</div>
  
       <h2>Guest Authors</h2>
-      <div class="role-name">Credit</div>
-      <div class="role-name">Qwerturdle</div>
-      <div class="role-name">Jegr</div>
+      <div class="role-name">Mia <span class="role-note">(Credit)</span></div>
  
       <h2>Guest Artists</h2>
-      <div class="role-name">Kat <span class="role-note">(Also known as Radropicall, dietmilkers)</span></div>
+      <div class="role-name">Kat <span class="role-note">(Radropicall)</span></div>
  
-      <h2>Additional Contributions</h2>
-      <div class="role-name">Taxtapy <span class="role-note">(DopTime)</span></div>
-      <div class="role-name">Kat <span class="role-note">(Radropicall, dietmilkers)</span></div>
+      <h2>Minor Contributions</h2>
+      <div class="role-name">Taxtapy</div>
+      <div class="role-name">Kat <span class="role-note">(Radropicall)</span></div>
+      <div class="role-name">Mia <span class="role-note">(Credit)</span></div>
+      <div class="role-name">Alan <span class="role-note">(Qwerturdle)</span></div>
+      <div class="role-name">Brandon <span class="role-note">(Suralot)</span></div>
+      <div class="role-name">DirtyBarn21</div>
       <div class="role-name">Trash7129</div>
-      <div class="role-name">cbear <span class="role-note">(Also known as idk.0098)</span></div>
-      <div class="role-name">Suralot</div>
+      <div class="role-name">Jegr</div>
+      <div class="role-name">cbear</div>
  
       <h2>'ERROR' Page Music</h2>
       <div class="legal-block">
-        MIDI files are sourced from "2009 GeoCities MIDI" (ArchiveTeam),<br>
-        Internet Archive - archive.org/details/archiveteam-geocities-midi-collection-2009<br><br>
-        Preserved by - ArchiveTeam<br>
-        Original creators/GeoCities page owners - Uncredited<br>
-        Arranged/Produced using FL Studio - Axoha
+        'ERROR' page MIDI files have been sourced from<br>
+        "2009 GeoCities MIDI" on Internet Archive
+        <br><br>
+        <div class="role-name">Preserved by</div>
+        ArchiveTeam
+        <br><br>
+        <div class="role-name">Arranged/Produced using FL Studio</div>
+        Erika (Axoha)
+
       </div>
  
       <h2>Craftermine</h2>
@@ -283,33 +277,48 @@ html, body {
         respective owners.
       </div>
  
-      <h2>MySpace Page Template</h2>
+      <h2>MyPlace</h2>
       <div class="legal-block">
-        Created by joejoefashosho (Neocities)<br>
-        joejoefashosho.neocities.org/neocities_myspace<br><br>
-        Customized/modified for this site by - Axoha
+        MySpace page template was created by joejoefashosho (Neocities)
+        <br><br>
+        <div class="role-name">Customized/Modified for this site</div>
+        Erika (Axoha)
       </div>
  
       <h2>Stock Assets</h2>
       <div class="legal-block">
-        Various assets sourced from Pixabay (pixabay.com), used under
+        Various assets were sourced from Pixabay (pixabay.com), used under
         the Pixabay Content License. No attribution required by license terms.
       </div>
  
       <h2>Special Thanks</h2>
-      <div class="legal-block">
-        Taxtapy - Helped me launch the website, seriously
-        I'd die if I had to do it alone<br><br>
-        Credit - Always there to hear what's new from me,
-        obsessed over my writing<br><br>
-        Boooyoh, Qwerturdle, Suralot, and Jegr - Kept up with my drafts
-        and shared their thoughts<br><br>
-        Island Getaway / 'The Old' Communities - Were there to enjoy
-        the earliest forms of SOTD
-      </div>
- 
+      <div class="role-name">Ethan <span class="role-note">(EJF2002)</span></div>
+      <div class="role-name">Taxtapy</div>
+      <div class="role-name">Mia <span class="role-note">(Credit)</span></div>
+      <div class="role-name">Kat <span class="role-note">(Radropicall)</span></div>
+      <div class="role-name">Trash7129</div>
+      <div class="role-name">Alan <span class="role-note">(Qwerturdle)</span></div>
+      <div class="role-name">Ivan <span class="role-note">(Boooyoh)</span></div>
+      <div class="role-name">Brandon <span class="role-note">(Suralot)</span></div>
+      <div class="role-name">Jegr2006</div>
+      <div class="role-name">cbear08</div>
+      <div class="role-name">Mike</div>
+      <div class="role-name">Reba <span class="role-note">(Cacothanasia)</span></div>
+      <div class="role-name">Azi</div>
+      <div class="role-name">DirtyBarn21</div>
+      <div class="role-name">Litten</div>
+      <br>
+      <div class="role-name">All of Axoland</div>
+      <div class="role-name">All of Island Getaway</div>
+      <div class="role-name">All of The Old</div>
+      <br>
+      <div class="role-name">The Behemoth</div>
+      <div class="role-name">Toby Fox</div>
+      <div class="role-name">Joel G</div>
+      <div class="role-name">Zuma Deluxe</div>
+      
       <h2>Special Un-Thanks</h2>
-      <div class="legal-block">My family</div>
+      <div class="role-name">My Family</div>
  
       <div class="closer">Insert logo here</div>
  
@@ -318,7 +327,7 @@ html, body {
  
   <div class="intro">
     <div class="intro-text">
-      Dedicated to EJF2002 and my closest friends who have stuck with me since the beginning.
+      Dedicated to Ethan and everyone who stayed to see my childhood dream come true.
     </div>
   </div>
  
