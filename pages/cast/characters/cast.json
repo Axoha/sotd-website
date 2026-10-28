@@ -48,7 +48,7 @@
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i><a href=\"/pages/cast/characters/index.html?id=emiliaJones\">Emilia Jones</a> (Mother)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=emiliaJones\">Emilia Zhao</a> (Mother)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=enaLone\">Ena Lone</a> (Partner)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=allyParks\">Sam Parks</a> (Childhood Friend)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=veronikaBarashova\">Veronika Barashova</a> (Childhood Friend)</i>",
@@ -532,7 +532,7 @@
   },
       "allyParks": {
         "name": "Ally Parks",
-        "title": "tax this is also yo job",
+        "title": "The Knight",
         "images": [
             {
                 "title": "",
@@ -545,12 +545,12 @@
             }
         ],
         "blockOne": {
-            "Sources": "Unknown",
-            "Origin": "Sol-3²², American-Like Continent, West",
+            "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. GL Personnel Database. Misc. Wastelanders of Johnny Interviews. Shortened for the reader's convenience.",
+            "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, American-Like Continent, West",
             "Species": "Anthropomorphic Axolotl",
             "Gender": "Female",
-            "Birthday": "February 14th, 1994",
-            "Height / Weight": "165 cm (5' 5\") / 51 kg (112 lbs)",
+            "Birthday": "February 14th, 1995 (Sol-3²² Time)",
+            "Height / Weight": "185 cm (6' 1\") / 51 kg (112 lbs)",
             "Blood Type": "O+",
             "Internet Username": "mibiribi"
         },
@@ -558,25 +558,27 @@
             {
                 "heading": "General Information",
                 "paragraphs": [
-                    "Update needed! Come back later."
+                    "<i>Ally Parks</i> is a very creative and adventurous person. Since childhood she's always loved lying about her feats, thinking of herself as a grander and better person than who she truly was. Loved to brag, still does to this day. The <a href=\"/error/index.html\">Parks</a> family is very acquainted with the concept of space travel and life outside of their planet due to her older brother, <a href=\"/pages/cast/characters/index.html?id=surlParks\">Surl Parks</a>, accepting to enlist in the <a href=\"/error/index.html\">Dawn of the Green Light</a>. <i>Surl</i> has brought <i>Ally</i> to space many times before privately under the family's permission of course, showing her various planets and stars that he couldn't wait to conquer alongside her. Oh, how unfortunate that the family ended the way it did.",
+                    "<i>Ally</i> hates shirts. Her skin produces a lot of slime under stress, which makes wearing shirts very uncomfortable for her. She'd usually just wear a tank top, even outside during winters, it's so fortunate for her that sentient axolotls retain such odd comfort with the cold. Surprisingly, she doesn't seem to have a problem with large baggy pants. There is a recent large gross scar across her whole chest which she covers up no matter what, only those she trusts the most got to ever see it.",
+                    "She was the coolest kid in the playground, and has been the coolest girl in her newfound life on <a href=\"/error/index.html\">Johnny</a>. She always moves forward and never looks back no matter what."
                 ]
             },
             {
                 "heading": "Trivia From A Place Above",
                 "listItems": [
-                    "She didn't exist until I recolored the 'Axo' skin from Fortnite to put in one of my older artworks. An idea struck me at that moment.",
-                    "Jegr pitched the idea of her being able to slide around naked with her slimy coat.",
-                    "She has a Samsung Galaxy S III phone which she uses to play ancient android games, similar to the one I have.",
-                    "She likes to be held in the air by her waist because she's so light, it makes her feel free and really happy."
+                    "She has a wonderful and terrible <i>Samsung Galaxy S III</i> phone she uses to play nothing but <i>Mega Jump</i>, literally just like me.",
+                    "Can slide around naked due to her disgusting slimy coat that somehow makes her frictionless.",
+                    "Sweats a lot."
                 ]
             },
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i><a href=\"/pages/cast/characters/index.html?id=sueParks\">Sue Parks</a> (Sister)</i>",
-                    "<i><a href=\"/pages/cast/characters/index.html?id=ferdRay\">Ferd Ray</a> (Bestie)</i>",
-                    "<i><a href=\"/pages/cast/characters/index.html?id=houstonMarch\">Houston March</a> (Best Friend Forever)</i>",
-                    "<i><a href=\"/pages/cast/characters/index.html?id=ottoWunderbar\">Otto Wunderbar</a> (Close Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=sueParks\">Sue Parks</a> (Younger Sister)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=surlParks\">Surl Parks</a> (Older Brother)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=icyCruz\">Icy Cruz</a> (Cousin)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=ferdRay\">Ferd Ray</a> (Undeniable Old Crush)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=ottoWunderbar\">Otto Wunderbar</a> (Friend)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=emmaHindue\">Emma Hindue</a> (Ex-Partner)</i>"
                 ]
             }
@@ -636,40 +638,47 @@
             }
         ],
         "blockOne": {
-            "Sources": "Unknown",
+            "Sources": "New Babylon Civilian Database. ROSE's Top Employee List. Cosmic Dark Magic Racing Forums. Personal Notes. Shortened for the reader's convenience.",
             "Origin": "New Babylon's Earth <a href=\"/error/index.html\">Sol-3¹</a>, <a href=\"/error/index.html\">Saint Kalina</a>",
             "Species": "Anthropomorphic Californian Rabbit",
             "Gender": "Nonbinary",
             "Birthday": "July 4th, 2740",
             "Height / Weight": "170 cm (5' 7\") (Not Counting Ears) / 61 kg (134 lbs)",
-            "Blood Type": "Strange Variation Of AB",
+            "Blood Type": "AB²",
             "Internet Username": "HustnWeHavAProblm"
         },
         "blockTwo": [
             {
                 "heading": "General Information",
                 "paragraphs": [
-                    "Update needed! Come back later."
+                    "<i>Houston March</i>, where do we even begin with them?",
+                    "Careful, cold, introverted, could care less for the world. Sleek, long ears, a faulty right eye that they're often required to wear an eyepatch for. Time and tragedy have wilted their beautiful yellows into nothing but a dull monochrome palette.",
+                    "A few months after their 18th birthday, <i>Houston</i> decided to embark on the most reckless decision ever, some even think it was a suicide attempt. They always loved racing, especially <a href=\"/error/index.html\">New Babylon's Grand Prix</a> which was held each four years with a changing track that always passed through each of Babylon's capital cities, driven in extremely-advanced hovercrafts that could reach speeds up to 500 km/h just on the ground. There have been a lot of crashes, but rarely any deaths due to the highly-developed safety modules. <i>Houston's</i> obsession with these races however, drove them to build their own hovercraft using scraps and parts of all the ones that have crashed. Lacking any safety protocols, just only by a miracle they managed to survive and score a lot of interest during the show. This was a time when their life was turning for the better, especially after having to live like a homeless rodent in the streets of <a href=\"/error/index.html\">Saint Kalina</a> without anyone or anything to bring them light.",
+                    "Their talents were put to use by <a href=\"/pages/cast/characters/index.html?id=rose\">ROSE</a>, the highest bidder, a <a href=\"/error/index.html\">citadelarian</a> seeking out talent for his own interesting and bizarre private projects. To this day <i>Houston</i> still works for him, and only thanks to him they are as wealthy as they wish to be.",
+                    "To this day <i>Houston</i> still embarks on secret missions and tasks put in order by <i>ROSE</i>, and only thanks to him they get to become one of the greatest private pilots in the universe.",
+                    "To this day <i>Houston</i> still sells their soul, and only thanks to him they lose everything they ever love."
                 ]
             },
             {
                 "heading": "Trivia From A Place Above",
                 "listItems": [
-                    "Originally they were supposed to be a cat character based off the tuxedo breed. Would've been cool, but I settled on a bunny for more diversity.",
-                    "After designing them I thought they would be the least interesting of the whole main character trio in Black & White. I was wrong.",
-                    "The draft for Black & White may have a lot of moments where they're referred to by 'he'. These are all accidents! A year before I started writing I always envisioned them as a male, but that has changed!"
+                    "In really early concepts they used to be a tuxedo cat. I turned them into a rabbit for more diversity. There also was a scrapped plotline about them getting attached to <a href=\"/pages/cast/characters/index.html?id=ferdRay\">Ferd</a> due to the death of their partner.",
+                    "The draft for <a href=\"/pages/stories/book.html?bookId=black-white\">Black & White</a> has a bunch of instances where they use wrong pronouns. That is because they also used to be a guy in the first concepts and I make mistakes.",
+                    "Before the first concept was drawn I always thought they would be the least popular."
                 ]
             },
             {
                 "heading": "Connections",
                 "listItems": [
-                    "<i><a href=\"/pages/cast/characters/index.html?id=larsTerma\">Lars Mai Terma</a> (Partner)</i>",
-                    "<i>Sweetie (Pet)</i>",
-                    "<i><a href=\"/pages/cast/characters/index.html?id=ferdRay\">Ferd Ray</a> (Best Friend)</i>",
-                    "<i><a href=\"/pages/cast/characters/index.html?id=allyParks\">Ally Parks</a> (Best Friend Forever)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=larsTerma\">Lars Mai Terma</a> (Deceased Partner)</i>",
+                    "<i>Sweetie (Deceased Pet)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=ferdRay\">Ferd Ray</a> (Mission)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=allyParks\">Ally Parks</a> (Mission)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=warnie\">Warnie</a> (Appreciated Co-Worker)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=billNebula\">Bill Nebula</a> (Co-Worker That They Slightly Hate)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=rose\">ROSE</a> (Boss)</i>",
-                    "<i><a href=\"/pages/cast/characters/index.html?id=billNebula\">Bill Nebula</a> (Co-Worker That They Slightly Hate)</i>"
+                    "<i><a href=\"/error/index.html\">Emilia Zhao</a> (Faint Memory)<i>",
+                    "<i><a href=\"/error/index.html\">Akimi Itō</a> (Faint Memory)<i>"
                 ]
             }
         ]
