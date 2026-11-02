@@ -5,7 +5,7 @@ const GITHUB_URL = "https://github.com/Axoha/sotd-website"
 const MAX_UPDATES = 8
 
 // Random image shown in the sidebars black space (233 x 135).
-const SIDEBAR_IMAGES = ["screennoisebumper.gif", "inkabumper.png"]
+const SIDEBAR_IMAGES = ["screennoisebumper.gif", "inkabumper.png", "oscarbumper.gif"]
  
 export async function loadUpdates() {
     const res = await fetch("/assets/news/updates.json")
