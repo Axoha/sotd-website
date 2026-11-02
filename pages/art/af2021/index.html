@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2021</title>
+<style>
+  body {
+    margin: 0;
+    padding: 20px 10px 60px;
+    background: #222 url("/pages/art/background/2021.gif") repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #fff;
+  }
+  a { color: #9cf; }
+  a:hover { color: #fff; }
+
+  .header {
+    width: 340px;
+    max-width: 90%;
+    margin: 0 auto 40px;
+    padding: 12px 10px;
+    background: #000;
+    border: 3px ridge #888;
+    text-align: center;
+  }
+  .header h1 {
+    margin: 0 0 6px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .header .back { font-size: 11px; }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .piece {
+    width: 260px;
+    max-width: 70%;
+    margin-bottom: 50px;
+    cursor: pointer;
+  }
+  .piece:nth-child(odd)  { align-self: flex-start; margin-left: 5%; }
+  .piece:nth-child(even) { align-self: flex-end;   margin-right: 5%; }
+
+  .piece img {
+    display: block;
+    width: 100%;
+    border: 4px ridge #888;
+    background: #000;
+  }
+  .piece:hover img { border-color: #fff; }
+  .piece .info { display: none; }
+
+  .next {
+    margin: 30px auto 0;
+    width: 200px;
+    padding: 10px;
+    background: #000;
+    border: 3px ridge #888;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  #lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.88);
+    overflow-y: auto;
+    padding: 30px 10px;
+    box-sizing: border-box;
+  }
+  #lightbox.open { display: block; }
+  #lb-box {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 12px;
+    background: #000;
+    border: 3px ridge #888;
+    text-align: center;
+  }
+  #lb-img {
+    max-width: 100%;
+    max-height: 75vh;
+    border: 2px solid #888;
+  }
+  #lb-title {
+    margin: 12px 0 8px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    font-weight: normal;
+  }
+  #lb-desc {
+    text-align: left;
+    line-height: 1.5;
+  }
+  #lb-close {
+    display: block;
+    margin: 0 0 10px auto;
+    padding: 2px 8px;
+    background: #000;
+    color: #fff;
+    border: 2px outset #888;
+    font-family: inherit;
+    font-size: 12px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Commissions & Gift Art 2021</h1>
+    <a class="back" href="/pages/art/index.html">Back</a>
+  </div>
+
+  <div class="gallery">
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Teddy bear wit bone by modmakingretardo.jpeg" data-full="/pages/art/myfanart/2021/Teddy bear wit bone by modmakingretardo.jpeg" alt="modmakingretardo">
+      <div class="info">
+        <h3>modmakingretardo</h3>
+        <p>In 2021 I used to go to a lot of reddit communities where artists were open to draw anything. I requested Skully a lot, you'll see her a bunch.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Skullena by YoukaiJSGB.jpg" data-full="/pages/art/myfanart/2021/Skullena by YoukaiJSGB.jpg" alt="YoukaiJSGB">
+      <div class="info">
+        <h3>YoukaiJSGB</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Derp Ena by Gerdione.jpeg" data-full="/pages/art/myfanart/2021/Derp Ena by Gerdione.jpeg" alt="Gerdione">
+      <div class="info">
+        <h3>Gerdione</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Skulls by PukingJuliet.jpeg" data-full="/pages/art/myfanart/2021/Skulls by PukingJuliet.jpeg" alt="PukingJuliet">
+      <div class="info">
+        <h3>PukingJuliet</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Just Skulls by SlibIsSandwich.jpeg" data-full="/pages/art/myfanart/2021/Just Skulls by SlibIsSandwich.jpeg" alt="SlibIsSandwich">
+      <div class="info">
+        <h3>SlibIsSandwich</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Casual Skulls by Layru_.png" data-full="/pages/art/myfanart/2021/Casual Skulls by Layru_.png" alt="Layru_">
+      <div class="info">
+        <h3>Layru_</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Nightmare Fuel Fortnite Panda Skeleton Gal by VenganQolbom.jpg" data-full="/pages/art/myfanart/2021/Nightmare Fuel Fortnite Panda Skeleton Gal by VenganQolbom.jpg" alt="VenganQolbom">
+      <div class="info">
+        <h3>VenganQolbom</h3>
+        <p>Did you know? This design inspired the Queen from Black & White. Thanks VenganQolbom.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Skullena Pose by KnightWombat.png" data-full="/pages/art/myfanart/2021/Skullena Pose by KnightWombat.png" alt="KnightWombat">
+      <div class="info">
+        <h3>KnightWombat</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Sleepy Panda by lordbn.jpeg" data-full="/pages/art/myfanart/2021/Sleepy Panda by lordbn.jpeg" alt="lordbn">
+      <div class="info">
+        <h3>lordbn</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Chibi Skulls by beansmcgreens.jpeg" data-full="/pages/art/myfanart/2021/Chibi Skulls by beansmcgreens.jpeg" alt="beansmcgreens">
+      <div class="info">
+        <h3>beansmcgreens</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Snoring Panda by lordbn.jpeg" data-full="/pages/art/myfanart/2021/Snoring Panda by lordbn.jpeg" alt="lordbn">
+      <div class="info">
+        <h3>lordbn</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Skullena Punk by Gamecube43534.jpeg" data-full="/pages/art/myfanart/2021/Skullena Punk by Gamecube43534.jpeg" alt="Gamecube43534">
+      <div class="info">
+        <h3>Gamecube43534</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Bubblegum Skullena by Neoleth.jpg" data-full="/pages/art/myfanart/2021/Bubblegum Skullena by Neoleth.jpg" alt="Neoleth">
+      <div class="info">
+        <h3>Neoleth</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Skullena by GiiZ_M0.jpg" data-full="/pages/art/myfanart/2021/Skullena by GiiZ_M0.jpg" alt="GiiZ_M0">
+      <div class="info">
+        <h3>GiiZ_M0</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Skullena Normal by modmakingretardo.jpeg" data-full="/pages/art/myfanart/2021/Skullena Normal by modmakingretardo.jpeg" alt="modmakingretardo">
+      <div class="info">
+        <h3>modmakingretardo</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Skullena Headshot by Battlebots101.png" data-full="/pages/art/myfanart/2021/Skullena Headshot by Battlebots101.png" alt="Battlebots101">
+      <div class="info">
+        <h3>Battlebots101</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2021/Skullena Sitting on a Chair by Acermas.png" data-full="/pages/art/myfanart/2021/Skullena Sitting on a Chair by Acermas.png" alt="Acermas">
+      <div class="info">
+        <h3>Acermas</h3>
+        <p></p>
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="next">
+    <a href="/pages/art/af2022/index.html">2022</a>
+  </div>
+
+  <div id="lightbox">
+    <div id="lb-box">
+      <button id="lb-close" type="button">[x]</button>
+      <img id="lb-img" src="" alt="">
+      <h2 id="lb-title"></h2>
+      <div id="lb-desc"></div>
+    </div>
+  </div>
+
+<script>
+  var lightbox = document.getElementById('lightbox');
+  var lbImg = document.getElementById('lb-img');
+  var lbTitle = document.getElementById('lb-title');
+  var lbDesc = document.getElementById('lb-desc');
+
+  function openPiece(piece) {
+    var img = piece.querySelector('img');
+    var info = piece.querySelector('.info');
+    var title = info.querySelector('h3');
+
+    lbImg.src = img.getAttribute('data-full') || img.src;
+    lbImg.alt = img.alt;
+    lbTitle.textContent = title ? title.textContent : '';
+
+    var rest = info.cloneNode(true);
+    var t = rest.querySelector('h3');
+    if (t) t.remove();
+    lbDesc.innerHTML = rest.innerHTML;
+
+    lightbox.classList.add('open');
+    lightbox.scrollTop = 0;
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.piece').forEach(function (p) {
+    p.addEventListener('click', function () { openPiece(p); });
+  });
+
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.getElementById('lb-close').addEventListener('click', closeLightbox);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>
+</body>
+</html>

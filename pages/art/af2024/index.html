@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2024</title>
+<style>
+  body {
+    margin: 0;
+    padding: 20px 10px 60px;
+    background: #222 url("/pages/art/background/2024.GIF") repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #fff;
+  }
+  a { color: #9cf; }
+  a:hover { color: #fff; }
+
+  .header {
+    width: 340px;
+    max-width: 90%;
+    margin: 0 auto 40px;
+    padding: 12px 10px;
+    background: #000;
+    border: 3px ridge #888;
+    text-align: center;
+  }
+  .header h1 {
+    margin: 0 0 6px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .header .back { font-size: 11px; }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .piece {
+    width: 260px;
+    max-width: 70%;
+    margin-bottom: 50px;
+    cursor: pointer;
+  }
+  .piece:nth-child(odd)  { align-self: flex-start; margin-left: 5%; }
+  .piece:nth-child(even) { align-self: flex-end;   margin-right: 5%; }
+
+  .piece img {
+    display: block;
+    width: 100%;
+    border: 4px ridge #888;
+    background: #000;
+  }
+  .piece:hover img { border-color: #fff; }
+  .piece .info { display: none; }
+
+  .next {
+    margin: 30px auto 0;
+    width: 200px;
+    padding: 10px;
+    background: #000;
+    border: 3px ridge #888;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  #lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.88);
+    overflow-y: auto;
+    padding: 30px 10px;
+    box-sizing: border-box;
+  }
+  #lightbox.open { display: block; }
+  #lb-box {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 12px;
+    background: #000;
+    border: 3px ridge #888;
+    text-align: center;
+  }
+  #lb-img {
+    max-width: 100%;
+    max-height: 75vh;
+    border: 2px solid #888;
+  }
+  #lb-title {
+    margin: 12px 0 8px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    font-weight: normal;
+  }
+  #lb-desc {
+    text-align: left;
+    line-height: 1.5;
+  }
+  #lb-close {
+    display: block;
+    margin: 0 0 10px auto;
+    padding: 2px 8px;
+    background: #000;
+    color: #fff;
+    border: 2px outset #888;
+    font-family: inherit;
+    font-size: 12px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Commissions & Gift Art 2024</h1>
+    <a class="back" href="/pages/art/index.html">Back</a>
+  </div>
+
+  <div class="gallery">
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2024/Alice & Sammy by Trash7129.jpg" data-full="/pages/art/myfanart/2024/Alice & Sammy by Trash7129.jpg" alt="Trash7129">
+      <div class="info">
+        <h3>Trash7129</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2024/ceremonial dress.png" data-full="/pages/art/myfanart/2024/ceremonial dress.png" alt="LinkinSoda">
+      <div class="info">
+        <h3>LinkinSoda</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2024/COG by Qwerturdle.png" data-full="/pages/art/myfanart/2024/COG by Qwerturdle.png" alt="Qwerturdle">
+      <div class="info">
+        <h3>Qwerturdle</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2024/shes fuckin real by soder.jpg" data-full="/pages/art/myfanart/2024/shes fuckin real by soder.jpg" alt="LinkinSoda">
+      <div class="info">
+        <h3>LinkinSoda</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2024/TERD by Trash.png" data-full="/pages/art/myfanart/2024/TERD by Trash.png" alt="Trash7129">
+      <div class="info">
+        <h3>Trash7129</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myfanart/2024/Terd son by trash.jpg" data-full="/pages/art/myfanart/2024/Terd son by trash.jpg" alt="Trash7129">
+      <div class="info">
+        <h3>Trash7129</h3>
+        <p></p>
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="next">
+    <a href="/pages/art/af2025/index.html">2025</a>
+  </div>
+
+  <div id="lightbox">
+    <div id="lb-box">
+      <button id="lb-close" type="button">[x]</button>
+      <img id="lb-img" src="" alt="">
+      <h2 id="lb-title"></h2>
+      <div id="lb-desc"></div>
+    </div>
+  </div>
+
+<script>
+  var lightbox = document.getElementById('lightbox');
+  var lbImg = document.getElementById('lb-img');
+  var lbTitle = document.getElementById('lb-title');
+  var lbDesc = document.getElementById('lb-desc');
+
+  function openPiece(piece) {
+    var img = piece.querySelector('img');
+    var info = piece.querySelector('.info');
+    var title = info.querySelector('h3');
+
+    lbImg.src = img.getAttribute('data-full') || img.src;
+    lbImg.alt = img.alt;
+    lbTitle.textContent = title ? title.textContent : '';
+
+    var rest = info.cloneNode(true);
+    var t = rest.querySelector('h3');
+    if (t) t.remove();
+    lbDesc.innerHTML = rest.innerHTML;
+
+    lightbox.classList.add('open');
+    lightbox.scrollTop = 0;
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.piece').forEach(function (p) {
+    p.addEventListener('click', function () { openPiece(p); });
+  });
+
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.getElementById('lb-close').addEventListener('click', closeLightbox);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>
+</body>
+</html>
