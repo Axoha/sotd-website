@@ -1150,6 +1150,154 @@
                 ]
             }
         ]
+      },
+      "barnes": {
+        "name": "Barnes",
+        "title": "Hater",
+        "images": [
+            {
+                "title": "",
+                "file": ".png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Author": "DirtyBarn21",
+            "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Sol-3²² Worldwide Menaces Catalogue. Shortened for the reader's convenience.",
+            "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, \"The Midwest\"",
+            "Species": "Anthropomorphic Barn Owl",
+            "Gender": "Male",
+            "Birthday": "August 2nd, 1998 (Sol-3²² Time)",
+            "Height / Weight": "177 cm (5' 9\") / 86 kg (189 lbs)",
+            "Blood Type": "O \"Triple Negative\"",
+            "Internet Username": "ShackFilth12 (Blocked by Most People)"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "Consider yourself fortunate if you do not know who this is. <i>Barnes</i> is an enigma of sentient life, fueled by utter scorn, spite, and rancor for anything and everyone. Seriously, this guy hates almost everything you put in front of him, it's thanks to this why he's seen as a bane across multiple communities. He's usually trying to get a rise out of someone with ludicrous statements or flat out insulting them. <i>Barnes</i> is also known to show extreme vindictiveness, He has been shown to persistently bother someone if he has deemed they \"wronged\" him somehow.",
+                    "You'd think that all this unwarranted hatred would be a façade for his true feelings right? Well for the rare few who have tried to become friends with <i>Barnes</i> they'd tell you that he is angry through and through. Yes, behind all of that hatred is even more hatred, truly his anger is limitless, it's almost comical to how much malice is coursing through him at every moment.",
+                    "<i>Barnes</i> spends most of his time being a nuisance online, when he's not on the internet doing his favorite pastime he takes strolls around his town. <i>Barnes</i> is unemployed, he makes most of his income by selling random junk he finds on his walks as \"vintage\" collectibles at insane markups. The money generated from his schemes are mostly used to buy copious amounts of coffee products, scented candles, videogames, and to pay rent.",
+                    "<i>Barnes'</i> outfit has a weird history, originally it was just a regular <i>men's large fashion orange over-shirt #21765</i>. However one night <i>Barnes</i> got the bright idea of napping on a moving conveyor belt in a sticker manufacturing factory. Fortunately he wasn't mangled horribly in the various machines, instead his shirt took most of the beating, by the end of the track it had become permanently littered with various colors and shapes. Barnes tried to get rid of them at first but eventually settled on still wearing the shirt. The reason? He didn't want to pay for new clothes.",
+                    "One of <i>Barnes'</i> only redeeming qualities is his hair which he prides himself on. It takes him almost two hours to perfect his mane. This perfection is short lived as a couple of loose strands will always ruin the work. <i>Barnes</i> is very protective of his hair, he has been witnessed suplexing a random delinquent after they put a piece of chewed bubblegum in his hair. Of course, he could've been making the story up and just suplexed them from pure boredom."
+                ]
+            },
+            {
+                "heading": "Trivia From A Place Above",
+                "listItems": [
+                    "<i>Barnes</i> has an obsession with the color #ff9b01.",
+                    "<i>Barnes</i> has a small fear of candles, for \"unknown\" reasons.",
+                    "He will make a debut in the next story: <i>\"Barnes Dies and Doesn't Come Back\"</i>.",
+                    "Do NOT leave him unsupervised.",
+                    "<i>Barnes</i> is still hounding someone over $15.01, despite lending them the money 6 years ago.",
+                    "Please don't be like <i>Barnes</i>."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i>Barnes Hates Everyone</i>",
+                    "<i>Everyone Hates Barnes</i>"
+                ]
+            }
+        ]
+      },
+      "alice": {
+        "name": "Alice",
+        "title": "???",
+        "images": [
+            {
+                "title": "",
+                "file": ".png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Character Owner": "Trash7129",
+            "Sources": "Inka's Interests."
+        },
+        "blockTwo": [
+            {
+                "heading": "???",
+                "paragraphs": [
+                    "Hello, can I speak to H...<br>Wait a second...<br>Who is this?",
+                    "Oh, there's an unwritten character page?<br>An unwritten character's there!<br>We're so sorry that they seem to be here!<br>Oh, there's an unwritten character page?<br>An unwritten character's there!<br>We're so sorry that they seem to be here!"
+                ]
+            }
+        ]
+      },
+      "oscar": {
+        "name": "Oscar",
+        "title": "???",
+        "images": [
+            {
+                "title": "",
+                "file": ".png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Character Owner": "EJF2002",
+            "Sources": "Inka's Interests."
+        },
+        "blockTwo": [
+            {
+                "heading": "???",
+                "paragraphs": [
+                    "Hello, can I speak to H...<br>Wait a second...<br>Who is this?",
+                    "Oh, there's an unwritten character page?<br>An unwritten character's there!<br>We're so sorry that they seem to be here!<br>Oh, there's an unwritten character page?<br>An unwritten character's there!<br>We're so sorry that they seem to be here!"
+                ]
+            }
+        ]
+      },
+      "sophie": {
+        "name": "Sophie",
+        "title": "???",
+        "images": [
+            {
+                "title": "",
+                "file": ".png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Character Owner": "Trash7129",
+            "Sources": "Inka's Interests."
+        },
+        "blockTwo": [
+            {
+                "heading": "???",
+                "paragraphs": [
+                    "Hello, can I speak to H...<br>Wait a second...<br>Who is this?",
+                    "Oh, there's an unwritten character page?<br>An unwritten character's there!<br>We're so sorry that they seem to be here!<br>Oh, there's an unwritten character page?<br>An unwritten character's there!<br>We're so sorry that they seem to be here!"
+                ]
+            }
+        ]
+      },
+      "sueParks": {
+        "name": "Sue Parks",
+        "title": "???",
+        "images": [
+            {
+                "title": "",
+                "file": ".png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Character Owner": "Mia (Credit)",
+            "Sources": "Inka's Interests."
+        },
+        "blockTwo": [
+            {
+                "heading": "???",
+                "paragraphs": [
+                    "Hello, can I speak to H...<br>Wait a second...<br>Who is this?",
+                    "Oh, there's an unwritten character page?<br>An unwritten character's there!<br>We're so sorry that they seem to be here!<br>Oh, there's an unwritten character page?<br>An unwritten character's there!<br>We're so sorry that they seem to be here!"
+                ]
+            }
+        ]
       }
 }
 

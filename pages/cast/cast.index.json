@@ -160,5 +160,35 @@
         "name": "Sk8ter Boy ✰",
         "thumbnail": "skaterthumb.png",
         "flavorText": "No one knows who this guy is, but for all we know he is the most relaxed person in the world. Loves skateboarding... if you couldn't tell already."
+    },
+    {
+        "id": "barnes",
+        "name": "Barnes ✰",
+        "thumbnail": "barnesThumb.png",
+        "flavorText": "The worst most miserable person you'll ever meet in your life. Somehow managed to get the whole world to hate on him."
+    },
+    {
+        "id": "oscar",
+        "name": "Oscar ✰",
+        "thumbnail": "oscarThumb.png",
+        "flavorText": "Oscar is Oscar. Placeholder description."
+    },
+    {
+        "id": "alice",
+        "name": "Alice ✰",
+        "thumbnail": "aliceThumb.png",
+        "flavorText": "A closed off mean girl who's capable of intimidating everyone around with just her presence. Becoming friends with her would require a miracle."
+    },
+        {
+        "id": "sophie",
+        "name": "Sophie ✰",
+        "thumbnail": "sophieThumb.png",
+        "flavorText": "A suspiciously friendly girl who probably loves all the drama and bubble tea. Toby's lovely partner in crime."
+    },
+        {
+        "id": "sueParks",
+        "name": "Sue Parks ✰",
+        "thumbnail": "sueThumb.png",
+        "flavorText": "Her appearance concerns a lot of people. Some speculate she was born in a candy factory. That would explain a lot of things."
     }
 ]
