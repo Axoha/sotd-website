@@ -1413,6 +1413,145 @@
                 ]
             }
         ]
+      },
+      "electroman": {
+        "name": "Electroman",
+        "title": "The Iconic Puppet Hero",
+        "images": [
+            {
+                "title": "",
+                "file": "ElectromanCard.png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Sources": "Electroman Adventures Comics (All Volumes). Nucleu Town Experiment Logs. Electroman Adventure Death logs. New Babylon Concerns Vol. IV. Shortened for the reader's convenience.",
+            "Origin": "<a href=\"/error/index.html\">Dashania-7</a>, Asterisk City, Nucleu Town",
+            "Species": "Living Puppet, Sphere-Head",
+            "Gender": "Male",
+            "Birthday": "August 2nd, 2041 (Dashania-7 Time)",
+            "Height / Weight": "Cannot be scaled",
+            "Blood Type": "None",
+            "Internet Username": "None"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "<i>Electroman...</i> The most popular franchise on <i>Dashania-7</i>, <a href=\"/error/index.html\">'Electroman's Adventures'</a>. He was born as an icon from the start, to tell the world about the horrific weapons in development that would bring an end to their enemies and fuel war even more.",
+                    "<i>Electroman Adventures</i> originates from <a href=\"/error/index.html\">Nucleu Town</a>, the core of the ruins of <i>Dashania-7</i>. It began as a simple comic following a simple plotline. <i>Electroman</i> was a puppet-like superhero with electric powers, his goal was to protect his home <a href=\"/error/index.html\">Asterisk City</a> from evil of any kind. He was designed to bring comfort and smiles to those still alive on the surface of <i>Dashania-7</i>.",
+                    "<i>Electroman</i> was a reckless but kind superhero, always putting himself in danger to protect the lives of those he loved the most. In the third volume of the comic, things began to get weirder. Three races were introduced in <i>Electroman's</i> world. He and his people were <a href=\"/error/index.html\">sphere-headed</a>, then there were <a href=\"/error/index.html\">cube-heads</a>, <a href=\"/error/index.html\">cone-heads</a>, and at last, <a href=\"/error/index.html\">Cuboids</a>. <i>Cuboids</i> were portrayed as the great evil and antagonists of the comics, often being colored in orange and having a cross on their head. <i>Electroman</i> assembles a team in volume 3 to take down the <i>Cuboids</i> for good, and has been trying ever since.",
+                    "Up to 900 total volumes have been released. Not a single page was drawn or written, because everything in it was actually happening deep below <i>Nucleu Town</i> as an experiment. Living puppets animated with magic, stuck in a miniature simulated diorama where everything is so real for them. If only <i>Electroman</i> himself ever knew he is propaganda.",
+                    "Or maybe he already knows."
+                ]
+            },
+            {
+                "heading": "Trivia From A Place Above",
+                "listItems": [
+                    "This was my first ever original character I ever made. I thought giving him pretty deep lore would be hilarious.",
+                    "The <i>Electroman Adventures</i> comics are actually real, there's just not 900 of them.",
+                    "<i>Battleblock Theater</i> changed my life."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i><a href=\"/pages/cast/characters/index.html?id=jamesonSparks\">Jameson Sparks</a> (Best Friend, Ally)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=hettyHellenoir\">Hetty Hellenoir</a> (Best Friend, Ally)</i>"
+                ]
+            }
+        ]
+      },
+      "hettyHellenoir": {
+        "name": "Hetty Hellenoir",
+        "title": "The Darker Puppet Hero",
+        "images": [
+            {
+                "title": "",
+                "file": "HettyCard.png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Sources": "Electroman Adventures Comics (All Volumes). Nucleu Town Experiment Logs. Electroman Adventure Death logs. New Babylon Concerns Vol. IV. Shortened for the reader's convenience.",
+            "Origin": "<a href=\"/error/index.html\">Dashania-7</a>, Oxonoia City, Nucleu Town",
+            "Species": "Living Puppet, Cube-Head",
+            "Gender": "Nonbinary",
+            "Birthday": "March 14th, 2042 (Dashania-7 Time)",
+            "Height / Weight": "Cannot be scaled",
+            "Blood Type": "None",
+            "Internet Username": "None"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "<i>Hetty</i> is a rather bizarre character introduced in the third volume of <a href=\"/error/index.html\">'Electroman's Adventures'</a>. They are the anti-hero of the franchise. Their design is meant to represent the <a href=\"/error/index.html\">XIN</a> species, but many of that species claim that it isn't really well done. Despite that, <i>Hetty</i> still has a lot of fans worldwide on <i>Dashania-7</i>.",
+                    "<i>Hetty</i> boasts many strange powers, delving into the more darker side of magic that not many people are familiar with. They and <a href=\"/pages/cast/characters/index.html?id=electroman\">Electroman</a> are alike, some fans claim that <i>Hetty</i> is way more powerful, especially after a masterfully-written arc about them overcoming a monstrous side of themself was released around the 200th volume. They are usually hectic, vague, and morally complex in the comics. Their main mission is to protect their home <a href=\"/error/index.html\">'Oxonoia City'</a> from the <a href=\"/error/index.html\">Cuboids</a>, the main antagonists of the franchise.",
+                    "<a href=\"/error/index.html\">Nucleu Town</a> research states that Hetty should never ever escape containment or else extremely disastrous consequences may unfold. Perhaps toying with actual darker magic just to have a compelling character in all the simulated experiences was a terrible idea."
+                ]
+            },
+            {
+                "heading": "Trivia From A Place Above",
+                "listItems": [
+                    "The <i>Electroman Adventures</i> comics are actually real.",
+                    "<i>Battleblock Theater</i> changed my life."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i><a href=\"/pages/cast/characters/index.html?id=electroman\">Electroman</a> (Ally)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=hettyHellenoir\">Hetty Hellenoir</a> (Ally)</i>"
+                ]
+            }
+        ]
+      },
+      "jamesonSparks": {
+        "name": "Jameson Sparks",
+        "title": "The Gunz Masta",
+        "images": [
+            {
+                "title": "",
+                "file": "JamesonCard.png",
+                "credits": ""
+            }
+        ],
+        "blockOne": {
+            "Sources": "Electroman Adventures Comics (All Volumes). Nucleu Town Experiment Logs. Electroman Adventure Death logs. New Babylon Concerns Vol. IV. Shortened for the reader's convenience.",
+            "Origin": "<a href=\"/error/index.html\">Dashania-7</a>, Oxonoia City, Nucleu Town",
+            "Species": "Living Puppet, Cube-Head",
+            "Gender": "Nonbinary",
+            "Birthday": "March 14th, 2042 (Dashania-7 Time)",
+            "Height / Weight": "Cannot be scaled",
+            "Blood Type": "None",
+            "Internet Username": "None"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "<i>Jameson</i> is <a href=\"/pages/cast/characters/index.html?id=electroman\">Electroman's</a> most trusted sidekick and friend. Introduced in the third volume of <a href=\"/error/index.html\">'Electroman's Adventures'</a> as a returning character from a much more niche older version of the comics. They're often characterized by weapons and military aesthetics, lacks any supernatural powers, still manages to get a kick in most of the adventures.",
+                    "Everyone knows about <i>Jameson's</i> comeback in the third volume during the <i>'Hexogon'</i> arc after <i>Electroman</i> took a great beating from a giant experiment by the <a href=\"/error/index.html\">Cuboids</a>. Everyone is familiar with the part where they reunite after a long time and build a giant jet together to infiltrate a <i>Cuboid</i> base. <i>Jameson</i> is a very independent character, sometimes they might not show up for several volumes at times, but they will always be there when the heroes need it. Their mission is to protect their home, <a href=\"/error/index.html\">GUNZ City</a>, and the <a href=\"/error/index.html\">cone-heads</a> of course.",
+                    "It's easy to say that <i>Jameson</i> is the peak of <a href=\"/error/index.html\">Nucleu Town's</a> propaganda, it's insane how they even got away with this. Deep below the dusty old gray apartments in a desolate wasteland, Jameson is often tested on with new weapons, usually guns according to <i>Nucleu Town's</i> research. All the pain is very real, even in the adventures they simulate to produce comics."
+                ]
+            },
+            {
+                "heading": "Trivia From A Place Above",
+                "listItems": [
+                    "They were originally supposed play a part in <i>Black & White</i>.",
+                    "The <i>Electroman Adventures</i> comics are actually real.",
+                    "<i>Battleblock Theater</i> changed my life."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i><a href=\"/pages/cast/characters/index.html?id=electroman\">Electroman</a> (Friend, Ally)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=hettyHellenoir\">Hetty Hellenoir</a> (Mixed, Ally)</i>"
+                ]
+            }
+        ]
       }
 }
 

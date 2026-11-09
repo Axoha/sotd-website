@@ -190,5 +190,29 @@
         "name": "Sue Parks ✰",
         "thumbnail": "sueThumb.png",
         "flavorText": "Her appearance concerns a lot of people. Some speculate she was born in a candy factory... Which would explain a lot of things."
+    },
+        {
+        "id": "electroman",
+        "name": "Electroman",
+        "thumbnail": "electromanThumb.png",
+        "flavorText": "The main star of one of the longest running comics ever, Electroman Adventures. Have you never heard of that before?!"
+    },
+        {
+        "id": "hettyHellenoir",
+        "name": "Hetty Hellenoir",
+        "thumbnail": "hettyThumb.png",
+        "flavorText": "Electroman's iconic friend who may have subjected themselves into dark magic a bit too much."
+    },
+        {
+        "id": "jamesonSparks",
+        "name": "Jameson Sparks",
+        "thumbnail": "jamesonThumb.png",
+        "flavorText": "Electroman's iconic sidekick. Loved leader of the cone-heads. Can manifest any weapon from their infinite backpack."
+    },
+        {
+        "id": "sweetie",
+        "name": "Sweetie",
+        "thumbnail": "sweetieThumb.png",
+        "flavorText": "Houston March's beloved pet cat. Ominously intelligent."
     }
 ]
