@@ -200,13 +200,13 @@
         {
         "id": "hettyHellenoir",
         "name": "Hetty Hellenoir",
-        "thumbnail": "hettyThumb.png",
+        "thumbnail": "HettyThumb.png",
         "flavorText": "Electroman's iconic friend who may have subjected themselves into dark magic a bit too much."
     },
         {
         "id": "jamesonSparks",
         "name": "Jameson Sparks",
-        "thumbnail": "jamesonThumb.png",
+        "thumbnail": "JamesonThumb.png",
         "flavorText": "Electroman's iconic sidekick. Loved leader of the cone-heads. Can manifest any weapon from their infinite backpack."
     },
         {
