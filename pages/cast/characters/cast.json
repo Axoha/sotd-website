@@ -207,8 +207,9 @@
         "title": "Grass Roots Gamer (Derogatory)",
         "images": [
             {
-                "file": "georg.png",
-                "title": ""
+                "title": "",
+                "file": "GeorgCard.jpg",
+                "credits": "Alan (Qwerturdle)"
             }
         ],
         "blockOne": {
@@ -252,7 +253,13 @@
     "icyCruz": {
         "name": "Icy Cruz",
         "title": "The Baby",
-        "images": [],
+        "images": [
+            {
+                "title": "",
+                "file": "IcyCard.png",
+                "credits": "Brandon (Suralot)"
+            }
+        ],
         "blockOne": {
             "Author": "Brandon (Suralot)",
             "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
@@ -497,9 +504,15 @@
   "welder": {
     "name": "Welder",
     "title": "Your Average Mechanic",
-    "images": [],
+    "images": [
+            {
+                "title": "",
+                "file": "WelderCard.png",
+                "credits": "Zero"
+            }
+        ],
     "blockOne": {
-      "Author": "Jegr",
+      "Author": "Zero",
       "Sources": "Unknown",
       "Origin": "<a href=\"/error/index.html\">Liann-2</a>",
       "Species": "Robot (Conscious, Sentient)",
@@ -587,7 +600,13 @@
   "elysia": {
     "name": "Elysia",
     "title": "",
-    "images" : [],
+    "images": [
+            {
+                "title": "",
+                "file": "ElysiaCard.png",
+                "credits": "cbaer08"
+            }
+        ],
     "blockOne": {
         "Author": "cbaer08",
         "Sources": "Unknown",
@@ -1157,7 +1176,7 @@
         "images": [
             {
                 "title": "",
-                "file": ".png",
+                "file": "BarnesCard.png",
                 "credits": ""
             }
         ],
