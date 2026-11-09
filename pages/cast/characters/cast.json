@@ -1167,7 +1167,7 @@
             "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, \"The Midwest\"",
             "Species": "Anthropomorphic Barn Owl",
             "Gender": "Male",
-            "Birthday": "August 2nd, 1998 (Sol-3²² Time)",
+            "Birthday": "August 27th, 1998 (Sol-3²² Time)",
             "Height / Weight": "177 cm (5' 9\") / 86 kg (189 lbs)",
             "Blood Type": "O \"Triple Negative\"",
             "Internet Username": "ShackFilth12 (Blocked by Most People)"
@@ -1198,7 +1198,9 @@
                 "heading": "Connections",
                 "listItems": [
                     "<i>Barnes Hates Everyone</i>",
-                    "<i>Everyone Hates Barnes</i>"
+                    "<i>Except for <a href=\"/pages/cast/characters/index.html?id=oscar\">Oscar</a></i>",
+                    "<i>Everyone Hates Barnes</i>",
+                    "<i>Except for Maybe <a href=\"/pages/cast/characters/index.html?id=oscar\">Oscar</a></i>"
                 ]
             }
         ]
@@ -1229,24 +1231,77 @@
       },
       "oscar": {
         "name": "Oscar",
-        "title": "???",
+        "title": "♡ ♡ ♡",
         "images": [
             {
                 "title": "",
-                "file": ".png",
+                "file": "OscarCard.png",
                 "credits": ""
+            },
+            {
+                "title": "",
+                "file": "Oscar2.png",
+                "credits": "Ethan (EJF2002)"
+            },
+            {
+                "title": "",
+                "file": "Oscar1.png",
+                "credits": "Ethan (EJF2002)"
+            },
+            {
+                "title": "",
+                "file": "Oscar3.png",
+                "credits": "Kat (Radropicall)"
             }
         ],
         "blockOne": {
-            "Character Owner": "EJF2002",
-            "Sources": "Inka's Interests."
+            "Creator / Owner": "Ethan (EJF2002), Reba (Cacothanasia)",
+            "Author": "Erika (Axoha)",
+            "Minor Contribution": "DirtyBarn21",
+            "Sources": "New Babylon: Interesting Anthropomorphs Vol. SME. Island Awayday Message Logs. Shortened for the reader's convenience.",
+            "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, North American-Like Continent",
+            "Species": "Anthropomorphic Cat Bunny Hybrid",
+            "Gender": "Nonbinary (Any Pronouns)",
+            "Birthday": "January 30th, 1993 (Sol-3²² Time)",
+            "Height / Weight": "162 cm (5' 4\") / 54 kg (119 lbs)",
+            "Blood Type": "O+",
+            "Internet Username": "BEEF2001"
         },
         "blockTwo": [
             {
-                "heading": "???",
+                "heading": "General Information",
                 "paragraphs": [
-                    "Hello, can I speak to H...<br>Wait a second...<br>Who is this?",
-                    "Oh, there's an unwritten character page?<br>An unwritten character's there!<br>We're so sorry that they seem to be here!<br>Oh, there's an unwritten character page?<br>An unwritten character's there!<br>We're so sorry that they seem to be here!"
+                    "<i>Oscar</i> is someone who won't give up even when faced with impossible odds or a grim future. They will always fight through the worst times, finding joy and love even in times that seemed completely hopeless.",
+                    "<i>Oscar</i> was diagnosed with cancer at a very young age, their left leg had to be amputated. Most of their time was spent in the hospital, bored. At home they'd usually play videogames on the computer or watching funny videos on <a href=\"/error/index.html\">YourTube</a> that would later inspire them to make their own. Being frequently online, they managed to connect with their first long time friends.",
+                    "They had to deal with reoccurring cancer, when it seemed beaten it would always just come back. Always.",
+                    "During their teenage years, <i>Oscar</i> joined a community on <a href=\"/error/index.html\">Bope</a> named <a href=\"/error/index.html\">'Olmoland'</a>. This place changed their life, among many others who were a part of this small community. <i>Oscar</i> would quickly find many online friends there, talking to them frequently due to long stays in the hospital, forming a strong bond with people the same age and interests. The community quickly fell apart due to a lot of pointless drama, and <i>Oscar</i>, with an ambitious idea decided to create a different community named <a href=\"/error/index.html\">'Island Awayday'</a>, picking up from the online ruins of <i>Olmoland</i>.",
+                    "At this point <i>Oscar</i> would begin to create entertaining videos on <i>YourTube</i> under the name of <a href=\"https://www.youtube.com/@EJF-qq2vp\">BEEF2001</a>, usually with the friends they talked to frequently. <i>Island Awayday</i> was booming with activity everyday, but it was far from a huge popular place. The whole community meant a lot to <i>Oscar</i>. They cared for everyone and always tried to make everyone happy, but this mentality would slowly start affecting them negatively, and a year after <i>Island Awayday</i> was created it was split into two during a rough breakup.",
+                    "<i>Oscar</i> desperately tried to be normal, drift away from online spaces, but cancer only kept coming back. It was dark and cold, the friends they cared for seemed so far from them, but they wouldn't give up. There wasn't any time for that. They kept making videos, practicing art, sometimes even with their sibling.",
+                    "After about half a year, <i>Oscar</i> came back to the currently popular variant of <i>Island Awayday</i> to reconnect with old friends. Though it was initially rocky, <i>Oscar</i> fit back in without a problem, and soon they'd patch things up even with someone they had a really rough story with. <i>Oscar</i> had gotten ambitious and way more optimistic after letting go of the excess personal stress, making lots of friends in school, slowly growing their <i>YourTube</i> channel, and generally succeeding in the many aspects of life. During summer they'd take on their most ambitious journey yet, to meet their online friends for the first time.",
+                    "It took years, but one day <i>Oscar</i> finally beat cancer. No more snarky comebacks, no more terrible setbacks. <i>Oscar</i> was free, they could finally do whatever they wanted without a worry, even if the pain of their past still lingered deep inside."
+                ]
+            },
+            {
+                "heading": "Trivia From A Place Above",
+                "listItems": [
+                    "Once had their corn stolen, wasn't too happy about that.",
+                    "Came up with a card game with friends based around cats, their video on it got really popular, though no board games were ever made as the game was too confusing and stupid.",
+                    "Likes to eat hot chips with chop sticks.",
+                    "Adopted a bizarre creature named the <a href=\"/error/index.html\">'SME'</a>, tried doing a podcast with them, failed.",
+                    "Victim of illegal maneuvers."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i><a href=\"/error/index.html\">SME</a> (What the Hell is That)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=jessicaHatherleigh\">Jessica Hatherleigh</a> (???)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=barnes\">Barnes</a> (Friend, Dreads)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=sueParks\">Sue Parks</a> (Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=icyCruz\">Icy Cruz</a> (Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=taylor\">Taylor</a> (Acquaintance)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=Toby\">Toby</a> (Acquaintance)</i>",
+                    "<i><a href=\"https://static.wikia.nocookie.net/boneworks/images/1/19/Brett_Ortho.png/revision/latest?cb=20200110142124\">Ford</a> (Whaddup Son)</i>"
                 ]
             }
         ]
@@ -1295,6 +1350,66 @@
                 "paragraphs": [
                     "Hello, can I speak to H...<br>Wait a second...<br>Who is this?",
                     "Oh, there's an unwritten character page?<br>An unwritten character's there!<br>We're so sorry that they seem to be here!<br>Oh, there's an unwritten character page?<br>An unwritten character's there!<br>We're so sorry that they seem to be here!"
+                ]
+            }
+        ]
+      },
+      "jessicaHatherleigh": {
+        "name": "Jessica Hatherleigh",
+        "title": "Jerk",
+        "images": [
+            {
+                "title": "",
+                "file": "JerkaCardd.png",
+                "credits": ""
+            },
+            {
+                "title": "",
+                "file": "Jerka1.png",
+                "credits": "Kat (Radropicall)"
+            }
+        ],
+        "blockOne": {
+            "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Island Awayday Message Logs. Shortened for the reader's convenience.",
+            "Origin": "<a href=\"/error/index.html\">Sol-3²²</a>, European-Like Continent, East",
+            "Species": "Anthropomorphic Llama Camel Hybrid (Cama)",
+            "Gender": "Female",
+            "Birthday": "August 30th, 1993 (Sol-3²² Time)",
+            "Height / Weight": "203 cm (6' 8\") / 43 kg (94 lbs)",
+            "Blood Type": "B+",
+            "Internet Username": "OlmoHa"
+        },
+        "blockTwo": [
+            {
+                "heading": "General Information",
+                "paragraphs": [
+                    "<i>Jessica</i>, often nicknamed <i>Jerka</i> by friends, is a person who always runs without thinking. Whenever she trips she tends to stay on the floor for a really long time, as if there was no possible way to get up.",
+                    "<i>Jessica</i> was always insecure about her body. She was born without a hump and her features leaned more into a camel side, so she often got weird looks at school. Adopted backpacks in her daily wear since she was very little, rarely ever takes it off in public even if she needs something from it. She was born in a time when hybrids were just getting accepted by the public and law.",
+                    "<i>Jessica</i> was always envious of her alpaca and sheep peers. She desperately wanted to look like them. They were all soft, round, fluffy, and she was always huge, rough, and skinny. In her preteen years, her family decided to move to an American-like continent on the northern side. She's confident she doesn't miss anyone from her home. <i>Jessica</i> had a really rough time growing up, frequently getting bullied in classes due to her weak social skills and odd appearance. Her only friend in her new neighborhood was just a fellow hybrid named <a href=\"/pages/cast/characters/index.html?id=taylor\">Taylor</a>, she'd hang out with him often, sometimes injuring each other badly in some plays. It wasn't long before <i>Taylor's</i> parents stopped allowing her to interact with their only son.",
+                    "In her teen years, she found an online community on <a href=\"/error/index.html\">Bope</a> which went by <a href=\"/error/index.html\">'Olmoland'</a>. She was very mentally unstable, and somehow she ended up running the whole community into the ground with drama... but in her worst times she made friends with someone who would change her life, someone who finally understood her and was willing to be a friend.",
+                    "As an adult, <i>Jessica</i> works at <a href=\"/error/index.html\">McGloogs</a>, a fast food restaurant that dominates their world. Often isolated from everyone, she takes orders from people with pained eyes."
+                ]
+            },
+            {
+                "heading": "Trivia From A Place Above",
+                "listItems": [
+                    "This is my fursona. It was originally <a href=\"/pages/cast/characters/index.html?id=veronikaBarashova\">Veronika</a>, but I thought camels and llamas fit me better than a borzoi. My actual mascot however is the stupidest doodle of a cama you have ever seen.",
+                    "I don't think I wanted her to be the main character of <i>Totally Fine</i>. I guess she is.",
+                    "Grows a really long winter coat during colder seasons, really hates it."
+                ]
+            },
+            {
+                "heading": "Connections",
+                "listItems": [
+                    "<i><a href=\"/pages/cast/characters/index.html?id=oscar\">Oscar</a> (???)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=taylor\">Taylor</a> (Childhood Friend, Rival)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=sueParks\">Sue Parks</a> (Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=sophie\">Sophie</a> (Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=jinx\">Janx</a> (Friend)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=skaterboy\">Sk8ter Boy</a> (Hopes They're Friends)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=icyCruz\">Icy Cruz</a> (Rolls Eyes)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=toby\">Toby</a> (Rolls Eyes Even More)</i>",
+                    "<i><a href=\"/pages/cast/characters/index.html?id=enaLone\">Ena Lone</a> (Dislikes)</i>"
                 ]
             }
         ]

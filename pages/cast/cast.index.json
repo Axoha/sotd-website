@@ -171,7 +171,7 @@
         "id": "oscar",
         "name": "Oscar ✰",
         "thumbnail": "oscarThumb.png",
-        "flavorText": "Oscar is Oscar. Placeholder description."
+        "flavorText": "Oscar is a strong and brave optimistic bundle of joy who cares for everyone. Pretty popular content creator, has a quirky but catchy sense of humor."
     },
     {
         "id": "alice",
@@ -189,6 +189,6 @@
         "id": "sueParks",
         "name": "Sue Parks ✰",
         "thumbnail": "sueThumb.png",
-        "flavorText": "Her appearance concerns a lot of people. Some speculate she was born in a candy factory. That would explain a lot of things."
+        "flavorText": "Her appearance concerns a lot of people. Some speculate she was born in a candy factory... Which would explain a lot of things."
     }
 ]
