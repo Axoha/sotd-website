@@ -113,7 +113,7 @@
         "title": "One Beloved Android",
         "images": [
             {
-                "file": "hazuneniku.png",
+                "file": "HazuneCard.png",
                 "title": ""
             }
         ],
@@ -708,7 +708,7 @@
         "images": [
             {
                 "title": "",
-                "file": "Lars1.png",
+                "file": "LarsCard.png",
                 "credits": ""
             }
         ],
@@ -754,7 +754,7 @@
         "images": [
             {
                 "title": "",
-                "file": ".png",
+                "file": "EmmaCard.png",
                 "credits": ""
             }
         ],
