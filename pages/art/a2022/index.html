@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2022</title>
+<style>
+  body {
+    margin: 0;
+    padding: 20px 10px 60px;
+    background: #222 url("/pages/art/background/2022.gif") repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #fff;
+  }
+  a { color: #9cf; }
+  a:hover { color: #fff; }
+
+  .header {
+    width: 340px;
+    max-width: 90%;
+    margin: 0 auto 40px;
+    padding: 12px 10px;
+    background: #000;
+    border: 3px ridge #888;
+    text-align: center;
+  }
+  .header h1 {
+    margin: 0 0 6px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .header .back { font-size: 11px; }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .piece {
+    width: 260px;
+    max-width: 70%;
+    margin-bottom: 50px;
+    cursor: pointer;
+  }
+  .piece:nth-child(odd)  { align-self: flex-start; margin-left: 5%; }
+  .piece:nth-child(even) { align-self: flex-end;   margin-right: 5%; }
+
+  .piece img {
+    display: block;
+    width: 100%;
+    border: 4px ridge #888;
+    background: #000;
+  }
+  .piece:hover img { border-color: #fff; }
+  .piece .info { display: none; }
+
+  .next {
+    margin: 30px auto 0;
+    width: 200px;
+    padding: 10px;
+    background: #000;
+    border: 3px ridge #888;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  #lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.88);
+    overflow-y: auto;
+    padding: 30px 10px;
+    box-sizing: border-box;
+  }
+  #lightbox.open { display: block; }
+  #lb-box {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 12px;
+    background: #000;
+    border: 3px ridge #888;
+    text-align: center;
+  }
+  #lb-img {
+    max-width: 100%;
+    max-height: 75vh;
+    border: 2px solid #888;
+  }
+  #lb-title {
+    margin: 12px 0 8px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    font-weight: normal;
+  }
+  #lb-desc {
+    text-align: left;
+    line-height: 1.5;
+  }
+  #lb-close {
+    display: block;
+    margin: 0 0 10px auto;
+    padding: 2px 8px;
+    background: #000;
+    color: #fff;
+    border: 2px outset #888;
+    font-family: inherit;
+    font-size: 12px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>All My Stuff 2022</h1>
+    <a class="back" href="/pages/art/index.html">Back</a>
+  </div>
+
+  <div class="gallery">
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/where am I.png" data-full="/pages/art/myart/2022/where am I.png" alt="where am I">
+      <div class="info">
+        <h3>where am I</h3>
+        <p>Weird thing of a SOTD ghost.</p>
+      </div>
+    </div>
+  
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Holy.png" data-full="/pages/art/myart/2022/Holy.png" alt="Holy">
+      <div class="info">
+        <h3>Holy</h3>
+        <p>Stupid doodle of a stupid Ena.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Skully UNO.png" data-full="/pages/art/myart/2022/Skully UNO.png" alt="Skully UNO">
+      <div class="info">
+        <h3>Skully UNO</h3>
+        <p>Ena and her variants playing cards. I'm sure these are the only complete digital drawings of the variants ever made.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/1 Sketch White.png" data-full="/pages/art/myart/2022/1 Sketch White.png" alt="1 Sketch White">
+      <div class="info">
+        <h3>1 Sketch White</h3>
+        <p>Another attempt at a THE GAME comic. Never went anywhere either, obviously.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Ferd HD.png" data-full="/pages/art/myart/2022/Ferd HD.png" alt="Ferd HD">
+      <div class="info">
+        <h3>Ferd HD</h3>
+        <p>My first complete digital drawing of Ferd.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/happy Family.png" data-full="/pages/art/myart/2022/happy Family.png" alt="happy Family">
+      <div class="info">
+        <h3>happy Family</h3>
+        <p>Early concepts of the Ray family.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Bea Buzz.png" data-full="/pages/art/myart/2022/Bea Buzz.png" alt="Bea Buzz">
+      <div class="info">
+        <h3>Bea Buzz</h3>
+        <p>Annoying teenage character that was scrapped and completely changed into Beston Marks.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/spiderman.png" data-full="/pages/art/myart/2022/spiderman.png" alt="spiderman">
+      <div class="info">
+        <h3>spiderman</h3>
+        <p>I think this has something to do with THE GAME.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/the meetup no blur.png" data-full="/pages/art/myart/2022/the meetup no blur.png" alt="the meetup no blur">
+      <div class="info">
+        <h3>the meetup no blur</h3>
+        <p>My old evil antagonist guy fights my friends' old evil antagonist guy.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/AGENT-S.png" data-full="/pages/art/myart/2022/AGENT-S.png" alt="AGENT-S">
+      <div class="info">
+        <h3>AGENT-S</h3>
+        <p>Figuring out AGENT-S.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Sammy.png" data-full="/pages/art/myart/2022/Sammy.png" alt="Sammy">
+      <div class="info">
+        <h3>Sammy</h3>
+        <p>AGENT-S, un-citadelified.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/oh no.png" data-full="/pages/art/myart/2022/oh no.png" alt="oh no">
+      <div class="info">
+        <h3>oh no</h3>
+        <p>What.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/SOTD drip.png" data-full="/pages/art/myart/2022/SOTD drip.png" alt="SOTD drip">
+      <div class="info">
+        <h3>SOTD drip</h3>
+        <p>You know what image this is referencing.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Vladimir.png" data-full="/pages/art/myart/2022/Vladimir.png" alt="Vladimir">
+      <div class="info">
+        <h3>Vladimir</h3>
+        <p>Dumb doodle of big Vlad.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/sadness combatt.png" data-full="/pages/art/myart/2022/sadness combatt.png" alt="sadness combatt">
+      <div class="info">
+        <h3>sadness combatt</h3>
+        <p>Pretty relatable, art. Piece.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/skullssz.png" data-full="/pages/art/myart/2022/skullssz.png" alt="skullssz">
+      <div class="info">
+        <h3>skullssz</h3>
+        <p>Zombones.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/C. Scientist.png" data-full="/pages/art/myart/2022/C. Scientist.png" alt="C. Scientist">
+      <div class="info">
+        <h3>C. Scientist</h3>
+        <p>Idea for how citadelarian scientists probably look like.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Ferds.png" data-full="/pages/art/myart/2022/Ferds.png" alt="Ferds">
+      <div class="info">
+        <h3>Ferds</h3>
+        <p>Variations of Ferd planned for SOTD 2.5. Leftmost is a monstrous Ferd eventually repurposed into Ferolicious, a character in Angels & Demons. Center is the Ferd we all know and love. Rightmost is Bill Nebula, their name and personality have barely changed.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/not good.png" data-full="/pages/art/myart/2022/not good.png" alt="not good">
+      <div class="info">
+        <h3>not good</h3>
+        <p>ROSE giving you a thumbs down for a probably good reason.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Jess.png" data-full="/pages/art/myart/2022/Jess.png" alt="Jess">
+      <div class="info">
+        <h3>Jess</h3>
+        <p>Doodle of Jess. The orange slime character.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Maxie color.png" data-full="/pages/art/myart/2022/Maxie color.png" alt="Maxie color">
+      <div class="info">
+        <h3>Maxie color</h3>
+        <p>Colored doodle of Maxie's sketch from 2021.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Vladimir 3.png" data-full="/pages/art/myart/2022/Vladimir 3.png" alt="Vladimir 3">
+      <div class="info">
+        <h3>Vladimir 3</h3>
+        <p>Colored doodle of Vlad.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Rough Concept 1.png" data-full="/pages/art/myart/2022/Rough Concept 1.png" alt="Rough Concept 1">
+      <div class="info">
+        <h3>Rough Concept 1</h3>
+        <p>Ideas for a videogame that never lived.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/skull fall blur.png" data-full="/pages/art/myart/2022/skull fall blur.png" alt="skull fall blur">
+      <div class="info">
+        <h3>skull fall blur</h3>
+        <p>Stupid panda falls off a tree branch.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/IATOTBAC.png" data-full="/pages/art/myart/2022/IATOTBAC.png" alt="IATOTBAC">
+      <div class="info">
+        <h3>IATOTBAC</h3>
+        <p>Concept of a large machination designed by ROSE. Did you know that stands for "I Am Tired Of The Bears And Cats?"</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Factions.png" data-full="/pages/art/myart/2022/Factions.png" alt="Factions">
+      <div class="info">
+        <h3>Factions</h3>
+        <p>Early doodles of groups and all that stuff. By this point I moved from illustrator and went back to photoshop.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/skull bear.png" data-full="/pages/art/myart/2022/skull bear.png" alt="skull bear">
+      <div class="info">
+        <h3>skull bear</h3>
+        <p>Ena.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Uh oh.png" data-full="/pages/art/myart/2022/Uh oh.png" alt="Uh oh">
+      <div class="info">
+        <h3>Uh oh</h3>
+        <p>I drew this to show the size difference between the average citadelarian and Leinad.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Hi.png" data-full="/pages/art/myart/2022/Hi.png" alt="Hi">
+      <div class="info">
+        <h3>Hi</h3>
+        <p>Crazy sketch of lunatic J3remia.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Sammy and Ena.png" data-full="/pages/art/myart/2022/Sammy and Ena.png" alt="Sammy and Ena">
+      <div class="info">
+        <h3>Sammy and Ena</h3>
+        <p>Post 2.5 ideas.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Death.png" data-full="/pages/art/myart/2022/Death.png" alt="Death">
+      <div class="info">
+        <h3>Death</h3>
+        <p>I like this one.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/SOTD2.png" data-full="/pages/art/myart/2022/SOTD2.png" alt="SOTD2">
+      <div class="info">
+        <h3>SOTD2</h3>
+        <p>SOTD 2 title idea.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Mr. Boom concept.png" data-full="/pages/art/myart/2022/Mr. Boom concept.png" alt="Mr. Boom concept">
+      <div class="info">
+        <h3>Mr. Boom concept</h3>
+        <p>THE GAME's boss idea.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Young.png" data-full="/pages/art/myart/2022/Young.png" alt="Young">
+      <div class="info">
+        <h3>Young</h3>
+        <p>First sketch of young Ena. Sucks.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Magnus 1.png" data-full="/pages/art/myart/2022/Magnus 1.png" alt="Magnus 1">
+      <div class="info">
+        <h3>Magnus 1</h3>
+        <p>First sketch of Magnus.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Magnus.png" data-full="/pages/art/myart/2022/Magnus.png" alt="Magnus">
+      <div class="info">
+        <h3>Magnus</h3>
+        <p>Colored sketch of Magnus.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Sammy grown up.png" data-full="/pages/art/myart/2022/Sammy grown up.png" alt="Sammy grown up">
+      <div class="info">
+        <h3>Sammy grown up</h3>
+        <p>Grown up Sammy... Only time she looks like this.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Broken Hearted Ena.png" data-full="/pages/art/myart/2022/Broken Hearted Ena.png" alt="Broken Hearted Ena">
+      <div class="info">
+        <h3>Broken Hearted Ena</h3>
+        <p>Idea for a crazy Ena variant. Kinda hits home.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Them.png" data-full="/pages/art/myart/2022/Them.png" alt="Them">
+      <div class="info">
+        <h3>Them</h3>
+        <p>Character concepts for two kid characters.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Olm.png" data-full="/pages/art/myart/2022/Olm.png" alt="Olm">
+      <div class="info">
+        <h3>Olm</h3>
+        <p>The Olm does nothing but watch.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Gods of SOTDS.png" data-full="/pages/art/myart/2022/Gods of SOTDS.png" alt="Gods of SOTDS">
+      <div class="info">
+        <h3>Gods of SOTDS</h3>
+        <p>This was just me pouring out some random ideas. That's my old sona at the top left.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Ferd with Cheese background and name.png" data-full="/pages/art/myart/2022/Ferd with Cheese background and name.png" alt="Ferd with Cheese background and name">
+      <div class="info">
+        <h3>Ferd with Cheese background and name</h3>
+        <p>Take a look at this guy!</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/The Advanced.png" data-full="/pages/art/myart/2022/The Advanced.png" alt="The Advanced">
+      <div class="info">
+        <h3>The Advanced</h3>
+        <p>Magnus and ROSE.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/KILL BILL ENA.png" data-full="/pages/art/myart/2022/KILL BILL ENA.png" alt="KILL BILL ENA">
+      <div class="info">
+        <h3>KILL BILL ENA</h3>
+        <p>Fanart.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/weed.png" data-full="/pages/art/myart/2022/weed.png" alt="weed">
+      <div class="info">
+        <h3>weed</h3>
+        <p>I was in a discord call one time explaining the entirety of SOTD's lore to my friends. Nothing here makes sense.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Ferd in 2.5.png" data-full="/pages/art/myart/2022/Ferd in 2.5.png" alt="Ferd in 2.5">
+      <div class="info">
+        <h3>Ferd in 2.5</h3>
+        <p>Ferd and his demons.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/villainz.png" data-full="/pages/art/myart/2022/villainz.png" alt="villainz">
+      <div class="info">
+        <h3>villainz</h3>
+        <p>Unfinished sketch of a villain club.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Agents S and Ena.png" data-full="/pages/art/myart/2022/Agents S and Ena.png" alt="Agents S and Ena">
+      <div class="info">
+        <h3>Agents S and Ena</h3>
+        <p>Unfinished doodle.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/God Rose.png" data-full="/pages/art/myart/2022/God Rose.png" alt="God Rose">
+      <div class="info">
+        <h3>God Rose</h3>
+        <p>What was the point of this?</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/SOTD COVER 1.png" data-full="/pages/art/myart/2022/SOTD COVER 1.png" alt="SOTD COVER 1">
+      <div class="info">
+        <h3>SOTD COVER 1</h3>
+        <p>Pretty chaotic doodle of general SOTD.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Rose in Paint.png" data-full="/pages/art/myart/2022/Rose in Paint.png" alt="Rose in Paint">
+      <div class="info">
+        <h3>Rose in Paint</h3>
+        <p>I did this in windows paint.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/2 Sketch Unfinished.png" data-full="/pages/art/myart/2022/2 Sketch Unfinished.png" alt="2 Sketch Unfinished">
+      <div class="info">
+        <h3>2 Sketch Unfinished</h3>
+        <p>Remember that THE GAME comic page from earlier? This is the second page for it, never finished.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Ena and Ferd CN sketch.png" data-full="/pages/art/myart/2022/Ena and Ferd CN sketch.png" alt="Ena and Ferd CN sketch">
+      <div class="info">
+        <h3>Ena and Ferd CN sketch</h3>
+        <p>Why's he popcorn sized here.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/The Citadel Cityscape.png" data-full="/pages/art/myart/2022/The Citadel Cityscape.png" alt="The Citadel Cityscape">
+      <div class="info">
+        <h3>The Citadel Cityscape</h3>
+        <p>This was a school assignment.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/SOTD LOGO with background BUT SMALLER.png" data-full="/pages/art/myart/2022/SOTD LOGO with background BUT SMALLER.png" alt="SOTD LOGO with background BUT SMALLER">
+      <div class="info">
+        <h3>SOTD LOGO with background BUT SMALLER</h3>
+        <p>First ever title design for SOTD unveiled.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/hmm.png" data-full="/pages/art/myart/2022/hmm.png" alt="hmm">
+      <div class="info">
+        <h3>hmm</h3>
+        <p>Last save before I stopped working on this completely. Really fun to go through, features many characters you may see on the website today.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Leinad God.png" data-full="/pages/art/myart/2022/Leinad God.png" alt="Leinad God">
+      <div class="info">
+        <h3>Leinad God</h3>
+        <p>One of the first sketches of Leinad's true form.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Rose in clip studio.png" data-full="/pages/art/myart/2022/Rose in clip studio.png" alt="Rose in clip studio">
+      <div class="info">
+        <h3>Rose in clip studio</h3>
+        <p>I got a drawing tablet here along a drawing program that I still use to this day, at the time of writing this.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Citadelarian Jump.gif" data-full="/pages/art/myart/2022/Citadelarian Jump.gif" alt="Citadelarian Jump.gif">
+      <div class="info">
+        <h3>Citadelarian Jump.gif</h3>
+        <p>Attempt at animation.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Skull bear 2.png" data-full="/pages/art/myart/2022/Skull bear 2.png" alt="Skull bear 2">
+      <div class="info">
+        <h3>Skull bear 2</h3>
+        <p>Same ol' Ena.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Ena Lone reference.jpg" data-full="/pages/art/myart/2022/Ena Lone reference.jpg" alt="Ena Lone reference.jpg">
+      <div class="info">
+        <h3>Ena Lone reference</h3>
+        <p>First complete reference sheet for Ena Lone.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Rose Reference Sketch.png" data-full="/pages/art/myart/2022/Rose Reference Sketch.png" alt="Rose Reference Sketch">
+      <div class="info">
+        <h3>Rose Reference Sketch</h3>
+        <p>Unfinished reference for ROSE.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/SOTD COVER 2.png" data-full="/pages/art/myart/2022/SOTD COVER 2.png" alt="SOTD COVER 2">
+      <div class="info">
+        <h3>SOTD COVER 2</h3>
+        <p>Cover concept for SOTD 2.5.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/SOTD COVER 3.png" data-full="/pages/art/myart/2022/SOTD COVER 3.png" alt="SOTD COVER 3">
+      <div class="info">
+        <h3>SOTD COVER 3</h3>
+        <p>Another cover concept for SOTD 2.5.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Design 1.png" data-full="/pages/art/myart/2022/Design 1.png" alt="Design 1">
+      <div class="info">
+        <h3>Design 1</h3>
+        <p>Old design for SOTD 1's protagonist.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Illustration2.png" data-full="/pages/art/myart/2022/Illustration2.png" alt="Illustration2">
+      <div class="info">
+        <h3>Illustration2</h3>
+        <p>I was figuring it out.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/SOTD Furs.png" data-full="/pages/art/myart/2022/SOTD Furs.png" alt="SOTD Furs">
+      <div class="info">
+        <h3>SOTD Furs</h3>
+        <p>SOTD furries. Has Mafia on the left.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/El rose.png" data-full="/pages/art/myart/2022/El rose.png" alt="El rose">
+      <div class="info">
+        <h3>El rose</h3>
+        <p>ROSE.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Samsy.png" data-full="/pages/art/myart/2022/Samsy.png" alt="Samsy">
+      <div class="info">
+        <h3>Samsy</h3>
+        <p>Cooler, more finalized concept of Sammy.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Alliance.png" data-full="/pages/art/myart/2022/Alliance.png" alt="Alliance">
+      <div class="info">
+        <h3>Alliance</h3>
+        <p>Citadelarians allying with my first Spore creature that you may see on the website.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/2.5.png" data-full="/pages/art/myart/2022/2.5.png" alt="2.5">
+      <div class="info">
+        <h3>2.5</h3>
+        <p>2022's cool cover for SOTD 2.5.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Galaxy Aggie 1.png" data-full="/pages/art/myart/2022/Galaxy Aggie 1.png" alt="Galaxy Aggie 1">
+      <div class="info">
+        <h3>Galaxy Aggie 1</h3>
+        <p>Public drawing board where it was usually just me.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/The RETAINER.png" data-full="/pages/art/myart/2022/The RETAINER.png" alt="The RETAINER">
+      <div class="info">
+        <h3>The RETAINER</h3>
+        <p>Retainer citadelarian concept.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/OG Promo.jpg" data-full="/pages/art/myart/2022/OG Promo.jpg" alt="OG Promo">
+      <div class="info">
+        <h3>OG Promo</h3>
+        <p>Otherworldly Games doodle. Features Emma Hindue in SOTD for the first time.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Vlad Sketch.png" data-full="/pages/art/myart/2022/Vlad Sketch.png" alt="Vlad Sketch">
+      <div class="info">
+        <h3>Vlad Sketch</h3>
+        <p>Sketch for Vladimir's reference.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/VLADIMIR Reference.jpg" data-full="/pages/art/myart/2022/VLADIMIR Reference.jpg" alt="VLADIMIR Reference">
+      <div class="info">
+        <h3>VLADIMIR Reference</h3>
+        <p>Big Vlad's first reference.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Back to Dead.png" data-full="/pages/art/myart/2022/Back to Dead.png" alt="Back to Dead">
+      <div class="info">
+        <h3>Back to Dead</h3>
+        <p>Chaotic sketch of Ferd going through a purr-gatory.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/LIMBS.png" data-full="/pages/art/myart/2022/LIMBS.png" alt="LIMBS">
+      <div class="info">
+        <h3>LIMBS</h3>
+        <p>Citadelarian with... Limbs.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/rose tower sketch.png" data-full="/pages/art/myart/2022/rose tower sketch.png" alt="rose tower sketch">
+      <div class="info">
+        <h3>rose tower sketch</h3>
+        <p>Sketch of ROSE's underground citadelarian tower.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Final Timeline.png" data-full="/pages/art/myart/2022/Final Timeline.png" alt="Final Timeline">
+      <div class="info">
+        <h3>Final Timeline</h3>
+        <p>Sketch of a giant machine built with the help of every character for SOTD's old finale. Used to be my signature.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Team Fortress CAT.jpg" data-full="/pages/art/myart/2022/Team Fortress CAT.jpg" alt="Team Fortress CAT">
+      <div class="info">
+        <h3>Team Fortress CAT</h3>
+        <p>Ferd headshot in the Team Fortress 2 achievement style. Do you remember that twitter trend?</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Victorious Sketch.png" data-full="/pages/art/myart/2022/Victorious Sketch.png" alt="Victorious Sketch">
+      <div class="info">
+        <h3>Victorious Sketch</h3>
+        <p>Sketch of an alternate good ending for SOTD 2.5.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Le Smoochies.png" data-full="/pages/art/myart/2022/Le Smoochies.png" alt="Le Smoochies">
+      <div class="info">
+        <h3>Le Smoochies</h3>
+        <p>Drawing inspired by the cursed Marvel Fortnite comic panel.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Big robot lady.png" data-full="/pages/art/myart/2022/Big robot lady.png" alt="Big robot lady">
+      <div class="info">
+        <h3>Big robot lady</h3>
+        <p>J3remia in all her glory.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Ferd Gay.png" data-full="/pages/art/myart/2022/Ferd Gay.png" alt="Ferd Gay">
+      <div class="info">
+        <h3>Ferd Gay</h3>
+        <p>Mia asked me to draw this.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Ferd creature.png" data-full="/pages/art/myart/2022/Ferd creature.png" alt="Ferd creature">
+      <div class="info">
+        <h3>Ferd creature</h3>
+        <p>Stupid despicable creature.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Glorious Victory.jpg" data-full="/pages/art/myart/2022/Glorious Victory.jpg" alt="Glorious Victory">
+      <div class="info">
+        <h3>Glorious Victory</h3>
+        <p>SOTD 2.5's happy alternate ending.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Sammy quick reference.png" data-full="/pages/art/myart/2022/Sammy quick reference.png" alt="Sammy quick reference">
+      <div class="info">
+        <h3>Sammy quick reference</h3>
+        <p>Self explanatory title.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Sammy reference HEAD.png" data-full="/pages/art/myart/2022/Sammy reference HEAD.png" alt="Sammy reference HEAD">
+      <div class="info">
+        <h3>Sammy reference HEAD</h3>
+        <p>Self explanatory title.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Ferd WTF.png" data-full="/pages/art/myart/2022/Ferd WTF.png" alt="Ferd WTF">
+      <div class="info">
+        <h3>Ferd WTF</h3>
+        <p>Emoji idea... I think?</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Ena Troll.png" data-full="/pages/art/myart/2022/Ena Troll.png" alt="Ena Troll">
+      <div class="info">
+        <h3>Ena Troll</h3>
+        <p>Emoji idea... I think?</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Sammy ZOOM.png" data-full="/pages/art/myart/2022/Sammy ZOOM.png" alt="Sammy ZOOM">
+      <div class="info">
+        <h3>Sammy ZOOM</h3>
+        <p>Silly perspective shot of samsung.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Sammy cry.png" data-full="/pages/art/myart/2022/Sammy cry.png" alt="Sammy cry">
+      <div class="info">
+        <h3>Sammy cry</h3>
+        <p>Real.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Rose Kick.png" data-full="/pages/art/myart/2022/Rose Kick.png" alt="Rose Kick">
+      <div class="info">
+        <h3>Rose Kick</h3>
+        <p>DIE SAMMY DIE!!!</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Mia citadelarian.png" data-full="/pages/art/myart/2022/Mia citadelarian.png" alt="Mia citadelarian">
+      <div class="info">
+        <h3>Mia citadelarian</h3>
+        <p>Mia as a citadelarian getting choked by Ena wow.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/5 gay rats CITADEL.png" data-full="/pages/art/myart/2022/5 gay rats CITADEL.png" alt="5 gay rats CITADEL">
+      <div class="info">
+        <h3>5 gay rats CITADEL</h3>
+        <p>My friendgroup as citadelarian agents.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Blunt.png" data-full="/pages/art/myart/2022/Blunt.png" alt="Blunt">
+      <div class="info">
+        <h3>Blunt</h3>
+        <p>Venus flytrap character concept you may see this guy on the website.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Rail Blunt.png" data-full="/pages/art/myart/2022/Rail Blunt.png" alt="Rail Blunt">
+      <div class="info">
+        <h3>Rail Blunt</h3>
+        <p>Blunt with his personal railgun.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/SOTD 1 CHARACTERS.png" data-full="/pages/art/myart/2022/SOTD 1 CHARACTERS.png" alt="SOTD 1 CHARACTERS">
+      <div class="info">
+        <h3>SOTD 1 CHARACTERS</h3>
+        <p>SOTD 1 character headshot compilation.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Hex Hex Hex.png" data-full="/pages/art/myart/2022/Hex Hex Hex.png" alt="Hex Hex Hex">
+      <div class="info">
+        <h3>Hex Hex Hex</h3>
+        <p>One of Leinad's evil bad guy sidekicks. I later repurposed this whole idea into the Seventh we all know today.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/SOTD 3.png" data-full="/pages/art/myart/2022/SOTD 3.png" alt="SOTD 3">
+      <div class="info">
+        <h3>SOTD 3</h3>
+        <p>An attempt at another huge drawing that never made it anywhere.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Baby's first steps.gif" data-full="/pages/art/myart/2022/Baby's first steps.gif" alt="Baby's first steps">
+      <div class="info">
+        <h3>Baby's first steps</h3>
+        <p>Animation, again.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Romeo.png" data-full="/pages/art/myart/2022/Romeo.png" alt="Romeo">
+      <div class="info">
+        <h3>Romeo</h3>
+        <p>Cool doodle of ROSE.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Transformation.png" data-full="/pages/art/myart/2022/Transformation.png" alt="Transformation">
+      <div class="info">
+        <h3>Transformation</h3>
+        <p>Yeah, I don't know what this is.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/walker.png" data-full="/pages/art/myart/2022/walker.png" alt="walker">
+      <div class="info">
+        <h3>walker</h3>
+        <p>Silly doodle of the PRISM walker.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Realism.png" data-full="/pages/art/myart/2022/Realism.png" alt="Realism">
+      <div class="info">
+        <h3>Realism</h3>
+        <p>All I remember from these is that I drew them during a really rough time.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/SOTD Icon.png" data-full="/pages/art/myart/2022/SOTD Icon.png" alt="SOTD Icon">
+      <div class="info">
+        <h3>SOTD Icon</h3>
+        <p>My attempt at a desktop orb for SOTD.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Jamania.png" data-full="/pages/art/myart/2022/Jamania.png" alt="Jamania">
+      <div class="info">
+        <h3>Jamania</h3>
+        <p>Citadelarian screen head character concept. Present in the Otherworldly Games I think.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Queena Lone.png" data-full="/pages/art/myart/2022/Queena Lone.png" alt="Queena Lone">
+      <div class="info">
+        <h3>Queena Lone</h3>
+        <p>Queen sized Ena Lone variant.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Doodles.png" data-full="/pages/art/myart/2022/Doodles.png" alt="Doodles">
+      <div class="info">
+        <h3>Doodles</h3>
+        <p>Just whatever.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Skully Lone.png" data-full="/pages/art/myart/2022/Skully Lone.png" alt="Skully Lone">
+      <div class="info">
+        <h3>Skully Lone</h3>
+        <p>One of Emma Hindue's first character sketches.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Toby and Ferd.png" data-full="/pages/art/myart/2022/Toby and Ferd.png" alt="Toby and Ferd">
+      <div class="info">
+        <h3>Toby and Ferd</h3>
+        <p>My first sketch of Manny's Toby.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Protagonists.png" data-full="/pages/art/myart/2022/Protagonists.png" alt="Protagonists">
+      <div class="info">
+        <h3>Protagonists</h3>
+        <p>Self explanatory title.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Issue 1 Page 1 Draft.png" data-full="/pages/art/myart/2022/Issue 1 Page 1 Draft.png" alt="Issue 1 Page 1 Draft">
+      <div class="info">
+        <h3>Issue 1 Page 1 Draft</h3>
+        <p>Another comic that never went anywhere. This was for SOTD 1.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Maus II.png" data-full="/pages/art/myart/2022/Maus II.png" alt="Maus II">
+      <div class="info">
+        <h3>Maus II</h3>
+        <p>ROSE with his crazy modified Maus tank I still really like this one.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Citadelarian ultimate reference.png" data-full="/pages/art/myart/2022/Citadelarian ultimate reference.png" alt="Citadelarian ultimate reference">
+      <div class="info">
+        <h3>Citadelarian ultimate reference</h3>
+        <p>Old citadelarian reference sheet.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Green Expansion.png" data-full="/pages/art/myart/2022/Green Expansion.png" alt="Green Expansion">
+      <div class="info">
+        <h3>Green Expansion</h3>
+        <p>Was supposed to be a pretty big piece, gave up.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/5KU11Y.png" data-full="/pages/art/myart/2022/5KU11Y.png" alt="5KU11Y">
+      <div class="info">
+        <h3>5KU11Y</h3>
+        <p>A cartoonish doodle of a planet where Otherworldly Games took place.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Citadelarian Idea Sheet.png" data-full="/pages/art/myart/2022/Citadelarian Idea Sheet.png" alt="Citadelarian Idea Sheet">
+      <div class="info">
+        <h3>Citadelarian Idea Sheet</h3>
+        <p>Board meant for many various shapes and sizes of citadelarians. Gave up on it.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Maro Movie.png" data-full="/pages/art/myart/2022/Maro Movie.png" alt="Maro Movie">
+      <div class="info">
+        <h3>Maro Movie</h3>
+        <p>Redraw of a scene, gave up on it.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/the citadel outskirts.png" data-full="/pages/art/myart/2022/the citadel outskirts.png" alt="the citadel outskirts">
+      <div class="info">
+        <h3>the citadel outskirts</h3>
+        <p>I gave up on this.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Linga Lone minon.png" data-full="/pages/art/myart/2022/Linga Lone minon.png" alt="Linga Lone minon">
+      <div class="info">
+        <h3>Linga Lone minon</h3>
+        <p>Queena Lone's minions. Isn't this familiar?</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Concepts Yea.png" data-full="/pages/art/myart/2022/Concepts Yea.png" alt="Concepts Yea">
+      <div class="info">
+        <h3>Concepts Yea</h3>
+        <p>THE GAME concepts and ideas.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Enalution.png" data-full="/pages/art/myart/2022/Enalution.png" alt="Enalution">
+      <div class="info">
+        <h3>Enalution</h3>
+        <p>Ena Lone growing up.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/They.png" data-full="/pages/art/myart/2022/They.png" alt="They">
+      <div class="info">
+        <h3>They</h3>
+        <p>THE GAME character sketches.</p>
+      </div>
+    </div>
+
+    <div class="piece">
+      <img src="/pages/art/myart/2022/Skully Lone Painted.png" data-full="/pages/art/myart/2022/Skully Lone Painted.png" alt="Skully Lone Painted">
+      <div class="info">
+        <h3>Skully Lone Painted</h3>
+        <p>I tried painting.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="next">
+    <a href="/pages/art/a2023/index.html">2023</a>
+  </div>
+
+  <div id="lightbox">
+    <div id="lb-box">
+      <button id="lb-close" type="button">[x]</button>
+      <img id="lb-img" src="" alt="">
+      <h2 id="lb-title"></h2>
+      <div id="lb-desc"></div>
+    </div>
+  </div>
+
+<script>
+  var lightbox = document.getElementById('lightbox');
+  var lbImg = document.getElementById('lb-img');
+  var lbTitle = document.getElementById('lb-title');
+  var lbDesc = document.getElementById('lb-desc');
+
+  function openPiece(piece) {
+    var img = piece.querySelector('img');
+    var info = piece.querySelector('.info');
+    var title = info.querySelector('h3');
+
+    lbImg.src = img.getAttribute('data-full') || img.src;
+    lbImg.alt = img.alt;
+    lbTitle.textContent = title ? title.textContent : '';
+
+    var rest = info.cloneNode(true);
+    var t = rest.querySelector('h3');
+    if (t) t.remove();
+    lbDesc.innerHTML = rest.innerHTML;
+
+    lightbox.classList.add('open');
+    lightbox.scrollTop = 0;
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.piece').forEach(function (p) {
+    p.addEventListener('click', function () { openPiece(p); });
+  });
+
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.getElementById('lb-close').addEventListener('click', closeLightbox);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>
+</body>
+</html>
