@@ -9,7 +9,7 @@ const NAV_ROUTES = {
     Nature: "/pages/nature/",
     Art: "/pages/art/",
     Shop: "/pages/pardonourdust/",
-    Contact: "/pages/contact/"
+    Contact: "/pages/pardonourdust//"
 }
 
 function initNavBar() {
