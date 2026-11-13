@@ -214,5 +214,41 @@
         "name": "Sweetie",
         "thumbnail": "sweetieThumb.png",
         "flavorText": "Houston March's beloved pet cat. Ominously intelligent."
+    },
+        {
+        "id": "hitchcock",
+        "name": "St. Hitchcock",
+        "thumbnail": "hitchcockthumb.png",
+        "flavorText": "A veteran of catastrophic war that simply never existed. Claims to be many ridiculous things, fights for a so called \"Holy Earth.\""
+    },
+        {
+        "id": "lips",
+        "name": "Lucy 'Lips' Herbanov",
+        "thumbnail": "lipsthumb.png",
+        "flavorText": "A swole commander of a small Disobedient scrap group assigned to Onder-5. Talking back is a free trip to the hospital."
+    },
+        {
+        "id": "moimo",
+        "name": "Moimo",
+        "thumbnail": "moimothumb.png",
+        "flavorText": "A little Xin who knows a lot about darker magic. Somehow able to form coherent sentences. A light breeze can sweep them away."
+    },
+        {
+        "id": "violet",
+        "name": "VIOLET",
+        "thumbnail": "violetthumb.png",
+        "flavorText": "A well known citadelarian pop star idol. Often looked at for her unusual giant glistening eye. Doesn't endorse the Citadel's politics."
+    },
+        {
+        "id": "warnie",
+        "name": "Lila 'Warnie' Sagnina",
+        "thumbnail": "warniethumb.png",
+        "flavorText": "The greatest OSHA manager. You better wear a reflective vest and abide all safety rules when she's around, or else..."
+    },
+        {
+        "id": "zarichCooper",
+        "name": "Zarich Vin Cooper",
+        "thumbnail": "zarichthumb.png",
+        "flavorText": "A very well known Xin terrorist who hates everyone and everything else. Commits all crime for the love of the game."
     }
 ]
