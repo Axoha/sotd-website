@@ -339,17 +339,17 @@
             {
                 "title": "",
                 "file": "Jinx1.png",
-                "credits": "by @Radropicall"
+                "credits": "Kat (Radropicall)"
             },
             {
                 "title": "",
                 "file": "Jinx2.png",
-                "credits": "by @Radropicall"
+                "credits": "Kat (Radropicall)"
             },
             {
                 "title": "",
                 "file": "Jinx3.png",
-                "credits": "by @Radropicall"
+                "credits": "Kat (Radropicall)"
             }
         ],
         "blockOne": {
@@ -376,7 +376,7 @@
                     "<i><a href=\"/pages/cast/characters/index.html?id=toby\">Toby</a> (Bestie)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=alice\">Alice</a> (Friend)</i>",
                     "<i><a href=\"/pages/cast/characters/index.html?id=sophie\">Sophie</a> (Acquaintance)</i>",
-                    "<i><a href=\"/pages/cast/characters/index.html?id=error\">\"Skater Boy\"</a> (Acquaintance)</i>"
+                    "<i><a href=\"/pages/cast/characters/index.html?id=skaterboy\">\"Skater Boy\"</a> (Acquaintance)</i>"
                 ]
             }
         ]
@@ -426,7 +426,13 @@
     "toby": {
         "name": "Toby",
         "title": "Local Sexyman",
-        "images": [],
+        "images": [
+            {
+                "title": "",
+                "file": "Toby1.png",
+                "credits": "Kat (Radropicall)"
+            }
+        ],
         "blockOne": {
             "Author": "Trash7129",
             "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
@@ -460,7 +466,13 @@
     "taylor": {
     "name": "Taylor",
     "title": "Rabittoid",
-    "images": [],
+        "images": [
+            {
+                "title": "",
+                "file": "Taylor1.png",
+                "credits": "Kat (Radropicall)"
+            }
+        ],
     "blockOne": {
       "Author": "Taxtapy",
       "Sources": "New Babylon: Uninteresting Anthropomorphs Vol.85594. Shortened for the reader's convenience.",
@@ -653,7 +665,7 @@
             {
                 "title": "",
                 "file": "Houston1.png",
-                "credits": "by @Radropicall"
+                "credits": "Kat (Radropicall)"
             }
         ],
         "blockOne": {
@@ -1082,8 +1094,8 @@
         "images": [
             {
                 "title": "",
-                "file": ".png",
-                "credits": ""
+                "file": "Skater1.png",
+                "credits": "Kat (Radropicall)"
             }
         ],
         "blockOne": {
@@ -1331,8 +1343,8 @@
         "images": [
             {
                 "title": "",
-                "file": ".png",
-                "credits": ""
+                "file": "Sophie1.png",
+                "credits": "Kat (Radropicall)"
             }
         ],
         "blockOne": {
