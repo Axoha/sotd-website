@@ -31,7 +31,7 @@
         {
             "designation": "SERIES I",
             "chapterId": "5-twings",
-            "title": "Totally Wind",
+            "title": "Totally Twings",
             "file": "5-twings.md"
         },
         {
@@ -87,6 +87,36 @@
             "chapterId": "14-experiment",
             "title": "Totally Experiment",
             "file": "14-experiment.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "15-gamer",
+            "title": "Totally Gamer",
+            "file": "15-gamer.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "16-comic",
+            "title": "Totally Comic",
+            "file": "16-comic.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "17-workout",
+            "title": "Totally Workout",
+            "file": "17-workout.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "18-company",
+            "title": "Totally Company",
+            "file": "18-company.md"
+        },
+        {
+            "designation": "SERIES I",
+            "chapterId": "19-hangover",
+            "title": "Totally Hangover",
+            "file": "19-hangover.md"
         }
     ]
 }
