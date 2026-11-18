@@ -1,5 +1,14 @@
 [
     {
+        "id": "2026-11-18",
+        "boxType": "Announcement",
+        "thumbnail": "2026-11-18.png",
+        "title": "First Newsletter",
+        "body": "The first newsletter where I talk about the website and what to expect in the future.",
+        "publishTime": "2026-11-18 12:00",
+        "file": "2026-11-18.md"
+    },
+    {
         "id": "2026-1-23",
         "boxType": "QuestionMark",
         "thumbnail": "2026-1-23.png",
@@ -43,6 +52,15 @@
         "body": "Archived old announcement.",
         "publishTime": "2024-12-24 02:50",
         "file": "2024-12-24.md"
+    },
+    {
+        "id": "2024-10-25",
+        "boxType": "Announcement",
+        "thumbnail": "2024-10-25.png",
+        "title": "OG: SECTOR ZERO Fortnite Map Release",
+        "body": "Archived old post.",
+        "publishTime": "2024-10-25 06:00",
+        "file": "2024-10-25.md"
     },
     {
         "id": "2024-9-20",
