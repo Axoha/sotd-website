@@ -1,3 +1,5 @@
+**This chapter is scrapped and no longer canon in any way.**
+
 In the fields of white, two lovers lay. The King and the Queen, exhausted, but free. The castle looms from afar, the sky is blue. They both get up, slowly, but after seeing each other they run through the fields to greet. They clash in a tight hug, embracing one another, letting their love finally take place without the worlds ending.
 
 "It's been far too long." Ena pours into his shoulder, "I can breathe, I am free, you're finally with me."

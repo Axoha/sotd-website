@@ -5,6 +5,12 @@
     "cover": "cover.png",
     "chapters": [
         {
+            "designation": "Before Reading",
+            "chapterId": "0-A",
+            "title": "AUTHOR'S NOTE",
+            "file": "0-A.md"
+        },
+        {
             "designation": "PRELUDE",
             "chapterId": "0-prelude",
             "title": "The Cat and The Bear",
@@ -219,6 +225,12 @@
             "chapterId": "35-queen",
             "title": "The Queen Of Creation",
             "file": "35-queen.md"
+        },
+        {
+            "designation": "THE END",
+            "chapterId": "38-end",
+            "title": "Full Circle",
+            "file": "38-end.md"
         },
         {
             "designation": "UNINTELLIGIBLE",

@@ -5,6 +5,12 @@
     "cover": "cover.png",
     "chapters": [
         {
+            "designation": "Before Reading",
+            "chapterId": "0-A",
+            "title": "AUTHOR'S NOTE",
+            "file": "0-A.md"
+        },
+        {
             "designation": "PRELUDE",
             "chapterId": "0-prelude",
             "title": "The Age Of Time And Space",

@@ -5,6 +5,12 @@
     "cover": "cover.png",
     "chapters": [
         {
+            "designation": "Before Reading",
+            "chapterId": "0-A",
+            "title": "AUTHOR'S NOTE",
+            "file": "0-A.md"
+        },
+        {
             "designation": "ACTOLOGUE IV CHAPTEREND I",
             "chapterId": "0-morning",
             "title": "Mornings",

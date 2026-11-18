@@ -1,3 +1,5 @@
+**This chapter is scrapped and no longer canon in any way.**
+
 "...The 'Monochrome Era', on this day, is announced to be over!"
 
 "...I'll be your host, Marie Stephanson, the Genkatan is destroyed! The whole monochrome threat is gone! What?!"
