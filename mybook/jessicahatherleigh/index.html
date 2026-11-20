@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jessica Hatherleigh | MyBook</title>
+<style>
+:root{
+  --accent:#b30fb0;
+  --accent-dk:color-mix(in srgb,var(--accent) 78%,#000);
+  --page:#fff;
+  --panel:#fff;
+  --panel-2:#e1e1e1;
+  --text:#111;
+  --muted:#7d7d7d;
+  --line:#d4d4d4;
+  --frame:#111;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--text);font:13px/1.35 "Segoe UI",Tahoma,"Helvetica Neue",Arial,sans-serif;min-height:100vh}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--accent);z-index:10}
+a{color:var(--accent);text-decoration:none;font-weight:600}
+a:hover{text-decoration:underline}
+
+/* top bar */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;height:52px;background:linear-gradient(var(--accent),var(--accent-dk));border-bottom:1px solid rgba(0,0,0,.25);box-shadow:0 1px 4px rgba(0,0,0,.3)}
+.top-in{max-width:902px;margin:0 auto;height:100%;display:flex;align-items:center;gap:16px;padding:0 8px}
+.logo{color:#fff;font-size:27px;font-weight:700;letter-spacing:-.3px;text-shadow:0 1px 1px rgba(0,0,0,.3);margin-right:6px;white-space:nowrap}
+.logo:hover{text-decoration:none}
+.top nav{display:flex;gap:16px}
+.top nav a{color:#fff;font-size:18px;text-shadow:0 1px 1px rgba(0,0,0,.25)}
+.net{display:flex;align-items:center;gap:6px;color:#fff;font-size:12px;line-height:1.05;margin-left:auto}
+.net b{font-weight:400}
+.globe{display:block;width:30px;height:30px;flex:none;object-fit:contain}
+.search{display:flex;width:352px;max-width:100%;height:27px;background:#fff;border:1px solid rgba(0,0,0,.3)}
+.search input{flex:1;min-width:0;border:0;padding:0 6px;font:inherit;font-size:14px;color:#333;background:transparent;outline:0}
+.search button{width:34px;border:0;border-left:1px solid #ccc;background:linear-gradient(#fafafa,#e6e6e6);cursor:pointer}
+
+/* layout */
+.wrap{max-width:902px;margin:0 auto;padding-bottom:30px}
+.box{background:var(--panel);border:1px solid rgba(0,0,0,.2);box-shadow:0 2px 4px rgba(0,0,0,.25),0 6px 16px rgba(0,0,0,.22)}
+.hd{background:var(--accent);color:#fff;font-size:26px;font-weight:700;padding:5px 17px 6px;line-height:1.15;text-shadow:0 1px 1px rgba(0,0,0,.25)}
+
+/* profile */
+#profile{position:relative}
+.cover{position:relative;height:410px;background:#d9d9d9 center/cover no-repeat}
+.pic{position:absolute;left:33px;bottom:-56px;width:182px;height:182px}
+.pname{position:absolute;left:241px;top:416px;margin:0;font-size:25px;font-weight:600}
+.pbody{display:grid;grid-template-columns:365px 1fr;gap:20px 20px;padding:80px 0 14px 0;min-height:266px}
+.about{background:var(--panel-2);padding:9px 10px;font-size:12px;line-height:1.35;min-height:127px;display:flex;flex-direction:column;gap:11px;justify-content:space-between}
+.about p{margin:0}
+.fullabout{background:var(--panel-2);margin-top:14px;padding:6px 15px;font-size:14px}
+.stats{display:flex;gap:19px;padding:0 17px 0 0;align-items:flex-start}
+.stat{width:154px}
+.stat .c{width:154px;height:154px;border:1px solid var(--frame);display:grid;gap:2px;background:var(--frame);margin-top:0}
+.stat .c span{display:block;background-size:cover}
+.stat .l{margin-top:5px;font-size:14px}
+.stat .l i{font-style:normal;color:var(--muted);font-weight:400;margin-left:4px}
+.pbody .stats{margin-top:-30px}
+
+/* middle row */
+.row{display:grid;grid-template-columns:333px 1fr;gap:33px;margin-top:33px}
+.latest{display:flex;flex-direction:column;min-height:293px}
+.post{padding:12px;display:flex;flex-direction:column;flex:1}
+.who{display:flex;gap:9px;align-items:flex-start;padding-bottom:9px;border-bottom:1px solid var(--line)}
+.who .av{flex:none}
+.who b a{font-size:15px}
+.meta{color:var(--muted);font-size:14px}
+.ptxt{padding:12px 8px;font-size:14px;flex:1}
+.pbar{display:flex;gap:7px;align-items:center;background:var(--panel-2);padding:4px 12px;font-size:13px}
+.pbar .sep{color:var(--muted);font-weight:400}
+.pbar .vp{margin-left:auto}
+.pbar .liked{color:var(--accent-dk)}
+.cbox{display:none;margin-top:8px}
+.cbox.open{display:flex;gap:6px}
+.cbox input{flex:1;min-width:0;border:1px solid var(--line);background:var(--panel);color:var(--text);padding:4px 6px;font:inherit}
+.cbox button,.btn{border:1px solid rgba(0,0,0,.3);background:linear-gradient(var(--accent),var(--accent-dk));color:#fff;font:600 12px "Segoe UI",Tahoma,sans-serif;padding:4px 10px;cursor:pointer;text-shadow:0 1px 0 rgba(0,0,0,.3)}
+.top8{display:grid;grid-template-columns:repeat(4,1fr);gap:14px 6px;padding:15px 20px 14px;justify-items:center}
+.fr{text-align:center;width:104px}
+.fr .av{width:75px;height:75px;margin:0 auto 4px}
+.fr a{font-size:13px;line-height:1.1;display:block}
+
+/* activity */
+.act-box{margin-top:30px}
+.feed{padding:12px 24px 22px;max-height:560px;overflow-y:auto}
+.it{display:flex;gap:8px;padding:12px 0 14px;border-bottom:1px solid var(--line)}
+.it:last-child{border-bottom:0}
+.it .av{width:50px;height:50px;flex:none}
+.it .bd{max-width:80%}
+.it .nm{font-size:11px;line-height:1.2}
+.it .meta{font-size:11px}
+.it .tx{font-size:13px;margin-top:3px;word-wrap:break-word}
+.it.ev{justify-content:flex-end;text-align:right}
+.it.ev .tx{color:var(--muted);font-size:11.5px;font-weight:400}
+.it.ev .tx::after{content:" \2014";}
+.empty{color:var(--muted);text-align:center;padding:20px}
+
+/* avatars + custom borders */
+.av{display:block;background:#e9e9e9 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='38' r='17' fill='%23b9b9b9'/%3E%3Cpath d='M14 100c0-26 16-40 36-40s36 14 36 40z' fill='%23b9b9b9'/%3E%3C/svg%3E") center/cover;border:1px solid var(--frame)}
+.av.c1{background-color:#f3d9e8}.av.c2{background-color:#d6e6f5}.av.c3{background-color:#dcefd5}.av.c4{background-color:#f7ecc4}.av.c5{background-color:#e4dbf3}
+.av.b-dbl{border:3px double var(--accent)}
+.av.b-round{border-radius:50%;border:2px solid var(--accent)}
+.av.b-polaroid{border:1px solid #bbb;border-bottom-width:9px;border-color:#f6f6f6;box-shadow:0 1px 3px rgba(0,0,0,.5);outline:0}
+.av.b-gold{border:3px ridge #c9a227}
+.av.b-dash{border:2px dashed var(--accent)}
+
+/* footer */
+.foot{margin-top:26px;font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;justify-content:space-between}
+.foot nav{display:flex;gap:12px}
+.foot a{font-weight:400}
+
+@media (max-width:900px){
+  .wrap{padding:0 0 24px}
+  .top-in{gap:10px}
+  .net{display:none}
+  .search{margin-left:auto}
+  .cover{height:300px}
+  .pic{width:120px;height:120px;left:14px;bottom:-40px}
+  .pname{left:150px;top:306px;font-size:21px}
+  .pbody{grid-template-columns:1fr;padding:56px 12px 14px}
+  .pbody .stats{margin-top:0}
+  .stat,.stat .c{width:100%;max-width:154px}
+  .stat .c{aspect-ratio:1;height:auto}
+  .row{grid-template-columns:1fr;gap:20px}
+  .latest{min-height:0}
+  .top8{grid-template-columns:repeat(4,1fr);padding:14px 6px}
+  .fr{width:100%}
+  .fr .av{width:min(75px,90%);height:auto;aspect-ratio:1}
+  .feed{padding:8px 12px 16px}
+  .it .bd{max-width:100%}
+  .logo{font-size:22px}
+  .top nav a{font-size:15px}
+  .top nav{gap:10px}
+}
+@media (max-width:520px){.top nav a:nth-child(3){display:none}.hd{font-size:22px}.fr a{font-size:11px}}
+</style>
+</head>
+<body>
+
+<header class="top"><div class="top-in">
+  <a class="logo" data-page="home" href="#">[ MyBook ]</a>
+  <nav><a data-page="home" href="/pages/home/index.html">Home</a><a data-page="news" href="/pages/news/index.html">News</a><a data-page="stories" href="/pages/stories/index.html">Stories</a></nav>
+  <a class="net" href="/error/index.html" style="font-weight:400;text-decoration:none"><span>Network<br><b>Sol-3<sup>22</sup></b></span>
+    <img class="globe" src="/mybook/assets/globe.png" alt=""></a>
+  <form class="search" onsubmit="return false"><input type="text" placeholder="Search..." aria-label="Search"><button aria-label="Search"><svg width="16" height="16" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="4.5" fill="none" stroke="#888" stroke-width="1.6"/><path d="M10 10l5 5" stroke="#888" stroke-width="2"/></svg></button></form>
+</div></header>
+
+<main class="wrap">
+
+  <section class="box" id="profile">
+    <div class="cover" id="cover">
+      <div class="av pic" id="pic" role="img" aria-label="Profile picture"></div>
+    </div>
+    <h1 class="pname">Jessica Hatherleigh</h1>
+
+    <div class="pbody">
+      <div>
+        <div class="about">
+          <p>&ldquo;I'm tired boss&rdquo;</p>
+          <p>Female<br>23, August 30th 1993<br>Davisville, Oregon, United States of Columbia</p>
+          <p>Last Login: 04/21/2016</p>
+        </div>
+        <div class="fullabout"><a data-page="about" href="#">View Full About</a></div>
+      </div>
+      <div class="stats" id="stats"></div>
+    </div>
+  </section>
+
+  <div class="row">
+    <section class="box latest">
+      <div class="hd">Featured Post</div>
+      <div class="post">
+        <div class="who"><div class="av" id="meav" style="width:50px;height:50px"></div>
+          <div><b><a data-page="home" href="#">Jessica Hatherleigh</a></b><div class="meta">04/21/2016 Davisville, OR</div></div></div>
+        <div class="ptxt">Please get me out of here.</div>
+        <div class="pbar"><a href="#" id="like">Like</a><span class="sep">|</span><a href="#" id="cmt">Comment</a><a class="vp" data-page="posts" href="#">View Posts</a></div>
+        <div class="cbox" id="cbox"><input id="cin" type="text" placeholder="Write a broken comment..." maxlength="140" aria-label="Write a broken comment"><button id="csend">Post</button></div>
+      </div>
+    </section>
+
+    <section class="box">
+      <div class="hd">Besties</div>
+      <div class="top8" id="top8"></div>
+    </section>
+  </div>
+
+  <section class="box act-box">
+    <div class="hd">Activity</div>
+    <div class="feed" id="feed"></div>
+  </section>
+
+  <footer class="foot">
+    <div>MyBook &copy; 2016 &nbsp;&bull;&nbsp; Sol-3<sup>22</sup> network</div>
+    <nav><a href="/error/index.html">About</a><a href="/error/index.html">Help</a><a href="/error/index.html">Privacy</a><a href="/error/index.html">Terms</a></nav>
+  </footer>
+</main>
+
+<script>
+// ---- Edit these to change the page ----
+var CONFIG={
+  assets:"/mybook/assets/jessicahatherleigh",          // folder your images live in; filenames below are relative to it (e.g. "banner.jpg")
+  accent:"#ffb908",           // main color: header bars, links, borders
+  pageBg:"#ffffff",          // page background color
+  pageBgImage:"",            // wallpaper or tiled pattern file, e.g. "wallpaper.png" ("" = none)
+  pageBgRepeat:"repeat",     // "repeat" for patterns, "no-repeat" for a single wallpaper
+  coverImage:"",             // wide photo behind the profile picture ("" = plain gray)
+  profilePic:"/mybook/assets/jessicahatherleigh/pfp.png",             // your profile picture file ("" = default silhouette)
+  profileBorder:"b-round c5"   // border style: b-dbl, b-round, b-polaroid, b-gold, b-dash (see .av.b-* in the CSS) + c1-c5 placeholder tint
+};
+// turns "me.png" into "assets/me.png"; full URLs and paths with a slash are left alone
+function A(p){return(!p||/^(https?:|data:|\/)/.test(p))?p:CONFIG.assets+p}
+// ---- Where links go. Full paths from the site root; the SAME list on every page. "#" = not built yet. ----
+var PAGES={home:"/pages/home/index.html",about:"/mybook/jessicahatherleigh/about/",posts:"/mybook/jessicahatherleigh/posts/",friends:"/mybook/jessicahatherleigh/friends/",photos:"/mybook/jessicahatherleigh/photos/",news:"/pages/news/index.html",stories:"/pages/stories/index.html"};
+function L(k){return PAGES[k]||"#"}
+function wire(){[].forEach.call(document.querySelectorAll("[data-page]"),function(a){a.href=L(a.getAttribute("data-page"))})}
+// Friends: [name, placeholder tint (c1-c5), border style, optional picture file, optional link to their profile, e.g. "../mika/"]
+var FRIENDS=[
+ ["Oscar","c2","b-round","/mybook/assets/oscar/pfp.png","/mybook/oscar/index.html"],["Taylor","c3","b-polaroid","/mybook/assets/taylor/pfp.png","/mybook/taylor/index.html"],["Sue Parks","c1","b-round"],["Sophie","c5","b-polaroid","/mybook/assets/sophie/pfp.png","/mybook/sophie/index.html"],
+ ["Janx","c1","b-dash","/mybook/assets/jinx/pfp.png","/mybook/jinx/index.html"],["Skater Boy","c2","b-dash","/mybook/assets/skaterboy/pfp.png","/mybook/skaterboy/index.html"]
+];
+// Collages: each list takes up to 5 entries, either a color ("#e9a6c8") or an image file ("photo1.jpg")
+var STATS=[["Friends",27,["/mybook/assets/oscar/pfp.png","/mybook/assets/taylor/pfp.png","/mybook/assets/sueparks/pfp.png","/mybook/assets/sophie/pfp.png","/mybook/assets/jinx/pfp.png"]],["Photos",264,["#7fb6e0","#f0d9a8","#e68f8f","#a7d6a0","#c9b3e6"]],["Posts",12,["#d6d6d6","#b8c9e8","#e8c4de"]]];
+var ACT=[
+];
+// ---------------------------------------
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+
+// collage: sorts any number of images into a tidy grid
+function collage(colors){
+  var n=Math.min(colors.length,5),css={1:"1fr/1fr",2:"1fr/1fr 1fr",3:"1fr 1fr/1fr 1fr",4:"1fr 1fr/1fr 1fr",5:"1fr 1fr/1fr 1fr 1fr"};
+  var h='<div class="c" style="grid-template:'+css[n]+'">';
+  for(var i=0;i<n;i++){
+    var span=(n===3&&i===0)?'grid-row:span 2;':'';
+    var c=colors[i],bg=c.charAt(0)==="#"?'linear-gradient(135deg,'+c+',color-mix(in srgb,'+c+' 65%,#000))':'url(\''+esc(A(c))+'\') center/cover';
+    h+='<span style="'+span+'background:'+bg+'"></span>';
+  }
+  return h+'</div>';
+}
+document.getElementById("stats").innerHTML=STATS.map(function(s){
+  var u=L(s[0].toLowerCase());return '<div class="stat"><a href="'+u+'" style="display:block">'+collage(s[2])+'</a><div class="l"><a href="'+u+'">'+s[0]+'</a><i>'+s[1]+'</i></div></div>';
+}).join("");
+
+document.getElementById("top8").innerHTML=FRIENDS.map(function(f){
+  return '<div class="fr"><a class="av '+f[1]+' '+f[2]+'" href="'+esc(f[4]||"#")+'"'+(f[3]?' style="background-image:url(\''+esc(A(f[3]))+'\')"':'')+'></a><a href="'+esc(f[4]||"#")+'">'+esc(f[0])+'</a></div>';
+}).join("");
+
+function item(a){
+  var av='<div class="av '+(a.cls||"")+'"'+(a.img?' style="background-image:url(\''+esc(A(a.img))+'\')"':'')+'></div>';
+  var body='<div class="bd"><div class="nm"><a href="'+esc(a.url||"#")+'">'+esc(a.who)+'</a></div><div class="meta">'+esc(a.time)+'</div><div class="tx">'+esc(a.tx)+'</div></div>';
+  return a.t==="e"?'<div class="it ev">'+body+av+'</div>':'<div class="it">'+av+body+'</div>';
+}
+function render(){
+  document.getElementById("feed").innerHTML=ACT.length?ACT.map(item).join(""):'<div class="empty">No activity yet.</div>';
+}
+render();
+
+// like / comment (cosmetic only)
+var liked=false,likeEl=document.getElementById("like"),box=document.getElementById("cbox"),cin=document.getElementById("cin");
+likeEl.onclick=function(e){e.preventDefault();liked=!liked;likeEl.textContent=liked?"Liked \u2713":"Like";likeEl.className=liked?"liked":""};
+document.getElementById("cmt").onclick=function(e){e.preventDefault();box.classList.toggle("open");if(box.classList.contains("open"))cin.focus()};
+function send(){var v=cin.value.trim();if(!v)return;
+  ACT.unshift({t:"c",who:"You",time:"just now near Davisville, OR",tx:v,cls:"c5 b-round"});cin.value="";render();document.getElementById("feed").scrollTop=0}
+document.getElementById("csend").onclick=send;
+cin.onkeydown=function(e){if(e.key==="Enter")send()};
+
+// apply CONFIG
+(function(){
+  var r=document.documentElement.style,b=document.body.style;
+  r.setProperty("--accent",CONFIG.accent);
+  r.setProperty("--page",CONFIG.pageBg);
+  if(CONFIG.pageBgImage){b.backgroundImage="url('"+A(CONFIG.pageBgImage)+"')";b.backgroundRepeat=CONFIG.pageBgRepeat;b.backgroundAttachment="fixed"}
+  if(CONFIG.coverImage)document.getElementById("cover").style.backgroundImage="url('"+A(CONFIG.coverImage)+"')";
+  [document.getElementById("pic"),document.getElementById("meav")].forEach(function(el){
+    el.className+=" "+CONFIG.profileBorder;
+    if(CONFIG.profilePic)el.style.backgroundImage="url('"+A(CONFIG.profilePic)+"')";
+  });
+})();
+wire();
+</script>
+</body>
+</html>

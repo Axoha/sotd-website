@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Friends | MyBook</title>
+<style>
+:root{
+  --accent:#b30fb0;
+  --accent-dk:color-mix(in srgb,var(--accent) 78%,#000);
+  --page:#fff;--panel:#fff;--panel-2:#e1e1e1;--text:#111;--muted:#7d7d7d;--line:#d4d4d4;--frame:#111;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--text);font:13px/1.4 "Segoe UI",Tahoma,"Helvetica Neue",Arial,sans-serif;min-height:100vh}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--accent);z-index:10}
+a{color:var(--accent);text-decoration:none;font-weight:600}
+a:hover{text-decoration:underline}
+
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;height:52px;background:linear-gradient(var(--accent),var(--accent-dk));border-bottom:1px solid rgba(0,0,0,.25);box-shadow:0 1px 4px rgba(0,0,0,.3)}
+.top-in{max-width:902px;margin:0 auto;height:100%;display:flex;align-items:center;gap:16px;padding:0 8px}
+.logo{color:#fff;font-size:27px;font-weight:700;letter-spacing:-.3px;text-shadow:0 1px 1px rgba(0,0,0,.3);margin-right:6px;white-space:nowrap}
+.logo:hover{text-decoration:none}
+.top nav{display:flex;gap:16px}
+.top nav a{color:#fff;font-size:18px;text-shadow:0 1px 1px rgba(0,0,0,.25)}
+.net{display:flex;align-items:center;gap:6px;color:#fff;font-size:12px;line-height:1.05;margin-left:auto;font-weight:400}
+.net:hover{text-decoration:none}
+.net b{font-weight:400}
+.globe{position:relative;width:30px;height:30px;flex:none}
+.globe svg,.globe img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.search{display:flex;width:352px;max-width:100%;height:27px;background:#fff;border:1px solid rgba(0,0,0,.3)}
+.search input{flex:1;min-width:0;border:0;padding:0 6px;font:inherit;font-size:14px;color:#333;background:transparent;outline:0}
+.search button{width:34px;border:0;border-left:1px solid #ccc;background:linear-gradient(#fafafa,#e6e6e6);cursor:pointer}
+
+.wrap{max-width:902px;margin:0 auto;padding-bottom:30px}
+.box{background:var(--panel);border:1px solid rgba(0,0,0,.2);box-shadow:0 2px 4px rgba(0,0,0,.25),0 6px 16px rgba(0,0,0,.22)}
+.hd{background:var(--accent);color:#fff;font-size:26px;font-weight:700;padding:5px 17px 6px;line-height:1.15;text-shadow:0 1px 1px rgba(0,0,0,.25)}
+.hd small{font-size:16px;font-weight:400;opacity:.85;margin-left:6px}
+.meta{color:var(--muted);font-size:12.5px}
+
+#profile{position:relative}
+.cover{height:200px;background:#d9d9d9 center/cover no-repeat}
+.pic{position:absolute;left:33px;top:200px;margin-top:-45px;width:140px;height:140px}
+.strip{padding:12px 20px 14px 190px;min-height:96px}
+.strip h1{margin:0;font-size:25px;font-weight:600;line-height:1.15}
+.strip h1 a{color:var(--text)}
+
+.row{display:grid;grid-template-columns:333px 1fr;gap:33px;margin-top:33px;align-items:start}
+.col{display:flex;flex-direction:column;gap:33px;min-width:0}
+
+.find{padding:14px 18px}
+.find input{width:100%;border:1px solid var(--line);background:var(--panel);color:var(--text);padding:6px 8px;font:inherit;font-size:14px}
+.find .meta{margin-top:8px}
+.arc{padding:12px 18px 14px;font-size:14px}
+.arc a{display:block;padding:3px 0}
+.arc a.on{color:var(--text);font-weight:700}
+.arc i{font-style:normal;color:var(--muted);font-weight:400;margin-left:4px}
+
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.fc{display:flex;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line);min-width:0}
+.fc:nth-child(odd){border-right:1px solid var(--line)}
+.fc .av{width:64px;height:64px;flex:none}
+.fc .bd{min-width:0}
+.fc .bd>a{font-size:15px;display:block;overflow-wrap:anywhere}
+.tag{display:inline-block;background:var(--accent);color:#fff;font-size:10.5px;font-weight:600;padding:0 5px;margin-top:3px;text-shadow:0 1px 0 rgba(0,0,0,.25)}
+.empty{color:var(--muted);text-align:center;padding:28px;grid-column:1/-1}
+
+.av{display:block;background:#e9e9e9 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='38' r='17' fill='%23b9b9b9'/%3E%3Cpath d='M14 100c0-26 16-40 36-40s36 14 36 40z' fill='%23b9b9b9'/%3E%3C/svg%3E") center/cover;border:1px solid var(--frame)}
+.av.c1{background-color:#f3d9e8}.av.c2{background-color:#d6e6f5}.av.c3{background-color:#dcefd5}.av.c4{background-color:#f7ecc4}.av.c5{background-color:#e4dbf3}
+.av.b-dbl{border:3px double var(--accent)}
+.av.b-round{border-radius:50%;border:2px solid var(--accent)}
+.av.b-polaroid{border:1px solid #bbb;border-bottom-width:9px;border-color:#f6f6f6;box-shadow:0 1px 3px rgba(0,0,0,.5)}
+.av.b-gold{border:3px ridge #c9a227}
+.av.b-dash{border:2px dashed var(--accent)}
+
+.foot{margin-top:26px;font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between}
+.foot nav{display:flex;gap:12px}.foot a{font-weight:400}
+
+@media (max-width:900px){
+  .wrap{padding:0 0 24px}
+  .net{display:none}
+  .search{margin-left:auto}
+  .cover{height:140px}
+  .pic{width:100px;height:100px;left:14px;top:140px;margin-top:-34px}
+  .strip{padding:10px 12px 12px 126px;min-height:72px}
+  .strip h1{font-size:21px}
+  .row{grid-template-columns:1fr;gap:20px}
+  .col{gap:20px}
+  .logo{font-size:22px}
+  .top nav a{font-size:15px}.top nav{gap:10px}
+}
+@media (max-width:600px){.fgrid{grid-template-columns:1fr}.fc:nth-child(odd){border-right:0}}
+@media (max-width:520px){.top nav a:nth-child(3){display:none}.hd{font-size:22px}}
+</style>
+</head>
+<body>
+
+<header class="top"><div class="top-in">
+  <a class="logo" data-page="home" href="#">[ MyBook ]</a>
+  <nav><a data-page="home" href="#">Home</a><a data-page="news" href="#">News</a><a data-page="stories" href="#">Stories</a></nav>
+  <a class="net" href="#"><span>Network<br><b>Sol-3<sup>22</sup></b></span>
+    <span class="globe"><svg viewBox="0 0 30 30" aria-hidden="true"><defs><radialGradient id="g" cx=".35" cy=".3"><stop offset="0" stop-color="#8ec5ff"/><stop offset="1" stop-color="#1c5fb0"/></radialGradient></defs><circle cx="15" cy="15" r="13" fill="url(#g)" stroke="#fff" stroke-width="1.5"/><path d="M8 9c3-2 5 0 4 3s-3 2-3 5-3 1-4-2 0-4 3-6zm10 2c3-1 5 1 5 4s-3 3-4 5-3-1-3-3 0-5 2-6z" fill="#6fbf5b"/></svg><img id="globe" alt="" onerror="this.remove()"></span></a>
+  <form class="search" onsubmit="return false"><input type="text" placeholder="Search..." aria-label="Search"><button aria-label="Search"><svg width="16" height="16" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="4.5" fill="none" stroke="#888" stroke-width="1.6"/><path d="M10 10l5 5" stroke="#888" stroke-width="2"/></svg></button></form>
+</div></header>
+
+<main class="wrap">
+  <section class="box" id="profile">
+    <div class="cover" id="cover"></div>
+    <div class="av pic" id="pic" role="img" aria-label="Profile picture"></div>
+    <div class="strip"><h1><a id="name" data-page="home" href="#"></a></h1></div>
+  </section>
+  <div class="row">
+    <div class="col" id="left"></div>
+    <div class="col"><section class="box"><div class="hd" id="title"></div><div class="fgrid" id="grid"></div></section></div>
+  </div>
+  <footer class="foot">
+    <div>MyBook &copy; 2014 &nbsp;&bull;&nbsp; Sol-3<sup>22</sup> network</div>
+    <nav><a href="/error/index.html">About</a><a href="/error/index.html">Help</a><a href="/error/index.html">Privacy</a><a href="/error/index.html">Terms</a></nav>
+  </footer>
+</main>
+
+<script>
+// ---- Edit these to change the page (same settings as the other pages) ----
+var CONFIG={
+  assets:"assets/",          // folder your images live in
+  accent:"#b30fb0",          // main color
+  pageBg:"#ffffff",          // page background color
+  pageBgImage:"",            // wallpaper or tiled pattern file ("" = none)
+  pageBgRepeat:"repeat",     // "repeat" for patterns, "no-repeat" for a wallpaper
+  coverImage:"",             // wide photo behind the profile picture ("" = plain gray)
+  globeIcon:"globe.png",     // your globe icon file
+  profilePic:"",             // your profile picture file
+  profileBorder:"b-dbl c1"   // b-dbl, b-round, b-polaroid, b-gold, b-dash + c1-c5 tint
+};
+var NAME="Temply T.";
+function A(p){return(!p||/^(https?:|data:)|\//.test(p))?p:CONFIG.assets+p}
+// ---- Where links go (keep identical on every page, except ROOT) ----
+var ROOT="../";   // path from THIS page's folder up to the profile folder
+var PAGES={home:"",about:"about/",posts:"posts/",friends:"friends/",photos:"photos/",news:"#",stories:"#"};
+function L(k){var v=PAGES[k];return(v==null||v==="#")?"#":((ROOT+v)||"./")}
+function wire(){[].forEach.call(document.querySelectorAll("[data-page]"),function(a){a.href=L(a.getAttribute("data-page"))})}
+
+// ---- YOUR FRIENDS. Add anyone, anywhere in the list: the page sorts them A to Z for you. ----
+// name:   required
+// tint:   placeholder color behind the silhouette, c1 to c5
+// border: b-dbl, b-round, b-polaroid, b-gold or b-dash (or leave out)
+// pic:    picture file in the assets folder (optional)
+// url:    link to their profile page, e.g. "../mika/" (optional)
+// place:  "Eugene, OR" (optional)     since: "2012" (optional)
+// top8:   true to show the Top 8 tag and include them in the Top 8 filter (optional)
+var FRIENDS=[
+ {name:"Mika Sorensen",tint:"c2",border:"b-round",place:"Eugene, OR",since:"2011",top8:true},
+ {name:"Jonah Pryce",tint:"c3",place:"Salem, OR",since:"2011",top8:true},
+ {name:"Dani Okafor",tint:"c4",border:"b-polaroid",place:"Portland, OR",since:"2012",top8:true},
+ {name:"Bex Hollander",tint:"c5",border:"b-dash",place:"Bend, OR",since:"2012",top8:true},
+ {name:"Lou Whitaker",tint:"c1",border:"b-gold",place:"Corvallis, OR",since:"2013",top8:true},
+ {name:"Tom\u00E1s Vega",tint:"c2",place:"Davisville, OR",since:"2011",top8:true},
+ {name:"Rina Castellano",tint:"c3",border:"b-dbl",place:"Seattle, WA",since:"2013",top8:true},
+ {name:"Sol Ahn",tint:"c4",place:"Tacoma, WA",since:"2012",top8:true},
+ {name:"Priya Nair",tint:"c5",place:"Davisville, OR",since:"2013"},
+ {name:"Gus Albrecht",tint:"c1",border:"b-round",place:"Medford, OR",since:"2014"},
+ {name:"Winnie Tran",tint:"c3",place:"Eugene, OR",since:"2013"},
+ {name:"Calvin Brooks",tint:"c2",border:"b-dash",place:"Boise, ID",since:"2014"}
+];
+// ---------------------------------------------------------------------------------------------
+
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+var all=FRIENDS.slice().sort(function(a,b){return a.name.localeCompare(b.name)});
+var top8=all.filter(function(f){return f.top8});
+var view="all",q="";
+
+function card(f){
+  var u=esc(f.url||"#"),cls=[f.tint||"",f.border||""].join(" ");
+  return'<div class="fc"><a class="av '+cls+'" href="'+u+'"'+(f.pic?' style="background-image:url(\''+esc(A(f.pic))+'\')"':'')+'></a><div class="bd"><a href="'+u+'">'+esc(f.name)+'</a>'+
+    (f.place?'<div class="meta">'+esc(f.place)+'</div>':'')+(f.since?'<div class="meta">Friends since '+esc(f.since)+'</div>':'')+(f.top8?'<span class="tag">Top 8</span>':'')+'</div></div>';
+}
+function drawGrid(){
+  var base=view==="top8"?top8:all,n=q.trim().toLowerCase();
+  var list=n?base.filter(function(f){return(f.name+" "+(f.place||"")).toLowerCase().indexOf(n)>-1}):base;
+  document.getElementById("title").innerHTML=(view==="top8"?"Top 8 Friends":"Friends")+'<small>'+list.length+'</small>';
+  document.getElementById("grid").innerHTML=list.length?list.map(card).join(""):'<div class="empty">No friends match that search.</div>';
+}
+function drawLeft(){
+  document.getElementById("left").innerHTML=
+   '<section class="box"><div class="hd">Find a Friend</div><div class="find"><input id="q" type="text" placeholder="Search by name or place..." value="'+esc(q)+'" aria-label="Search friends"><div class="meta">Showing '+(view==="top8"?"your Top 8":"everyone")+'</div></div></section>'+
+   '<section class="box"><div class="hd">Browse</div><div class="arc"><a href="#all" class="'+(view==="all"?"on":"")+'">All Friends<i>'+all.length+'</i></a><a href="#top8" class="'+(view==="top8"?"on":"")+'">Top 8<i>'+top8.length+'</i></a></div></section>';
+  var inp=document.getElementById("q");
+  inp.oninput=function(){q=inp.value;drawGrid()};
+}
+function route(){view=location.hash.slice(1)==="top8"?"top8":"all";drawLeft();drawGrid()}
+window.addEventListener("hashchange",route);
+
+(function(){
+  var r=document.documentElement.style,b=document.body.style;
+  r.setProperty("--accent",CONFIG.accent);r.setProperty("--page",CONFIG.pageBg);
+  if(CONFIG.pageBgImage){b.backgroundImage="url('"+A(CONFIG.pageBgImage)+"')";b.backgroundRepeat=CONFIG.pageBgRepeat;b.backgroundAttachment="fixed"}
+  if(CONFIG.coverImage)document.getElementById("cover").style.backgroundImage="url('"+A(CONFIG.coverImage)+"')";
+  if(CONFIG.globeIcon)document.getElementById("globe").src=A(CONFIG.globeIcon);
+  var pic=document.getElementById("pic");pic.className+=" "+CONFIG.profileBorder;
+  if(CONFIG.profilePic)pic.style.backgroundImage="url('"+A(CONFIG.profilePic)+"')";
+  document.getElementById("name").textContent=NAME;
+})();
+wire();
+route();
+</script>
+</body>
+</html>

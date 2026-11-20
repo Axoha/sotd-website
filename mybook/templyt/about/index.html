@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>About Temply T. | MyBook</title>
+<style>
+:root{
+  --accent:#b30fb0;
+  --accent-dk:color-mix(in srgb,var(--accent) 78%,#000);
+  --page:#fff;--panel:#fff;--panel-2:#e1e1e1;--text:#111;--muted:#7d7d7d;--line:#d4d4d4;--frame:#111;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--text);font:13px/1.4 "Segoe UI",Tahoma,"Helvetica Neue",Arial,sans-serif;min-height:100vh}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--accent);z-index:10}
+a{color:var(--accent);text-decoration:none;font-weight:600}
+a:hover{text-decoration:underline}
+
+/* top bar */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;height:52px;background:linear-gradient(var(--accent),var(--accent-dk));border-bottom:1px solid rgba(0,0,0,.25);box-shadow:0 1px 4px rgba(0,0,0,.3)}
+.top-in{max-width:902px;margin:0 auto;height:100%;display:flex;align-items:center;gap:16px;padding:0 8px}
+.logo{color:#fff;font-size:27px;font-weight:700;letter-spacing:-.3px;text-shadow:0 1px 1px rgba(0,0,0,.3);margin-right:6px;white-space:nowrap}
+.logo:hover{text-decoration:none}
+.top nav{display:flex;gap:16px}
+.top nav a{color:#fff;font-size:18px;text-shadow:0 1px 1px rgba(0,0,0,.25)}
+.net{display:flex;align-items:center;gap:6px;color:#fff;font-size:12px;line-height:1.05;margin-left:auto;font-weight:400}
+.net:hover{text-decoration:none}
+.net b{font-weight:400}
+.globe{position:relative;width:30px;height:30px;flex:none}
+.globe svg,.globe img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.search{display:flex;width:352px;max-width:100%;height:27px;background:#fff;border:1px solid rgba(0,0,0,.3)}
+.search input{flex:1;min-width:0;border:0;padding:0 6px;font:inherit;font-size:14px;color:#333;background:transparent;outline:0}
+.search button{width:34px;border:0;border-left:1px solid #ccc;background:linear-gradient(#fafafa,#e6e6e6);cursor:pointer}
+
+/* layout */
+.wrap{max-width:902px;margin:0 auto;padding-bottom:30px}
+.box{background:var(--panel);border:1px solid rgba(0,0,0,.2);box-shadow:0 2px 4px rgba(0,0,0,.25),0 6px 16px rgba(0,0,0,.22)}
+.hd{background:var(--accent);color:#fff;font-size:26px;font-weight:700;padding:5px 17px 6px;line-height:1.15;text-shadow:0 1px 1px rgba(0,0,0,.25)}
+.meta{color:var(--muted);font-size:14px}
+
+/* profile strip */
+#profile{position:relative}
+.cover{height:200px;background:#d9d9d9 center/cover no-repeat}
+.pic{position:absolute;left:33px;top:200px;margin-top:-45px;width:140px;height:140px}
+.strip{padding:12px 20px 14px 190px;min-height:96px}
+.strip h1{margin:0;font-size:25px;font-weight:600;line-height:1.15}
+.strip h1 a{color:var(--text)}
+
+.row{display:grid;grid-template-columns:333px 1fr;gap:33px;margin-top:33px;align-items:start}
+.col{display:flex;flex-direction:column;gap:33px;min-width:0}
+
+/* info rows */
+.kv{display:grid;grid-template-columns:105px 1fr;gap:7px 14px;padding:14px 16px;margin:0;font-size:13px}
+.kv dt{color:var(--muted);text-align:right}
+.kv dd{margin:0;word-wrap:break-word;min-width:0}
+.txt{padding:14px 18px;font-size:14px}
+.txt p{margin:0 0 10px}.txt p:last-child{margin:0}
+.ent{padding:11px 18px;border-bottom:1px solid var(--line)}
+.ent:last-child{border-bottom:0}
+.ent a{font-size:15px}
+.ent .meta{font-size:12px}
+.q{margin:14px 18px;padding:2px 0 2px 14px;border-left:4px solid var(--accent);font-size:14px;font-style:italic}
+.ev{display:grid;grid-template-columns:105px 1fr;gap:6px 14px;padding:12px 16px}
+.ev span{color:var(--muted);text-align:right;font-size:12px}
+.ev i{font-style:normal;color:var(--muted);font-size:12.5px}
+.bar{background:var(--panel-2);padding:6px 16px;font-size:13px}
+
+/* avatars + borders */
+.av{display:block;background:#e9e9e9 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='38' r='17' fill='%23b9b9b9'/%3E%3Cpath d='M14 100c0-26 16-40 36-40s36 14 36 40z' fill='%23b9b9b9'/%3E%3C/svg%3E") center/cover;border:1px solid var(--frame)}
+.av.c1{background-color:#f3d9e8}.av.c2{background-color:#d6e6f5}.av.c3{background-color:#dcefd5}.av.c4{background-color:#f7ecc4}.av.c5{background-color:#e4dbf3}
+.av.b-dbl{border:3px double var(--accent)}
+.av.b-round{border-radius:50%;border:2px solid var(--accent)}
+.av.b-polaroid{border:1px solid #bbb;border-bottom-width:9px;border-color:#f6f6f6;box-shadow:0 1px 3px rgba(0,0,0,.5)}
+.av.b-gold{border:3px ridge #c9a227}
+.av.b-dash{border:2px dashed var(--accent)}
+
+.foot{margin-top:26px;font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between}
+.foot nav{display:flex;gap:12px}.foot a{font-weight:400}
+
+@media (max-width:900px){
+  .wrap{padding:0 0 24px}
+  .net{display:none}
+  .search{margin-left:auto}
+  .cover{height:140px}
+  .pic{width:100px;height:100px;left:14px;top:140px;margin-top:-34px}
+  .strip{padding:10px 12px 12px 126px;min-height:72px}
+  .strip h1{font-size:21px}
+  .row{grid-template-columns:1fr;gap:20px}
+  .col{gap:20px}
+  .logo{font-size:22px}
+  .top nav a{font-size:15px}.top nav{gap:10px}
+}
+@media (max-width:520px){.top nav a:nth-child(3){display:none}.hd{font-size:22px}.kv,.ev{grid-template-columns:90px 1fr}}
+</style>
+</head>
+<body>
+
+<header class="top"><div class="top-in">
+  <a class="logo" data-page="home" href="#">[ MyBook ]</a>
+  <nav><a data-page="home" href="#">Home</a><a data-page="news" href="#">News</a><a data-page="stories" href="#">Stories</a></nav>
+  <a class="net" href="#"><span>Network<br><b>Sol-3<sup>22</sup></b></span>
+  <form class="search" onsubmit="return false"><input type="text" placeholder="Search..." aria-label="Search"><button aria-label="Search"><svg width="16" height="16" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="4.5" fill="none" stroke="#888" stroke-width="1.6"/><path d="M10 10l5 5" stroke="#888" stroke-width="2"/></svg></button></form>
+</div></header>
+
+<main class="wrap">
+  <section class="box" id="profile">
+    <div class="cover" id="cover"></div>
+    <div class="av pic" id="pic" role="img" aria-label="Profile picture"></div>
+    <div class="strip"><h1><a id="name" data-page="home" href="#"></a></h1></div>
+  </section>
+
+  <div class="row">
+    <div class="col" id="left"></div>
+    <div class="col" id="right"></div>
+  </div>
+
+  <footer class="foot">
+    <div>MyBook &copy; 2014 &nbsp;&bull;&nbsp; Sol-3<sup>22</sup> network</div>
+    <nav><a href="/error/index.html">About</a><a href="/error/index.html">Help</a><a href="/error/index.html">Privacy</a><a href="/error/index.html">Terms</a></nav>
+  </footer>
+</main>
+
+<script>
+// ---- Edit these to change the page (same settings as the profile page) ----
+var CONFIG={
+  assets:"mybook/assets/",          // folder your images live in
+  accent:"#b30fb0",          // main color
+  pageBg:"#ffffff",          // page background color
+  pageBgImage:"",            // wallpaper or tiled pattern file ("" = none)
+  pageBgRepeat:"repeat",     // "repeat" for patterns, "no-repeat" for a wallpaper
+  coverImage:"",             // wide photo behind the profile picture ("" = plain gray)
+  globeIcon:"globe.png",     // your globe icon file
+  profilePic:"",             // your profile picture file
+  profileBorder:"b-dbl c1"   // b-dbl, b-round, b-polaroid, b-gold, b-dash + c1-c5 tint
+};
+function A(p){return(!p||/^(https?:|data:)|\//.test(p))?p:CONFIG.assets+p}
+// ---- Where links go (keep identical on every page, except ROOT) ----
+var ROOT="../";   // path from THIS page's folder up to the profile folder
+var PAGES={home:"",about:"about/",posts:"posts/",friends:"friends/",photos:"photos/",news:"#",stories:"#"};
+function L(k){var v=PAGES[k];return(v==null||v==="#")?"#":((ROOT+v)||"./")}
+function wire(){[].forEach.call(document.querySelectorAll("[data-page]"),function(a){a.href=L(a.getAttribute("data-page"))})}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+
+// ---- Your About info. Rows are [label, value] ; add true as a third item to make the value a purple link ----
+var ABOUT={
+  name:"Temply T.",
+  basic:[["Gender","Male"],["Birthday","May 17th, 1993"],["Age","21"],["Hometown","Davisville, Oregon, USC"],["Relationship","It\u2019s complicated"],["Languages","English, some Spanish"],["Joined","March 2011"],["Last Login","04/21/2014"]],
+  contact:[["Email","temply.t@mybook.net",true],["Website","temply.example.com",true],["Screen name","spleep_master"],["Network","Sol-3\u00B2\u00B2",true]],
+  about:[
+    "Hi, I\u2019m Temply. I mostly sleep, occasionally post, and think way too hard about whether the internet counts as a real place.",
+    "Looking to talk to people who are awake at weird hours. Inactive friends will be poked."
+  ],
+  interests:[
+    ["Music",["Lo-fi beats","Chiptune","Early 2000s pop-punk"]],
+    ["Movies",["The Matrix","Spirited Away","Paprika"]],
+    ["TV Shows",["Adventure Time","Mr. Robot"]],
+    ["Games",["Minecraft","Katamari Damacy","Pok\u00E9mon"]],
+    ["Books",["Neuromancer","Snow Crash"]]
+  ],
+  work:[["Night shift at Spleep Mattress Outlet","Sales Associate \u2022 2012 to present"],["University of Southern Cascadia","Studied Digital Media \u2022 Class of 2015"],["Davisville High School","Class of 2011"]],
+  quotes:["I gotta spleep on this.","How do I feel about living in a fake world? Surprisingly not too well, it kind of sucks."],
+  events:[["Apr 2014","Posted about living in a fake world"],["Jan 2013","Reached 25 friends"],["Mar 2011","Joined MyBook"],["May 1993","Was born"]]
+};
+// ---------------------------------------------------------------------------------------------------------
+
+function kv(rows){return'<dl class="kv">'+rows.map(function(r){return'<dt>'+esc(r[0])+'</dt><dd>'+(r[2]?'<a href="#">'+esc(r[1])+'</a>':esc(r[1]))+'</dd>'}).join("")+'</dl>'}
+function box(t,inner){return'<section class="box"><div class="hd">'+esc(t)+'</div>'+inner+'</section>'}
+function links(a){return a.map(function(x){return'<a href="#">'+esc(x)+'</a>'}).join(", ")}
+
+document.getElementById("name").textContent=ABOUT.name;
+
+document.getElementById("left").innerHTML=
+  box("Basic Info",kv(ABOUT.basic))+
+  box("Contact Info",kv(ABOUT.contact));
+
+document.getElementById("right").innerHTML=
+  box("About Me",'<div class="txt">'+ABOUT.about.map(function(p){return'<p>'+esc(p)+'</p>'}).join("")+'</div>')+
+  box("Interests",'<dl class="kv">'+ABOUT.interests.map(function(r){return'<dt>'+esc(r[0])+'</dt><dd>'+links(r[1])+'</dd>'}).join("")+'</dl>')+
+  box("Work & Education",ABOUT.work.map(function(w){return'<div class="ent"><a href="#">'+esc(w[0])+'</a><div class="meta">'+esc(w[1])+'</div></div>'}).join(""))+
+  box("Favorite Quotes",ABOUT.quotes.map(function(q){return'<div class="q">'+esc(q)+'</div>'}).join(""))+
+  box("Life Events",'<div class="ev">'+ABOUT.events.map(function(e){return'<span>'+esc(e[0])+'</span><i>'+esc(e[1])+'</i>'}).join("")+'</div><div class="bar"><a href="#">See older events</a></div>');
+
+(function(){
+  var r=document.documentElement.style,b=document.body.style;
+  r.setProperty("--accent",CONFIG.accent);
+  r.setProperty("--page",CONFIG.pageBg);
+  if(CONFIG.pageBgImage){b.backgroundImage="url('"+A(CONFIG.pageBgImage)+"')";b.backgroundRepeat=CONFIG.pageBgRepeat;b.backgroundAttachment="fixed"}
+  if(CONFIG.coverImage)document.getElementById("cover").style.backgroundImage="url('"+A(CONFIG.coverImage)+"')";
+  if(CONFIG.globeIcon)document.getElementById("globe").src=A(CONFIG.globeIcon);
+  var pic=document.getElementById("pic");
+  pic.className+=" "+CONFIG.profileBorder;
+  if(CONFIG.profilePic)pic.style.backgroundImage="url('"+A(CONFIG.profilePic)+"')";
+})();
+wire();
+</script>
+</body>
+</html>
